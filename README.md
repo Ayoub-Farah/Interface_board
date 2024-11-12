@@ -50,3 +50,5 @@ The SATA connectors are intended to provide Marble Tiny peer-to-peer communicati
 - [ ] White Rabbit
 - [ ] USB-C powered
 - [ ] Serial number shared between FTDI and FPGA
+- [ ] Direct DC voltage input gets priority; shared USB-C connector to FTDI only draws power for board if external DC voltage not connected
+- [ ] If board management MCU (uC) is required, consider RP2040 (or RP2350 if the RP2350-E9 issue is resolved with e.g. a new stepping)
