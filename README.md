@@ -21,7 +21,7 @@ either standalone or as an I/O expansion board for [Marble](https://github.com/B
 
 - [ ] At least one high-speed fiber; see below
 - [ ] 1 GigE port
-- [ ] 4 Pmod ports
+- [ ] 6 Pmod ports
 - [ ] MS5351M or SI5351A or similar for GTP frequency reference
 - [ ] FTDI USB interface
 - [ ] Arduino shield compatible, like the Digilent Arty
