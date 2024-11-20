@@ -3,7 +3,7 @@
 ## Description
 
 Marble Tiny is a (proposed) FPGA carrier board, designed to interface with ADC and DAC devices,
-either standalone or as an I/O expansion board for [Marble](https://github.com/BerkeleyLab/Marble).
+either stand-alone or as an I/O expansion board for [Marble](https://github.com/BerkeleyLab/Marble).
 
 ## Major Parts
 
@@ -29,27 +29,32 @@ either standalone or as an I/O expansion board for [Marble](https://github.com/B
 - [ ] MS5351M or SI5351A or similar for GTP frequency reference
 - [ ] USB-C (single USB cable)
 - [ ] 4 x SFP
-- [ ] i2c or 1-wire chip for serial number / rom 
-- [ ] White Rabbit
+- [ ] I2C or 1-Wire chip for serial number / ROM
+- [ ] White Rabbit compatibility
 
 ### High speed links
 
 The 7A50T-1CSG325C has 4 x GTP lanes, capable of 3.75 Gbaud.
 The primary use-case involves attaching one of those to a Marble over fiber.
 
+The two MGTREFCLK signals are the direct White-Rabbit 125 MHz TCVCXO
+and the configurable MS5351M output.
+
 ### Wishlist
 
 - [ ] Standardized board size for good case options: Mini-ATX (150 x 150 mm)? Pico-ATX?
 
-### Pins
-- 48 pins for 6 PMODs
+### User I/O Pins
+- 48 pins for 6 x Pmod
+- 49 pins for DDR3 (equivalent to Arty and Marble-Mini)
 - 13 pins for RGMII (including reset pin)
-- 6 pins for White Rabbit
+- 2 Ethernet PHY MDIO
+- 4 pins for White Rabbit DAC (can attach LEDs to 2 x SYNC pins?)
+- 1 or more clock input (not counting MGTREFCLK)
 - 2 pins for I2C
 - 14 pins for Arduino digital IO
-- 8 pins for Arduino 4 analog channels 
-- 49 pins for DDR3
-- 2 pins USB - UART
-- 2 Ethernet PHY MDIO
-- 4 WR SPI DAC
-- 1 or more clock input (some clocks can come in on GTPREFCLK).
+- 8 pins for Arduino 4 analog channels
+- 2 pins USB UART
+- 3 pins SPI flash boot (not counting CCLK in bank 0)
+
+total 146 so far, out of 150 possible with 7A50T-1CSG325C
