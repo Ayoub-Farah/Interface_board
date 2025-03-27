@@ -12951,7 +12951,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 124.46) (xy 214.63 124.46)
+			(xy 191.77 127) (xy 214.63 127)
 		)
 		(stroke
 			(width 0)
@@ -13891,7 +13891,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 137.16) (xy 214.63 137.16)
+			(xy 191.77 124.46) (xy 214.63 124.46)
 		)
 		(stroke
 			(width 0)
@@ -13941,7 +13941,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 195.58) (xy 208.28 195.58)
+			(xy 191.77 195.58) (xy 214.63 195.58)
 		)
 		(stroke
 			(width 0)
@@ -14151,7 +14151,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 190.5) (xy 214.63 190.5)
+			(xy 191.77 190.5) (xy 208.28 190.5)
 		)
 		(stroke
 			(width 0)
@@ -14341,7 +14341,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 127) (xy 214.63 127)
+			(xy 191.77 137.16) (xy 214.63 137.16)
 		)
 		(stroke
 			(width 0)
@@ -14450,7 +14450,7 @@
 		(uuid "ffe5718a-0674-4a12-8232-79f17035a848")
 	)
 	(label "DDR3_ODT"
-		(at 355.6 196.85 0)
+		(at 355.6 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14460,7 +14460,7 @@
 		(uuid "02702cbd-57c3-4668-a599-b1393360380b")
 	)
 	(label "DDR3_A10"
-		(at 354.33 179.07 0)
+		(at 354.33 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14470,7 +14470,7 @@
 		(uuid "040530f4-cc89-45dc-a440-ae0ff5aa2ad7")
 	)
 	(label "DDR3_D15"
-		(at 354.33 143.51 0)
+		(at 354.33 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14480,7 +14480,7 @@
 		(uuid "0b2ad8be-60ec-40d3-ad2e-bec6a0aadfba")
 	)
 	(label "PMOD5_6"
-		(at 76.2 187.96 0)
+		(at 77.47 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14490,7 +14490,7 @@
 		(uuid "0bde7a1d-348d-47ce-ae80-58baf3a1e8f4")
 	)
 	(label "PMOD2_5"
-		(at 78.74 124.46 0)
+		(at 77.47 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14500,7 +14500,7 @@
 		(uuid "10a8b583-53a3-47b5-af8f-042a7ab60959")
 	)
 	(label "PMOD4_1"
-		(at 78.74 154.94 0)
+		(at 77.47 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14510,7 +14510,7 @@
 		(uuid "142cccaf-361f-4c16-8d39-c81d40de05ec")
 	)
 	(label "DDR3_A6"
-		(at 354.33 168.91 0)
+		(at 354.33 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14520,7 +14520,7 @@
 		(uuid "169fef02-2b6c-4915-bff4-394374481b61")
 	)
 	(label "PMOD4_0"
-		(at 78.74 152.4 0)
+		(at 78.74 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14530,7 +14530,7 @@
 		(uuid "182ce96e-5d50-4e7d-aadb-d98dc520e3fc")
 	)
 	(label "PMOD3_6"
-		(at 76.2 147.32 0)
+		(at 77.47 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14540,7 +14540,7 @@
 		(uuid "195863e1-2e99-461d-b8d1-03906f84ba9c")
 	)
 	(label "DDR3_CAS"
-		(at 355.6 148.59 0)
+		(at 355.6 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14560,7 +14560,7 @@
 		(uuid "1aa679c1-accb-4479-ab17-88b336f2b621")
 	)
 	(label "PMOD6_3"
-		(at 77.47 200.66 0)
+		(at 76.2 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14570,7 +14570,7 @@
 		(uuid "1b1798ce-d3cb-4a5d-be00-253da7b6c3a9")
 	)
 	(label "ARDUINO_D13"
-		(at 194.31 190.5 0)
+		(at 194.31 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14590,7 +14590,7 @@
 		(uuid "1b9228bc-b16b-4908-be3c-59dc2c4703d2")
 	)
 	(label "RGMII_RX_DV"
-		(at 191.77 147.32 0)
+		(at 191.77 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14602,7 +14602,7 @@
 		(uuid "1c3bc2dd-28f3-478e-95b3-47056926983b")
 	)
 	(label "DDR3_A1"
-		(at 354.33 156.21 0)
+		(at 354.33 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14624,7 +14624,7 @@
 		(uuid "21c0b6ec-98e2-456b-b1f7-dfe549995c67")
 	)
 	(label "DDR3_BA0"
-		(at 351.79 204.47 0)
+		(at 351.79 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14634,7 +14634,7 @@
 		(uuid "2475d15a-6aae-4b24-a0f4-2c0166090b6e")
 	)
 	(label "RGMII_RXD1"
-		(at 193.04 157.48 0)
+		(at 193.04 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14656,7 +14656,7 @@
 		(uuid "27515729-f470-4eb8-9d18-c7a5ca2b9e01")
 	)
 	(label "PMOD1_6"
-		(at 76.2 104.14 0)
+		(at 76.2 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14678,7 +14678,7 @@
 		(uuid "2e1e9bb5-f38c-430a-a183-adf55a299dbb")
 	)
 	(label "DDR3_D6"
-		(at 354.33 110.49 0)
+		(at 354.33 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14698,7 +14698,7 @@
 		(uuid "3681e2e7-51e0-46a4-8482-d041f4666162")
 	)
 	(label "RGMII_TX_EN"
-		(at 191.77 142.24 0)
+		(at 191.77 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14730,7 +14730,7 @@
 		(uuid "39561650-f273-45d7-b684-94aa1c3e359b")
 	)
 	(label "DDR3_D8"
-		(at 354.33 120.65 0)
+		(at 354.33 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14750,7 +14750,7 @@
 		(uuid "3de6d301-0184-4489-b355-818104a20ec1")
 	)
 	(label "ARDUINO_D0"
-		(at 191.77 119.38 0)
+		(at 191.77 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14760,7 +14760,7 @@
 		(uuid "3f8d6bef-63b4-4d91-8ab0-b8d5a93cec99")
 	)
 	(label "ARDUINO_D5"
-		(at 191.77 132.08 0)
+		(at 193.04 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14770,7 +14770,7 @@
 		(uuid "3fe28aa2-2c1a-4621-99cd-4612927dbddc")
 	)
 	(label "PMOD2_6"
-		(at 78.74 127 0)
+		(at 77.47 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14780,7 +14780,7 @@
 		(uuid "414d7659-5b24-4e12-9d23-f16e55c22a5a")
 	)
 	(label "PMOD3_4"
-		(at 76.2 142.24 0)
+		(at 76.2 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14800,7 +14800,7 @@
 		(uuid "489198c8-59cc-4644-a091-50bdd27318a4")
 	)
 	(label "DDR3_A12"
-		(at 354.33 184.15 0)
+		(at 354.33 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14810,7 +14810,7 @@
 		(uuid "48cde572-51f5-46da-a2ab-1f7bdb8943f7")
 	)
 	(label "PMOD3_1"
-		(at 76.2 134.62 0)
+		(at 76.2 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14820,7 +14820,7 @@
 		(uuid "4a0a5056-7435-4587-a92f-517f7d9fc597")
 	)
 	(label "PMOD1_7"
-		(at 76.2 106.68 0)
+		(at 77.47 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14830,7 +14830,7 @@
 		(uuid "4a77a2f3-136e-4ffd-bcfc-ce2a79e91e7f")
 	)
 	(label "PMOD3_0"
-		(at 76.2 132.08 0)
+		(at 76.2 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14840,7 +14840,7 @@
 		(uuid "4d8b85a5-986d-40b6-b9db-a9efef1b2b1a")
 	)
 	(label "PMOD1_4"
-		(at 76.2 96.52 0)
+		(at 76.2 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14850,7 +14850,7 @@
 		(uuid "515d6aa2-0020-4280-9869-5635d4856db8")
 	)
 	(label "PMOD4_5"
-		(at 78.74 165.1 0)
+		(at 77.47 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14872,7 +14872,7 @@
 		(uuid "543c9c33-764a-4489-81f5-645f34664b8e")
 	)
 	(label "RGMII_TXD0"
-		(at 193.04 165.1 0)
+		(at 193.04 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14894,7 +14894,7 @@
 		(uuid "5971bf57-d042-4d34-9c73-7f04db15fa3a")
 	)
 	(label "DDR3_A8"
-		(at 354.33 173.99 0)
+		(at 354.33 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14904,7 +14904,7 @@
 		(uuid "5a123dbe-7d0a-4999-91b6-ccbd49b8ed72")
 	)
 	(label "DDR3_CKE0"
-		(at 355.6 201.93 0)
+		(at 355.6 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14958,7 +14958,7 @@
 		(uuid "614e8aa2-f310-449e-98d7-cbdd9f100d9f")
 	)
 	(label "PMOD5_1"
-		(at 76.2 175.26 0)
+		(at 77.47 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14968,7 +14968,7 @@
 		(uuid "62281a1c-e401-404d-9abe-85349fbd0087")
 	)
 	(label "PMOD3_5"
-		(at 76.2 144.78 0)
+		(at 76.2 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14978,7 +14978,7 @@
 		(uuid "626246d7-1325-4bb2-bb0e-0785e8d957d0")
 	)
 	(label "PMOD2_2"
-		(at 78.74 116.84 0)
+		(at 78.74 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14998,7 +14998,7 @@
 		(uuid "66989fe8-a00b-4b21-a46a-81d2725364c5")
 	)
 	(label "DDR3_D11"
-		(at 354.33 128.27 0)
+		(at 354.33 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15018,7 +15018,7 @@
 		(uuid "6e61fe6b-fbfb-4e9e-9324-10ec2ee83789")
 	)
 	(label "DDR3_CE"
-		(at 355.6 189.23 0)
+		(at 355.6 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15028,7 +15028,7 @@
 		(uuid "722ebf83-8435-4d60-898c-32671b5de465")
 	)
 	(label "RGMII_TX_CLK"
-		(at 191.77 139.7 0)
+		(at 191.77 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15052,7 +15052,7 @@
 		(uuid "74629ca4-1b55-48b8-97b1-75a90878ec4f")
 	)
 	(label "PMOD2_0"
-		(at 78.74 109.22 0)
+		(at 77.47 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15062,7 +15062,7 @@
 		(uuid "74d72d3e-e8cd-48ce-8ef8-82a1945ed6b8")
 	)
 	(label "DDR3_BA2"
-		(at 351.79 209.55 0)
+		(at 351.79 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15072,7 +15072,7 @@
 		(uuid "763d946b-7aaf-4ceb-b3c8-48313e1918ec")
 	)
 	(label "DDR3_D0"
-		(at 354.33 90.17 0)
+		(at 354.33 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15092,7 +15092,7 @@
 		(uuid "7be2e3ef-0004-48c6-bf5d-843af2317539")
 	)
 	(label "RGMII_RXD0"
-		(at 193.04 154.94 0)
+		(at 193.04 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15104,7 +15104,7 @@
 		(uuid "819e0d04-9b75-4e75-9323-d543a36e8fc8")
 	)
 	(label "PMOD2_1"
-		(at 78.74 111.76 0)
+		(at 78.74 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15114,7 +15114,7 @@
 		(uuid "8368976b-c7a5-4802-aca1-4227b7dbe5d5")
 	)
 	(label "DDR3_A7"
-		(at 354.33 171.45 0)
+		(at 354.33 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15124,7 +15124,7 @@
 		(uuid "864aeef2-5ba7-47a0-b8c7-692bd16b34d2")
 	)
 	(label "PMOD6_0"
-		(at 77.47 193.04 0)
+		(at 76.2 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15134,7 +15134,7 @@
 		(uuid "87b047fc-8a2c-49e4-941b-dd9d5ee12d4e")
 	)
 	(label "DDR3_A5"
-		(at 354.33 166.37 0)
+		(at 354.33 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15154,7 +15154,7 @@
 		(uuid "8a6c0a9d-80c9-4ce3-a3ac-9be5ed932743")
 	)
 	(label "ARDUINO_D1"
-		(at 191.77 121.92 0)
+		(at 191.77 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15174,17 +15174,17 @@
 		(uuid "8f44cf16-a5c6-4ee4-985d-383fc7b2efea")
 	)
 	(label "PMOD4_7"
-		(at 78.74 170.18 0)
+		(at 201.93 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "926e5689-03de-488e-88a6-2591b9c7a751")
 	)
 	(label "DDR3_D3"
-		(at 354.33 97.79 0)
+		(at 354.33 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15194,7 +15194,7 @@
 		(uuid "952572cf-bf86-43c9-8702-03c92c5176dd")
 	)
 	(label "DDR3_A0"
-		(at 354.33 153.67 0)
+		(at 354.33 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15204,7 +15204,7 @@
 		(uuid "96c80747-55ee-455e-b6ca-5b15ea14fdb5")
 	)
 	(label "RGMII_TXD1"
-		(at 193.04 167.64 0)
+		(at 193.04 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15236,7 +15236,7 @@
 		(uuid "9a3daa48-8375-41cd-8a1a-d3d656694a85")
 	)
 	(label "ARDUINO_D11"
-		(at 194.31 185.42 0)
+		(at 194.31 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15246,7 +15246,7 @@
 		(uuid "9b277636-7e80-4df8-b4a7-ce64653df09a")
 	)
 	(label "DDR3_DM1"
-		(at 354.33 146.05 0)
+		(at 354.33 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15256,7 +15256,7 @@
 		(uuid "9b9c3e01-481a-4d95-9ccc-526e6c751667")
 	)
 	(label "PMOD6_7"
-		(at 77.47 210.82 0)
+		(at 77.47 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15266,7 +15266,7 @@
 		(uuid "9c6defca-98c9-49b3-895f-e01dfddfd0fb")
 	)
 	(label "PMOD6_4"
-		(at 77.47 203.2 0)
+		(at 76.2 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15288,17 +15288,17 @@
 		(uuid "9d619565-d07d-495a-8b0e-c0ddc5772da3")
 	)
 	(label "PMOD1_1"
-		(at 196.85 193.04 0)
+		(at 83.82 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9f3ccdc0-159d-4fd0-b8c1-b231186f5a30")
 	)
 	(label "PMOD5_4"
-		(at 76.2 182.88 0)
+		(at 77.47 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15320,7 +15320,7 @@
 		(uuid "a11578da-c17a-4d3e-8a43-504e58368789")
 	)
 	(label "PMOD6_1"
-		(at 77.47 195.58 0)
+		(at 76.2 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15330,7 +15330,7 @@
 		(uuid "a4396554-13fa-4e03-bb46-b8b6ffd27b3a")
 	)
 	(label "DDR3_D4"
-		(at 354.33 105.41 0)
+		(at 354.33 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15340,7 +15340,7 @@
 		(uuid "a69c13dd-c7f3-4723-a6fc-e8aad020f309")
 	)
 	(label "PMOD6_6"
-		(at 77.47 208.28 0)
+		(at 76.2 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15350,7 +15350,7 @@
 		(uuid "a92a91c5-cef9-4788-befc-0a1753194fe2")
 	)
 	(label "PMOD5_0"
-		(at 76.2 172.72 0)
+		(at 77.47 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15360,7 +15360,7 @@
 		(uuid "a931d251-d0ea-48e2-80cf-5c1d378890d2")
 	)
 	(label "DDR3_D12"
-		(at 354.33 135.89 0)
+		(at 354.33 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15370,7 +15370,7 @@
 		(uuid "a976ed98-57d9-4333-b111-ddfcdba76eba")
 	)
 	(label "PMOD4_6"
-		(at 78.74 167.64 0)
+		(at 77.47 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15380,7 +15380,7 @@
 		(uuid "ab76243d-4225-4a8f-b982-4ffbf5749c02")
 	)
 	(label "PMOD3_3"
-		(at 76.2 139.7 0)
+		(at 77.47 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15390,7 +15390,7 @@
 		(uuid "ae2208ac-c6df-4996-8d99-0f1c8108181e")
 	)
 	(label "DDR3_D13"
-		(at 354.33 138.43 0)
+		(at 354.33 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15400,7 +15400,7 @@
 		(uuid "ae716556-2570-4303-a11d-30821beba9fb")
 	)
 	(label "RGMII_RXD2"
-		(at 193.04 160.02 0)
+		(at 193.04 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15412,7 +15412,7 @@
 		(uuid "af4605f1-096d-47a6-b3ca-7df6f543afca")
 	)
 	(label "RGMII_RXD3"
-		(at 193.04 162.56 0)
+		(at 193.04 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15424,7 +15424,7 @@
 		(uuid "af8c735a-3d84-4386-8947-57e897823b9c")
 	)
 	(label "DDR3_A4"
-		(at 354.33 163.83 0)
+		(at 354.33 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15434,7 +15434,7 @@
 		(uuid "b0d1aa40-9674-459e-826e-2f2286ee1003")
 	)
 	(label "PMOD6_2"
-		(at 77.47 198.12 0)
+		(at 77.47 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15444,7 +15444,7 @@
 		(uuid "b3d353b9-965f-4710-8c06-9202007d64e7")
 	)
 	(label "PMOD3_7"
-		(at 76.2 149.86 0)
+		(at 77.47 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15454,7 +15454,7 @@
 		(uuid "b4affe69-5be5-4bb0-b992-3e9cae3fe4c2")
 	)
 	(label "PMOD1_3"
-		(at 76.2 93.98 0)
+		(at 77.47 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15474,7 +15474,7 @@
 		(uuid "b6ffd57c-17ad-4878-8945-898a3d7773c2")
 	)
 	(label "DDR3_RAS"
-		(at 355.6 151.13 0)
+		(at 355.6 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15496,7 +15496,7 @@
 		(uuid "b97a4455-c533-4030-826e-f27da03f71d9")
 	)
 	(label "ARDUINO_D12"
-		(at 194.31 187.96 0)
+		(at 194.31 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15506,7 +15506,7 @@
 		(uuid "bac02d9d-0cd1-45bb-987a-a3b3efdf3aae")
 	)
 	(label "DDR3_A2"
-		(at 354.33 158.75 0)
+		(at 354.33 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15516,7 +15516,7 @@
 		(uuid "bb6f077c-3d47-4c59-be7b-1f2418eea70b")
 	)
 	(label "DDR3_WE"
-		(at 355.6 199.39 0)
+		(at 355.6 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15526,7 +15526,7 @@
 		(uuid "bccdfe54-1a88-4d77-a7ce-e493da61b686")
 	)
 	(label "CLK20_VCXO"
-		(at 191.77 116.84 0)
+		(at 191.77 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15538,7 +15538,7 @@
 		(uuid "bebbe01b-d1a2-4d8d-b50b-a45d5670d4be")
 	)
 	(label "ARDUINO_D2"
-		(at 191.77 124.46 0)
+		(at 191.77 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15548,7 +15548,7 @@
 		(uuid "bf42c989-8450-4c17-afa9-e755a3562096")
 	)
 	(label "DDR3_A3"
-		(at 354.33 161.29 0)
+		(at 354.33 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15558,7 +15558,7 @@
 		(uuid "c16f4737-b397-4479-89b6-13afcf72b378")
 	)
 	(label "I2C_SDA_Ardu"
-		(at 193.04 152.4 0)
+		(at 193.04 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15568,7 +15568,7 @@
 		(uuid "c4004b7e-c9f8-4b48-86c5-821825131abc")
 	)
 	(label "DDR3_A13"
-		(at 354.33 186.69 0)
+		(at 354.33 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15588,7 +15588,7 @@
 		(uuid "c4cc9996-1bd3-476c-a722-0f05816b1a54")
 	)
 	(label "PMOD6_5"
-		(at 77.47 205.74 0)
+		(at 77.47 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15630,7 +15630,7 @@
 		(uuid "ccd93ef4-3f37-4821-9ada-112bba1f2bd6")
 	)
 	(label "ARDUINO_D3"
-		(at 191.77 127 0)
+		(at 191.77 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15640,7 +15640,7 @@
 		(uuid "cd50a99f-292c-464c-9962-9eca4dd8914e")
 	)
 	(label "ARDUINO_D7"
-		(at 194.31 175.26 0)
+		(at 194.31 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15650,7 +15650,7 @@
 		(uuid "cd795bb6-d6cc-48f2-a816-e0dce98144f6")
 	)
 	(label "PMOD2_3"
-		(at 78.74 119.38 0)
+		(at 78.74 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15660,7 +15660,7 @@
 		(uuid "ce1f7f5b-c855-4572-b73c-f9420773f606")
 	)
 	(label "DDR3_D2"
-		(at 354.33 95.25 0)
+		(at 354.33 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15700,7 +15700,7 @@
 		(uuid "d2c7eeae-9b43-4d36-8ba6-7d3615746a79")
 	)
 	(label "PMOD5_3"
-		(at 76.2 180.34 0)
+		(at 77.47 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15710,7 +15710,7 @@
 		(uuid "d2f0a68a-8ba8-4f98-b1ed-40776c39f2f2")
 	)
 	(label "PMOD5_2"
-		(at 76.2 177.8 0)
+		(at 77.47 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15720,7 +15720,7 @@
 		(uuid "d345b3ba-7690-4a68-a026-aa21d198c81b")
 	)
 	(label "PMOD4_2"
-		(at 78.74 157.48 0)
+		(at 78.74 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15730,7 +15730,7 @@
 		(uuid "d4199899-9ae0-4d44-b770-3890aa324a19")
 	)
 	(label "PMOD2_7"
-		(at 78.74 129.54 0)
+		(at 78.74 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15740,7 +15740,7 @@
 		(uuid "d4d4268d-58b9-4830-84b8-7b1c6b6c553f")
 	)
 	(label "PMOD1_0"
-		(at 76.2 86.36 0)
+		(at 76.2 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15750,7 +15750,7 @@
 		(uuid "d7414018-e9d0-4182-9bcd-d6cdf16ea341")
 	)
 	(label "DDR3_D14"
-		(at 354.33 140.97 0)
+		(at 354.33 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15770,7 +15770,7 @@
 		(uuid "da065af1-53f1-4c6e-9cc4-58a6d910a975")
 	)
 	(label "DDR3_D10"
-		(at 354.33 125.73 0)
+		(at 354.33 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15790,7 +15790,7 @@
 		(uuid "db42dac0-1ff0-43a1-9e14-e9721e126eb3")
 	)
 	(label "PMOD1_5"
-		(at 76.2 101.6 0)
+		(at 76.2 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15800,17 +15800,17 @@
 		(uuid "db52a8bb-7ee6-4878-b10c-28e8040c8600")
 	)
 	(label "PMOD4_3"
-		(at 78.74 160.02 0)
+		(at 201.93 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "de1b66cd-6b42-4796-980d-371a083f1bcd")
 	)
 	(label "ARDUINO_D6"
-		(at 191.77 134.62 0)
+		(at 191.77 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15820,7 +15820,7 @@
 		(uuid "de70167a-b9af-4917-8338-b0c594b8c242")
 	)
 	(label "PMOD5_5"
-		(at 76.2 185.42 0)
+		(at 77.47 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15840,7 +15840,7 @@
 		(uuid "df678722-7337-4164-83b9-ae2a3a960cb3")
 	)
 	(label "ARDUINO_D10"
-		(at 194.31 182.88 0)
+		(at 194.31 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15850,7 +15850,7 @@
 		(uuid "e03d8fa6-4a48-40eb-b594-b17cbb5557a2")
 	)
 	(label "PHY_RSTn"
-		(at 191.77 137.16 0)
+		(at 191.77 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15862,7 +15862,7 @@
 		(uuid "e373caa1-efe4-4a55-bf0c-c4776cd6d051")
 	)
 	(label "DDR3_A11"
-		(at 354.33 181.61 0)
+		(at 354.33 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15872,7 +15872,7 @@
 		(uuid "e5d4c804-4a4b-4c1b-a0d4-5af8130d4f2c")
 	)
 	(label "DDR3_BA1"
-		(at 351.79 207.01 0)
+		(at 351.79 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15892,7 +15892,7 @@
 		(uuid "ee9132b8-7c14-42ee-89e0-685287437dbe")
 	)
 	(label "DDR3_D1"
-		(at 354.33 92.71 0)
+		(at 354.33 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15924,7 +15924,7 @@
 		(uuid "f4a4fd1c-7516-40e2-9b98-b0fa9a6b0b94")
 	)
 	(label "PMOD4_4"
-		(at 78.74 162.56 0)
+		(at 78.74 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15934,7 +15934,7 @@
 		(uuid "f58fa3b7-173a-4d48-85ce-74678dcd3dcf")
 	)
 	(label "PMOD3_2"
-		(at 76.2 137.16 0)
+		(at 76.2 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15956,17 +15956,17 @@
 		(uuid "fac85c21-6d04-4c3d-9c0a-5cac9ab2350a")
 	)
 	(label "PMOD1_2"
-		(at 196.85 195.58 0)
+		(at 82.55 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "fce7d271-ca0e-42ae-bc1c-35363ce90401")
 	)
 	(label "PMOD2_4"
-		(at 78.74 121.92 0)
+		(at 77.47 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15976,7 +15976,7 @@
 		(uuid "fe8a194c-fe76-49e7-8a39-ed89a3f19850")
 	)
 	(label "ARDUINO_D9"
-		(at 194.31 180.34 0)
+		(at 194.31 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15987,7 +15987,7 @@
 	)
 	(global_label "DDR3_WE"
 		(shape output)
-		(at 369.57 199.39 0)
+		(at 369.57 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15997,7 +15997,7 @@
 		)
 		(uuid "02577fc5-5e52-4280-890d-c9d27e05d89f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.1427 199.39 0)
+			(at 381.1427 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16009,7 +16009,7 @@
 	)
 	(global_label "DDR3_D15"
 		(shape bidirectional)
-		(at 369.57 143.51 0)
+		(at 369.57 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16019,7 +16019,7 @@
 		)
 		(uuid "03715fe7-6eaa-438d-ac38-355c95de7140")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.2313 143.51 0)
+			(at 382.2313 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16031,7 +16031,7 @@
 	)
 	(global_label "DDR3_D1"
 		(shape bidirectional)
-		(at 369.57 92.71 0)
+		(at 369.57 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16041,7 +16041,7 @@
 		)
 		(uuid "03e4a95d-6dd4-4500-9013-7b6ef4402f5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.0218 92.71 0)
+			(at 381.0218 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16075,7 +16075,7 @@
 	)
 	(global_label "ARDUINO_D7"
 		(shape bidirectional)
-		(at 214.63 175.26 0)
+		(at 214.63 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16085,7 +16085,7 @@
 		)
 		(uuid "05ffe97e-8bea-4b2d-be4c-6e3880d86e12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2872 175.26 0)
+			(at 229.2872 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16120,7 +16120,7 @@
 	)
 	(global_label "PMOD5_4"
 		(shape bidirectional)
-		(at 71.12 182.88 180)
+		(at 72.39 200.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16130,7 +16130,7 @@
 		)
 		(uuid "063eddcd-20ac-4376-94b4-bdfa14ecfa67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 182.88 0)
+			(at 60.6963 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16142,7 +16142,7 @@
 	)
 	(global_label "PMOD4_6"
 		(shape bidirectional)
-		(at 72.39 167.64 180)
+		(at 71.12 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16152,7 +16152,7 @@
 		)
 		(uuid "0710c8f0-f32f-43a0-b7dc-6fd53e6ecdc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 167.64 0)
+			(at 59.4263 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16164,7 +16164,7 @@
 	)
 	(global_label "PMOD2_0"
 		(shape bidirectional)
-		(at 72.39 109.22 180)
+		(at 71.12 187.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16174,7 +16174,7 @@
 		)
 		(uuid "0845e562-2669-4fbb-ab51-01a1aefd90bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 109.22 0)
+			(at 59.4263 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16208,7 +16208,7 @@
 	)
 	(global_label "PMOD3_7"
 		(shape bidirectional)
-		(at 71.12 149.86 180)
+		(at 72.39 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16218,7 +16218,7 @@
 		)
 		(uuid "0a2ab4c9-c297-4996-bd39-a8702fba7faf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 149.86 0)
+			(at 60.6963 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16230,7 +16230,7 @@
 	)
 	(global_label "PMOD5_1"
 		(shape bidirectional)
-		(at 71.12 175.26 180)
+		(at 72.39 208.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16240,7 +16240,7 @@
 		)
 		(uuid "0bdc303d-53c6-4150-b566-f94d2ec0ab62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 175.26 0)
+			(at 60.6963 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16252,7 +16252,7 @@
 	)
 	(global_label "PMOD6_1"
 		(shape bidirectional)
-		(at 72.39 195.58 180)
+		(at 71.12 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16262,7 +16262,7 @@
 		)
 		(uuid "0c25b227-c514-4665-82e1-0b014009adc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 195.58 0)
+			(at 59.4263 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16274,29 +16274,29 @@
 	)
 	(global_label "PMOD1_1"
 		(shape bidirectional)
-		(at 208.28 193.04 0)
+		(at 72.39 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0d4ca804-31db-4b25-891a-859e1652fd7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.085 193.04 0)
+			(at 59.585 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "DDR3_A4"
 		(shape output)
-		(at 369.57 163.83 0)
+		(at 369.57 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16306,7 +16306,7 @@
 		)
 		(uuid "0ff864b5-e377-4564-9351-034542931474")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 380.8404 163.83 0)
+			(at 380.8404 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16362,7 +16362,7 @@
 	)
 	(global_label "PMOD2_5"
 		(shape bidirectional)
-		(at 72.39 124.46 180)
+		(at 71.12 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16372,7 +16372,7 @@
 		)
 		(uuid "14e94018-f0f3-4415-bf31-7d4ad52a9413")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 124.46 0)
+			(at 59.4263 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16384,7 +16384,7 @@
 	)
 	(global_label "PMOD4_0"
 		(shape bidirectional)
-		(at 72.39 152.4 180)
+		(at 72.39 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16394,7 +16394,7 @@
 		)
 		(uuid "1593c617-a8c3-4250-ad99-80c979284180")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 152.4 0)
+			(at 60.6963 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16428,29 +16428,29 @@
 	)
 	(global_label "PMOD4_7"
 		(shape bidirectional)
-		(at 72.39 170.18 180)
+		(at 208.28 190.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "188d8067-50c7-4aaf-8f34-95a3e799967d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 170.18 0)
+			(at 219.9737 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "DDR3_D12"
 		(shape bidirectional)
-		(at 369.57 135.89 0)
+		(at 369.57 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16460,7 +16460,7 @@
 		)
 		(uuid "198dde41-ddd0-4125-a5a7-30cdc5224c62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.2313 135.89 0)
+			(at 382.2313 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16472,7 +16472,7 @@
 	)
 	(global_label "PMOD1_5"
 		(shape bidirectional)
-		(at 71.12 101.6 180)
+		(at 71.12 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16482,7 +16482,7 @@
 		)
 		(uuid "1b481d91-e5bb-41c0-b023-b71c67d4492c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 101.6 0)
+			(at 59.4263 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16494,7 +16494,7 @@
 	)
 	(global_label "PMOD2_7"
 		(shape bidirectional)
-		(at 72.39 129.54 180)
+		(at 72.39 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16504,7 +16504,7 @@
 		)
 		(uuid "21eca6d3-ef3d-4064-ab91-3ae04c93d004")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 129.54 0)
+			(at 60.6963 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16516,7 +16516,7 @@
 	)
 	(global_label "PMOD4_5"
 		(shape bidirectional)
-		(at 72.39 165.1 180)
+		(at 71.12 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16526,7 +16526,7 @@
 		)
 		(uuid "27061a56-7c8e-4aa5-ab8a-1cca7951661b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 165.1 0)
+			(at 59.4263 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16626,7 +16626,7 @@
 	)
 	(global_label "RGMII_RXD3"
 		(shape input)
-		(at 214.63 162.56 0)
+		(at 214.63 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16637,7 +16637,7 @@
 		)
 		(uuid "30670d0d-c8c3-41ce-af9a-66c85f75ea71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2188 162.56 0)
+			(at 229.2188 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16649,7 +16649,7 @@
 	)
 	(global_label "PMOD5_2"
 		(shape bidirectional)
-		(at 71.12 177.8 180)
+		(at 72.39 205.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16659,7 +16659,7 @@
 		)
 		(uuid "331022ac-bc7f-4655-9a53-98e89a6ab3c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 177.8 0)
+			(at 60.6963 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16671,7 +16671,7 @@
 	)
 	(global_label "ARDUINO_D9"
 		(shape bidirectional)
-		(at 214.63 180.34 0)
+		(at 214.63 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16681,7 +16681,7 @@
 		)
 		(uuid "341da2c4-4ff3-4ca7-b375-9cd81d6cc808")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2872 180.34 0)
+			(at 229.2872 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16715,7 +16715,7 @@
 	)
 	(global_label "PMOD6_3"
 		(shape bidirectional)
-		(at 72.39 200.66 180)
+		(at 71.12 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16725,7 +16725,7 @@
 		)
 		(uuid "367bda21-c8fb-486e-81ce-945b79ef82c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 200.66 0)
+			(at 59.4263 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16737,7 +16737,7 @@
 	)
 	(global_label "PMOD6_2"
 		(shape bidirectional)
-		(at 72.39 198.12 180)
+		(at 72.39 195.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16747,7 +16747,7 @@
 		)
 		(uuid "36aab738-6b30-46e7-add7-63150fde8e9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 198.12 0)
+			(at 60.6963 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16759,7 +16759,7 @@
 	)
 	(global_label "ARDUINO_D10"
 		(shape bidirectional)
-		(at 214.63 182.88 0)
+		(at 214.63 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16769,7 +16769,7 @@
 		)
 		(uuid "36b2fd2d-3f06-47ba-afec-4e1d43d7c016")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.4967 182.88 0)
+			(at 230.4967 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16804,7 +16804,7 @@
 	)
 	(global_label "RGMII_TXD0"
 		(shape input)
-		(at 214.63 165.1 0)
+		(at 214.63 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16815,7 +16815,7 @@
 		)
 		(uuid "3e535c04-e4a6-4dcd-8575-0465ca37d4c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.9164 165.1 0)
+			(at 228.9164 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16827,7 +16827,7 @@
 	)
 	(global_label "PMOD6_6"
 		(shape bidirectional)
-		(at 72.39 208.28 180)
+		(at 71.12 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16837,7 +16837,7 @@
 		)
 		(uuid "3e7381c0-1faf-4c73-858c-e5601ca033c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 208.28 0)
+			(at 59.4263 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16849,7 +16849,7 @@
 	)
 	(global_label "I2C_SDA_Ardu"
 		(shape bidirectional)
-		(at 214.63 152.4 0)
+		(at 214.63 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16859,7 +16859,7 @@
 		)
 		(uuid "4357898b-da13-410c-96b3-1637c7346677")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.3756 152.4 0)
+			(at 230.3756 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16871,7 +16871,7 @@
 	)
 	(global_label "DDR3_D13"
 		(shape bidirectional)
-		(at 369.57 138.43 0)
+		(at 369.57 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16881,7 +16881,7 @@
 		)
 		(uuid "44d0c5a8-c7ec-400b-988f-8e0af5845570")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.2313 138.43 0)
+			(at 382.2313 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16893,7 +16893,7 @@
 	)
 	(global_label "PMOD2_3"
 		(shape bidirectional)
-		(at 72.39 119.38 180)
+		(at 72.39 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16903,7 +16903,7 @@
 		)
 		(uuid "44ed8ce4-11cd-44df-a7df-0a12c6d97454")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 119.38 0)
+			(at 60.6963 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16915,7 +16915,7 @@
 	)
 	(global_label "DDR3_A6"
 		(shape output)
-		(at 369.57 168.91 0)
+		(at 369.57 209.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16925,7 +16925,7 @@
 		)
 		(uuid "46992bd0-6923-436e-abe4-03541e330530")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 380.8404 168.91 0)
+			(at 380.8404 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16960,7 +16960,7 @@
 	)
 	(global_label "DDR3_D4"
 		(shape bidirectional)
-		(at 369.57 105.41 0)
+		(at 369.57 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16970,7 +16970,7 @@
 		)
 		(uuid "496ba026-66aa-40bc-8ac4-83610ab8deb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.0218 105.41 0)
+			(at 381.0218 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16982,7 +16982,7 @@
 	)
 	(global_label "PMOD2_1"
 		(shape bidirectional)
-		(at 72.39 111.76 180)
+		(at 72.39 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16992,7 +16992,7 @@
 		)
 		(uuid "4bb27a92-9ed9-4dd9-9a5f-65d68558ba3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 111.76 0)
+			(at 60.6963 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17004,7 +17004,7 @@
 	)
 	(global_label "PMOD3_0"
 		(shape bidirectional)
-		(at 71.12 132.08 180)
+		(at 71.12 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17014,7 +17014,7 @@
 		)
 		(uuid "4d632666-cc58-4b6d-b01d-4b87051dfc15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 132.08 0)
+			(at 59.4263 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17026,7 +17026,7 @@
 	)
 	(global_label "RGMII_TXD1"
 		(shape input)
-		(at 214.63 167.64 0)
+		(at 214.63 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17037,7 +17037,7 @@
 		)
 		(uuid "50375782-b9ea-4303-9b4d-a92d22f3ccf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.9164 167.64 0)
+			(at 228.9164 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17071,7 +17071,7 @@
 	)
 	(global_label "ARDUINO_D2"
 		(shape bidirectional)
-		(at 214.63 124.46 0)
+		(at 214.63 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17081,7 +17081,7 @@
 		)
 		(uuid "50d7c56e-729d-472b-9570-461c4eb7830c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2872 124.46 0)
+			(at 229.2872 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17093,7 +17093,7 @@
 	)
 	(global_label "DDR3_D14"
 		(shape bidirectional)
-		(at 369.57 140.97 0)
+		(at 369.57 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17103,7 +17103,7 @@
 		)
 		(uuid "532ee333-9f95-476c-9096-64028d5fc435")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.2313 140.97 0)
+			(at 382.2313 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17115,7 +17115,7 @@
 	)
 	(global_label "ARDUINO_D3"
 		(shape bidirectional)
-		(at 214.63 127 0)
+		(at 214.63 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17125,7 +17125,7 @@
 		)
 		(uuid "559bb79e-98ae-4c48-96d6-29d88e776aef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2872 127 0)
+			(at 229.2872 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17137,7 +17137,7 @@
 	)
 	(global_label "DDR3_BA2"
 		(shape output)
-		(at 369.57 209.55 0)
+		(at 369.57 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17147,7 +17147,7 @@
 		)
 		(uuid "568788b8-f231-4691-8618-bcb08254b851")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.1104 209.55 0)
+			(at 382.1104 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17203,7 +17203,7 @@
 	)
 	(global_label "DDR3_D0"
 		(shape bidirectional)
-		(at 369.57 90.17 0)
+		(at 369.57 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17213,7 +17213,7 @@
 		)
 		(uuid "5bb623b1-addc-414c-b0b4-690f7693c571")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.0218 90.17 0)
+			(at 381.0218 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17225,7 +17225,7 @@
 	)
 	(global_label "DDR3_A5"
 		(shape output)
-		(at 369.57 166.37 0)
+		(at 369.57 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17235,7 +17235,7 @@
 		)
 		(uuid "5d204b5e-8354-48ce-91fe-25b1f11770f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 380.8404 166.37 0)
+			(at 380.8404 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17247,7 +17247,7 @@
 	)
 	(global_label "DDR3_CE"
 		(shape output)
-		(at 369.57 189.23 0)
+		(at 369.57 184.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17257,7 +17257,7 @@
 		)
 		(uuid "5e900ca7-806d-4237-95eb-9e16c1a05517")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 380.9613 189.23 0)
+			(at 380.9613 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17269,7 +17269,7 @@
 	)
 	(global_label "DDR3_CKE0"
 		(shape output)
-		(at 369.57 201.93 0)
+		(at 369.57 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17279,7 +17279,7 @@
 		)
 		(uuid "5eba9d85-53c3-4f8c-a40b-488a3390b2d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.4408 201.93 0)
+			(at 383.4408 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17291,7 +17291,7 @@
 	)
 	(global_label "PMOD1_7"
 		(shape bidirectional)
-		(at 71.12 106.68 180)
+		(at 72.39 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17301,7 +17301,7 @@
 		)
 		(uuid "619dae78-a956-45e6-804a-281ad98a24e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 106.68 0)
+			(at 60.6963 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17335,7 +17335,7 @@
 	)
 	(global_label "DDR3_D8"
 		(shape bidirectional)
-		(at 369.57 120.65 0)
+		(at 369.57 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17345,7 +17345,7 @@
 		)
 		(uuid "630e6f88-5726-44c8-941b-590f82640ce4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.0218 120.65 0)
+			(at 381.0218 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17357,7 +17357,7 @@
 	)
 	(global_label "RGMII_RX_DV"
 		(shape input)
-		(at 214.63 147.32 0)
+		(at 214.63 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17368,7 +17368,7 @@
 		)
 		(uuid "63e050e1-0adb-435f-ae8f-38b1e96017ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.0655 147.32 0)
+			(at 230.0655 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17380,7 +17380,7 @@
 	)
 	(global_label "PMOD5_0"
 		(shape bidirectional)
-		(at 71.12 172.72 180)
+		(at 72.39 203.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17390,7 +17390,7 @@
 		)
 		(uuid "63e17a20-82f3-4ea1-beac-c876e012dfd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 172.72 0)
+			(at 60.6963 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17402,7 +17402,7 @@
 	)
 	(global_label "PMOD3_6"
 		(shape bidirectional)
-		(at 71.12 147.32 180)
+		(at 72.39 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17412,7 +17412,7 @@
 		)
 		(uuid "64acb528-883e-465f-b7dd-784a33647ebb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 147.32 0)
+			(at 60.6963 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17424,7 +17424,7 @@
 	)
 	(global_label "DDR3_A12"
 		(shape output)
-		(at 369.57 184.15 0)
+		(at 369.57 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17434,7 +17434,7 @@
 		)
 		(uuid "659c08ec-dffc-49f0-bedd-22721f3b72fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.0499 184.15 0)
+			(at 382.0499 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17468,29 +17468,29 @@
 	)
 	(global_label "PMOD4_3"
 		(shape bidirectional)
-		(at 72.39 160.02 180)
+		(at 208.28 193.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6cc34197-cc19-4a04-b678-073f5b1c2ad2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 160.02 0)
+			(at 219.9737 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "DDR3_A8"
 		(shape output)
-		(at 369.57 173.99 0)
+		(at 369.57 207.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17500,7 +17500,7 @@
 		)
 		(uuid "6f22c541-cd0b-417c-8d83-693360865532")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 380.8404 173.99 0)
+			(at 380.8404 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17512,7 +17512,7 @@
 	)
 	(global_label "ARDUINO_D5"
 		(shape bidirectional)
-		(at 214.63 132.08 0)
+		(at 214.63 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17522,7 +17522,7 @@
 		)
 		(uuid "6fa22282-8afb-4f91-a5f4-559134e06f1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2872 132.08 0)
+			(at 229.2872 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17534,7 +17534,7 @@
 	)
 	(global_label "PMOD1_0"
 		(shape bidirectional)
-		(at 71.12 86.36 180)
+		(at 71.12 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17544,7 +17544,7 @@
 		)
 		(uuid "7042fcae-9034-4380-9ff9-d4cbaf3b0210")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 86.36 0)
+			(at 59.4263 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17556,7 +17556,7 @@
 	)
 	(global_label "CLK20_VCXO"
 		(shape input)
-		(at 214.63 116.84 0)
+		(at 214.63 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17567,7 +17567,7 @@
 		)
 		(uuid "76b5e311-2b69-4472-8e63-a3314809629e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.9445 116.84 0)
+			(at 229.9445 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17601,7 +17601,7 @@
 	)
 	(global_label "PMOD6_0"
 		(shape bidirectional)
-		(at 72.39 193.04 180)
+		(at 71.12 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17611,7 +17611,7 @@
 		)
 		(uuid "781bc3ba-b68a-4033-adee-5358475c8a27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 193.04 0)
+			(at 59.4263 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17645,7 +17645,7 @@
 	)
 	(global_label "DDR3_CAS"
 		(shape output)
-		(at 369.57 148.59 0)
+		(at 369.57 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17655,7 +17655,7 @@
 		)
 		(uuid "78a9f662-463d-4a48-895a-c96fe8139d4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.1104 148.59 0)
+			(at 382.1104 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17667,7 +17667,7 @@
 	)
 	(global_label "PMOD1_6"
 		(shape bidirectional)
-		(at 71.12 104.14 180)
+		(at 71.12 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17677,7 +17677,7 @@
 		)
 		(uuid "793f509a-0ef4-4c81-b649-7ff3f3d1533b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 104.14 0)
+			(at 59.4263 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17689,7 +17689,7 @@
 	)
 	(global_label "PMOD3_4"
 		(shape bidirectional)
-		(at 71.12 142.24 180)
+		(at 71.12 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17699,7 +17699,7 @@
 		)
 		(uuid "7aa36fdd-a71f-4e4e-a275-7ca86b4afd42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 142.24 0)
+			(at 59.4263 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17733,7 +17733,7 @@
 	)
 	(global_label "ARDUINO_D1"
 		(shape bidirectional)
-		(at 214.63 121.92 0)
+		(at 214.63 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17743,7 +17743,7 @@
 		)
 		(uuid "7e62ea98-b51f-482b-ad2a-0398fb030f7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2872 121.92 0)
+			(at 229.2872 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17777,7 +17777,7 @@
 	)
 	(global_label "ARDUINO_D13"
 		(shape bidirectional)
-		(at 214.63 190.5 0)
+		(at 214.63 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17787,7 +17787,7 @@
 		)
 		(uuid "7f34c6c1-e3a2-46d9-8a2a-9ea631c87acf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.4967 190.5 0)
+			(at 230.4967 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17821,7 +17821,7 @@
 	)
 	(global_label "DDR3_D10"
 		(shape bidirectional)
-		(at 369.57 125.73 0)
+		(at 369.57 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17831,7 +17831,7 @@
 		)
 		(uuid "82c0bc44-63d0-4ee7-9f1b-97d605335c3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.2313 125.73 0)
+			(at 382.2313 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17843,7 +17843,7 @@
 	)
 	(global_label "PMOD4_2"
 		(shape bidirectional)
-		(at 72.39 157.48 180)
+		(at 72.39 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17853,7 +17853,7 @@
 		)
 		(uuid "8824a03f-1f22-44fd-a7c4-0efb655340de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 157.48 0)
+			(at 60.6963 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17865,7 +17865,7 @@
 	)
 	(global_label "DDR3_A0"
 		(shape output)
-		(at 369.57 153.67 0)
+		(at 369.57 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17875,7 +17875,7 @@
 		)
 		(uuid "899ff760-e1ab-4d9b-8257-a93e31c241b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 380.8404 153.67 0)
+			(at 380.8404 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17887,7 +17887,7 @@
 	)
 	(global_label "PMOD5_5"
 		(shape bidirectional)
-		(at 71.12 185.42 180)
+		(at 72.39 193.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17897,7 +17897,7 @@
 		)
 		(uuid "8a0dc7a6-a627-46c5-a2b7-10f37182f90d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 185.42 0)
+			(at 60.6963 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17931,7 +17931,7 @@
 	)
 	(global_label "DDR3_DM1"
 		(shape bidirectional)
-		(at 369.57 146.05 0)
+		(at 369.57 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17941,7 +17941,7 @@
 		)
 		(uuid "8aa7325c-f1a6-4d9a-b77c-b754e37a9bb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.4732 146.05 0)
+			(at 382.4732 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17975,7 +17975,7 @@
 	)
 	(global_label "RGMII_TX_EN"
 		(shape input)
-		(at 214.63 142.24 0)
+		(at 214.63 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17986,7 +17986,7 @@
 		)
 		(uuid "8bb714dd-c628-4349-b223-0dc89a1f1fe5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.884 142.24 0)
+			(at 229.884 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17998,7 +17998,7 @@
 	)
 	(global_label "DDR3_A1"
 		(shape output)
-		(at 369.57 156.21 0)
+		(at 369.57 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18008,7 +18008,7 @@
 		)
 		(uuid "8bcf4e48-3283-4e57-a25f-642ced87bf2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 380.8404 156.21 0)
+			(at 380.8404 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18042,7 +18042,7 @@
 	)
 	(global_label "PMOD3_2"
 		(shape bidirectional)
-		(at 71.12 137.16 180)
+		(at 71.12 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18052,7 +18052,7 @@
 		)
 		(uuid "8cc78626-c64b-4cd5-99a1-bb82a1b88921")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 137.16 0)
+			(at 59.4263 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18087,7 +18087,7 @@
 	)
 	(global_label "DDR3_D11"
 		(shape bidirectional)
-		(at 369.57 128.27 0)
+		(at 369.57 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18097,7 +18097,7 @@
 		)
 		(uuid "8ecd6a5c-79de-49a9-824c-2866fb6c720e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.2313 128.27 0)
+			(at 382.2313 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18109,7 +18109,7 @@
 	)
 	(global_label "PMOD2_2"
 		(shape bidirectional)
-		(at 72.39 116.84 180)
+		(at 72.39 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18119,7 +18119,7 @@
 		)
 		(uuid "8fc03cac-332e-4a08-9949-4af0dcdd54c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 116.84 0)
+			(at 60.6963 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18176,7 +18176,7 @@
 	)
 	(global_label "PMOD6_7"
 		(shape bidirectional)
-		(at 72.39 210.82 180)
+		(at 72.39 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18186,7 +18186,7 @@
 		)
 		(uuid "9237db6a-3bd8-4d4a-837c-106f5ca59018")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 210.82 0)
+			(at 60.6963 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18221,7 +18221,7 @@
 	)
 	(global_label "ARDUINO_D12"
 		(shape bidirectional)
-		(at 214.63 187.96 0)
+		(at 214.63 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18231,7 +18231,7 @@
 		)
 		(uuid "93c58e94-f967-47dc-bf2b-ef074d39364e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.4967 187.96 0)
+			(at 230.4967 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18243,7 +18243,7 @@
 	)
 	(global_label "PMOD4_1"
 		(shape bidirectional)
-		(at 72.39 154.94 180)
+		(at 71.12 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18253,7 +18253,7 @@
 		)
 		(uuid "968c4b21-b203-4531-8061-7dbe8ebb829c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 154.94 0)
+			(at 59.4263 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18265,7 +18265,7 @@
 	)
 	(global_label "RGMII_RXD2"
 		(shape input)
-		(at 214.63 160.02 0)
+		(at 214.63 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18276,7 +18276,7 @@
 		)
 		(uuid "9aefb68d-17ee-47cb-b1cd-2b21e2a33207")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2188 160.02 0)
+			(at 229.2188 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18288,7 +18288,7 @@
 	)
 	(global_label "ARDUINO_D0"
 		(shape bidirectional)
-		(at 214.63 119.38 0)
+		(at 214.63 195.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18298,7 +18298,7 @@
 		)
 		(uuid "9b81903f-03ea-44d3-a1ac-b35c77d3ff8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2872 119.38 0)
+			(at 229.2872 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18310,7 +18310,7 @@
 	)
 	(global_label "DDR3_D2"
 		(shape bidirectional)
-		(at 369.57 95.25 0)
+		(at 369.57 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18320,7 +18320,7 @@
 		)
 		(uuid "9c87c4d6-8396-4492-bf67-814fa56b2d48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.0218 95.25 0)
+			(at 381.0218 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18332,7 +18332,7 @@
 	)
 	(global_label "DDR3_ODT"
 		(shape output)
-		(at 369.57 196.85 0)
+		(at 369.57 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18342,7 +18342,7 @@
 		)
 		(uuid "a3960dc9-7146-44bd-a54d-8109f8181b97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.1104 196.85 0)
+			(at 382.1104 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18354,7 +18354,7 @@
 	)
 	(global_label "ARDUINO_D6"
 		(shape bidirectional)
-		(at 214.63 134.62 0)
+		(at 214.63 187.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18364,7 +18364,7 @@
 		)
 		(uuid "aac361a5-6ff9-4c77-a348-f8c66a7d0c28")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2872 134.62 0)
+			(at 229.2872 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18376,7 +18376,7 @@
 	)
 	(global_label "DDR3_D6"
 		(shape bidirectional)
-		(at 369.57 110.49 0)
+		(at 369.57 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18386,7 +18386,7 @@
 		)
 		(uuid "b13b6d69-937f-43a0-9cc0-9e30d2e62ab4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.0218 110.49 0)
+			(at 381.0218 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18421,7 +18421,7 @@
 	)
 	(global_label "DDR3_A2"
 		(shape output)
-		(at 369.57 158.75 0)
+		(at 369.57 196.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18431,7 +18431,7 @@
 		)
 		(uuid "b4a448a2-0d90-4596-834b-fe8d7b778aad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 380.8404 158.75 0)
+			(at 380.8404 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18443,7 +18443,7 @@
 	)
 	(global_label "PMOD2_6"
 		(shape bidirectional)
-		(at 72.39 127 180)
+		(at 72.39 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18453,7 +18453,7 @@
 		)
 		(uuid "b4b67b6c-da02-4b34-bf6f-3e7d6291e541")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 127 0)
+			(at 60.6963 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18465,7 +18465,7 @@
 	)
 	(global_label "DDR3_A7"
 		(shape output)
-		(at 369.57 171.45 0)
+		(at 369.57 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18475,7 +18475,7 @@
 		)
 		(uuid "b5f063b3-0c79-41ee-b7ba-d115a263535b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 380.8404 171.45 0)
+			(at 380.8404 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18487,7 +18487,7 @@
 	)
 	(global_label "DDR3_A11"
 		(shape output)
-		(at 369.57 181.61 0)
+		(at 369.57 201.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18497,7 +18497,7 @@
 		)
 		(uuid "b72a39a8-1f80-477e-8e5b-595cc7f37497")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.0499 181.61 0)
+			(at 382.0499 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18509,7 +18509,7 @@
 	)
 	(global_label "PMOD5_3"
 		(shape bidirectional)
-		(at 71.12 180.34 180)
+		(at 72.39 210.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18519,7 +18519,7 @@
 		)
 		(uuid "b913b0c0-82a0-48dc-9cb9-d6824cfb5d12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 180.34 0)
+			(at 60.6963 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18554,7 +18554,7 @@
 	)
 	(global_label "DDR3_RAS"
 		(shape output)
-		(at 369.57 151.13 0)
+		(at 369.57 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18564,7 +18564,7 @@
 		)
 		(uuid "bb32d9da-2c5b-46d6-9508-30ef3bb3b0cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.1104 151.13 0)
+			(at 382.1104 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18576,7 +18576,7 @@
 	)
 	(global_label "PMOD1_3"
 		(shape bidirectional)
-		(at 71.12 93.98 180)
+		(at 72.39 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18586,7 +18586,7 @@
 		)
 		(uuid "bb3dc6cb-28cf-4a11-91cc-3fa3b33f74fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 93.98 0)
+			(at 60.6963 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18598,29 +18598,29 @@
 	)
 	(global_label "PMOD1_2"
 		(shape bidirectional)
-		(at 208.28 195.58 0)
+		(at 71.12 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "bcc7e4e0-b98a-4015-bd7f-cdbd49f601fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.085 195.58 0)
+			(at 58.315 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "DDR3_A3"
 		(shape output)
-		(at 369.57 161.29 0)
+		(at 369.57 181.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18630,7 +18630,7 @@
 		)
 		(uuid "c39bcdc2-4a76-451b-a830-e76a1dcbbe7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 380.8404 161.29 0)
+			(at 380.8404 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18642,7 +18642,7 @@
 	)
 	(global_label "PMOD1_4"
 		(shape bidirectional)
-		(at 71.12 96.52 180)
+		(at 71.12 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18652,7 +18652,7 @@
 		)
 		(uuid "cae676b7-9ee1-4f0d-bd80-dafec0c3ea23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 96.52 0)
+			(at 59.4263 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18664,7 +18664,7 @@
 	)
 	(global_label "PMOD4_4"
 		(shape bidirectional)
-		(at 72.39 162.56 180)
+		(at 72.39 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18674,7 +18674,7 @@
 		)
 		(uuid "cc8fef60-56cb-4a5b-904c-176079cd625a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 162.56 0)
+			(at 60.6963 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18686,7 +18686,7 @@
 	)
 	(global_label "PMOD6_5"
 		(shape bidirectional)
-		(at 72.39 205.74 180)
+		(at 72.39 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18696,7 +18696,7 @@
 		)
 		(uuid "cdd2857c-aa40-4ad1-8878-677498d948dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 205.74 0)
+			(at 60.6963 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18708,7 +18708,7 @@
 	)
 	(global_label "ARDUINO_D11"
 		(shape bidirectional)
-		(at 214.63 185.42 0)
+		(at 214.63 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18718,7 +18718,7 @@
 		)
 		(uuid "d1298dc4-f926-45c3-9bd1-57ee8351664c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.4967 185.42 0)
+			(at 230.4967 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18730,7 +18730,7 @@
 	)
 	(global_label "PMOD5_6"
 		(shape bidirectional)
-		(at 71.12 187.96 180)
+		(at 72.39 198.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18740,7 +18740,7 @@
 		)
 		(uuid "d1e1237a-8951-4544-8a8c-a8ac0a230831")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 187.96 0)
+			(at 60.6963 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18752,7 +18752,7 @@
 	)
 	(global_label "PHY_RSTn"
 		(shape input)
-		(at 214.63 137.16 0)
+		(at 214.63 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18763,7 +18763,7 @@
 		)
 		(uuid "d36fd3c7-ca19-46d6-b6db-ac7b5f7824cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.344 137.16 0)
+			(at 227.344 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18775,7 +18775,7 @@
 	)
 	(global_label "PMOD3_5"
 		(shape bidirectional)
-		(at 71.12 144.78 180)
+		(at 71.12 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18785,7 +18785,7 @@
 		)
 		(uuid "dcb35e63-a1b6-41af-9c07-3e04155b3450")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 144.78 0)
+			(at 59.4263 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18841,7 +18841,7 @@
 	)
 	(global_label "DDR3_BA0"
 		(shape output)
-		(at 369.57 204.47 0)
+		(at 369.57 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18851,7 +18851,7 @@
 		)
 		(uuid "e498fa24-4b87-43e7-9ad0-ccc95dd85448")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.1104 204.47 0)
+			(at 382.1104 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18863,7 +18863,7 @@
 	)
 	(global_label "DDR3_BA1"
 		(shape output)
-		(at 369.57 207.01 0)
+		(at 369.57 204.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18873,7 +18873,7 @@
 		)
 		(uuid "e8adce24-e9f2-4ab3-96db-7b7172500e20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.1104 207.01 0)
+			(at 382.1104 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18907,7 +18907,7 @@
 	)
 	(global_label "RGMII_TX_CLK"
 		(shape input)
-		(at 214.63 139.7 0)
+		(at 214.63 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18918,7 +18918,7 @@
 		)
 		(uuid "e95f7e95-edf5-47b3-a322-04b4c339f6b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.9726 139.7 0)
+			(at 230.9726 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18930,7 +18930,7 @@
 	)
 	(global_label "RGMII_RXD1"
 		(shape input)
-		(at 214.63 157.48 0)
+		(at 214.63 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18941,7 +18941,7 @@
 		)
 		(uuid "e9951774-f68c-4614-a5f1-16c59fef1211")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2188 157.48 0)
+			(at 229.2188 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18953,7 +18953,7 @@
 	)
 	(global_label "DDR3_A10"
 		(shape output)
-		(at 369.57 179.07 0)
+		(at 369.57 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18963,7 +18963,7 @@
 		)
 		(uuid "e9d018b9-3b81-4a58-8376-3820873b737f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.0499 179.07 0)
+			(at 382.0499 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18998,7 +18998,7 @@
 	)
 	(global_label "DDR3_D3"
 		(shape bidirectional)
-		(at 369.57 97.79 0)
+		(at 369.57 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19008,7 +19008,7 @@
 		)
 		(uuid "ea391c54-4264-4d21-9eaf-85985621d063")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.0218 97.79 0)
+			(at 381.0218 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19087,7 +19087,7 @@
 	)
 	(global_label "PMOD3_1"
 		(shape bidirectional)
-		(at 71.12 134.62 180)
+		(at 71.12 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19097,7 +19097,7 @@
 		)
 		(uuid "f2bd2dcb-ed19-414f-a85f-1ce1311c1a90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 134.62 0)
+			(at 59.4263 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19109,7 +19109,7 @@
 	)
 	(global_label "PMOD6_4"
 		(shape bidirectional)
-		(at 72.39 203.2 180)
+		(at 71.12 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19119,7 +19119,7 @@
 		)
 		(uuid "f2d4dc6c-aaec-4bd5-ab6f-5c3c52d7e789")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 203.2 0)
+			(at 59.4263 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19131,7 +19131,7 @@
 	)
 	(global_label "DDR3_A13"
 		(shape output)
-		(at 369.57 186.69 0)
+		(at 369.57 189.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19141,7 +19141,7 @@
 		)
 		(uuid "f2e7e9d9-b758-4b14-a7b3-602fdb05f2ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.0499 186.69 0)
+			(at 382.0499 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19153,7 +19153,7 @@
 	)
 	(global_label "RGMII_RXD0"
 		(shape input)
-		(at 214.63 154.94 0)
+		(at 214.63 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19164,7 +19164,7 @@
 		)
 		(uuid "f38c0534-18af-4297-a2b3-c01e58865c56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2188 154.94 0)
+			(at 229.2188 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19198,7 +19198,7 @@
 	)
 	(global_label "PMOD2_4"
 		(shape bidirectional)
-		(at 72.39 121.92 180)
+		(at 71.12 185.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19208,7 +19208,7 @@
 		)
 		(uuid "f9620637-d356-431c-9b82-77c9c327ac41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6963 121.92 0)
+			(at 59.4263 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19220,7 +19220,7 @@
 	)
 	(global_label "PMOD3_3"
 		(shape bidirectional)
-		(at 71.12 139.7 180)
+		(at 72.39 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19230,7 +19230,7 @@
 		)
 		(uuid "faff511c-bf5d-4ea3-861e-1cf7a1d613d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4263 139.7 0)
+			(at 60.6963 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)

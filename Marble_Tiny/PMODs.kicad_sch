@@ -5,7 +5,7 @@
 	(uuid "2a9ce6b2-77bf-43ea-8746-d68b3bef8a22")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x06_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x06_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,7 +21,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x06_Counter_Clockwise"
+			(property "Value" "Conn_02x06_Odd_Even"
 				(at 1.27 -10.16 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x06, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x06_Counter_Clockwise_1_1"
+			(symbol "Conn_02x06_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 6.35)
 					(end 3.81 -8.89)
@@ -239,24 +239,6 @@
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
 					(name "Pin_3"
 						(effects
 							(font
@@ -273,25 +255,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -309,16 +273,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "Pin_6"
+					(name "Pin_7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -327,61 +291,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -399,7 +309,79 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -417,16 +399,34 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
-					(name "Pin_7"
+					(name "Pin_10"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2201,104 +2201,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x06_Counter_Clockwise")
-		(at 210.82 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "091c585c-c2ce-41f7-9867-c9d371dcc021")
-		(property "Reference" "J7"
-			(at 212.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x06_Counter_Clockwise"
-			(at 212.09 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal"
-			(at 210.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x06, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 210.82 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "42076d53-35e1-4956-8cf9-6d2dfe0e8541")
-		)
-		(pin "10"
-			(uuid "8632c708-23fb-4cde-9345-84fd897d8819")
-		)
-		(pin "8"
-			(uuid "39b40326-26cc-480e-9f57-9c38e822788d")
-		)
-		(pin "11"
-			(uuid "1790e9ff-3eaa-45a9-89be-d8b6a6551385")
-		)
-		(pin "9"
-			(uuid "9a7544d7-48a3-4020-b21c-304a43f0cd5d")
-		)
-		(pin "3"
-			(uuid "319ff79a-5902-457b-b1bd-b2b19ed4e3d6")
-		)
-		(pin "6"
-			(uuid "a26828d4-0a0d-4c18-beb6-16975030036d")
-		)
-		(pin "1"
-			(uuid "c9302ac1-347e-4967-ae12-2a3c03f332aa")
-		)
-		(pin "4"
-			(uuid "acaaf229-9cb8-43d1-b093-deba52431074")
-		)
-		(pin "2"
-			(uuid "ae59898f-217a-4c90-9511-e3ccf5a84013")
-		)
-		(pin "5"
-			(uuid "1e7b2cb7-6071-454c-b50c-3749a19651ca")
-		)
-		(pin "12"
-			(uuid "e264c8f5-c33e-4d5b-9013-a7968796118f")
-		)
-		(instances
-			(project "Marble_Tiny"
-				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V0")
 		(at 114.3 63.5 90)
 		(unit 1)
@@ -2358,202 +2260,6 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
 					(reference "#PWR0165")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x06_Counter_Clockwise")
-		(at 119.38 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "104b1197-dd22-4ce8-978f-8c8f1d3fa7dd")
-		(property "Reference" "J5"
-			(at 120.65 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x06_Counter_Clockwise"
-			(at 120.65 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal"
-			(at 119.38 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x06, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 119.38 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7bebcd43-a4ac-4d45-83cc-e7a0b061e3ec")
-		)
-		(pin "10"
-			(uuid "947ba69f-6081-48b5-99de-658c317f0c3b")
-		)
-		(pin "8"
-			(uuid "ca91c907-b555-4296-8c6d-b932054ea8b7")
-		)
-		(pin "11"
-			(uuid "522416fa-8f67-49ac-8bb9-c48694d05ba3")
-		)
-		(pin "9"
-			(uuid "18353457-4248-438a-896b-63e981b40c8f")
-		)
-		(pin "3"
-			(uuid "c3cb191b-22e7-48ae-8772-ce4bf114937b")
-		)
-		(pin "6"
-			(uuid "c515b8cd-b7a6-44d5-b336-5d1218f4699c")
-		)
-		(pin "1"
-			(uuid "26901eff-c308-42ca-b5c3-ce729dccd239")
-		)
-		(pin "4"
-			(uuid "6fcee1a4-81fb-4204-b9d2-7a3ad2f34ea5")
-		)
-		(pin "2"
-			(uuid "53c8a7c1-2091-4c66-8060-bad8e90e95e4")
-		)
-		(pin "5"
-			(uuid "9d8d6c96-bd3f-499d-88d3-d85ead915ab7")
-		)
-		(pin "12"
-			(uuid "aacf5b7b-5416-42f9-aadc-3e575f2913e6")
-		)
-		(instances
-			(project "Marble_Tiny"
-				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x06_Counter_Clockwise")
-		(at 118.11 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17ab66c5-8bba-4e81-aa7c-0b5e7fd1e464")
-		(property "Reference" "J14"
-			(at 119.38 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x06_Counter_Clockwise"
-			(at 119.38 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal"
-			(at 118.11 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x06, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 118.11 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "2edfbc90-9283-4b45-990e-4ae10003b934")
-		)
-		(pin "10"
-			(uuid "343de560-684b-4496-9ebf-0a3886d03947")
-		)
-		(pin "8"
-			(uuid "287de8f7-fb1a-439a-bc86-0387f9590a81")
-		)
-		(pin "11"
-			(uuid "6aaf9b76-ee1f-4083-84f2-f28d6cf00151")
-		)
-		(pin "9"
-			(uuid "04a4e11a-b765-44ef-aa02-953361376d5e")
-		)
-		(pin "3"
-			(uuid "ab201c75-8d38-418e-b9cb-3b7ce92879a4")
-		)
-		(pin "6"
-			(uuid "2af944af-307b-4b54-8202-732b82ca7e17")
-		)
-		(pin "1"
-			(uuid "5f1a0472-c2fa-443e-bb6f-024146f1828d")
-		)
-		(pin "4"
-			(uuid "380cab89-2750-4fce-9ca5-0b00411b9412")
-		)
-		(pin "2"
-			(uuid "0a8bf5f9-5768-49b2-9c6c-9cc57ede283b")
-		)
-		(pin "5"
-			(uuid "2d2fa590-062d-4e16-94db-1d493e594214")
-		)
-		(pin "12"
-			(uuid "b5a72c4d-ae60-45eb-853a-cc699ec2f773")
-		)
-		(instances
-			(project "Marble_Tiny"
-				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
-					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -2886,104 +2592,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x06_Counter_Clockwise")
-		(at 209.55 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45d871d6-d222-4af1-a36a-cb9d7edefae3")
-		(property "Reference" "J15"
-			(at 210.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x06_Counter_Clockwise"
-			(at 210.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal"
-			(at 209.55 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x06, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 209.55 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "acc2b892-2fe0-4d67-8f5a-8a15dae57881")
-		)
-		(pin "10"
-			(uuid "2f73874a-15d0-41ae-9305-effe0a2a5dee")
-		)
-		(pin "8"
-			(uuid "b455b8ea-f2a7-4433-8421-b29d6370c33b")
-		)
-		(pin "11"
-			(uuid "0ea7aa17-3bca-40fa-ad24-4cfed254ce47")
-		)
-		(pin "9"
-			(uuid "8332d885-eecf-46e5-9cb9-721f66b7ec6a")
-		)
-		(pin "3"
-			(uuid "2df68f19-4c4d-4dd9-9e0a-9f440e96f184")
-		)
-		(pin "6"
-			(uuid "4fae8d9a-23a3-4a36-a89f-3a68d69f32a1")
-		)
-		(pin "1"
-			(uuid "f090a5c7-187d-41f5-a959-86cd89480c15")
-		)
-		(pin "4"
-			(uuid "536d0e6b-91a8-40da-8ce9-c0863c252cea")
-		)
-		(pin "2"
-			(uuid "bf3fe1e0-d405-4bdf-a82d-38ffb60d8a36")
-		)
-		(pin "5"
-			(uuid "68ff3809-c4af-4ae8-8fba-8b1257798f0f")
-		)
-		(pin "12"
-			(uuid "bce01c4c-2032-4add-add5-79eae4515a30")
-		)
-		(instances
-			(project "Marble_Tiny"
-				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V0")
 		(at 218.44 95.25 270)
 		(mirror x)
@@ -3109,202 +2717,6 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
 					(reference "#PWR0332")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x06_Counter_Clockwise")
-		(at 119.38 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5dc2c8d2-72a9-4db6-b0cf-601c19a0b753")
-		(property "Reference" "J4"
-			(at 120.65 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x06_Counter_Clockwise"
-			(at 120.65 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal"
-			(at 119.38 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x06, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 119.38 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "d058d573-34aa-4254-9163-b5d9b9dbb97a")
-		)
-		(pin "10"
-			(uuid "c3bbe54e-dd6e-48f6-884c-8b14e58e37f9")
-		)
-		(pin "8"
-			(uuid "4e023a75-2341-4948-aa7b-ae40d505d43f")
-		)
-		(pin "11"
-			(uuid "360466c4-4b1c-4542-96e8-136beca8b8ca")
-		)
-		(pin "9"
-			(uuid "03648c86-5b27-4cfc-8121-ede5d7931a5c")
-		)
-		(pin "3"
-			(uuid "90e9d5bb-ce7d-491d-a875-2106764011e0")
-		)
-		(pin "6"
-			(uuid "d061e5a6-4299-4764-80aa-854fdc217f69")
-		)
-		(pin "1"
-			(uuid "74ddf7a1-f953-4174-83c0-4b65602cb84e")
-		)
-		(pin "4"
-			(uuid "3028f8f4-0918-4678-8e5b-adcc83bd6654")
-		)
-		(pin "2"
-			(uuid "0f022fb0-07a0-4328-9a37-9e7456cbb814")
-		)
-		(pin "5"
-			(uuid "ebb94f45-48e4-4d57-996e-af33487dcc5c")
-		)
-		(pin "12"
-			(uuid "bfff1bd9-f1a8-4406-a0dd-bb9d190e0c47")
-		)
-		(instances
-			(project "Marble_Tiny"
-				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x06_Counter_Clockwise")
-		(at 210.82 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60e38b1c-bf8e-43c9-967b-9b8964f97e1a")
-		(property "Reference" "J6"
-			(at 212.09 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x06_Counter_Clockwise"
-			(at 212.09 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal"
-			(at 210.82 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x06, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 210.82 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "5a602c68-57c7-4163-9dee-8462fdf8a992")
-		)
-		(pin "10"
-			(uuid "a99aee7e-0dcc-4f9c-8c47-ab1745a95ec2")
-		)
-		(pin "8"
-			(uuid "0bbbc5ba-7eb4-4032-a609-f3a6202d79e1")
-		)
-		(pin "11"
-			(uuid "30963655-2eb9-469d-b117-b12a96609db4")
-		)
-		(pin "9"
-			(uuid "47a0fd50-7766-4b34-9b71-a72be5dea12c")
-		)
-		(pin "3"
-			(uuid "16e867a9-f627-4973-9223-4f72d926f0cc")
-		)
-		(pin "6"
-			(uuid "a2dcd4c4-4db8-4a31-985e-e60e7ff82ceb")
-		)
-		(pin "1"
-			(uuid "467f3010-c4ea-4c02-af2d-2fde0b7c6e0c")
-		)
-		(pin "4"
-			(uuid "c5ff5caf-6f60-4f2b-a626-39a72054fd0a")
-		)
-		(pin "2"
-			(uuid "51453363-7772-420f-935b-ae6b06834617")
-		)
-		(pin "5"
-			(uuid "e9ee737d-821e-40a6-a8a7-83ce6599da54")
-		)
-		(pin "12"
-			(uuid "c9e49e77-b8f4-4ce4-ab38-6b0b75035dcd")
-		)
-		(instances
-			(project "Marble_Tiny"
-				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3702,6 +3114,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 209.55 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90043757-8279-4c75-9dcb-c7f098710b85")
+		(property "Reference" "J15"
+			(at 210.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Odd_Even"
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical"
+			(at 209.55 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 209.55 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "3cc46b7a-d4a9-4b35-b76c-13b8c22ebc44")
+		)
+		(pin "7"
+			(uuid "a15429dd-c53a-4c28-85a8-82a6ec8f9555")
+		)
+		(pin "1"
+			(uuid "70a03e7b-1f58-419b-90a9-233f0ce625f1")
+		)
+		(pin "4"
+			(uuid "cfb4f40b-7e5b-4b4b-b61d-7e2ef7486007")
+		)
+		(pin "2"
+			(uuid "9d0009c5-2665-4197-adeb-d977c3271516")
+		)
+		(pin "3"
+			(uuid "a0b457fd-707e-4c28-be10-c36b062c1645")
+		)
+		(pin "11"
+			(uuid "8b129c5c-05a8-4b12-b68c-6f49d4bdddf8")
+		)
+		(pin "8"
+			(uuid "c4970b62-d199-4f87-b3f7-6b41e9b63fb1")
+		)
+		(pin "9"
+			(uuid "6b4f7c1b-2f25-4522-bf1b-e4e07975aea8")
+		)
+		(pin "10"
+			(uuid "a64402fb-fd58-4f1c-8dfd-058533e31a6d")
+		)
+		(pin "12"
+			(uuid "5ca0a24b-08ea-424e-8544-c5b5f1be30f1")
+		)
+		(pin "5"
+			(uuid "9cf41fd3-9d33-473e-974d-0ce59319329c")
+		)
+		(instances
+			(project "Marble_Tiny"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 218.44 92.71 90)
 		(unit 1)
@@ -3892,6 +3402,104 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
 					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 119.38 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b987c0ee-ab3e-4527-ad11-82726403607a")
+		(property "Reference" "J5"
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Odd_Even"
+			(at 120.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal"
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "1bea74db-a1ed-4a3e-93dc-200946a4aa59")
+		)
+		(pin "7"
+			(uuid "5db162fc-ba14-4359-8629-2776c337bcfb")
+		)
+		(pin "1"
+			(uuid "efaea098-9592-42ec-a425-9426e9eea4c3")
+		)
+		(pin "4"
+			(uuid "c4947387-699c-4e8f-a0d0-11db0fabe243")
+		)
+		(pin "2"
+			(uuid "ca37721f-622e-4412-bf41-30e2596b3fdf")
+		)
+		(pin "3"
+			(uuid "c62c7756-33ef-40ac-86dc-820b30dabfa5")
+		)
+		(pin "11"
+			(uuid "95f2d931-967e-4ff7-a625-ad52e264cb09")
+		)
+		(pin "8"
+			(uuid "50893cbc-13a1-4317-ad97-498c3ca064f5")
+		)
+		(pin "9"
+			(uuid "119fcf34-896a-4fff-b3a1-fd573537dcff")
+		)
+		(pin "10"
+			(uuid "6f1890a7-dd14-4c6c-b82f-a3905a305d8c")
+		)
+		(pin "12"
+			(uuid "60936b4a-584e-4b4b-a457-8a52fc75543b")
+		)
+		(pin "5"
+			(uuid "b863ebe0-359a-4a58-aacf-6858106f1b94")
+		)
+		(instances
+			(project "Marble_Tiny"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4094,6 +3702,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 118.11 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d26e0402-4244-4f52-97f7-9a7e0b7cb8d0")
+		(property "Reference" "J14"
+			(at 119.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Odd_Even"
+			(at 119.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical"
+			(at 118.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 118.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "024e8ea7-ab0d-4724-ab49-e473599d3362")
+		)
+		(pin "7"
+			(uuid "0896b8f3-f0ad-47b0-a06d-dc736c4eb40b")
+		)
+		(pin "1"
+			(uuid "4cce8ea5-7f31-418c-b8e6-039134632475")
+		)
+		(pin "4"
+			(uuid "39f19156-0c13-4425-be85-51efabb5ec2d")
+		)
+		(pin "2"
+			(uuid "2ef75c34-2532-41d2-96c3-f052aa41c7ba")
+		)
+		(pin "3"
+			(uuid "7826570c-6f7c-4fc5-b8da-31caab87bf77")
+		)
+		(pin "11"
+			(uuid "f389cc8f-741f-49f4-a802-d57dba54ca41")
+		)
+		(pin "8"
+			(uuid "50ef34f1-1b97-4937-ad4b-90b0392666f8")
+		)
+		(pin "9"
+			(uuid "804e96c7-bcb8-4643-bd5e-aad04169d78d")
+		)
+		(pin "10"
+			(uuid "0b1f6980-bb0b-4634-b0bc-279d89081c1b")
+		)
+		(pin "12"
+			(uuid "e2c91f4f-0bc2-42d0-a6c7-7ff43140cf73")
+		)
+		(pin "5"
+			(uuid "2acde082-bbe2-43e4-bdde-063adfa1e6a8")
+		)
+		(instances
+			(project "Marble_Tiny"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 123.19 270)
 		(unit 1)
@@ -4153,6 +3859,104 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
 					(reference "#PWR0330")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 119.38 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e15999aa-3a5a-430c-a009-4829052c446e")
+		(property "Reference" "J4"
+			(at 120.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Odd_Even"
+			(at 120.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal"
+			(at 119.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 119.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "e5b7e469-b4af-4e40-9a8b-b4826125fcf0")
+		)
+		(pin "7"
+			(uuid "1895d829-5e07-4116-94e2-0386f32ca4f9")
+		)
+		(pin "1"
+			(uuid "58e2f724-af9a-4e91-a660-7b2b21188027")
+		)
+		(pin "4"
+			(uuid "16a2e8b0-4a68-4193-8ef8-b69fc2a193e6")
+		)
+		(pin "2"
+			(uuid "0562ffad-1ff3-44c0-823e-044bf382ced1")
+		)
+		(pin "3"
+			(uuid "4475323a-1841-4c0e-bc84-75a024bb262e")
+		)
+		(pin "11"
+			(uuid "24132811-9a10-455a-af37-3b498f93649a")
+		)
+		(pin "8"
+			(uuid "b5a6ebb6-12dd-45c6-b0d5-7e1a9e98f57d")
+		)
+		(pin "9"
+			(uuid "f1246e0f-28ad-4b80-8851-f9c415538d19")
+		)
+		(pin "10"
+			(uuid "4a59eb48-8a01-45db-95e8-f1a82a8b19d9")
+		)
+		(pin "12"
+			(uuid "184d3ead-8476-49f8-bdd4-7518826c28df")
+		)
+		(pin "5"
+			(uuid "e93050a5-9dac-4551-bc94-13ed57dad3bf")
+		)
+		(instances
+			(project ""
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4219,6 +4023,202 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
 					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 210.82 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec3e629b-44bc-4647-a42c-fe74b758ae7f")
+		(property "Reference" "J6"
+			(at 212.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Odd_Even"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal"
+			(at 210.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 210.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "fa907c8c-0e58-48fe-9b4b-32d84f4fee95")
+		)
+		(pin "7"
+			(uuid "890e26eb-465c-4fda-b4be-a98327cba295")
+		)
+		(pin "1"
+			(uuid "fb9dce3b-88cc-4487-83e7-bc731170b312")
+		)
+		(pin "4"
+			(uuid "e21d460a-7c1c-414b-a5b1-1d2dab6d0495")
+		)
+		(pin "2"
+			(uuid "bf8ea513-87ac-4216-9657-94284305afde")
+		)
+		(pin "3"
+			(uuid "e0a56e13-64b7-4bae-9bfe-9c7af6e1d8c6")
+		)
+		(pin "11"
+			(uuid "6a115e5c-8353-4871-8691-c5297ebd8f86")
+		)
+		(pin "8"
+			(uuid "bec5a86c-2675-4ad6-8ad6-8d1120188916")
+		)
+		(pin "9"
+			(uuid "29c7a6e7-1116-40cd-9d70-103b7a8fde46")
+		)
+		(pin "10"
+			(uuid "82cd121c-c57e-4719-b95a-1f2c9113fddd")
+		)
+		(pin "12"
+			(uuid "b5677a1e-feb6-4e6a-8d35-7777f8a56461")
+		)
+		(pin "5"
+			(uuid "d4a62f8c-dbd6-4334-9341-bed75a559be4")
+		)
+		(instances
+			(project "Marble_Tiny"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 210.82 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eed0df65-7f2e-4529-9533-a45eae02c4f7")
+		(property "Reference" "J7"
+			(at 212.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Odd_Even"
+			(at 212.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal"
+			(at 210.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 210.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "a41938ce-b672-4e4d-86ff-f8f08c00ef30")
+		)
+		(pin "7"
+			(uuid "f3da2b78-b735-4ee0-8a75-2085d769789a")
+		)
+		(pin "1"
+			(uuid "895067ad-84c7-43de-bd0c-0617c1124aa2")
+		)
+		(pin "4"
+			(uuid "1f99cb4e-1254-4c0e-894c-3d1b1eb6bc84")
+		)
+		(pin "2"
+			(uuid "4da68cd2-a033-4e04-bc34-efe6593e3375")
+		)
+		(pin "3"
+			(uuid "3d576234-e043-47b3-b1de-67e9de47f1ee")
+		)
+		(pin "11"
+			(uuid "b199be76-eaa2-459e-ae98-fac10e22f2c9")
+		)
+		(pin "8"
+			(uuid "58484380-f685-4773-9283-5ac11db84d9e")
+		)
+		(pin "9"
+			(uuid "3defcbae-f841-4ced-b8ec-eb5e7d9b44e4")
+		)
+		(pin "10"
+			(uuid "cf00d517-1895-418b-9fe9-b0c250fdd774")
+		)
+		(pin "12"
+			(uuid "7f94b198-7c1a-48bb-9367-46e532567de3")
+		)
+		(pin "5"
+			(uuid "c4a146ea-2de7-41a5-81f3-ee1127f76a3f")
+		)
+		(instances
+			(project "Marble_Tiny"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "J7")
 					(unit 1)
 				)
 			)

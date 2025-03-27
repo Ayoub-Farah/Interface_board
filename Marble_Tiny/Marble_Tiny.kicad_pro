@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1e-06,
+          "width": 1e-06
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.26,
+          "via_gap": 0.26,
+          "width": 0.14
         }
       ],
       "drc_exclusions": [],
@@ -127,7 +132,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.127,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -188,7 +193,11 @@
       ],
       "track_widths": [
         0.0,
-        0.127
+        0.127,
+        0.2,
+        0.3,
+        0.4,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -495,19 +504,51 @@
       },
       {
         "clearance": 0.127,
-        "name": "DRAM",
+        "name": "ARDUINO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.4,
         "via_drill": 0.2
       },
       {
+        "name": "DDRA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDRLD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDRUD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "clearance": 0.127,
+        "diff_pair_gap": 0.26,
+        "diff_pair_width": 0.12,
+        "name": "DRAM",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13,
+        "via_diameter": 0.4,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.127,
+        "diff_pair_gap": 0.26,
+        "diff_pair_width": 0.14,
         "name": "MGT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.4,
@@ -517,9 +558,9 @@
         "clearance": 0.127,
         "name": "PMOD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.14,
         "via_diameter": 0.4,
         "via_drill": 0.2
       },
@@ -527,7 +568,7 @@
         "clearance": 0.127,
         "name": "RGMII",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.4,
@@ -538,7 +579,149 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "DDR3_A0": [
+        "DDRA"
+      ],
+      "DDR3_A1": [
+        "DDRA"
+      ],
+      "DDR3_A10": [
+        "DDRA"
+      ],
+      "DDR3_A11": [
+        "DDRA"
+      ],
+      "DDR3_A12": [
+        "DDRA"
+      ],
+      "DDR3_A13": [
+        "DDRA"
+      ],
+      "DDR3_A2": [
+        "DDRA"
+      ],
+      "DDR3_A3": [
+        "DDRA"
+      ],
+      "DDR3_A4": [
+        "DDRA"
+      ],
+      "DDR3_A5": [
+        "DDRA"
+      ],
+      "DDR3_A6": [
+        "DDRA"
+      ],
+      "DDR3_A7": [
+        "DDRA"
+      ],
+      "DDR3_A8": [
+        "DDRA"
+      ],
+      "DDR3_A9": [
+        "DDRA"
+      ],
+      "DDR3_BA0": [
+        "DDRA"
+      ],
+      "DDR3_BA1": [
+        "DDRA"
+      ],
+      "DDR3_BA2": [
+        "DDRA"
+      ],
+      "DDR3_CAS": [
+        "DDRA"
+      ],
+      "DDR3_CE": [
+        "DDRA"
+      ],
+      "DDR3_CKE0": [
+        "DDRA"
+      ],
+      "DDR3_CLK_N": [
+        "DDRA"
+      ],
+      "DDR3_CLK_P": [
+        "DDRA"
+      ],
+      "DDR3_D0": [
+        "DDRLD"
+      ],
+      "DDR3_D1": [
+        "DDRLD"
+      ],
+      "DDR3_D10": [
+        "DDRUD"
+      ],
+      "DDR3_D11": [
+        "DDRUD"
+      ],
+      "DDR3_D12": [
+        "DDRUD"
+      ],
+      "DDR3_D13": [
+        "DDRUD"
+      ],
+      "DDR3_D14": [
+        "DDRUD"
+      ],
+      "DDR3_D15": [
+        "DDRUD"
+      ],
+      "DDR3_D2": [
+        "DDRLD"
+      ],
+      "DDR3_D3": [
+        "DDRLD"
+      ],
+      "DDR3_D4": [
+        "DDRLD"
+      ],
+      "DDR3_D5": [
+        "DDRLD"
+      ],
+      "DDR3_D6": [
+        "DDRLD"
+      ],
+      "DDR3_D7": [
+        "DDRLD"
+      ],
+      "DDR3_D8": [
+        "DDRUD"
+      ],
+      "DDR3_D9": [
+        "DDRUD"
+      ],
+      "DDR3_DM0": [
+        "DDRLD"
+      ],
+      "DDR3_DM1": [
+        "DDRUD"
+      ],
+      "DDR3_DQS0_N": [
+        "DDRLD"
+      ],
+      "DDR3_DQS0_P": [
+        "DDRLD"
+      ],
+      "DDR3_DQS1_N": [
+        "DDRUD"
+      ],
+      "DDR3_DQS1_P": [
+        "DDRUD"
+      ],
+      "DDR3_ODT": [
+        "DDRA"
+      ],
+      "DDR3_RAS": [
+        "DDRA"
+      ],
+      "DDR3_WE": [
+        "DDRA"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "DRAM",
@@ -555,6 +738,10 @@
       {
         "netclass": "MGT",
         "pattern": "MGT*"
+      },
+      {
+        "netclass": "ARDUINO",
+        "pattern": "ARDUINO*"
       }
     ]
   },
