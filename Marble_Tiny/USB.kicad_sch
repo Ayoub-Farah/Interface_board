@@ -10826,6 +10826,14 @@
 					(hide yes)
 				)
 			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Val" "2k2"
 				(at 3.81 -1.778 0)
 				(effects
@@ -11239,15 +11247,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(text "1%"
-					(at 3.81 0 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-						(hide yes)
 					)
 				)
 				(pin passive line
@@ -13942,7 +13941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " "
+		(property "Datasheet" ""
 			(at 121.92 114.3 0)
 			(effects
 				(font
@@ -25874,7 +25873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a602aed-01c2-4210-9267-6ac735464ccc")
-		(property "Reference" "IC2"
+		(property "Reference" "U22"
 			(at 134.366 71.12 0)
 			(effects
 				(font
@@ -26327,7 +26326,7 @@
 		(instances
 			(project ""
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/62565c75-62b0-4544-832f-1275174835af"
-					(reference "IC2")
+					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -27636,7 +27635,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aeb3a6d7-1cb2-465c-b312-b0d23a3313fd")
-		(property "Reference" "IC1"
+		(property "Reference" "U21"
 			(at 201.93 24.13 0)
 			(effects
 				(font
@@ -28260,7 +28259,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/62565c75-62b0-4544-832f-1275174835af"
-					(reference "IC1")
+					(reference "U21")
 					(unit 1)
 				)
 			)

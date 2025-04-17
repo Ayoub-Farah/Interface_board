@@ -3,16 +3,16 @@
 (rule "zdiff_100R_outer"
 	(layer outer)
 	(constraint track_width (min 0.14mm) (max 0.18mm) (opt 0.14mm) )
-	(constraint diff_pair_gap (min 0.26mm) ( max 1mm) (opt 0.26mm) )
-	(constraint diff_pair_uncoupled (max 5mm) )
+	(constraint diff_pair_gap (min 0.16mm) ( max 1.5mm) (opt 0.26mm) )
+	(constraint diff_pair_uncoupled (max 11mm) )
 	(condition "A.inDiffPair('*')" )
 )
 
 (rule "zdiff_100R_inner"
 	(layer inner)
 	(constraint track_width (min 0.12mm) (max 0.13mm) (opt 0.12mm) )
-	(constraint diff_pair_gap (min 0.22mm) ( max 1mm) (opt 0.22mm) )
-	(constraint diff_pair_uncoupled (max 5mm) )
+	(constraint diff_pair_gap (min 0.11mm) ( max 1.5mm) (opt 0.22mm) )
+	(constraint diff_pair_uncoupled (max 11mm) )
 	(condition  "A.inDiffPair('*')")
 )
 
@@ -24,6 +24,21 @@
 
 (rule "zse_50R_inner"
 	(layer inner)
-	(constraint track_width (min 0.13mm) (max 1mm) (opt 0.13mm) )
-	(condition "A.NetClass == 'DRAMr' " )
+	(constraint track_width (min 0.12mm) (max 1mm) (opt 0.13mm) )
+	(condition "A.NetClass == 'DRAM' " )
+)
+
+(rule "length_DDR_CMD_FPGA_To_U2"
+#	(constraint length (min 39mm) (max 40mm) (opt 39.5mm) )
+	(condition "A.NetClass == 'DDRA'")
+)
+
+(rule "length_DDR_Byte0"
+#	(constraint length (min 29.5mm) (max 30.5mm) (opt 30mm))
+	(condition "A.NetClass == 'DDRLD'")
+)
+
+(rule "length_DDR_Byte1"
+#	(constraint length (min 29.5mm) (max 30.5mm) (opt 30mm))
+	(condition "A.NetClass == 'DDRUD'")
 )

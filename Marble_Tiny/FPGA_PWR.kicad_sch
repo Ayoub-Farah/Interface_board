@@ -9248,6 +9248,14 @@
 					(hide yes)
 				)
 			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Val" "100"
 				(at 3.81 -1.778 0)
 				(effects
@@ -9661,15 +9669,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(text "1%"
-					(at 3.81 0 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-						(hide yes)
 					)
 				)
 				(pin passive line

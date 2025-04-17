@@ -1643,6 +1643,14 @@
 					(hide yes)
 				)
 			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Val" "25MHz"
 				(at 5.08 -11.43 0)
 				(effects
@@ -2111,15 +2119,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(text "GND"
-					(at 7.62 -5.08 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(hide yes)
 					)
 				)
 				(pin passive line
@@ -2761,6 +2760,150 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field6" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field7" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field8" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field9" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field10" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field11" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field12" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field13" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field14" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field15" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field16" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field17" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field18" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field19" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field20" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field21" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field22" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "Part Number" "BELFUSE_0826-1G1T-43-F"
@@ -5720,184 +5863,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(text "Green"
-					(at 16.51 52.07 900)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-						(hide yes)
-					)
-				)
-				(text "Green"
-					(at 16.51 3.81 900)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-						(hide yes)
-					)
-				)
-				(text "TRP4-"
-					(at 30.48 44.45 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
-					)
-				)
-				(text "TRP4+"
-					(at 30.48 39.37 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
-					)
-				)
-				(text "TRP3-"
-					(at 30.48 34.29 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
-					)
-				)
-				(text "TRP3+"
-					(at 30.48 29.21 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
-					)
-				)
-				(text "TRP2-"
-					(at 30.48 24.13 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
-					)
-				)
-				(text "TRP2+"
-					(at 30.48 19.05 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
-					)
-				)
-				(text "TRP1-"
-					(at 30.48 13.97 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
-					)
-				)
-				(text "TRP1+"
-					(at 30.48 8.89 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
-					)
-				)
-				(text "8"
-					(at 39.37 45.72 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
-					)
-				)
-				(text "7"
-					(at 39.37 40.64 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
-					)
-				)
-				(text "6"
-					(at 39.37 35.56 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
-					)
-				)
-				(text "5"
-					(at 39.37 30.48 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
-					)
-				)
-				(text "4"
-					(at 39.37 25.4 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
-					)
-				)
-				(text "3"
-					(at 39.37 20.32 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
-					)
-				)
-				(text "2"
-					(at 39.37 15.24 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
-					)
-				)
-				(text "1"
-					(at 39.37 10.16 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-						(hide yes)
 					)
 				)
 				(pin passive line

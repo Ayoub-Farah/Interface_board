@@ -10556,7 +10556,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0493a234-065d-4c41-855f-308de1f06c38")
-		(property "Reference" "IC4"
+		(property "Reference" "U26"
 			(at 336.55 172.72 0)
 			(effects
 				(font
@@ -11036,7 +11036,7 @@
 		(instances
 			(project ""
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/f19bf9c4-473e-4b3f-a56f-356b0388d57c"
-					(reference "IC4")
+					(reference "U26")
 					(unit 1)
 				)
 			)

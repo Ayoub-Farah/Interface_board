@@ -2117,6 +2117,104 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FPGA_Xilinx_Artix7:XC7A35T-CSG325"
 			(pin_names
 				(offset 1.016)
@@ -10661,6 +10759,30 @@
 					(hide yes)
 				)
 			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field6" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Field7" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Part Number" "BSS138LT1G"
 				(at 0 -13.208 0)
 				(effects
@@ -11245,36 +11367,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(text "G"
-					(at 0.762 0 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-						(justify left bottom)
-						(hide yes)
-					)
-				)
-				(text "D"
-					(at 5.08 5.334 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-						(justify left top)
-						(hide yes)
-					)
-				)
-				(text "S"
-					(at 5.08 -2.794 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-						(justify left bottom)
-						(hide yes)
 					)
 				)
 				(pin passive line
@@ -12041,6 +12133,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 229.87) (xy 191.77 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0252f500-4dd9-4144-adfb-fbd2028cddfe")
+	)
+	(wire
+		(pts
 			(xy 350.52 107.95) (xy 369.57 107.95)
 		)
 		(stroke
@@ -12518,6 +12620,16 @@
 			(type default)
 		)
 		(uuid "3a5ae08a-14e0-4056-b393-6731ac889d9d")
+	)
+	(wire
+		(pts
+			(xy 190.5 229.87) (xy 191.77 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a89dfcf-fef4-42d4-bee9-b6c28c0fc824")
 	)
 	(wire
 		(pts
@@ -13381,16 +13493,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 234.95) (xy 212.09 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c7449c-3631-4a8a-b9f8-79eeee383bf1")
-	)
-	(wire
-		(pts
 			(xy 71.12 182.88) (xy 90.17 182.88)
 		)
 		(stroke
@@ -14051,6 +14153,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 234.95) (xy 212.09 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6bdbaa3-e5b6-46a8-a7f7-fcfab56f8588")
+	)
+	(wire
+		(pts
 			(xy 350.52 166.37) (xy 369.57 166.37)
 		)
 		(stroke
@@ -14178,6 +14290,16 @@
 			(type default)
 		)
 		(uuid "e44c1330-dd27-4ee2-a4a4-1989f13099ac")
+	)
+	(wire
+		(pts
+			(xy 191.77 232.41) (xy 203.2 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6728f1b-9d87-4903-bea6-ce7414220d45")
 	)
 	(wire
 		(pts
@@ -14328,16 +14450,6 @@
 			(type default)
 		)
 		(uuid "f6a748c9-7ff5-4aab-ad4f-eeca2ea2d570")
-	)
-	(wire
-		(pts
-			(xy 193.04 232.41) (xy 203.2 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6fe6b1e-5f63-4b36-a515-3a00a1c33453")
 	)
 	(wire
 		(pts
@@ -20190,7 +20302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09a44a99-e50c-4738-9af2-211065f6cbf7")
-		(property "Reference" "B6"
+		(property "Reference" "U28"
 			(at 139.7 229.87 0)
 			(effects
 				(font
@@ -20342,7 +20454,74 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/26bc6f09-ebb0-4c32-8a32-ec70c3f97c4f"
-					(reference "B6")
+					(reference "U28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:TestPoint")
+		(at 190.5 234.95 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b975c65-6c45-4d14-82bc-0a67621f2e72")
+		(property "Reference" "TP2"
+			(at 185.674 235.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 190.246 237.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 190.5 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4251cab-3ab6-46d7-b9ff-7b01af6a71b2")
+		)
+		(instances
+			(project "Marble_Tiny"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/26bc6f09-ebb0-4c32-8a32-ec70c3f97c4f"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -32653,6 +32832,73 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/26bc6f09-ebb0-4c32-8a32-ec70c3f97c4f"
 					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:TestPoint")
+		(at 190.5 229.87 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a532c2bf-2ed7-4d43-9d44-e82472724031")
+		(property "Reference" "TP3"
+			(at 185.674 230.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 190.246 232.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 190.5 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cb6e6f2-1683-4e11-8139-9b076939e1dd")
+		)
+		(instances
+			(project "Marble_Tiny"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/26bc6f09-ebb0-4c32-8a32-ec70c3f97c4f"
+					(reference "TP3")
 					(unit 1)
 				)
 			)

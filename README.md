@@ -7,6 +7,8 @@ either stand-alone or as an I/O expansion board for [Marble](https://github.com/
 
 The design files here were created with [KiCad](https://www.kicad.org/) version 9.0.0-rc3.
 
+![Marble_Tiny](Marble_Tiny/3Drender.JPG)
+
 ## Major Parts
 
 - Xilinx XC7A50T-1CSG325C FPGA
