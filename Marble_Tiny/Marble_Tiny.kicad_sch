@@ -506,10 +506,6 @@
 		(uuid "55eab4a9-53cd-43a2-94fa-3dc5a6411b8d")
 	)
 	(no_connect
-		(at 163.83 241.3)
-		(uuid "6a9a2273-ea82-4656-bef0-d174580a60b3")
-	)
-	(no_connect
 		(at 177.8 245.11)
 		(uuid "9b5cb50c-56ee-446a-a5c3-b986e04ab23d")
 	)

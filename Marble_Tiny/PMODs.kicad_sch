@@ -3194,7 +3194,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "645d5e1c-6216-46af-8f71-d94425b5c8a3")
+		(uuid "645d5e1c-6216-46af-8f71-d94425b5c8a4")
 		(property "Reference" "J15"
 			(at 210.82 106.68 0)
 			(effects
@@ -3239,40 +3239,40 @@
 			)
 		)
 		(pin "10"
-			(uuid "5d852cc6-858b-4a09-adbb-9192422ec686")
+			(uuid "5d852cc6-858b-4a09-adbb-9192422ec687")
 		)
 		(pin "11"
-			(uuid "7b1127c8-df16-41a3-b3ed-481869a9a1ee")
+			(uuid "7b1127c8-df16-41a3-b3ed-481869a9a1ef")
 		)
 		(pin "7"
-			(uuid "37ed8e45-39b4-4028-9918-d2fbaa85b289")
+			(uuid "37ed8e45-39b4-4028-9918-d2fbaa85b28a")
 		)
 		(pin "12"
-			(uuid "3f2c3f58-cb48-4c84-aa75-dcbb487ff1c8")
+			(uuid "3f2c3f58-cb48-4c84-aa75-dcbb487ff1c9")
 		)
 		(pin "6"
-			(uuid "55bfa0ea-e590-43ea-9497-aff9f3aa5ee6")
+			(uuid "55bfa0ea-e590-43ea-9497-aff9f3aa5ee7")
 		)
 		(pin "5"
-			(uuid "43fde585-a5ee-4153-abda-f2b75a0b6b9e")
+			(uuid "43fde585-a5ee-4153-abda-f2b75a0b6b9f")
 		)
 		(pin "8"
-			(uuid "c83bd38d-efed-4450-821b-e1234fac8872")
+			(uuid "c83bd38d-efed-4450-821b-e1234fac8873")
 		)
 		(pin "9"
-			(uuid "40d91efb-cd4b-42a1-997e-81c26031112d")
+			(uuid "40d91efb-cd4b-42a1-997e-81c26031112e")
 		)
 		(pin "4"
-			(uuid "949a08ee-aa15-4a0e-bd6e-19dbafb562d4")
+			(uuid "949a08ee-aa15-4a0e-bd6e-19dbafb562d5")
 		)
 		(pin "1"
-			(uuid "382010b0-cf3e-4cf4-8209-b80e362aa21f")
+			(uuid "382010b0-cf3e-4cf4-8209-b80e362aa220")
 		)
 		(pin "2"
-			(uuid "a08d98b2-bcce-479b-96a2-2232a97bb2be")
+			(uuid "a08d98b2-bcce-479b-96a2-2232a97bb2bf")
 		)
 		(pin "3"
-			(uuid "4b2848dd-b438-4ca0-bfe1-d832c9adb3b3")
+			(uuid "4b2848dd-b438-4ca0-bfe1-d832c9adb3b4")
 		)
 		(instances
 			(project "Marble_Tiny"

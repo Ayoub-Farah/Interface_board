@@ -624,6 +624,9 @@
       "DDR3_A13": [
         "DDRA"
       ],
+      "DDR3_A14": [
+        "DDRA"
+      ],
       "DDR3_A2": [
         "DDRA"
       ],
@@ -1684,7 +1687,7 @@
   ],
   "text_variables": {
     "author": "Michal Gaska",
-    "name": " Talc A35T",
+    "name": "Obsidian A35",
     "rev": "1.0.0"
   }
 }

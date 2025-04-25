@@ -12821,6 +12821,12 @@
 		(uuid "ed024749-ddd0-4ea8-89c0-3d7114b53c20")
 	)
 	(junction
+		(at 165.1 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edf60124-1f3f-4813-8bf5-75f7a59e92ff")
+	)
+	(junction
 		(at 232.41 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13880,16 +13886,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 114.3) (xy 161.29 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87679627-e801-4909-a9ca-b634f7a2a1f8")
-	)
-	(wire
-		(pts
 			(xy 107.95 175.26) (xy 115.57 175.26)
 		)
 		(stroke
@@ -13897,6 +13893,16 @@
 			(type default)
 		)
 		(uuid "882654f7-4182-4f30-9357-15c9af198a29")
+	)
+	(wire
+		(pts
+			(xy 156.21 114.3) (xy 165.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "892c926e-a4e6-48d7-9086-9bae29a53475")
 	)
 	(wire
 		(pts
@@ -14390,16 +14396,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 114.3) (xy 184.15 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b873429c-1e91-46aa-b187-808dfbd4611e")
-	)
-	(wire
-		(pts
 			(xy 135.89 25.4) (xy 142.24 25.4)
 		)
 		(stroke
@@ -14467,6 +14463,16 @@
 			(type default)
 		)
 		(uuid "be783f2a-eaa3-4f5a-ae12-6c2e5cf14fc6")
+	)
+	(wire
+		(pts
+			(xy 165.1 114.3) (xy 184.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19ccdae-d3b1-4c8e-ad24-809771cdec39")
 	)
 	(wire
 		(pts
@@ -15297,6 +15303,30 @@
 		(uuid "4332a335-d882-4b99-a724-6a6203c863c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 165.9853 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCXO_EN"
+		(shape input)
+		(at 156.21 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "5e6d2655-0422-4093-9da2-7e93b0c83383")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.4031 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17728,7 +17758,7 @@
 	)
 	(symbol
 		(lib_id "marble_misc:+3V3_CLEAN")
-		(at 156.21 114.3 0)
+		(at 165.1 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17736,7 +17766,7 @@
 		(dnp no)
 		(uuid "10a15e90-7f41-415d-b7f0-422570360ecf")
 		(property "Reference" "#PWR0342"
-			(at 156.21 118.11 0)
+			(at 165.1 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17745,7 +17775,7 @@
 			)
 		)
 		(property "Value" "+3V3_CLEAN"
-			(at 149.098 110.49 0)
+			(at 157.988 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17754,7 +17784,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 114.3 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17763,7 +17793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 114.3 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17772,7 +17802,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 114.3 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22885,7 +22915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31693c08-cf97-403a-ab99-e638a4d67665")
-		(property "Reference" "Q3"
+		(property "Reference" "Y6"
 			(at 172.7835 128.27 0)
 			(effects
 				(font
@@ -23325,7 +23355,7 @@
 		(instances
 			(project ""
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/5616fdd5-5e68-4790-9d2c-4053b9f7c732"
-					(reference "Q3")
+					(reference "Y6")
 					(unit 1)
 				)
 			)
@@ -35210,6 +35240,463 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/5616fdd5-5e68-4790-9d2c-4053b9f7c732"
 					(reference "#PWR0259")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors SMD:R0402_10K_1%_0.0625W_100PPM")
+		(at 165.1 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a9c03e5-59d8-4e55-a082-74af9941d12e")
+		(property "Reference" "R176"
+			(at 163.322 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0402_10K_1%_0.0625W_100PPM"
+			(at 170.053 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
+			(at 171.958 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 173.863 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Val" "10k"
+			(at 166.878 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 175.768 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Ref" "Resistor - 1%"
+			(at 177.673 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Path" "SchLib\\Resistors.SchLib"
+			(at 179.578 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Comment" "10k"
+			(at 181.483 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 183.388 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 185.293 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" " "
+			(at 187.198 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 189.103 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
+			(at 191.008 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Ref" "RESC1005X40N"
+			(at 192.913 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Not Recommended"
+			(at 194.818 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.0625W"
+			(at 196.723 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 198.628 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" " "
+			(at 200.533 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 202.438 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 204.343 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 206.248 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 208.153 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 210.058 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 211.963 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" " "
+			(at 213.868 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 215.773 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" " "
+			(at 217.678 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 219.583 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 221.488 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" " "
+			(at 223.393 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
+			(at 225.298 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "232270671003L"
+			(at 227.203 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
+			(at 229.108 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 231.013 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM JLC"
+			(at 232.918 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "12/03/07 00:00:00"
+			(at 234.823 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
+			(at 236.728 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors"
+			(at 238.633 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Name" "Resistors SMD"
+			(at 240.538 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 242.443 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "License" "CC-BY-SA 4.0"
+			(at 244.348 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5554967e-aff8-416d-9b4f-5bc0da1b1acc")
+		)
+		(pin "2"
+			(uuid "1e8c1d38-0792-4038-ac11-7cf9fcb159db")
+		)
+		(instances
+			(project "Marble_Tiny"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/5616fdd5-5e68-4790-9d2c-4053b9f7c732"
+					(reference "R176")
 					(unit 1)
 				)
 			)
@@ -48114,445 +48601,6 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/5616fdd5-5e68-4790-9d2c-4053b9f7c732"
 					(reference "#PWR0198")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistors_SMD:R0402_0R_JUMPER")
-		(at 161.29 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb11e8bc-da29-4810-bcac-82474d526879")
-		(property "Reference" "R153"
-			(at 160.02 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R0402_0R_JUMPER"
-			(at 161.29 119.634 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "RESC1005X40N"
-			(at 161.29 140.208 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 161.29 124.206 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "~" "0"
-			(at 168.91 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "R0402_0R_JUMPER"
-			(at 161.29 126.492 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Library Ref" "Resistor"
-			(at 161.29 128.778 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Library Path" "SchLib\\Resistors.SchLib"
-			(at 161.29 131.064 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Comment" "=Value"
-			(at 161.29 133.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 161.29 135.636 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 161.29 137.922 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" " "
-			(at 161.29 142.494 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 161.29 144.78 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
-			(at 161.29 147.066 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint Ref" "RESC1005X40N"
-			(at 161.29 149.352 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Val" "0"
-			(at 161.29 151.638 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Not Recommended"
-			(at 161.29 153.924 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Power" " "
-			(at 161.29 156.21 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "TC" " "
-			(at 161.29 158.496 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Voltage" " "
-			(at 161.29 160.782 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" " "
-			(at 161.29 163.068 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "1A (0.05R Max DC Resistance) Zero Ohm Jumper"
-			(at 161.29 165.354 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 161.29 167.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "R0402_0R_JUMPER"
-			(at 161.29 169.926 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case" "0402"
-			(at 161.29 172.212 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PressFit" "No"
-			(at 161.29 174.498 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 161.29 176.784 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" " "
-			(at 161.29 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 161.29 181.356 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" " "
-			(at 161.29 183.642 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 161.29 185.928 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 161.29 188.214 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" " "
-			(at 161.29 190.5 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 161.29 192.786 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "232270591001L"
-			(at 161.29 195.072 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 161.29 197.358 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Author" ""
-			(at 161.29 201.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "12/03/07 00:00:00"
-			(at 161.29 204.216 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "10/17/12 00:00:00"
-			(at 161.29 206.502 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Library Name" "Resistors SMD"
-			(at 161.29 208.788 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "License" "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics."
-			(at 161.29 211.074 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7810e4ca-f524-432f-8798-9f972d0cba37")
-		)
-		(pin "2"
-			(uuid "0aeda9ba-c8b5-44c9-9dbf-f7928f877742")
-		)
-		(instances
-			(project "Marble_Tiny"
-				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/5616fdd5-5e68-4790-9d2c-4053b9f7c732"
-					(reference "R153")
 					(unit 1)
 				)
 			)
