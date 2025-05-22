@@ -3204,10 +3204,6 @@
 		(uuid "08fb1b6f-168f-430a-a6b7-7b23b690eafc")
 	)
 	(no_connect
-		(at 151.13 74.93)
-		(uuid "80efd48c-252b-4b4c-a491-10e94f025c81")
-	)
-	(no_connect
 		(at 151.13 80.01)
 		(uuid "910cdcb3-2ff6-4c9c-b80d-eee128678b13")
 	)
@@ -3654,6 +3650,16 @@
 			(type default)
 		)
 		(uuid "d9f4a95a-43e5-43b6-8376-345f52c2cbbf")
+	)
+	(wire
+		(pts
+			(xy 151.13 74.93) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1f1313-b53f-4589-8b94-f0d64aa1e0dc")
 	)
 	(wire
 		(pts
@@ -7745,7 +7751,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "62f8afab-f3ed-4b9f-9d29-05ed7a1a4794")
 		(property "Reference" "#PWR0295"
 			(at 135.89 63.5 0)
@@ -7757,7 +7762,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 135.89 54.61 0)
+			(at 134.366 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7798,6 +7803,71 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
 					(reference "#PWR0295")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 157.48 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fae63b2-1540-461d-9a1f-a3a3e7a24797")
+		(property "Reference" "#PWR0352"
+			(at 157.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_P"
+			(at 157.734 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "556e2ed7-ee54-4ad5-87b3-ffb428199e3b")
+		)
+		(instances
+			(project "Marble_Tiny"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
+					(reference "#PWR0352")
 					(unit 1)
 				)
 			)
@@ -11476,7 +11546,7 @@
 			)
 		)
 		(property "Value" "+3V3_P"
-			(at 141.224 56.134 0)
+			(at 142.494 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)

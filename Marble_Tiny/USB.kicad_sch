@@ -12053,10 +12053,6 @@
 		(uuid "8e1a7f21-43de-47d7-9083-aa3fb0210937")
 	)
 	(no_connect
-		(at 222.25 80.01)
-		(uuid "8e8dd6b3-5b79-4720-b106-47b85d89cc71")
-	)
-	(no_connect
 		(at 222.25 62.23)
 		(uuid "a0550c70-306c-4520-8699-489065372542")
 	)
@@ -12920,6 +12916,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 80.01) (xy 242.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b738a05e-fe4a-4401-b976-c7ae98470970")
+	)
+	(wire
+		(pts
 			(xy 156.21 87.63) (xy 156.21 93.98)
 		)
 		(stroke
@@ -13348,6 +13354,16 @@
 		)
 		(uuid "797986de-38f1-41e4-abf0-ae0a32491b4e")
 	)
+	(label "RTS"
+		(at 226.06 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99fb3cb5-7fe7-4125-8a30-68945711caba")
+	)
 	(label "USB_TDI_DO"
 		(at 223.52 31.75 0)
 		(effects
@@ -13391,6 +13407,28 @@
 		(uuid "0a849f49-0d14-4c1a-9b97-66ac882049e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 255.6547 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RTS"
+		(shape output)
+		(at 242.57 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19fdc5aa-d8db-46af-ba89-7c2f2e0e5416")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.0023 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
