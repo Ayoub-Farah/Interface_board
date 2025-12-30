@@ -14936,7 +14936,7 @@
 		)
 		(uuid "1b1798ce-d3cb-4a5d-be00-253da7b6c3a9")
 	)
-	(label "ARDUINO_D13"
+	(label "SPI1_CLK"
 		(at 193.04 127 0)
 		(effects
 			(font
@@ -15602,7 +15602,7 @@
 		)
 		(uuid "9a3daa48-8375-41cd-8a1a-d3d656694a85")
 	)
-	(label "ARDUINO_D11"
+	(label "SPI1_MOSI"
 		(at 193.04 132.08 0)
 		(effects
 			(font
@@ -15862,7 +15862,7 @@
 		)
 		(uuid "b97a4455-c533-4030-826e-f27da03f71d9")
 	)
-	(label "ARDUINO_D12"
+	(label "SPI1_MISO"
 		(at 193.04 134.62 0)
 		(effects
 			(font
@@ -15904,7 +15904,7 @@
 		)
 		(uuid "bebbe01b-d1a2-4d8d-b50b-a45d5670d4be")
 	)
-	(label "ARDUINO_D2"
+	(label "SYNCHRO_IN"
 		(at 193.04 121.92 0)
 		(effects
 			(font
@@ -16206,7 +16206,7 @@
 		)
 		(uuid "df678722-7337-4164-83b9-ae2a3a960cb3")
 	)
-	(label "ARDUINO_D10"
+	(label "SPI1_NSS"
 		(at 193.04 175.26 0)
 		(effects
 			(font
@@ -17124,8 +17124,8 @@
 			)
 		)
 	)
-	(global_label "ARDUINO_D10"
-		(shape bidirectional)
+	(global_label "SPI1_NSS"
+		(shape output)
 		(at 214.63 175.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -17136,7 +17136,7 @@
 		)
 		(uuid "36b2fd2d-3f06-47ba-afec-4e1d43d7c016")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.4967 175.26 0)
+			(at 226.6261 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17480,8 +17480,8 @@
 			)
 		)
 	)
-	(global_label "ARDUINO_D2"
-		(shape bidirectional)
+	(global_label "SYNCHRO_IN"
+		(shape output)
 		(at 214.63 121.92 0)
 		(fields_autoplaced yes)
 		(effects
@@ -17492,7 +17492,7 @@
 		)
 		(uuid "50d7c56e-729d-472b-9570-461c4eb7830c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2872 121.92 0)
+			(at 229.3477 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18208,8 +18208,8 @@
 			)
 		)
 	)
-	(global_label "ARDUINO_D13"
-		(shape bidirectional)
+	(global_label "SPI1_CLK"
+		(shape output)
 		(at 214.63 127 0)
 		(fields_autoplaced yes)
 		(effects
@@ -18220,7 +18220,7 @@
 		)
 		(uuid "7f34c6c1-e3a2-46d9-8a2a-9ea631c87acf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.4967 127 0)
+			(at 226.4447 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18652,8 +18652,8 @@
 			)
 		)
 	)
-	(global_label "ARDUINO_D12"
-		(shape bidirectional)
+	(global_label "SPI1_MISO"
+		(shape input)
 		(at 214.63 134.62 0)
 		(fields_autoplaced yes)
 		(effects
@@ -18664,7 +18664,7 @@
 		)
 		(uuid "93c58e94-f967-47dc-bf2b-ef074d39364e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.4967 134.62 0)
+			(at 227.4728 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19183,8 +19183,8 @@
 			)
 		)
 	)
-	(global_label "ARDUINO_D11"
-		(shape bidirectional)
+	(global_label "SPI1_MOSI"
+		(shape output)
 		(at 214.63 132.08 0)
 		(fields_autoplaced yes)
 		(effects
@@ -19195,7 +19195,7 @@
 		)
 		(uuid "d1298dc4-f926-45c3-9bd1-57ee8351664c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.4967 132.08 0)
+			(at 227.4728 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
