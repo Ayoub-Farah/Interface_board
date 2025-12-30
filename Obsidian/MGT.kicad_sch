@@ -6642,7 +6642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c8cd0f4-ab5b-42e6-a7b1-5617c9e90b76")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 193.04 78.7399 0)
 			(effects
 				(font
@@ -7661,7 +7661,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/5109eb00-35d9-449a-bfa1-f3cdbf070d89"
-					(reference "U1")
+					(reference "U2")
 					(unit 3)
 				)
 			)

@@ -10071,6 +10071,19 @@
 		)
 		(uuid b3c33913-d0f8-4e77-b148-174d752f154f)
 	)
+	(rectangle
+		(start 101.6 17.78)
+		(end 137.16 22.86)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 4 25 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f2d0e0bf-df80-4f57-ae09-db72550942ce)
+	)
 	(text "PLLOFF\n1'b0: PLL ON"
 		(exclude_from_sim no)
 		(at 68.326 148.336 0)
@@ -10115,6 +10128,16 @@
 			(justify left)
 		)
 		(uuid "b1c2ebfd-897f-4400-9f83-7921e856c0a4")
+	)
+	(text "Ethernet is not used in out design"
+		(exclude_from_sim no)
+		(at 118.872 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cddf0ee7-219a-4515-8929-e6e1555cc72e")
 	)
 	(text "PHYAD[2:0]\n3'b001: 0x01"
 		(exclude_from_sim no)
@@ -12304,7 +12327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0084d597-453d-44b1-8447-0c635cc3a769")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0188"
 			(at 114.3 173.99 0)
 			(effects
 				(font
@@ -12354,7 +12377,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR029")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -12370,7 +12393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a6ad2ab-f6fa-48de-b91d-04a1d6999f6a")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR0181"
 			(at 54.61 173.99 0)
 			(effects
 				(font
@@ -12420,7 +12443,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR022")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
@@ -12436,7 +12459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b88c29b-1679-4c9f-a2c2-bb6a431e27ed")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0204"
 			(at 278.13 55.88 0)
 			(effects
 				(font
@@ -12486,7 +12509,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR012")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -12501,7 +12524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bc37214-2e85-45cc-9e43-b3f13d1da20b")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0201"
 			(at 218.44 119.38 0)
 			(effects
 				(font
@@ -12551,7 +12574,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR019")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -12564,9 +12587,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0f9ad031-af17-45fa-bc0b-c19e413f21bc")
-		(property "Reference" "C6"
+		(property "Reference" "C138"
 			(at 148.844 122.936 90)
 			(effects
 				(font
@@ -13002,7 +13025,7 @@
 		(instances
 			(project ""
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C6")
+					(reference "C138")
 					(unit 1)
 				)
 			)
@@ -13015,9 +13038,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "126cec5c-feaa-4b8c-b91c-7fbc4cd16782")
-		(property "Reference" "C8"
+		(property "Reference" "C144"
 			(at 169.164 119.126 90)
 			(effects
 				(font
@@ -13453,7 +13476,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C8")
+					(reference "C144")
 					(unit 1)
 				)
 			)
@@ -13466,9 +13489,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "17086030-cbcd-44b9-a90d-357544778066")
-		(property "Reference" "R18"
+		(property "Reference" "R102"
 			(at 139.954 163.576 90)
 			(effects
 				(font
@@ -13911,7 +13934,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R18")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -13924,9 +13947,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "21c662aa-0c58-487d-a29e-722339a1b6c1")
-		(property "Reference" "R16"
+		(property "Reference" "R96"
 			(at 101.854 162.306 90)
 			(effects
 				(font
@@ -14369,7 +14392,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R16")
+					(reference "R96")
 					(unit 1)
 				)
 			)
@@ -14384,7 +14407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25cfc73e-c670-440c-b2cf-748b63e4a865")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0200"
 			(at 184.15 130.81 0)
 			(effects
 				(font
@@ -14434,7 +14457,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR015")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -14449,7 +14472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25d051c9-74fd-41bd-9383-a99e09445699")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0190"
 			(at 144.78 148.59 0)
 			(effects
 				(font
@@ -14499,7 +14522,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR024")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -14512,9 +14535,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "27697021-30a6-46f7-b619-7659f30ef453")
-		(property "Reference" "R9"
+		(property "Reference" "R92"
 			(at 55.626 110.744 0)
 			(effects
 				(font
@@ -14956,7 +14979,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R9")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -14972,7 +14995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2aa42323-8d32-48e5-8ef2-d4e6ce2bd593")
-		(property "Reference" "TP4"
+		(property "Reference" "TP13"
 			(at 66.548 57.15 90)
 			(effects
 				(font
@@ -15021,7 +15044,7 @@
 		(instances
 			(project ""
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "TP4")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -15034,9 +15057,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "301ea7a7-b531-4326-ba4b-9466ad58a46b")
-		(property "Reference" "C12"
+		(property "Reference" "C139"
 			(at 150.114 106.426 90)
 			(effects
 				(font
@@ -15472,7 +15495,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C12")
+					(reference "C139")
 					(unit 1)
 				)
 			)
@@ -15488,7 +15511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31893a87-adfc-4141-a0cc-dae953ceb799")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0205"
 			(at 278.13 106.68 0)
 			(effects
 				(font
@@ -15538,7 +15561,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR011")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -15551,9 +15574,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3786d0e2-c64c-4561-a532-3e34f7b94316")
-		(property "Reference" "R6"
+		(property "Reference" "R89"
 			(at 55.626 101.854 0)
 			(effects
 				(font
@@ -15995,7 +16018,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R6")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -16008,9 +16031,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3861272d-2703-4c7e-af28-2bf2f38e06db")
-		(property "Reference" "R3"
+		(property "Reference" "R100"
 			(at 139.7 73.66 0)
 			(effects
 				(font
@@ -16452,7 +16475,7 @@
 		(instances
 			(project ""
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R3")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -16465,9 +16488,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3915ef9f-2f98-431b-9c10-c6291572540e")
-		(property "Reference" "C15"
+		(property "Reference" "C146"
 			(at 172.974 106.426 90)
 			(effects
 				(font
@@ -16903,7 +16926,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C15")
+					(reference "C146")
 					(unit 1)
 				)
 			)
@@ -16918,7 +16941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41038b12-9932-446f-b9c8-089eaf0bf430")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR0193"
 			(at 148.59 134.62 0)
 			(effects
 				(font
@@ -16968,7 +16991,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR013")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -16981,9 +17004,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "41979d4b-e8c5-49fa-b718-88175f37fc7e")
-		(property "Reference" "C14"
+		(property "Reference" "C143"
 			(at 165.354 106.426 90)
 			(effects
 				(font
@@ -17419,7 +17442,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C14")
+					(reference "C143")
 					(unit 1)
 				)
 			)
@@ -17435,7 +17458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43681a1d-713a-4001-ae77-9ccfb452f345")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0191"
 			(at 144.78 175.26 0)
 			(effects
 				(font
@@ -17485,7 +17508,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR030")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -17498,9 +17521,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "49fcb584-40a8-402a-8680-d6672e417d27")
-		(property "Reference" "R20"
+		(property "Reference" "R103"
 			(at 204.978 96.52 0)
 			(effects
 				(font
@@ -17942,7 +17965,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R20")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -17958,7 +17981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51197acb-7f33-455c-9003-db8cd16e9b7c")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR0182"
 			(at 60.96 173.99 0)
 			(effects
 				(font
@@ -18008,7 +18031,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR023")
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -18023,7 +18046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5373ac79-e50b-42b1-918a-dce0bf671b1e")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR0197"
 			(at 172.72 118.11 0)
 			(effects
 				(font
@@ -18073,7 +18096,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR017")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -18086,9 +18109,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "57eeb121-8785-4098-8a1b-5f8492f2f504")
-		(property "Reference" "C18"
+		(property "Reference" "C145"
 			(at 172.974 79.756 90)
 			(effects
 				(font
@@ -18524,7 +18547,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C18")
+					(reference "C145")
 					(unit 1)
 				)
 			)
@@ -18540,7 +18563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5932ab93-7009-49cb-ab62-a0b9ef762cad")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0199"
 			(at 180.34 116.84 0)
 			(effects
 				(font
@@ -18591,7 +18614,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR016")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -18604,9 +18627,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5dc2e4eb-0045-4f17-81a5-5c967df0f016")
-		(property "Reference" "R14"
+		(property "Reference" "R99"
 			(at 132.334 163.576 90)
 			(effects
 				(font
@@ -19049,7 +19072,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R14")
+					(reference "R99")
 					(unit 1)
 				)
 			)
@@ -19062,9 +19085,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5fb72503-8eb5-4911-89ad-9a74a5e39458")
-		(property "Reference" "R8"
+		(property "Reference" "R91"
 			(at 55.626 108.204 0)
 			(effects
 				(font
@@ -19506,7 +19529,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R8")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -19519,9 +19542,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "666ac642-7286-42fa-9391-ddf69034bd15")
-		(property "Reference" "C7"
+		(property "Reference" "C141"
 			(at 161.544 119.126 90)
 			(effects
 				(font
@@ -19957,7 +19980,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C7")
+					(reference "C141")
 					(unit 1)
 				)
 			)
@@ -19970,10 +19993,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6b82117a-49b8-409c-bf23-5f67788df1a0")
-		(property "Reference" "J3"
+		(property "Reference" "J8"
 			(at 250.3805 44.45 0)
 			(effects
 				(font
@@ -20457,7 +20480,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "J3")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -20473,7 +20496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cba0974-3fb6-4ae1-9b5d-1a14f858da39")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0189"
 			(at 137.16 175.26 0)
 			(effects
 				(font
@@ -20523,7 +20546,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR026")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -20539,7 +20562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6edc5231-f7d9-4e9d-b712-fd19f5fc28e7")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0186"
 			(at 106.68 173.99 0)
 			(effects
 				(font
@@ -20589,7 +20612,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR028")
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -20605,7 +20628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74be2936-07df-4d80-b197-60efea6ec265")
-		(property "Reference" "#PWR0334"
+		(property "Reference" "#PWR0183"
 			(at 62.23 66.04 0)
 			(effects
 				(font
@@ -20656,7 +20679,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR0334")
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -20669,9 +20692,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7804f23a-f553-415c-a742-b41874a5ede6")
-		(property "Reference" "C13"
+		(property "Reference" "C140"
 			(at 157.734 106.426 90)
 			(effects
 				(font
@@ -21107,7 +21130,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C13")
+					(reference "C140")
 					(unit 1)
 				)
 			)
@@ -21123,7 +21146,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "7b35b317-d5b4-4171-86a7-4d331fc7b4ae")
-		(property "Reference" "Y4"
+		(property "Reference" "Y1"
 			(at 31.8135 58.42 0)
 			(effects
 				(font
@@ -21563,7 +21586,7 @@
 		(instances
 			(project ""
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "Y4")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -21578,7 +21601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80109aef-9721-42ba-8246-806998a647b4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0202"
 			(at 222.25 58.42 0)
 			(effects
 				(font
@@ -21628,7 +21651,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR032")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -21641,9 +21664,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8b1859de-1c0b-45df-a9fd-501edda8ca6c")
-		(property "Reference" "R12"
+		(property "Reference" "R101"
 			(at 139.954 147.066 90)
 			(effects
 				(font
@@ -22086,7 +22109,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R12")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -22099,9 +22122,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8bcb8a01-a867-43e7-81cf-77133bfdc99e")
-		(property "Reference" "R17"
+		(property "Reference" "R98"
 			(at 109.474 162.306 90)
 			(effects
 				(font
@@ -22544,7 +22567,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R17")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -22557,9 +22580,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8deeccd6-2f36-46b5-a073-6ed520771fd2")
-		(property "Reference" "R4"
+		(property "Reference" "R87"
 			(at 55.626 96.774 0)
 			(effects
 				(font
@@ -23001,7 +23024,7 @@
 		(instances
 			(project ""
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R4")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -23014,9 +23037,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8e74ecc1-8b1b-4a53-9dc6-57c1b5082072")
-		(property "Reference" "U7"
+		(property "Reference" "U18"
 			(at 82.55 49.53 0)
 			(effects
 				(font
@@ -23246,7 +23269,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "U7")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -23261,7 +23284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9267a2c7-d805-44ea-9db5-45443e01f85e")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0203"
 			(at 222.25 106.68 0)
 			(effects
 				(font
@@ -23311,7 +23334,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR031")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -23324,9 +23347,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "935e3dd5-7c43-4587-acb3-2b1e932ffaed")
-		(property "Reference" "C9"
+		(property "Reference" "C147"
 			(at 176.784 119.126 90)
 			(effects
 				(font
@@ -23762,7 +23785,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C9")
+					(reference "C147")
 					(unit 1)
 				)
 			)
@@ -23777,7 +23800,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "978597d9-8491-4f6a-999a-3e5948002387")
-		(property "Reference" "C4"
+		(property "Reference" "C134"
 			(at 52.07 61.976 90)
 			(effects
 				(font
@@ -24213,7 +24236,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C4")
+					(reference "C134")
 					(unit 1)
 				)
 			)
@@ -24229,7 +24252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c361a17-4e7d-423d-9c03-8f72dec604aa")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0194"
 			(at 156.21 74.93 0)
 			(effects
 				(font
@@ -24280,7 +24303,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR07")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -24295,7 +24318,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "9e584666-6255-4931-b3ae-a6252c671614")
-		(property "Reference" "C3"
+		(property "Reference" "C133"
 			(at 44.45 61.976 90)
 			(effects
 				(font
@@ -24731,7 +24754,7 @@
 		(instances
 			(project ""
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C3")
+					(reference "C133")
 					(unit 1)
 				)
 			)
@@ -24744,9 +24767,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9eb4a857-95aa-4b69-b444-efe4b9d4cf22")
-		(property "Reference" "C16"
+		(property "Reference" "C149"
 			(at 218.694 107.696 90)
 			(effects
 				(font
@@ -25182,7 +25205,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C16")
+					(reference "C149")
 					(unit 1)
 				)
 			)
@@ -25195,9 +25218,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a7880072-eaf5-4855-af89-d32138758f14")
-		(property "Reference" "C17"
+		(property "Reference" "C142"
 			(at 165.354 79.756 90)
 			(effects
 				(font
@@ -25633,7 +25656,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C17")
+					(reference "C142")
 					(unit 1)
 				)
 			)
@@ -25646,9 +25669,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ac82bb59-a64f-4906-bc7c-e43636ea1972")
-		(property "Reference" "R7"
+		(property "Reference" "R90"
 			(at 55.626 104.394 0)
 			(effects
 				(font
@@ -26090,7 +26113,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R7")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -26103,9 +26126,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ac965e95-214d-4dcb-9f25-95a363e41f39")
-		(property "Reference" "C10"
+		(property "Reference" "C148"
 			(at 184.404 119.126 90)
 			(effects
 				(font
@@ -26541,7 +26564,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C10")
+					(reference "C148")
 					(unit 1)
 				)
 			)
@@ -26556,7 +26579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af808c45-9a94-4940-abd8-9252b1b88dc2")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR0198"
 			(at 173.99 104.14 0)
 			(effects
 				(font
@@ -26607,7 +26630,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR018")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -26620,9 +26643,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b1f7145c-2d4a-4f26-a24a-ca71c82d1552")
-		(property "Reference" "R15"
+		(property "Reference" "R97"
 			(at 109.474 147.066 90)
 			(effects
 				(font
@@ -27065,7 +27088,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R15")
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -27080,7 +27103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7c3ad29-4d97-417c-9831-a9ccafdf877f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0187"
 			(at 114.3 148.59 0)
 			(effects
 				(font
@@ -27130,7 +27153,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR027")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -27145,7 +27168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9fb95c4-2b5d-4c5f-a74d-e91d6a8de083")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR0196"
 			(at 172.72 91.44 0)
 			(effects
 				(font
@@ -27195,7 +27218,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR020")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -27211,7 +27234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbfd8873-dadc-46dd-8314-77dbd6693684")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0184"
 			(at 77.47 127 0)
 			(effects
 				(font
@@ -27261,7 +27284,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR010")
+					(reference "#PWR0184")
 					(unit 1)
 				)
 			)
@@ -27274,9 +27297,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cca2b833-fb85-4ab2-82aa-c1c389a46085")
-		(property "Reference" "R13"
+		(property "Reference" "R95"
 			(at 81.534 162.306 90)
 			(effects
 				(font
@@ -27719,7 +27742,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R13")
+					(reference "R95")
 					(unit 1)
 				)
 			)
@@ -27735,7 +27758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd47ffcd-1fff-4890-bc45-8e97ebce93c7")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0185"
 			(at 86.36 173.99 0)
 			(effects
 				(font
@@ -27785,7 +27808,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR025")
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -27800,7 +27823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cecba8fb-bc31-4894-b6a7-2fcd87e6744a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0179"
 			(at 21.59 77.47 0)
 			(effects
 				(font
@@ -27850,7 +27873,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR09")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -27865,7 +27888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d30b395b-d2b3-48c5-8a83-81a3ea46f23d")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0195"
 			(at 172.72 81.28 0)
 			(effects
 				(font
@@ -27916,7 +27939,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR021")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -27929,9 +27952,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d72c309b-c5d7-408f-b620-b8b0d92d74ea")
-		(property "Reference" "C11"
+		(property "Reference" "C137"
 			(at 142.494 106.426 90)
 			(effects
 				(font
@@ -28367,7 +28390,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C11")
+					(reference "C137")
 					(unit 1)
 				)
 			)
@@ -28380,9 +28403,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d87fef75-3c8d-4a16-b894-574e050831e4")
-		(property "Reference" "R10"
+		(property "Reference" "R93"
 			(at 56.134 162.306 90)
 			(effects
 				(font
@@ -28825,7 +28848,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R10")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -28839,9 +28862,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dad049a9-3bb7-4c69-9994-c92d4810392d")
-		(property "Reference" "C247"
+		(property "Reference" "C135"
 			(at 48.26 54.864 0)
 			(effects
 				(font
@@ -29277,7 +29300,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C247")
+					(reference "C135")
 					(unit 1)
 				)
 			)
@@ -29290,9 +29313,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e0f1f34f-b1c1-4d87-bfdb-0c71a570e1ae")
-		(property "Reference" "C5"
+		(property "Reference" "C136"
 			(at 141.224 122.936 90)
 			(effects
 				(font
@@ -29728,7 +29751,7 @@
 		(instances
 			(project ""
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "C5")
+					(reference "C136")
 					(unit 1)
 				)
 			)
@@ -29744,7 +29767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3bb78e8-f805-4632-a4bd-63050496a6f1")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0180"
 			(at 38.1 59.69 0)
 			(effects
 				(font
@@ -29795,7 +29818,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR08")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
@@ -29808,9 +29831,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e9267770-d416-4612-abac-aa22f11817e4")
-		(property "Reference" "R19"
+		(property "Reference" "R104"
 			(at 207.518 48.26 0)
 			(effects
 				(font
@@ -30252,7 +30275,7 @@
 		(instances
 			(project ""
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R19")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -30265,9 +30288,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ecb475be-66db-45e4-964a-ed3a42348f61")
-		(property "Reference" "R160"
+		(property "Reference" "R94"
 			(at 67.31 64.77 0)
 			(effects
 				(font
@@ -30691,7 +30714,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R160")
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -30704,9 +30727,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ee319390-f1b4-4d86-8b28-f277dc2ce4eb")
-		(property "Reference" "R11"
+		(property "Reference" "R86"
 			(at 49.784 162.306 90)
 			(effects
 				(font
@@ -31149,7 +31172,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R11")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -31162,9 +31185,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f0ae50cf-3ac7-4a8c-8ce0-bd5c4bba0469")
-		(property "Reference" "R5"
+		(property "Reference" "R88"
 			(at 55.626 99.314 0)
 			(effects
 				(font
@@ -31606,7 +31629,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "R5")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -31619,10 +31642,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f6fcb63b-980b-4828-8d92-8107ddc8f209")
-		(property "Reference" "L1"
+		(property "Reference" "L12"
 			(at 161.29 71.12 0)
 			(effects
 				(font
@@ -32016,7 +32039,7 @@
 		(instances
 			(project ""
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "L1")
+					(reference "L12")
 					(unit 1)
 				)
 			)
@@ -32032,7 +32055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8ee1615-92af-4722-9369-0db461146fb7")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR0192"
 			(at 144.78 120.65 0)
 			(effects
 				(font
@@ -32083,7 +32106,7 @@
 		(instances
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/41baefe0-2999-4159-91c6-ae67dbf0b6a8"
-					(reference "#PWR014")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)

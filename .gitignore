@@ -1,2 +1,12 @@
 *-bak
 *-backups
+
+# KiCad temporary files
+#auto_saved_files#
+*.lck
+~*.kicad_sch.lck
+
+
+# Autosaved files 
+*#auto_saved_files#
+
