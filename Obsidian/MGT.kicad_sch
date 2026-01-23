@@ -6686,6 +6686,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "0"
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1521749"
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A9"
 			(uuid "2ba16cf3-3810-47b7-aef3-3c08a46b6f8e")
 		)
