@@ -1,0 +1,836 @@
+(footprint "SOIC127P1030X265-16N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOIC, 1.27mm Pitch; 16 Pin, 7.50mm W X 10.3mm L X 2.65mm H body, IPC Medium Density")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(layer "F.SilkS")
+		(uuid "c0450acb-7ff0-4fe0-8edd-7e2e91f85a51")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "S25FL128SAGMFI001"
+		(at 0 6.526 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85f5c4fb-c114-43c2-8fed-7ef8fe34e356")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\S25FL128SAGMFI001.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1aa6d07c-1237-4f24-a60d-8961aacb9212")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "128Mbit, 133MHz, MirrorBit® Flash Non-Volatile Memory CMOS 3V Core with Versatile I/O Serial Peripheral Interface with Multi-I/O"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "339cad1c-7e05-4f72-babc-789350a2605f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "S25FL128SAGMFI001"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "942f83ba-a5f8-4a14-81bc-8f923dc75928")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Library Ref" "S25FL128SAGMFI001"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a140cb76-936e-4df9-9cab-2b23d1b0c751")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Library Path" "SchLib\\Logic.SchLib"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "746c34e2-8d66-4ad0-981b-2504164d4887")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" "S25FL128SAGMFI001"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "318e2f87-0e42-454f-ae93-25642a847fdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Component Kind" "Standard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c7d9a0b-774b-473e-936d-f179b0d2472a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Component Type" "Standard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "065ed67e-392d-419b-abc9-5c913d401c67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Device" "S25FL128SAGMFI001"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91ef054c-d0d4-4a42-9067-6ec7ab56aac1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PackageDescription" "SOIC, 1.27mm Pitch; 16 Pin, 7.50mm W X 10.3mm L X 2.65mm H body, IPC Medium Density"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5843d165-0744-4d5c-b289-c5f5a9ade80c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86d7362e-1804-4097-858d-df2f3ec62d9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Description" "128Mbit, 133MHz, MirrorBit® Flash Non-Volatile Memory CMOS 3V Core with Versatile I/O Serial Peripheral Interface with Multi-I/O"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08fd8dfd-a3ff-4500-9e7f-31c66de9e32b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "CYPRESS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f505e1f0-8fcd-4155-9b81-e77d56eca665")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "S25FL128SAGMFI001"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f2ff1d7-cd3c-499d-902e-902156211086")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Pin Count" "11"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d71cc3d-8d75-442a-961a-4b5d4adbf731")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Case" "SOIC16"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc02fa14-7073-4824-9c3a-a619deb0c502")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mounted" "Yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d16851f5-9819-4fb6-a30f-d611e7e06ea2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Socket" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b87100b1-96d7-453e-ba28-db1a49b0b4d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SMD" "Yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee276d37-2441-4858-acf6-9c5f8513c0ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PressFit" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a237cc1-dd96-4efc-9e70-a8d5952d12db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sense" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af02cd43-487e-444e-8cc5-a074299fbb6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Bonding" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3005b6ef-af77-4e7c-a94f-9ae3736eb03d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sense Comment" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9027fa01-1aff-4d69-ad7a-e33ce92afe9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status Comment" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46002b6b-b233-40bb-996d-4175b76c43b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ComponentHeight" "2.65mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99a2e3ab-999d-470a-b48a-110f1826d4b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint Path" "PcbLib\\ICs And Semiconductors SMD.PcbLib"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89f0ceec-6b3f-47a2-ae94-24d3429b9ba3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint Ref" "SOIC127P1030X265-16N"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70067cd0-b8b7-434e-9607-743d8ff56a5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\S25FL128SAGMFI001.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57976fa9-e614-48ad-8100-49cca45c1e92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ComponentLink1URL" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40a79986-e3de-4ade-9060-aa3f84959945")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ComponentLink1Description" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce3d8932-5f2d-4ee7-bf0c-bddbefd69dd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ComponentLink2URL" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a275846f-24ec-45a8-a275-18121ad3e36f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ComponentLink2Description" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae2bc34e-34c2-4c5d-9e76-c5122d2653ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "CERN DEM JLC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "158f30a0-cb39-4572-8cc0-87483e6f504c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CreateDate" "07/11/18 00:00:00"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0af34a7-810f-4e09-ad23-72244a9f50c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LatestRevisionDate" "07/11/18 00:00:00"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf1519d8-a5b2-43e3-8b85-975030b1a407")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SCEM" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "568dc16a-9aaa-4cb1-b1c1-8cf5a6a2ff12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Database Table Name" "ICs And Semiconductors"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba43999f-230b-433a-9da1-82eb4eacd79c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Library Name" "Logic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99ca0764-00d3-4f95-af71-1df734d8f0e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint Library" "ICs And Semiconductors SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0455e8e-286c-4c55-8dd2-93018059dad8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "CC-BY-SA 4.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9df3654f-7415-4c77-b426-8f974d74383e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FT Rotation Offset" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86d8e9f8-6131-4ac2-8b93-4d26d7984eca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C111478"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e0ff2bb-f455-4723-9f10-69d5a4401b9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.325 -5.15)
+		(end 3.325 -5.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0d8bf24-7aea-416a-bf0b-f5832420fc7c")
+	)
+	(fp_line
+		(start -3.325 5.15)
+		(end -3.325 -5.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5b6ac31-8886-4ee8-8d6f-b86befcd2d3c")
+	)
+	(fp_line
+		(start -3.325 5.15)
+		(end 3.325 5.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20ccbbd0-d437-4461-b759-4f45ab75670e")
+	)
+	(fp_line
+		(start 3.325 5.15)
+		(end 3.325 -5.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a85f327-71a2-4442-b845-d557533ae90f")
+	)
+	(fp_circle
+		(center -5.4 -5.25)
+		(end -5.275 -5.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c3d75396-727e-406a-9bc5-4e9fd502f581")
+	)
+	(fp_circle
+		(center -2.325 -4.15)
+		(end -2.075 -4.15)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "57fb6947-23e9-46bf-ab7e-ba3a9c834684")
+	)
+	(fp_line
+		(start -5.9 -5.5)
+		(end 5.9 -5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f0b9830-6237-4442-9b68-08c3d882c07e")
+	)
+	(fp_line
+		(start -5.9 5.5)
+		(end -5.9 -5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e7a18e7-0a0d-4aa4-8816-79677fd11bc6")
+	)
+	(fp_line
+		(start -5.9 5.5)
+		(end 5.9 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a5e54d0-076b-423f-a2d1-04cf9b185f78")
+	)
+	(fp_line
+		(start 5.9 5.5)
+		(end 5.9 -5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9dbbd47-d460-45e0-9164-9e967a71f100")
+	)
+	(fp_line
+		(start -3.75 -5.15)
+		(end 3.75 -5.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbc217fe-104f-4c27-a6c9-b5bc79018adc")
+	)
+	(fp_line
+		(start -3.75 5.15)
+		(end -3.75 -5.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd5c1d02-d572-4e7c-9cf0-1ce3ad5c85e8")
+	)
+	(fp_line
+		(start -3.75 5.15)
+		(end 3.75 5.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0479498-dc20-402a-a5d3-e7b494e8aa83")
+	)
+	(fp_line
+		(start 3.75 5.15)
+		(end 3.75 -5.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74e7882f-5bd3-493d-a814-d42fa2ae82ae")
+	)
+	(fp_circle
+		(center -2.75 -4.15)
+		(end -2.25 -4.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5383f758-b544-4b80-8f0e-441770317479")
+	)
+	(pad "1" smd rect
+		(at -4.65 -4.445)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "65d69cd1-ffe0-4ec2-889f-6c9c46624635")
+	)
+	(pad "2" smd rect
+		(at -4.65 -3.175)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dda10371-0e5d-42ea-a1d9-5ed657b7c4b6")
+	)
+	(pad "3" smd rect
+		(at -4.65 -1.905)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3290d077-b343-41d6-8c6d-d3c2325079eb")
+	)
+	(pad "4" smd rect
+		(at -4.65 -0.635)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c8ffda56-d6ae-4b62-afe9-1959c0c29f4e")
+	)
+	(pad "5" smd rect
+		(at -4.65 0.635)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3d327dee-5406-4121-bccd-cb45fd40ee10")
+	)
+	(pad "6" smd rect
+		(at -4.65 1.905)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "18f8979c-a108-4745-ba41-953181e2b676")
+	)
+	(pad "7" smd rect
+		(at -4.65 3.175)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "81ef13cd-9ffe-49cc-a72b-a2f5956e767c")
+	)
+	(pad "8" smd rect
+		(at -4.65 4.445)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1b5f10fa-a023-414e-9ca2-0d994871d03a")
+	)
+	(pad "9" smd rect
+		(at 4.65 4.445)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "92e06811-450f-4bee-b84a-aa17973e156e")
+	)
+	(pad "10" smd rect
+		(at 4.65 3.175)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "58dc0ad1-6539-40bd-acec-e3dac67f208a")
+	)
+	(pad "11" smd rect
+		(at 4.65 1.905)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "449b3b32-707f-47fc-954b-aefcad1a027c")
+	)
+	(pad "12" smd rect
+		(at 4.65 0.635)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0839e24e-d8a7-4317-a1e0-1ee2948dec90")
+	)
+	(pad "13" smd rect
+		(at 4.65 -0.635)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "68a705af-11d5-4f17-9683-931f75bc7295")
+	)
+	(pad "14" smd rect
+		(at 4.65 -1.905)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "637ba7b3-4e3d-44db-ae48-d8c62ed1ba81")
+	)
+	(pad "15" smd rect
+		(at 4.65 -3.175)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a17b1abd-007b-4ded-b1c7-4e9e138bddc1")
+	)
+	(pad "16" smd rect
+		(at 4.65 -4.445)
+		(size 2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a0f3ae58-cc4b-43b7-ad25-27f639033415")
+	)
+	(embedded_fonts no)
+	(model "${CERN3D}/SOIC127P1030X265-16N.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

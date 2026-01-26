@@ -1,0 +1,1137 @@
+(footprint "XTAL_EPSON_TSX-3225"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Crystal TSX-3225 Serie, Corner Concave; 4 pin, 2.50mm L X 3.2mm W X 0.6mm H")
+	(property "Reference" "REF**"
+		(at -1.8 0.3 90)
+		(layer "F.SilkS")
+		(uuid "b68c464d-2ac1-4bf1-bb63-6e1b38cb78b5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XTAL_25MHZ_EPSON_TSX-3225_25.0000MF10Z-AC"
+		(at 0 3.076 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db430a30-a83f-414a-9ab6-8696305227ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\XTAL_EPSON_TSX-3225.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ce92c7a-b467-46a6-b1a3-785f41f0aae9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Tolerance: ±10ppm,  Stability:±10ppm, -20°C to 75°C, 9pF, Surface Mount Quartz Crystal, TX-3225 Series"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8ab11f7-bd18-467b-9116-b0f3c84cbd32")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Val" "25MHz"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75c07489-e6cc-4573-bc1d-e3da1069bada")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "XTAL_25MHZ_EPSON_TSX-3225_25.0000MF10Z-AC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48e13068-28ca-4f9b-8b52-4743e5b1c875")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Library Ref" "Quartz Crystal 1X 2GND 3X 4GND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9768f42-a753-4ffb-b183-0e46fd666e3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Library Path" "SchLib\\Crystals & Oscillators.SchLib"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef415bc0-153d-40d3-b51a-292359ee06d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" "25MHz"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab9587e0-a5bc-4b1a-914e-65ef0d7fe710")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Component Kind" "Standard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67c9c80d-5ae6-4985-a804-63da831a2556")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Component Type" "Standard"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfbb629a-1284-43e6-a4fc-979acfa48b7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Device" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f45e2a6-30c1-443b-b5bd-9a879a516ddb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PackageDescription" "Crystal, Corner Concave; 4 Pin, 2.50mm L X 3.20mm W X 0.6mm H, TSX-3225 Serie"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c370fe1b-895a-441a-a9a9-5abdff38133b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "534b9775-0e8b-48d9-a7f3-84034c22afbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Description" "Tolerance: ±10ppm,  Stability:±10ppm, -20°C to 75°C, 9pF, Surface Mount Quartz Crystal, TX-3225 Series"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f2f442a-6bf6-4aec-b1ab-dbd38013e06b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "EPSON"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a223e28-bc68-4654-b41e-90b56301b6e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "TSX-3225 25.0000MF10Z-AC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73da7492-a11c-41ce-b010-31448aaabb63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Pin Count" "4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8244de43-9a77-4da6-9182-2ec08ecac0c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Case" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42c5c30c-f2bd-4665-a3a1-bf02d248fc52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mounted" "Yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d63247b-91c4-40fa-9f42-5db46b121763")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Socket" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c1c81e4-b24b-4d7b-b705-ec9995b4f82d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SMD" "Yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1238b170-8349-437e-ae23-b43c1de44f7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PressFit" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dee3c5c1-e385-4218-9fe9-d959be2b551d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sense" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77c7f8f6-f90e-4967-aa19-e5427dbecc44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Bonding" "No"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce82a3af-af38-48ce-8a7f-fb37e098b791")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sense Comment" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94aa5f9d-bf2c-4c5b-a6cf-3b64ffb49f9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Status Comment" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f4ec99e-092c-43d6-b9f6-07e51c009255")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ComponentHeight" "0.6mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba767e9b-5e7b-40c0-8c0b-fead9b1e2737")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint Path" "PcbLib\\ICs And Semiconductors SMD.PcbLib"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc1cba55-da59-4edc-a82c-9fe465b6ed62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint Ref" "XTAL_EPSON_TSX-3225"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ea6d8f0-e2ef-4936-ae19-a848c80c10c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\XTAL_EPSON_TSX-3225.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9538ed86-40f5-4348-8d3e-2850510fb5eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ComponentLink1URL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\XTAL_EPSON_TSX-3225_Ordering-Informations.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c40b0fb-61a5-4acb-9bb2-c67e1816c115")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ComponentLink1Description" "Ordering Informations"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acc72cdd-7392-4c4f-8236-22e5781d64ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ComponentLink2URL" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b909fd2-6701-4a1c-bac7-6e1e693a68f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ComponentLink2Description" " "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53a96d91-5a64-4b5a-9f5d-8b4273227994")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "CERN DEM JLC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d73149fa-a34f-48e9-99a8-b49fb4345d6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CreateDate" "04/03/12 00:00:00"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6f2fa5a-149a-47f6-bac2-1d1dc30e18e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LatestRevisionDate" "10/06/16 00:00:00"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f42da26a-3b7e-4b04-bd6c-451790910103")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Database Table Name" "ICs And Semiconductors"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5087fc30-7cdd-401f-b677-6d96fda28f3c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Library Name" "Crystals & Oscillators"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f255fa37-51a6-4b25-a523-8aa71fd4725f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint Library" "ICs And Semiconductors SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa830722-2e66-4ca9-8d67-e5a90e6fe76d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" "CC-BY-SA 4.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d33d8ce1-ea87-45cc-b36a-11370f443923")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FT Rotation Offset" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89f45a26-5c07-4502-85af-560a8ca42c09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a371edb-af78-4614-b4dc-e6922ea4fbe6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd dnp)
+	(fp_circle
+		(center -1.95 -1.2)
+		(end -1.825 -1.2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c3f1164f-f70c-4898-b754-c47557a67556")
+	)
+	(fp_line
+		(start -1.375 -1.8)
+		(end -0.225 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "2b08bc73-efe9-4b73-adcc-a87f0975df16")
+	)
+	(fp_line
+		(start -1.375 -0.4)
+		(end -1.375 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ca41c809-ddeb-45ff-baa3-889e76cafbde")
+	)
+	(fp_line
+		(start -1.375 -0.4)
+		(end -0.225 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "04174f2c-fb15-4fcd-8815-248c1e5f8a4f")
+	)
+	(fp_line
+		(start -1.375 0.4)
+		(end -0.225 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "43997923-4522-475d-8f1a-1ad69145adc2")
+	)
+	(fp_line
+		(start -1.375 1.8)
+		(end -1.375 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9564c006-4e1c-4d0b-bcac-03b5ebd75632")
+	)
+	(fp_line
+		(start -1.375 1.8)
+		(end -0.225 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b3faa372-56a2-4ead-a8fc-08897d454de2")
+	)
+	(fp_line
+		(start -1.3 -1.1)
+		(end -0.8 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ce9f2c22-8d7e-4c5c-805d-31ffc7c83bc9")
+	)
+	(fp_line
+		(start -1.3 1.1)
+		(end -0.8 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "49517aff-55d2-48f7-b7b1-f12dc1e94639")
+	)
+	(fp_line
+		(start -0.8 -1.1)
+		(end -0.8 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "8373632b-f71e-4132-9f0d-e910ee4fcead")
+	)
+	(fp_line
+		(start -0.8 -1.1)
+		(end -0.3 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "39501941-d5e2-4ac7-ae3f-e8335ccc5ed7")
+	)
+	(fp_line
+		(start -0.8 -0.6)
+		(end -0.8 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "106817fc-d668-4077-9a25-29fe0e750a80")
+	)
+	(fp_line
+		(start -0.8 1.1)
+		(end -0.8 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "32e5382b-26fc-4dc3-8140-cc727ad99c81")
+	)
+	(fp_line
+		(start -0.8 1.1)
+		(end -0.3 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "6cee86a1-ce4b-40c5-abf6-2a0fb7bdc889")
+	)
+	(fp_line
+		(start -0.8 1.6)
+		(end -0.8 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "55afd938-0e93-4998-9507-cac9dfdf85ee")
+	)
+	(fp_line
+		(start -0.75 -0.93)
+		(end -0.75 -1.43)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "26f1001e-37a5-4b28-b03f-a4e78bea5374")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f54a924d-104d-4fbc-882a-f2ae868b9e7f")
+	)
+	(fp_line
+		(start -0.225 -0.4)
+		(end -0.225 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9b74d082-4c49-46d3-b6d6-90786ebbd7e1")
+	)
+	(fp_line
+		(start -0.225 1.8)
+		(end -0.225 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f230d268-8040-4834-bac3-ae04e0e89357")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "a29a2874-65a4-4787-9231-a912ee84bdbd")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "fab13177-0eba-4978-9de3-b45c1740e399")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "f119e9c1-04d1-4c07-8e5d-151c988533e2")
+	)
+	(fp_line
+		(start 0.225 -1.8)
+		(end 1.375 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "703e2b66-cc72-4007-bd68-a9106517fc5c")
+	)
+	(fp_line
+		(start 0.225 -0.4)
+		(end 0.225 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "75720ec8-3305-402b-a553-cce8b283e02a")
+	)
+	(fp_line
+		(start 0.225 -0.4)
+		(end 1.375 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "63e3ccc8-2393-42b0-8398-0e6de7224ad8")
+	)
+	(fp_line
+		(start 0.225 0.4)
+		(end 1.375 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "32538baa-4a54-43be-a63f-81aed858bb2e")
+	)
+	(fp_line
+		(start 0.225 1.8)
+		(end 0.225 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "28999a9e-0441-441c-a880-a8c925506092")
+	)
+	(fp_line
+		(start 0.225 1.8)
+		(end 1.375 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "926b9508-7481-4c91-944e-97395d2add9b")
+	)
+	(fp_line
+		(start 0.3 -1.1)
+		(end 0.8 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0b7cee79-5a2b-44e8-9847-03606d60f40b")
+	)
+	(fp_line
+		(start 0.3 1.1)
+		(end 0.8 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "030966a9-6b72-4451-a7bc-4961d03e970e")
+	)
+	(fp_line
+		(start 0.8 -1.1)
+		(end 0.8 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "1d8b775f-6a38-46dd-bb87-1e414f617d5c")
+	)
+	(fp_line
+		(start 0.8 -1.1)
+		(end 1.3 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "77b01e06-76c4-498b-add6-7c31b1064134")
+	)
+	(fp_line
+		(start 0.8 -0.6)
+		(end 0.8 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0c201867-f15b-43ce-beef-c2e0700cc647")
+	)
+	(fp_line
+		(start 0.8 1.1)
+		(end 0.8 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "bfbbe74f-2809-4ae5-908c-bd2bee9d15b9")
+	)
+	(fp_line
+		(start 0.8 1.1)
+		(end 0.8 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b4c7c014-61e9-43a0-9c8e-62f4b25922bd")
+	)
+	(fp_line
+		(start 0.8 1.1)
+		(end 1.3 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "38827972-12fb-42af-854c-b97471ff54c7")
+	)
+	(fp_line
+		(start 0.8 1.6)
+		(end 0.8 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "79f5cd8e-84ea-4097-8b78-cb3ed643be5b")
+	)
+	(fp_line
+		(start 1.375 -0.4)
+		(end 1.375 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "d869e45b-2bad-40b9-8d0f-cd51db6c3e05")
+	)
+	(fp_line
+		(start 1.375 1.8)
+		(end 1.375 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "bc434e59-6725-465c-ae11-2bbf2d26939a")
+	)
+	(fp_line
+		(start -1.625 -2.05)
+		(end 1.625 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "560cac8e-3e9d-4fb9-a359-d5af7a638265")
+	)
+	(fp_line
+		(start -1.625 2.05)
+		(end -1.625 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c38dc26-e193-4828-8b46-dcb57217d60b")
+	)
+	(fp_line
+		(start -1.625 2.05)
+		(end 1.625 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9059145e-602e-41ac-b0a2-cfbd3698c6ff")
+	)
+	(fp_line
+		(start 1.625 2.05)
+		(end 1.625 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e18bb3fe-121c-44af-8104-c1ffbeadbf52")
+	)
+	(fp_line
+		(start -1.25 1.5)
+		(end -1.25 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9aafbccc-00f0-417d-bc51-54ddbb67497f")
+	)
+	(fp_line
+		(start -1.15 -1.6)
+		(end 1.15 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5582e874-90bc-4d38-8e2e-2849061a4d67")
+	)
+	(fp_line
+		(start -1.15 1.6)
+		(end 1.15 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "911a1852-1d21-4b93-826b-880232748210")
+	)
+	(fp_line
+		(start 1.25 1.5)
+		(end 1.25 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "39823f24-289b-4b12-8bb7-47506f7a9b2a")
+	)
+	(fp_arc
+		(start -1.25 1.5)
+		(mid -1.179289 1.529289)
+		(end -1.15 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c971c2d9-d2a2-40cc-af01-1f4107589cc7")
+	)
+	(fp_arc
+		(start -1.15 -1.6)
+		(mid -1.179289 -1.529289)
+		(end -1.25 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "caee4584-8ba3-4395-8403-11e1c4e9e6e3")
+	)
+	(fp_arc
+		(start 1.15 1.6)
+		(mid 1.179289 1.529289)
+		(end 1.25 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e652112a-9d9d-4300-b032-71bb7aba54e9")
+	)
+	(fp_arc
+		(start 1.25 -1.5)
+		(mid 1.179289 -1.529289)
+		(end 1.15 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30d9b630-f724-426b-943d-8fe87394d55f")
+	)
+	(fp_circle
+		(center -0.425 -0.825)
+		(end 0.075 -0.825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "99a8d094-ae53-4aa0-bc22-78782384e7f3")
+	)
+	(pad "1" smd rect
+		(at -0.8 -1.1)
+		(size 1.15 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2cbb4214-95a6-4576-b5a7-5ebd0a979464")
+	)
+	(pad "2" smd rect
+		(at -0.8 1.1)
+		(size 1.15 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3b63df4-a2d6-4b0f-b038-e510bcf93d4c")
+	)
+	(pad "3" smd rect
+		(at 0.8 1.1)
+		(size 1.15 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0cfddffe-bf74-4d6e-92b5-c96e595aee0a")
+	)
+	(pad "4" smd rect
+		(at 0.8 -1.1)
+		(size 1.15 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ccf1e463-ffed-4708-aff8-a316551be7ba")
+	)
+	(embedded_fonts no)
+	(model "${CERN3D}/XTAL_EPSON_TSX-3225.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

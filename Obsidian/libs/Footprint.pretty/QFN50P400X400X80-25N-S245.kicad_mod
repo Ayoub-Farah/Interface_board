@@ -1,0 +1,1081 @@
+(footprint "QFN50P400X400X80-25N-S245"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "QFN,0.50mm Pitch, Square; 24 Pin, 4.00mm W X 4.00mm L X 0.80mm H body (w/Thermal Tab 2.45 X 2.45mm), IPC Medium Density")
+	(property "Reference" "REF**"
+		(at -2.3625 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "ac8a280d-fb9c-43f1-a278-9ab4c6ac96a9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TCA9535RTWR"
+		(at 0 3.676 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db884f7f-5a4e-4e69-bc4f-83fc8119f0e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae8d6540-cc75-495b-ad3d-fbc991e63e9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Remote 16-Bit I2C and SMBus, Low-Power I/O Expander with Interrupt Output and Config Register, 1.65 to 5.5 V, -40 to 85 degC, 24-pin QFN (RTW), Green (RoHS & no Sb/Br)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce5e2ba2-7a40-41da-ad55-bffebca5cbe0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RATING" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a8cde95-6bc1-4c8d-9bba-fb7a4d9bb369")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06007d68-8bc4-43d6-85a5-c908ab0bc1db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VCC(MAX)(V)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d476861f-ba16-47ea-a2fe-7258560bd768")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "EXP PIN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e52bd86-177e-4cb8-a9dd-75cdc73d793a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VOLTAGE NODES(V)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c445c18e-c878-49a2-a25d-d7545a53ace9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "OPEN DRAIN I/O TYPE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06c4bf5c-a385-4739-90e7-8ce248f2a8db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VCC(MIN)(V)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5cc04ce1-2a7c-4084-bc44-0e9286bd7c9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "# OF I/OS" "16"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "244757fa-76da-45bb-bea7-aab7a9a10edf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "5V TOLERANT I/O" "Yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "414eac1e-b804-4182-9cab-585aaadf65b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CODE_JEDEC" "MO-220"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be7f7f77-a4cf-4236-b1d7-040849936f06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FUNCTION" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1153c00a-e7c2-4780-bb10-e1a1737adfc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "INTERRUPT OUTPUT" "Yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a09de6bf-2358-47fd-9226-69544c41a883")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGEVERSION" "Jul-04"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4b3098f-2ff0-4598-ab2b-bea371aed2b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CHANNEL WIDTH" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de067d65-e53b-458b-9363-c42b2fc3a7eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VCC RANGE(V)" "1.65 to 5.5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a965a433-ec3c-43aa-9f56-40243b273aaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CONFIGURATION REGISTERS" "Yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "135abf10-8eaa-4bcd-a428-e5ef15417623")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TECHNOLOGY FAMILY" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6528cdc1-f571-4303-9479-c563c6a5996e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "TPD MAX(NS)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c426f67-9c5e-49ce-957a-a8eeca55a5b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEETVERSION" "SCPS201A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a9771c0-32a3-452e-96f0-480c015246a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PUSH-PULL I/O TYPE" "Yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73303d8e-9a5f-4e4e-b671-bf1ec685641c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "RESET INPUT" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7dfa639-80c1-46aa-b81d-59a5d8692d00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SIMULTANEOUSLY ACTIVE CHANNELS" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb78f520-8ddb-474a-82c9-e8043e5779b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK2DESCRIPTION" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16853090-e5ff-41c7-9627-64c47a2ba16e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGEDESCRIPTION" "24-Lead Plastic Quad FlatPack, No-Lead, 4x4x0.8mm Body [WQFN]"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cccbcb68-7362-4b66-aac2-794de5034926")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SUBFAMILY" "I2C IO Expander"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72cb3048-3891-4585-b70d-91bbd2803016")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MASTER SIDE I2C BUS CAPACITANCE SUPPORTED(PF)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bf76d07-3475-4424-9a74-4d701376cefa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "I2C ADDRESS" "0100 xxx"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4394b84-99dd-4aaa-8b62-e1632b4a16ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "NO. OF OUTPUTS" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "975fa9aa-7c15-4854-84ae-02ad4c8e2649")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAX FREQUENCY(KHZ)" "400"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "370bf19c-853a-4b41-92b2-ef9d6c1071e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1763264e-e4b4-49c5-ae10-c2ce7bac4398")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MOUNTING TECHNOLOGY" "Surface Mount"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4988363e-e31e-4b49-828d-6a22d0f16c91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGEREFERENCE" "RTW0024B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43e987b9-1599-4ecb-ac20-dbaef9626795")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTNUMBER" "TCA9535RTWR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b378129-eaf8-417c-bbdf-5908ee41ab43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LOW POWER" "Yes"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "304a5f24-3c93-42d7-bb2c-3b452e4e0142")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SLAVE SIDE I2C BUS CAPACITANCE SUPPORTED(PF)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d45f876d-ed83-4ccd-89f2-4d538c808e5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK2URL" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d2aaa29-fccb-436e-bfbd-ee83309fbb08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ENABLE PIN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5201c75a-79f0-43e8-a778-9e9327b8b322")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ECO-PLAN" "Green (RoHS & no Sb/Br)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06cc147e-6c41-436a-8040-29e40e0a66b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ON-CHIP POWER-ON-RESET" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11fecee1-bdcb-47e9-9eb7-3c97a0b519f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FSCLK(MAX)(MHZ)" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2d22f62-8661-42ef-81d3-5e2f3b5fb299")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COMPONENTLINK1URL" "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TCA9535&fileType=pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51d55635-4794-4273-8207-07a241e1118e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FT Rotation Offset" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "027c32e2-4b9d-4b0d-8191-7d4f244ab635")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C140277"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60d59a95-1138-4394-a32e-d6d8bc99237a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -1.8)
+		(end -1.8 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2fc514fc-cc6f-4068-8dd5-c80986a3c142")
+	)
+	(fp_line
+		(start -2 -1.75)
+		(end -2 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9238b6c0-b6a9-4842-b7bc-ea534e689a27")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b51033a-f83a-4f82-9f6d-9bd28e87c1fa")
+	)
+	(fp_line
+		(start -2 2)
+		(end -1.75 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2f36ce2-5782-4974-b8c6-05aa30b0c184")
+	)
+	(fp_line
+		(start -1.8 -2)
+		(end -1.75 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4cbe347-068f-4a78-a514-93a52263e546")
+	)
+	(fp_line
+		(start 1.75 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6db2d7af-e489-4757-b9ce-19ec01dd6303")
+	)
+	(fp_line
+		(start 1.75 2)
+		(end 2 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9887fd0-5390-4518-9ca1-eef155a1ef25")
+	)
+	(fp_line
+		(start 2 -1.75)
+		(end 2 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90640f2a-055c-44ae-8cd0-c87928a5fc4b")
+	)
+	(fp_line
+		(start 2 2)
+		(end 2 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ce19b98-d9bc-46b3-a0a1-e4aeaa2561a8")
+	)
+	(fp_circle
+		(center -2.95 -1.25)
+		(end -2.825 -1.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bb42d6c5-2a9e-474b-99f6-30879b55962d")
+	)
+	(fp_line
+		(start -2.65 -2.65)
+		(end 2.65 -2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "18ab7257-7d64-44e6-856d-5dab7e58bb67")
+	)
+	(fp_line
+		(start -2.65 2.65)
+		(end -2.65 -2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5bbe78d-56a2-4534-8e9a-178ce99e69a8")
+	)
+	(fp_line
+		(start -2.65 2.65)
+		(end 2.65 2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8edeca6d-2301-42ba-a93b-1eb742650d16")
+	)
+	(fp_line
+		(start 2.65 2.65)
+		(end 2.65 -2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "23b5d3a5-93c1-491f-bdd4-5c7fbd0261f3")
+	)
+	(fp_line
+		(start -2 -2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "562f224d-1ac3-484e-98c7-2fab0f606f2b")
+	)
+	(fp_line
+		(start -2 -1.9)
+		(end -1.9 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65a6e6d0-50e6-4bbd-a8bb-94323bfde738")
+	)
+	(fp_line
+		(start -2 -1.8)
+		(end -1.8 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a58952bf-4ea6-4f7d-971f-5a0f911c1dda")
+	)
+	(fp_line
+		(start -2 -1.7)
+		(end -1.7 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60fbbcb6-069d-41cf-9eb6-d362acd0ea35")
+	)
+	(fp_line
+		(start -2 -1.6)
+		(end -1.6 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e745eb6d-0063-4b28-a554-0b3771636a43")
+	)
+	(fp_line
+		(start -2 -1.5)
+		(end -1.5 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b281669-2cb2-4bc4-ad67-41a258e3e360")
+	)
+	(fp_line
+		(start -2 -1.4)
+		(end -1.4 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43ca7473-9dcc-49e5-8350-9d357e0c8a29")
+	)
+	(fp_line
+		(start -2 -1.3)
+		(end -1.3 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abe8cd13-2da1-49a3-a46d-2470383d2d39")
+	)
+	(fp_line
+		(start -2 -1.2)
+		(end -1.2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7a806a5-157c-440e-807e-f1607c4a6111")
+	)
+	(fp_line
+		(start -2 -1.1)
+		(end -1.1 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e53dca9c-6cf6-46b7-b709-46d93aff73ec")
+	)
+	(fp_line
+		(start -2 -1)
+		(end -1 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19809f8e-8689-4393-b580-4271de117ae3")
+	)
+	(fp_line
+		(start -2 2)
+		(end -2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36ea43b9-878b-4ecb-a404-4d04374f8362")
+	)
+	(fp_line
+		(start -2 2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "afd7fef6-803f-4f6a-964d-3a92ee3aaa7c")
+	)
+	(fp_line
+		(start 2 2)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e37b8876-30e7-408d-8ac0-4597b28804af")
+	)
+	(pad "1" smd roundrect
+		(at -1.95 -1.25)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "b9825440-038f-4a16-9021-3c210918751f")
+	)
+	(pad "2" smd roundrect
+		(at -1.95 -0.75)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "5ef9571f-fffd-439c-9dab-4a1178f6e367")
+	)
+	(pad "3" smd roundrect
+		(at -1.95 -0.25)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "0fd10f7c-5a7a-4735-8e20-64a0e9a96fa8")
+	)
+	(pad "4" smd roundrect
+		(at -1.95 0.25)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "5210343a-6456-417c-b559-ba292448e01a")
+	)
+	(pad "5" smd roundrect
+		(at -1.95 0.75)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "eebcdb91-76a6-4a2d-8544-334899511934")
+	)
+	(pad "6" smd roundrect
+		(at -1.95 1.25)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "a03db3be-4cf0-4a9a-adca-5c6b58727d4c")
+	)
+	(pad "7" smd roundrect
+		(at -1.25 1.95 90)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "abcc296d-50b6-48d8-8a8f-9fec8ac55658")
+	)
+	(pad "8" smd roundrect
+		(at -0.75 1.95 90)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "3b17b295-4059-405d-89be-9cd5e6e38231")
+	)
+	(pad "9" smd roundrect
+		(at -0.25 1.95 90)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "5d6a702d-8442-4742-b7b1-df382b09d7a0")
+	)
+	(pad "10" smd roundrect
+		(at 0.25 1.95 90)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "7e260a67-858b-4888-8fb2-353a1d153bcf")
+	)
+	(pad "11" smd roundrect
+		(at 0.75 1.95 90)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "9a909e86-880f-40ac-9660-f4ad99882b67")
+	)
+	(pad "12" smd roundrect
+		(at 1.25 1.95 90)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "4bdebaac-574c-43ed-a50b-90fcb8164fd2")
+	)
+	(pad "13" smd roundrect
+		(at 1.95 1.25)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "622d2c6a-ec9d-4e91-952e-7eb7a818cbba")
+	)
+	(pad "14" smd roundrect
+		(at 1.95 0.75)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "0cc65147-6a81-4255-a967-3aa658e42a59")
+	)
+	(pad "15" smd roundrect
+		(at 1.95 0.25)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "852f827a-590b-4a0d-8b90-2d1a520a0111")
+	)
+	(pad "16" smd roundrect
+		(at 1.95 -0.25)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "d3577cf9-c9ff-4804-a67a-943e7f3a56fd")
+	)
+	(pad "17" smd roundrect
+		(at 1.95 -0.75)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "a862c7ca-d163-4f29-93d0-6f1c1abbd518")
+	)
+	(pad "18" smd roundrect
+		(at 1.95 -1.25)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "5436c1e7-0c4a-4b84-8752-28305ac46969")
+	)
+	(pad "19" smd roundrect
+		(at 1.25 -1.95 90)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "77f97669-a93a-4608-b9f1-e6321fec1953")
+	)
+	(pad "20" smd roundrect
+		(at 0.75 -1.95 90)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "4a0334d0-a85f-4291-8348-4b3a7a206e14")
+	)
+	(pad "21" smd roundrect
+		(at 0.25 -1.95 90)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "16a0974d-8d22-48e3-91bf-073969bab296")
+	)
+	(pad "22" smd roundrect
+		(at -0.25 -1.95 90)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "ab54d4dc-9a63-4241-9bf0-d6928fdbd389")
+	)
+	(pad "23" smd roundrect
+		(at -0.75 -1.95 90)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "14c2742c-23f5-4d4a-8d51-aae656f60308")
+	)
+	(pad "24" smd roundrect
+		(at -1.25 -1.95 90)
+		(size 0.85 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(uuid "bfd9fc63-ea47-4f03-8e1b-b8443a70a044")
+	)
+	(pad "25" smd rect
+		(at 0 0)
+		(size 2.45 2.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "283047e1-6533-41c2-9fb4-0c639d30bbf1")
+	)
+	(embedded_fonts no)
+	(model "${CERN3D}/QFN50P400X400X80-25N-S245.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -2796,6 +2796,16 @@
 				(justify left top)
 			)
 		)
+		(pin "TOTO" input
+			(at 66.04 80.01 180)
+			(uuid "5c366b5f-6cae-4ca0-9dea-d9cd332abcb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Obsidian"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b"

@@ -246,7 +246,120 @@
       "mpn": ""
     },
     "layer_pairs": [],
-    "layer_presets": [],
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          2,
+          14
+        ],
+        "name": "BACK_IN6",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "shapes"
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          0,
+          4
+        ],
+        "name": "FRONT_IN1",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "shapes"
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          6,
+          8
+        ],
+        "name": "IN2_IN3",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "shapes"
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          10,
+          12
+        ],
+        "name": "IN4_IN5",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_values",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "shapes"
+        ]
+      }
+    ],
     "viewports": []
   },
   "boards": [],
@@ -470,6 +583,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -507,28 +621,34 @@
         "clearance": 0.127,
         "name": "ARDUINO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.4,
         "via_drill": 0.2
       },
       {
+        "name": "CLK",
+        "pcb_color": "rgb(108, 255, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "name": "DDRA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDRLD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDRUD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -536,8 +656,8 @@
         "diff_pair_gap": 0.26,
         "diff_pair_width": 0.12,
         "name": "DRAM",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "pcb_color": "rgb(179, 136, 255)",
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.4,
@@ -548,8 +668,8 @@
         "diff_pair_gap": 0.26,
         "diff_pair_width": 0.14,
         "name": "MGT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "pcb_color": "rgb(0, 229, 255)",
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.4,
@@ -559,7 +679,7 @@
         "clearance": 0.127,
         "name": "PMOD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.14,
         "via_diameter": 0.4,
@@ -568,8 +688,8 @@
       {
         "clearance": 0.127,
         "name": "RGMII",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "pcb_color": "rgb(255, 212, 0)",
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.4,
@@ -579,8 +699,28 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+12V": "rgb(139, 0, 0)",
+      "+1V0": "rgb(105, 105, 105)",
+      "+1V2": "rgb(70, 130, 180)",
+      "+1V8": "rgb(198, 134, 66)",
+      "+2V5": "rgb(195, 155, 211)",
+      "+3V3": "rgb(255, 217, 102)",
+      "+3V3_CLEAN": "rgb(135, 206, 250)",
+      "+3V3_P": "rgb(255, 140, 0)",
+      "+3V3_USB": "rgb(144, 238, 144)",
+      "GND": "rgb(191, 191, 191)"
+    },
     "netclass_assignments": {
+      "CLK2": [
+        "CLK"
+      ],
+      "CLK20_VCXO": [
+        "CLK"
+      ],
+      "CLK_25MHZ": [
+        "CLK"
+      ],
       "DDR3_A0": [
         "DDRA"
       ],
@@ -724,6 +864,66 @@
       ],
       "DDR3_WE": [
         "DDRA"
+      ],
+      "MGT_RX0_N": [
+        "MGT"
+      ],
+      "MGT_RX0_P": [
+        "MGT"
+      ],
+      "MGT_RX1_N": [
+        "MGT"
+      ],
+      "MGT_RX1_P": [
+        "MGT"
+      ],
+      "MGT_RX2_N": [
+        "MGT"
+      ],
+      "MGT_RX2_P": [
+        "MGT"
+      ],
+      "MGT_RX3_N": [
+        "MGT"
+      ],
+      "MGT_RX3_P": [
+        "MGT"
+      ],
+      "MGT_TX0_N": [
+        "MGT"
+      ],
+      "MGT_TX0_P": [
+        "MGT"
+      ],
+      "MGT_TX1_N": [
+        "MGT"
+      ],
+      "MGT_TX1_P": [
+        "MGT"
+      ],
+      "MGT_TX2_N": [
+        "MGT"
+      ],
+      "MGT_TX2_P": [
+        "MGT"
+      ],
+      "MGT_TX3_N": [
+        "MGT"
+      ],
+      "MGT_TX3_P": [
+        "MGT"
+      ],
+      "REF_CLK0_N": [
+        "CLK"
+      ],
+      "REF_CLK0_P": [
+        "CLK"
+      ],
+      "WR_CLK0_N": [
+        "CLK"
+      ],
+      "WR_CLK0_P": [
+        "CLK"
       ]
     },
     "netclass_patterns": [

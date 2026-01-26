@@ -13696,7 +13696,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 111.76) (xy 251.46 111.76)
+			(xy 237.49 111.76) (xy 256.54 111.76)
 		)
 		(stroke
 			(width 0)
@@ -14176,7 +14176,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 54.61) (xy 266.7 54.61)
+			(xy 260.35 38.1) (xy 270.51 38.1)
 		)
 		(stroke
 			(width 0)
@@ -14696,7 +14696,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 55.88) (xy 260.35 54.61)
+			(xy 260.35 55.88) (xy 260.35 38.1)
 		)
 		(stroke
 			(width 0)
@@ -15268,7 +15268,7 @@
 	)
 	(global_label "CLK20_VCXO"
 		(shape output)
-		(at 251.46 111.76 0)
+		(at 256.54 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15280,7 +15280,7 @@
 		)
 		(uuid "3a62ef20-201e-48f6-8293-58f97b38840a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.7745 111.76 0)
+			(at 271.8545 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15384,7 +15384,7 @@
 	)
 	(global_label "CLK_25MHZ"
 		(shape output)
-		(at 266.7 54.61 0)
+		(at 270.51 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15396,7 +15396,7 @@
 		)
 		(uuid "b79c75de-7742-4cab-81bb-8d5e09e68700")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.1073 54.61 0)
+			(at 284.9173 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15471,6 +15471,98 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 269.24 22.86) (xy 269.24 41.91) (xy 284.48 41.91) (xy 284.48 22.86)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 72857f52-1441-40f1-b63b-e8d0ec0568a7)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 255.27 107.95) (xy 255.27 163.83) (xy 274.32 163.83) (xy 274.32 107.95)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 9787a30d-a09d-4860-9cd8-4adedb08435f)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 264.16 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cabff2d-e3ec-46a3-b1d2-160358e1f384")
+		(property "Netclass" "CLK"
+			(at 264.8585 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -49.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 276.86 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58c5659c-7f16-411e-a6b8-dcf893872169")
+		(property "Netclass" "CLK"
+			(at 277.5585 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -36.83 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)

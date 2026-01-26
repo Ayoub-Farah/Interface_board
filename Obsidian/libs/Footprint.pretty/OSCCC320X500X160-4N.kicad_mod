@@ -1,0 +1,285 @@
+(footprint "OSCCC320X500X160-4N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Oscillator, Corner Convave, 4 pins, 5x3.2mm")
+	(property "Reference" "REF**"
+		(at -0.35 -3.75 0)
+		(layer "F.SilkS")
+		(uuid "f42fd874-2b0a-4ee8-8d87-5f8aabd49579")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "VM53S3-25.000-2.5/-30+75"
+		(at 0 4.126 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f31bf0c-b513-479c-8a18-90841cf9eb71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23544618-e665-4cf0-8d85-1ec2d5b8603a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e69311c-00cf-4d66-9474-e3e046d5a952")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part Number" "VM53S3-25.000-2.5/-30+75"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ef4f915-452f-499d-b969-cb8552a027fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "config" "dnf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cafecb6-2304-455a-9e08-796e73de9957")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "FT Rotation Offset" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6e18aff-08f0-4b52-b96b-e92bcfbdfb95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C52954962"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2042e26-c4c3-459d-9994-687cdd48622d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 1.1)
+		(end -1.6 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "650e8afa-967a-49ad-9267-0fd1e99838fe")
+	)
+	(fp_line
+		(start -0.3 -2.5)
+		(end 0.3 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "067894b8-3e54-4923-962d-65bbba699c32")
+	)
+	(fp_line
+		(start -0.3 2.5)
+		(end 0.3 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72529af9-3105-441e-b153-d163cd6c330e")
+	)
+	(fp_line
+		(start 1.6 1.1)
+		(end 1.6 -1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57add14f-f3d3-4597-a13d-08ea6057b10f")
+	)
+	(fp_circle
+		(center -2.45 -2.15)
+		(end -2.325 -2.15)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "53eff39d-5542-45d9-b95a-5a8e5a1ff930")
+	)
+	(fp_line
+		(start -2.2 -3.1)
+		(end 2.2 -3.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6569f408-c5c6-4e17-b643-27d0863f80d2")
+	)
+	(fp_line
+		(start -2.2 3.1)
+		(end -2.2 -3.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4bd3ddb-4681-441b-aaf3-d25ca07a708e")
+	)
+	(fp_line
+		(start -2.2 3.1)
+		(end 2.2 3.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "04645a64-8eda-4487-a59e-945b9bf98400")
+	)
+	(fp_line
+		(start 2.2 3.1)
+		(end 2.2 -3.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f9e6133-33d0-4733-8eec-809f41c8797d")
+	)
+	(fp_line
+		(start -1.6 -2.5)
+		(end 1.6 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31c24c7c-d80c-4b71-adbc-3c2985432ae4")
+	)
+	(fp_line
+		(start -1.6 2.5)
+		(end -1.6 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d28ac51-0e45-4067-8cc0-acab31b9e86a")
+	)
+	(fp_line
+		(start -1.6 2.5)
+		(end 1.6 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "033e9956-370f-4350-9d12-d3c4f0ff66cc")
+	)
+	(fp_line
+		(start 1.6 2.5)
+		(end 1.6 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "706741bb-4afb-41f4-b6c6-da0fc7db99b4")
+	)
+	(fp_circle
+		(center -0.6 -1.5)
+		(end -0.1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0d7c4752-607b-41e1-b60d-64a4fc49dc73")
+	)
+	(pad "1" smd rect
+		(at -1.3 -2.15 90)
+		(size 1.35 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b5567c86-eb32-461b-88e6-e76ac6dc13b1")
+	)
+	(pad "2" smd rect
+		(at -1.3 2.15 90)
+		(size 1.35 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1a177bc2-4ab3-4200-8a53-eb2911cca4f5")
+	)
+	(pad "3" smd rect
+		(at 1.3 2.15 90)
+		(size 1.35 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f4f62bf3-e120-4d37-9967-33d7a4f768ac")
+	)
+	(pad "4" smd rect
+		(at 1.3 -2.15 90)
+		(size 1.35 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "87f8e232-68a7-45de-9cab-e80848b02076")
+	)
+	(embedded_fonts no)
+	(model "${CERN3D}/OSCCC320X500X160-4N.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
