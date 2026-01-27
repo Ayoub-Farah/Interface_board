@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -16,24 +16,23 @@
       "zones": 0.6700000166893005
     },
     "selection_filter": {
-      "dimensions": false,
+      "dimensions": true,
       "footprints": true,
-      "graphics": false,
-      "keepouts": false,
+      "graphics": true,
+      "keepouts": true,
       "lockedItems": false,
-      "otherItems": false,
-      "pads": false,
-      "text": false,
-      "tracks": false,
-      "vias": false,
-      "zones": false
+      "otherItems": true,
+      "pads": true,
+      "text": true,
+      "tracks": true,
+      "vias": true,
+      "zones": true
     },
     "visible_items": [
       "vias",
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
-      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -47,7 +46,7 @@
       "drc_warnings",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_00000001",
+    "visible_layers": "00000000_00000000_00000000_00000011",
     "zone_display_mode": 0
   },
   "git": {
@@ -98,22 +97,22 @@
       15
     ],
     "col_widths": [
-      243,
-      221,
-      137,
-      101,
-      137,
-      137,
-      137,
-      107,
-      137,
-      137,
-      137,
-      137,
-      137,
-      137,
-      137,
-      1254
+      162,
+      147,
+      91,
+      67,
+      91,
+      91,
+      91,
+      71,
+      91,
+      91,
+      91,
+      91,
+      91,
+      91,
+      91,
+      836
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
