@@ -12390,6 +12390,11 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "WR_CLK"
+		(members "WR_CLK0_P" "WR_CLK0_N" "CLK_25MHZ" "CLK20_VCXO" "REF_CLK0_P"
+			"REF_CLK0_N" "CLK2"
+		)
+	)
 	(text "1"
 		(exclude_from_sim no)
 		(at 189.23 55.88 0)
@@ -12884,6 +12889,123 @@
 		(at 227.33 43.18)
 		(uuid "f5d6ae21-978c-4237-9481-579fe1c41290")
 	)
+	(bus_entry
+		(at 278.13 27.94)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07bdd5d1-63dd-4b37-b188-22d1b06f268d")
+	)
+	(bus_entry
+		(at 270.51 114.3)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0860ba21-aa6b-4974-925f-aa8bd8dce1fa")
+	)
+	(bus_entry
+		(at 270.51 162.56)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1825b67f-d2c4-488f-a377-e3aead1026c1")
+	)
+	(bus_entry
+		(at 270.51 140.97)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275c381f-1ee1-43df-9ef4-d75c204fcbd9")
+	)
+	(bus_entry
+		(at 270.51 146.05)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41fc065e-479a-4d70-9920-c1511b848e5c")
+	)
+	(bus_entry
+		(at 278.13 30.48)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475c8f35-34fc-4ce3-be38-93ff7328e3ea")
+	)
+	(bus_entry
+		(at 278.13 40.64)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5accdf9f-1749-4cbb-8d6e-4f09a678bb4a")
+	)
+	(bus_entry
+		(at 35.56 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813487ca-3f3f-4c19-9811-f2fe3cdda35e")
+	)
+	(bus_entry
+		(at 35.56 124.46)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85509baa-66d3-4783-87d1-037d4eb31d99")
+	)
+	(bus_entry
+		(at 35.56 101.6)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922e9cc8-c152-48f6-ae50-baa12130187b")
+	)
+	(bus_entry
+		(at 35.56 104.14)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c2977d-0d8d-4a86-9caa-7939a30bd4bd")
+	)
+	(bus_entry
+		(at 173.99 153.67)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3103de1-3575-4b1a-9d55-53ec6273480b")
+	)
+	(bus_entry
+		(at 173.99 151.13)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de53618f-6c7a-486e-b654-abb13ec8d675")
+	)
 	(wire
 		(pts
 			(xy 93.98 60.96) (xy 93.98 59.69)
@@ -12903,6 +13025,16 @@
 			(type default)
 		)
 		(uuid "062edeb4-34d5-43ab-94c1-2eef657c2c3d")
+	)
+	(bus
+		(pts
+			(xy 35.56 104.14) (xy 35.56 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089a7ce4-fecf-4148-8fa9-d231ba3f3da9")
 	)
 	(wire
 		(pts
@@ -12946,7 +13078,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 27.94) (xy 265.43 27.94)
+			(xy 275.59 27.94) (xy 260.35 27.94)
 		)
 		(stroke
 			(width 0)
@@ -12993,6 +13125,16 @@
 			(type default)
 		)
 		(uuid "109e2c3c-b7b5-41a5-8474-426d669fecf5")
+	)
+	(bus
+		(pts
+			(xy 270.51 114.3) (xy 270.51 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f3850d-db3c-4e75-80c5-9c462eab7243")
 	)
 	(wire
 		(pts
@@ -13146,7 +13288,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 27.94) (xy 243.84 27.94)
+			(xy 252.73 27.94) (xy 243.84 27.94)
 		)
 		(stroke
 			(width 0)
@@ -13156,7 +13298,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 160.02) (xy 256.54 160.02)
+			(xy 229.87 160.02) (xy 267.97 160.02)
 		)
 		(stroke
 			(width 0)
@@ -13183,6 +13325,16 @@
 			(type default)
 		)
 		(uuid "2938fe6e-b49d-498a-b5b2-91837459a0a3")
+	)
+	(bus
+		(pts
+			(xy 278.13 27.94) (xy 278.13 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e2de69-3926-49bd-817e-ec2d8e099e11")
 	)
 	(wire
 		(pts
@@ -13274,6 +13426,16 @@
 		)
 		(uuid "355459fc-c58b-4009-acfe-4a3916145644")
 	)
+	(bus
+		(pts
+			(xy 35.56 99.06) (xy 22.86 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3604d105-15c5-4e23-a535-de857fd69c03")
+	)
 	(wire
 		(pts
 			(xy 182.88 140.97) (xy 189.23 140.97)
@@ -13316,7 +13478,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 143.51) (xy 256.54 143.51)
+			(xy 251.46 143.51) (xy 267.97 143.51)
 		)
 		(stroke
 			(width 0)
@@ -13394,6 +13556,16 @@
 		)
 		(uuid "40e605c7-dc40-4014-a10d-ce261a79016e")
 	)
+	(bus
+		(pts
+			(xy 278.13 30.48) (xy 278.13 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a340b9-2639-4f2a-9e02-5ee79111e8ce")
+	)
 	(wire
 		(pts
 			(xy 229.87 71.12) (xy 229.87 73.66)
@@ -13433,6 +13605,16 @@
 			(type default)
 		)
 		(uuid "479a9427-3c2d-4e5c-9c90-62fa798ed724")
+	)
+	(bus
+		(pts
+			(xy 173.99 151.13) (xy 173.99 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d4fc7a-1447-42a9-83b3-a89ba57df9f0")
 	)
 	(wire
 		(pts
@@ -13536,7 +13718,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 138.43) (xy 256.54 138.43)
+			(xy 251.46 138.43) (xy 267.97 138.43)
 		)
 		(stroke
 			(width 0)
@@ -13613,6 +13795,16 @@
 			(type default)
 		)
 		(uuid "5dc98294-5f17-4248-9879-f3fcf296b8e2")
+	)
+	(bus
+		(pts
+			(xy 173.99 153.67) (xy 173.99 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd3890b-242b-4142-a99e-8c86b3a00e93")
 	)
 	(wire
 		(pts
@@ -13696,7 +13888,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 111.76) (xy 256.54 111.76)
+			(xy 237.49 111.76) (xy 267.97 111.76)
 		)
 		(stroke
 			(width 0)
@@ -13743,6 +13935,16 @@
 			(type default)
 		)
 		(uuid "6f1f30d7-c2f9-4915-848e-6638831c1744")
+	)
+	(bus
+		(pts
+			(xy 256.54 99.06) (xy 269.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712a84ac-7354-4157-ba5b-17418d184170")
 	)
 	(wire
 		(pts
@@ -13793,6 +13995,16 @@
 			(type default)
 		)
 		(uuid "7613f242-12e5-4a74-8a50-e1a860255a90")
+	)
+	(bus
+		(pts
+			(xy 35.56 101.6) (xy 35.56 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77fb6718-7cec-4096-b742-ca0a9a4d445f")
 	)
 	(wire
 		(pts
@@ -13896,7 +14108,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 114.3) (xy 165.1 114.3)
+			(xy 151.13 114.3) (xy 165.1 114.3)
 		)
 		(stroke
 			(width 0)
@@ -14056,7 +14268,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 25.4) (xy 265.43 25.4)
+			(xy 275.59 25.4) (xy 260.35 25.4)
 		)
 		(stroke
 			(width 0)
@@ -14166,7 +14378,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 25.4) (xy 250.19 25.4)
+			(xy 252.73 25.4) (xy 250.19 25.4)
 		)
 		(stroke
 			(width 0)
@@ -14176,7 +14388,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 38.1) (xy 270.51 38.1)
+			(xy 259.08 38.1) (xy 275.59 38.1)
 		)
 		(stroke
 			(width 0)
@@ -14283,6 +14495,16 @@
 			(type default)
 		)
 		(uuid "a7fcfc30-13f3-4d7a-a488-48d085ec7d19")
+	)
+	(bus
+		(pts
+			(xy 270.51 146.05) (xy 270.51 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4bed2b-1c17-41c3-9bf9-9126c156dabc")
 	)
 	(wire
 		(pts
@@ -14404,6 +14626,16 @@
 		)
 		(uuid "b9ba687e-798d-4f6a-8ad8-63eb1b41b605")
 	)
+	(bus
+		(pts
+			(xy 165.1 158.75) (xy 173.99 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb54e3ef-2410-463d-be32-8434d4cd3961")
+	)
 	(wire
 		(pts
 			(xy 60.96 158.75) (xy 80.01 158.75)
@@ -14493,6 +14725,16 @@
 			(type default)
 		)
 		(uuid "c2a728f9-2c8b-4baa-aa72-f188fb474b7b")
+	)
+	(bus
+		(pts
+			(xy 270.51 140.97) (xy 270.51 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4821057-7c90-4289-811f-05664473ab80")
 	)
 	(wire
 		(pts
@@ -14696,7 +14938,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 55.88) (xy 260.35 38.1)
+			(xy 259.08 55.88) (xy 259.08 38.1)
 		)
 		(stroke
 			(width 0)
@@ -14826,7 +15068,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 55.88) (xy 260.35 55.88)
+			(xy 242.57 55.88) (xy 259.08 55.88)
 		)
 		(stroke
 			(width 0)
@@ -14893,6 +15135,16 @@
 			(type default)
 		)
 		(uuid "ed55305f-94c0-4d77-b165-975101ba5e4c")
+	)
+	(bus
+		(pts
+			(xy 35.56 99.06) (xy 35.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc1b3f4-508f-43a6-bcc1-ceb4db641424")
 	)
 	(wire
 		(pts
@@ -14984,8 +15236,28 @@
 		)
 		(uuid "fc922dac-32b5-4175-838b-3ab187011986")
 	)
-	(label "CLK20_VCXO"
-		(at 238.76 111.76 0)
+	(label "{I2C}"
+		(at 171.45 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f9b1dd5-2e01-45cb-a30a-10f4faba1da6")
+	)
+	(label "REF_CLK0_N"
+		(at 267.97 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2884d195-cb70-44f8-8f97-58dfd41126a6")
+	)
+	(label "VCXO_EN"
+		(at 151.13 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14994,7 +15266,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2763d117-3620-42d1-854a-fc4217d1c547")
+		(uuid "29f7683b-c79f-4bdc-b2bb-20280c0d938e")
 	)
 	(label "CLK_25MHZ"
 		(at 133.35 124.46 0)
@@ -15008,17 +15280,15 @@
 		)
 		(uuid "314214dc-f6f3-4692-8deb-29386ebeaac4")
 	)
-	(label "WRCLK0_N"
-		(at 229.87 27.94 0)
+	(label "REF_CLK0_P"
+		(at 267.97 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "41ff245b-1938-4001-87f1-9f686afac2ef")
+		(uuid "4be05c4c-d34f-4a03-a085-eb82e9288efa")
 	)
 	(label "WR_DAC_SCLK"
 		(at 40.64 104.14 0)
@@ -15032,6 +15302,28 @@
 		)
 		(uuid "570842d4-e927-49a7-9460-41d6816aa5f6")
 	)
+	(label "CLK_25MHZ"
+		(at 275.59 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c9d1009-8efb-4fb0-aa92-163976222110")
+	)
+	(label "CLK2"
+		(at 261.62 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e03bb84-e9b4-4ceb-9982-c0833901dd1d")
+	)
 	(label "WR_DAC2_SYNC"
 		(at 40.64 101.6 0)
 		(effects
@@ -15044,17 +15336,35 @@
 		)
 		(uuid "645a24df-0b23-490c-bc5f-d401038db8d6")
 	)
-	(label "CLK_25MHZ"
-		(at 246.38 55.88 0)
+	(label "I2C_SCL"
+		(at 176.53 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
-		(uuid "763aa191-7d54-42ce-b0fd-304710955962")
+		(uuid "6f72d054-3cd2-455d-82da-2f000b2dfe7c")
+	)
+	(label "{WR_DAC}"
+		(at 35.56 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73522356-c99c-4d29-92d3-11805a57c82b")
+	)
+	(label "{WR_CLK}"
+		(at 256.54 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7baa84f3-a9ac-4f36-b5f6-6839966d6258")
 	)
 	(label "WR_DAC1_SYNC"
 		(at 40.64 127 0)
@@ -15080,18 +15390,6 @@
 		)
 		(uuid "90f9e0cb-3843-4a6e-8bce-8cd3558139d5")
 	)
-	(label "WRCLK0_P"
-		(at 229.87 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "917e45f6-9b25-44ef-9721-7272cb089e72")
-	)
 	(label "WR_DAC_OUT1"
 		(at 82.55 30.48 0)
 		(effects
@@ -15116,6 +15414,50 @@
 		)
 		(uuid "b9950e5c-c3c7-49be-936b-da2fbe4270e8")
 	)
+	(label "{WR_CLK}"
+		(at 270.51 114.3247 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c789a487-893d-402f-a8ce-7b0b7fa9b445")
+	)
+	(label "WR_CLK0_P"
+		(at 275.59 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc42f54d-2dc2-492c-b0b2-658b5d99bdca")
+	)
+	(label "CLK20_VCXO"
+		(at 267.97 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "cda840a0-8bdf-4a6e-8fef-bf2e50aee09f")
+	)
+	(label "{WR_CLK}"
+		(at 278.13 40.64 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d86a4929-1a58-4b7f-9ee4-f1bb4e6bfa6d")
+	)
 	(label "WR_DAC_DIN"
 		(at 40.64 106.68 0)
 		(effects
@@ -15127,6 +15469,28 @@
 			(justify left bottom)
 		)
 		(uuid "daca6810-5f57-42ca-8755-ab45c2641120")
+	)
+	(label "WR_CLK0_N"
+		(at 275.59 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "dcd98ac6-e78d-4ba2-a396-d53c1ef6f21c")
+	)
+	(label "I2C_SDA"
+		(at 176.53 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df77f916-d59c-467b-a13b-7a30c1ac67c2")
 	)
 	(label "WR_DAC_OUT1"
 		(at 114.3 127 0)
@@ -15152,332 +15516,54 @@
 		)
 		(uuid "eb31165a-c14e-4b7b-a0e8-1890bd19080b")
 	)
-	(global_label "I2C_SDA"
+	(hierarchical_label "WR_DAC"
 		(shape bidirectional)
-		(at 176.53 151.13 180)
-		(fields_autoplaced yes)
+		(at 22.86 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "0022ac7f-67cd-4992-827c-2ddaa99e3dd3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.8135 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "1a012f85-e310-4977-877e-c9291f7fe18e")
 	)
-	(global_label "REF_CLK0_P"
-		(shape output)
-		(at 256.54 138.43 0)
-		(fields_autoplaced yes)
+	(hierarchical_label "WR_CLOCK"
+		(shape bidirectional)
+		(at 269.24 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "011ff17c-11f9-48a2-b588-44211cae3125")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.0156 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "1b3d7a73-7109-4ff0-a6f0-ef8e51dca9d2")
 	)
-	(global_label "WR_CLK0_N"
-		(shape output)
-		(at 270.51 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "0c2ad2aa-d1ad-4ad4-a301-d7dcae954ea9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.7359 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WR_CLK0_P"
-		(shape output)
-		(at 270.51 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "0d010923-e937-464c-9ff7-05e8a46c9b00")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.6754 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "REF_CLK0_N"
-		(shape output)
-		(at 256.54 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15374d67-cbe2-4c5b-97f5-f7eaa3057c54")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.0761 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLK20_VCXO"
-		(shape output)
-		(at 256.54 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "3a62ef20-201e-48f6-8293-58f97b38840a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.8545 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C_SCL"
-		(shape input)
-		(at 176.53 148.59 180)
-		(fields_autoplaced yes)
+	(hierarchical_label "VCXO_EN"
+		(shape bidirectional)
+		(at 151.13 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "4332a335-d882-4b99-a724-6a6203c863c5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.9853 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "71595aee-372a-461c-8db0-ef418b57c280")
 	)
-	(global_label "VCXO_EN"
-		(shape input)
-		(at 156.21 114.3 180)
-		(fields_autoplaced yes)
+	(hierarchical_label "I2C"
+		(shape bidirectional)
+		(at 165.1 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
 			)
 			(justify right)
 		)
-		(uuid "5e6d2655-0422-4093-9da2-7e93b0c83383")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.4031 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WR_DAC1_SYNC"
-		(shape input)
-		(at 38.1 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "ae21898e-2243-4c68-b504-465f21d73e96")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.2455 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WR_DAC_DIN"
-		(shape input)
-		(at 38.1 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "b6ccb004-534a-4236-ad29-c2cb633e04b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.1483 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLK_25MHZ"
-		(shape output)
-		(at 270.51 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "b79c75de-7742-4cab-81bb-8d5e09e68700")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.9173 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WR_DAC2_SYNC"
-		(shape input)
-		(at 38.1 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "ba987d97-6a05-4b19-b5fd-5122508ee216")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.2455 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLK2"
-		(shape output)
-		(at 256.54 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e77f6605-323a-4001-a200-afd45f103781")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.3028 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WR_DAC_SCLK"
-		(shape input)
-		(at 38.1 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "e978621e-751a-4a26-87ac-ebbf1d3b6c24")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.576 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "b7ec2ee6-e19e-4d44-8a4a-d4b8cb970803")
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 269.24 22.86) (xy 269.24 41.91) (xy 284.48 41.91) (xy 284.48 22.86)
+				(xy 264.16 22.86) (xy 264.16 41.91) (xy 283.21 41.91) (xy 283.21 22.86)
 			)
 			(stroke
 				(width 0)
@@ -15538,7 +15624,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 276.86 22.86 0)
+		(at 271.78 22.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15548,7 +15634,7 @@
 		)
 		(uuid "58c5659c-7f16-411e-a6b8-dcf893872169")
 		(property "Netclass" "CLK"
-			(at 277.5585 20.32 0)
+			(at 272.4785 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15557,7 +15643,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -36.83 -12.7 0)
+			(at -41.91 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15568,7 +15654,7 @@
 	)
 	(symbol
 		(lib_id "Capacitors SMD:CC0402_100NF_50V_10%_X7R")
-		(at 265.43 25.4 0)
+		(at 260.35 25.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15577,7 +15663,7 @@
 		(dnp no)
 		(uuid "03bce816-8790-41b3-92a0-bffc325f33b2")
 		(property "Reference" "C205"
-			(at 255.27 24.384 0)
+			(at 254 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15586,7 +15672,7 @@
 			)
 		)
 		(property "Value" "CC0402_100NF_50V_10%_X7R"
-			(at 265.43 31.623 0)
+			(at 260.35 31.623 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15596,7 +15682,7 @@
 			)
 		)
 		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
-			(at 265.43 33.528 0)
+			(at 260.35 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15606,7 +15692,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
-			(at 265.43 35.433 0)
+			(at 260.35 35.433 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15616,7 +15702,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 265.43 25.4 0)
+			(at 260.35 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15625,7 +15711,7 @@
 			)
 		)
 		(property "Val" "100nF"
-			(at 262.89 24.384 0)
+			(at 257.81 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15634,7 +15720,7 @@
 			)
 		)
 		(property "Part Number" "CC0402_100NF_50V_10%_X7R"
-			(at 265.43 37.338 0)
+			(at 260.35 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15644,7 +15730,7 @@
 			)
 		)
 		(property "Library Ref" "Capacitor - non polarized"
-			(at 265.43 39.243 0)
+			(at 260.35 39.243 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15654,7 +15740,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Capacitors.SchLib"
-			(at 265.43 41.148 0)
+			(at 260.35 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15664,7 +15750,7 @@
 			)
 		)
 		(property "Comment" "100nF"
-			(at 265.43 43.053 0)
+			(at 260.35 43.053 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15674,7 +15760,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 265.43 44.958 0)
+			(at 260.35 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15684,7 +15770,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 265.43 46.863 0)
+			(at 260.35 46.863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15694,7 +15780,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 265.43 48.768 0)
+			(at 260.35 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15704,7 +15790,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\Capacitors SMD.PcbLib"
-			(at 265.43 50.673 0)
+			(at 260.35 50.673 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15714,7 +15800,7 @@
 			)
 		)
 		(property "Footprint Ref" "CAPC1005X55N"
-			(at 265.43 52.578 0)
+			(at 260.35 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15724,7 +15810,7 @@
 			)
 		)
 		(property "PackageDescription" " "
-			(at 265.43 54.483 0)
+			(at 260.35 54.483 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15734,7 +15820,7 @@
 			)
 		)
 		(property "Status" "None"
-			(at 265.43 56.388 0)
+			(at 260.35 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15744,7 +15830,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 265.43 58.293 0)
+			(at 260.35 58.293 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15754,7 +15840,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 265.43 60.198 0)
+			(at 260.35 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15764,7 +15850,7 @@
 			)
 		)
 		(property "TC" "X7R"
-			(at 265.43 62.103 0)
+			(at 260.35 62.103 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15774,7 +15860,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 265.43 64.008 0)
+			(at 260.35 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15784,7 +15870,7 @@
 			)
 		)
 		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 265.43 65.913 0)
+			(at 260.35 65.913 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15794,7 +15880,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 265.43 67.818 0)
+			(at 260.35 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15804,7 +15890,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0402_100NF_50V_10%_X7R"
-			(at 265.43 69.723 0)
+			(at 260.35 69.723 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15814,7 +15900,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 265.43 71.628 0)
+			(at 260.35 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15824,7 +15910,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 265.43 73.533 0)
+			(at 260.35 73.533 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15834,7 +15920,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 265.43 75.438 0)
+			(at 260.35 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15844,7 +15930,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 265.43 77.343 0)
+			(at 260.35 77.343 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15854,7 +15940,7 @@
 			)
 		)
 		(property "PressFit" " "
-			(at 265.43 79.248 0)
+			(at 260.35 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15864,7 +15950,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 265.43 81.153 0)
+			(at 260.35 81.153 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15874,7 +15960,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 265.43 83.058 0)
+			(at 260.35 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15884,7 +15970,7 @@
 			)
 		)
 		(property "ComponentHeight" " "
-			(at 265.43 84.963 0)
+			(at 260.35 84.963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15894,7 +15980,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" "MURATA"
-			(at 265.43 86.868 0)
+			(at 260.35 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15904,7 +15990,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" "GRM155R71H104KE14D"
-			(at 265.43 88.773 0)
+			(at 260.35 88.773 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15914,7 +16000,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.55mm"
-			(at 265.43 90.678 0)
+			(at 260.35 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15924,7 +16010,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
-			(at 265.43 92.583 0)
+			(at 260.35 92.583 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15934,7 +16020,7 @@
 			)
 		)
 		(property "Author" "CERN DEM MR"
-			(at 265.43 94.488 0)
+			(at 260.35 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15944,7 +16030,7 @@
 			)
 		)
 		(property "CreateDate" "06/30/17 00:00:00"
-			(at 265.43 96.393 0)
+			(at 260.35 96.393 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15954,7 +16040,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "06/30/17 00:00:00"
-			(at 265.43 98.298 0)
+			(at 260.35 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15964,7 +16050,7 @@
 			)
 		)
 		(property "Database Table Name" "Capacitors"
-			(at 265.43 100.203 0)
+			(at 260.35 100.203 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15974,7 +16060,7 @@
 			)
 		)
 		(property "Library Name" "Capacitors SMD"
-			(at 265.43 102.108 0)
+			(at 260.35 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15984,7 +16070,7 @@
 			)
 		)
 		(property "Footprint Library" "Capacitors SMD"
-			(at 265.43 104.013 0)
+			(at 260.35 104.013 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15994,7 +16080,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 265.43 105.918 0)
+			(at 260.35 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16004,7 +16090,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 265.43 25.4 0)
+			(at 260.35 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16013,7 +16099,7 @@
 			)
 		)
 		(property "LCSC" "C110251"
-			(at 265.43 25.4 0)
+			(at 260.35 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41572,7 +41658,7 @@
 	)
 	(symbol
 		(lib_id "Capacitors SMD:CC0402_100NF_50V_10%_X7R")
-		(at 265.43 27.94 0)
+		(at 260.35 27.94 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -41581,7 +41667,7 @@
 		(dnp no)
 		(uuid "bb00acb1-46bc-4b3b-a02a-1c609d6a72ef")
 		(property "Reference" "C213"
-			(at 255.27 26.924 0)
+			(at 254.254 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41590,7 +41676,7 @@
 			)
 		)
 		(property "Value" "CC0402_100NF_50V_10%_X7R"
-			(at 265.43 34.163 0)
+			(at 260.35 34.163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41600,7 +41686,7 @@
 			)
 		)
 		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
-			(at 265.43 36.068 0)
+			(at 260.35 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41610,7 +41696,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
-			(at 265.43 37.973 0)
+			(at 260.35 37.973 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41620,7 +41706,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 265.43 27.94 0)
+			(at 260.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41629,7 +41715,7 @@
 			)
 		)
 		(property "Val" "100nF"
-			(at 262.89 26.924 0)
+			(at 257.81 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41638,7 +41724,7 @@
 			)
 		)
 		(property "Part Number" "CC0402_100NF_50V_10%_X7R"
-			(at 265.43 39.878 0)
+			(at 260.35 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41648,7 +41734,7 @@
 			)
 		)
 		(property "Library Ref" "Capacitor - non polarized"
-			(at 265.43 41.783 0)
+			(at 260.35 41.783 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41658,7 +41744,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Capacitors.SchLib"
-			(at 265.43 43.688 0)
+			(at 260.35 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41668,7 +41754,7 @@
 			)
 		)
 		(property "Comment" "100nF"
-			(at 265.43 45.593 0)
+			(at 260.35 45.593 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41678,7 +41764,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 265.43 47.498 0)
+			(at 260.35 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41688,7 +41774,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 265.43 49.403 0)
+			(at 260.35 49.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41698,7 +41784,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 265.43 51.308 0)
+			(at 260.35 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41708,7 +41794,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\Capacitors SMD.PcbLib"
-			(at 265.43 53.213 0)
+			(at 260.35 53.213 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41718,7 +41804,7 @@
 			)
 		)
 		(property "Footprint Ref" "CAPC1005X55N"
-			(at 265.43 55.118 0)
+			(at 260.35 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41728,7 +41814,7 @@
 			)
 		)
 		(property "PackageDescription" " "
-			(at 265.43 57.023 0)
+			(at 260.35 57.023 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41738,7 +41824,7 @@
 			)
 		)
 		(property "Status" "None"
-			(at 265.43 58.928 0)
+			(at 260.35 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41748,7 +41834,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 265.43 60.833 0)
+			(at 260.35 60.833 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41758,7 +41844,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 265.43 62.738 0)
+			(at 260.35 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41768,7 +41854,7 @@
 			)
 		)
 		(property "TC" "X7R"
-			(at 265.43 64.643 0)
+			(at 260.35 64.643 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41778,7 +41864,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 265.43 66.548 0)
+			(at 260.35 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41788,7 +41874,7 @@
 			)
 		)
 		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 265.43 68.453 0)
+			(at 260.35 68.453 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41798,7 +41884,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 265.43 70.358 0)
+			(at 260.35 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41808,7 +41894,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0402_100NF_50V_10%_X7R"
-			(at 265.43 72.263 0)
+			(at 260.35 72.263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41818,7 +41904,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 265.43 74.168 0)
+			(at 260.35 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41828,7 +41914,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 265.43 76.073 0)
+			(at 260.35 76.073 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41838,7 +41924,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 265.43 77.978 0)
+			(at 260.35 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41848,7 +41934,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 265.43 79.883 0)
+			(at 260.35 79.883 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41858,7 +41944,7 @@
 			)
 		)
 		(property "PressFit" " "
-			(at 265.43 81.788 0)
+			(at 260.35 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41868,7 +41954,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 265.43 83.693 0)
+			(at 260.35 83.693 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41878,7 +41964,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 265.43 85.598 0)
+			(at 260.35 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41888,7 +41974,7 @@
 			)
 		)
 		(property "ComponentHeight" " "
-			(at 265.43 87.503 0)
+			(at 260.35 87.503 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41898,7 +41984,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" "MURATA"
-			(at 265.43 89.408 0)
+			(at 260.35 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41908,7 +41994,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" "GRM155R71H104KE14D"
-			(at 265.43 91.313 0)
+			(at 260.35 91.313 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41918,7 +42004,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.55mm"
-			(at 265.43 93.218 0)
+			(at 260.35 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41928,7 +42014,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
-			(at 265.43 95.123 0)
+			(at 260.35 95.123 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41938,7 +42024,7 @@
 			)
 		)
 		(property "Author" "CERN DEM MR"
-			(at 265.43 97.028 0)
+			(at 260.35 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41948,7 +42034,7 @@
 			)
 		)
 		(property "CreateDate" "06/30/17 00:00:00"
-			(at 265.43 98.933 0)
+			(at 260.35 98.933 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41958,7 +42044,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "06/30/17 00:00:00"
-			(at 265.43 100.838 0)
+			(at 260.35 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41968,7 +42054,7 @@
 			)
 		)
 		(property "Database Table Name" "Capacitors"
-			(at 265.43 102.743 0)
+			(at 260.35 102.743 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41978,7 +42064,7 @@
 			)
 		)
 		(property "Library Name" "Capacitors SMD"
-			(at 265.43 104.648 0)
+			(at 260.35 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41988,7 +42074,7 @@
 			)
 		)
 		(property "Footprint Library" "Capacitors SMD"
-			(at 265.43 106.553 0)
+			(at 260.35 106.553 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41998,7 +42084,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 265.43 108.458 0)
+			(at 260.35 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42008,7 +42094,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 265.43 27.94 0)
+			(at 260.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42017,7 +42103,7 @@
 			)
 		)
 		(property "LCSC" "C110251"
-			(at 265.43 27.94 0)
+			(at 260.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
