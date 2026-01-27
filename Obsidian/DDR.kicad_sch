@@ -8840,7 +8840,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 120.65) (xy 194.31 120.65)
+			(xy 193.04 120.65) (xy 195.58 120.65)
 		)
 		(stroke
 			(width 0)
@@ -9077,6 +9077,16 @@
 			(type default)
 		)
 		(uuid "497211fe-4f5f-445e-9d9a-ee3ffd27fd87")
+	)
+	(wire
+		(pts
+			(xy 185.42 120.65) (xy 182.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b4d0ec-4e50-438d-b1b6-73f7564a69f3")
 	)
 	(wire
 		(pts
@@ -11594,7 +11604,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
-		(at 196.85 64.77 0)
+		(at 196.7811 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11602,9 +11612,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "02c4fdce-7342-4f95-895a-5d68680fb7ad")
-		(property "Netclass" "DDRLD"
-			(at 197.5485 63.5 0)
+		(uuid "0498fea9-4ff5-4e8e-adc8-640a1b8afd03")
+		(property "Netclass" "DDR_FAST"
+			(at 197.4796 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11614,7 +11624,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 71.12 -7.62 0)
+			(at 71.0511 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11626,7 +11636,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
-		(at 140.97 110.49 0)
+		(at 140.97 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11634,9 +11644,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0b426fef-4e74-4f10-86d7-5c998d17b70f")
-		(property "Netclass" "DDRA"
-			(at 141.6685 109.22 0)
+		(uuid "04ed61f6-0dd1-4958-9ab0-fc34c116eeed")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11646,263 +11656,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 15.24 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 142.24 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10da84aa-6877-47d9-8521-bea069ee18ef")
-		(property "Netclass" "DDRA"
-			(at 142.9385 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 16.51 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.97 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "14e7e589-2b39-4e4a-b5fa-9cfd1abb9277")
-		(property "Netclass" "DDRA"
-			(at 141.6685 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.24 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.97 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1676b609-bc21-4047-905b-5a2b85985a50")
-		(property "Netclass" "DDRA"
-			(at 141.6685 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.24 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 196.9725 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c4fa546-9757-4c22-8c8f-f3bb21111609")
-		(property "Netclass" "DDRUD"
-			(at 197.671 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 71.2425 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.97 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26a79190-3f3b-4a89-adc9-041654078888")
-		(property "Netclass" "DDRA"
-			(at 141.6685 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.24 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 196.8898 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b28fc73-0876-4b2a-b03d-db8536dd81ce")
-		(property "Netclass" "DDRUD"
-			(at 197.5883 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 71.1598 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 196.85 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c619e4c-f030-4a11-a266-4379c70a3a7e")
-		(property "Netclass" "DDRLD"
-			(at 197.5485 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 71.12 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 196.85 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2cf36797-d1eb-473a-8a50-deb53c8e0580")
-		(property "Netclass" "DDRUD"
-			(at 197.5485 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 71.12 15.24 0)
+			(at 15.24 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11922,8 +11676,8 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2f8ca53e-e78a-4b19-ac0a-db7635c06799")
-		(property "Netclass" "DDRA"
+		(uuid "088ad35a-3279-4c84-983e-81a032cfe6dd")
+		(property "Netclass" "DDR_MID"
 			(at 141.6685 66.04 0)
 			(effects
 				(font
@@ -11946,7 +11700,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
-		(at 196.85 72.39 0)
+		(at 143.51 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11954,9 +11708,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3b678183-cfa4-4cc2-8100-8b71e6331e90")
-		(property "Netclass" "DDRLD"
-			(at 197.5485 71.12 0)
+		(uuid "08d1de1e-f4a9-487d-8307-8d333c16cce7")
+		(property "Netclass" "DDR_MID"
+			(at 144.2085 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11966,7 +11720,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 71.12 0 0)
+			(at 17.78 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11978,7 +11732,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
-		(at 141.025 62.23 0)
+		(at 143.51 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11986,9 +11740,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3f86cd6b-6abe-4e40-ac97-81ab623104bb")
-		(property "Netclass" "DDRA"
-			(at 141.7235 60.96 0)
+		(uuid "1a11e4f7-3653-4376-b33a-1cdb55b15b7c")
+		(property "Netclass" "DDR_MID"
+			(at 144.2085 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11998,7 +11752,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 15.295 -10.16 0)
+			(at 17.78 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12010,7 +11764,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
-		(at 140.9304 77.47 0)
+		(at 196.8621 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12018,9 +11772,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4198c25a-ff7c-45bc-8eda-0ea3d190d2e2")
-		(property "Netclass" "DDRA"
-			(at 141.6289 76.2 0)
+		(uuid "1b16a9ac-2ecb-409e-bb6a-c8eba43915b6")
+		(property "Netclass" "DDR_FAST"
+			(at 197.5606 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12030,7 +11784,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 15.2004 5.08 0)
+			(at 71.1321 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12042,7 +11796,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
-		(at 184.15 107.95 0)
+		(at 140.97 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12050,9 +11804,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "41be5499-2a2e-4c99-a08b-7bc4063389a4")
-		(property "Netclass" "DDRLD"
-			(at 184.8485 106.68 0)
+		(uuid "1d9510fc-8922-4d5d-b3e7-b2d2886c85ac")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12062,711 +11816,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 58.42 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.9304 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4911490a-7fd7-424e-96b0-e3f6ccb61f9c")
-		(property "Netclass" "DDRA"
-			(at 141.6289 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.2004 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 142.24 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b2e115d-d596-45d7-8816-3416dc89448d")
-		(property "Netclass" "DDRA"
-			(at 142.9385 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 16.51 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 196.8898 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4bb18de4-7115-477a-9737-cda1aee8b3f7")
-		(property "Netclass" "DDRLD"
-			(at 197.5883 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 71.1598 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.97 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50115ad3-9661-4f71-8800-3c380e5dab52")
-		(property "Netclass" "DDRA"
-			(at 141.6685 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.24 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 196.85 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5709eaf4-7a61-4395-878e-8ad4d7c0638f")
-		(property "Netclass" "DDRUD"
-			(at 197.5485 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 71.12 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.97 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57d4aae4-7b91-4dd1-b8cf-b4495b793daa")
-		(property "Netclass" "DDRA"
-			(at 141.6685 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.24 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 196.8898 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d21ad8d-ae32-44ec-9219-e9c4f0a8af1c")
-		(property "Netclass" "DDRLD"
-			(at 197.5883 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 71.1598 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 196.85 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "698b2f0b-fd31-4eef-8dfe-a93f1dc2a5b2")
-		(property "Netclass" "DDRUD"
-			(at 197.5485 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 71.12 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 196.85 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "72f06874-2e77-4a55-9101-07b96fd32729")
-		(property "Netclass" "DDRLD"
-			(at 197.5485 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 71.12 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.97 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7463fb87-1d13-4b35-af51-8aedacfbfd16")
-		(property "Netclass" "DDRA"
-			(at 141.6685 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.24 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 196.85 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "784c2167-f9cd-47e8-9c22-f8936c154e77")
-		(property "Netclass" "DDRUD"
-			(at 197.5485 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 71.12 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.97 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79f8d5de-7690-4772-88ea-873efa4d4e10")
-		(property "Netclass" "DDRA"
-			(at 141.6685 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.97 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7dc8a177-d842-47d2-9559-2d8eb67a775b")
-		(property "Netclass" "DDRA"
-			(at 141.6685 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.24 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.97 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "857f790f-aa81-44ef-be5c-0bb81174c63b")
-		(property "Netclass" "DDRA"
-			(at 141.6685 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.24 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.9304 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8631c6f1-a11f-48a2-8c72-92cd851f2113")
-		(property "Netclass" "DDRA"
-			(at 141.6289 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.2004 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 142.24 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "886f0c5e-ae48-408b-a518-ed4d35703f90")
-		(property "Netclass" "DDRA"
-			(at 142.9385 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 16.51 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 196.85 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b1e4b80-82e0-4be0-9d9d-3e610d039997")
-		(property "Netclass" "DDRLD"
-			(at 197.5485 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 71.12 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.97 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9cda80be-7b30-46b4-9a6d-f4b1925f3ff2")
-		(property "Netclass" "DDRA"
-			(at 141.6685 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.24 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.97 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a066b60d-1d7a-4cb6-a4a5-3540138d32f9")
-		(property "Netclass" "DDRA"
-			(at 141.6685 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.24 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.8358 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a5304dbd-dda8-487e-a1f9-ebff36522472")
-		(property "Netclass" "DDRA"
-			(at 141.5343 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.1058 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 196.85 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8566eb8-f263-4aec-a9e8-387bc68c72ec")
-		(property "Netclass" "DDRUD"
-			(at 197.5485 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 71.12 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 196.85 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b02ec489-b571-4451-aa6b-8ad13f545b42")
-		(property "Netclass" "DDRLD"
-			(at 197.5485 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 71.12 -2.54 0)
+			(at 15.24 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12786,8 +11836,8 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bb723c55-10da-4997-8677-56c84a857b83")
-		(property "Netclass" "DDRLD"
+		(uuid "215a4f3c-e07d-4401-bcad-c31526cec7df")
+		(property "Netclass" "DDR_FAST"
 			(at 184.8485 109.22 0)
 			(effects
 				(font
@@ -12810,7 +11860,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
-		(at 196.807 85.09 0)
+		(at 140.97 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12818,9 +11868,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bebd54be-eb52-4d5e-a2b4-ee3279d7dce5")
-		(property "Netclass" "DDRUD"
-			(at 197.5055 83.82 0)
+		(uuid "2bbb4f6b-c9bd-45c2-860a-7f68c275ad7e")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12830,7 +11880,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 71.077 12.7 0)
+			(at 15.24 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12842,7 +11892,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
-		(at 142.24 123.19 0)
+		(at 140.97 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12850,9 +11900,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c384272c-b537-4dc8-8e0f-97d73e755b3c")
-		(property "Netclass" "DDRA"
-			(at 142.9385 121.92 0)
+		(uuid "2ceb7c9f-ecee-410e-9af6-531396ed52ed")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12862,7 +11912,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 16.51 50.8 0)
+			(at 15.24 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12874,7 +11924,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
-		(at 140.97 113.03 0)
+		(at 140.97 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12882,9 +11932,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c3bfa5a3-197c-4f06-9679-5357f81435b1")
-		(property "Netclass" "DDRA"
-			(at 141.6685 111.76 0)
+		(uuid "2e707998-ed68-480c-a5f7-626dafa9e0ba")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12894,7 +11944,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 15.24 40.64 0)
+			(at 15.24 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12906,7 +11956,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
-		(at 142.24 128.27 0)
+		(at 140.97 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12914,9 +11964,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d1302322-c0c4-46ff-9d6f-eb1fa2092855")
-		(property "Netclass" "DDRA"
-			(at 142.9385 127 0)
+		(uuid "401cbf0c-c992-4dff-908d-460b11f4ea89")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12926,7 +11976,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 16.51 55.88 0)
+			(at 15.24 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12938,7 +11988,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
-		(at 184.15 115.57 0)
+		(at 196.854 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12946,9 +11996,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e3260c41-3e4e-414d-a71e-278804e57ed5")
-		(property "Netclass" "DDRUD"
-			(at 184.8485 114.3 0)
+		(uuid "47321fae-0714-492a-9030-7598ff055737")
+		(property "Netclass" "DDR_FAST"
+			(at 197.5525 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12958,103 +12008,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 58.42 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.9304 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ed130797-4a48-4a19-8200-c6d9ed322e34")
-		(property "Netclass" "DDRA"
-			(at 141.6289 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.2004 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 184.15 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "edfdd75d-3372-4d5e-91ed-2d90c48db48f")
-		(property "Netclass" "DDRUD"
-			(at 184.8485 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 58.42 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1.27)
-		(shape round)
-		(at 140.97 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f1990890-8c24-4f9a-812c-b9958ad5857e")
-		(property "Netclass" "DDRA"
-			(at 141.6685 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Class" ""
-			(at 15.24 20.32 0)
+			(at 71.124 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13074,8 +12028,8 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f936950d-38fa-4439-805b-899c43946f70")
-		(property "Netclass" "DDRLD"
+		(uuid "49f9224f-281c-4546-bef2-a2df06281c96")
+		(property "Netclass" "DDR_FAST"
 			(at 197.5485 58.42 0)
 			(effects
 				(font
@@ -13098,7 +12052,7 @@
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
-		(at 196.85 92.71 0)
+		(at 143.51 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13106,9 +12060,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fb82156e-f9c2-4a43-b4b9-72ea3288000d")
-		(property "Netclass" "DDRUD"
-			(at 197.5485 91.44 0)
+		(uuid "4b2e115d-d596-45d7-8816-3416dc89448d")
+		(property "Netclass" "DDR_MID"
+			(at 144.2085 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13118,7 +12072,1191 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 71.12 20.32 0)
+			(at 17.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 140.97 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50115ad3-9661-4f71-8800-3c380e5dab52")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 15.24 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 140.97 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52f5dceb-bf4c-453b-8a4c-5e11dee4ad2c")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 15.24 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 196.85 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61b5a676-5a76-49ed-865e-9b4a0773a7a4")
+		(property "Netclass" "DDR_FAST"
+			(at 197.5485 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 71.12 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 196.85 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fa12722-02db-41aa-a2c8-3bea57031b1f")
+		(property "Netclass" "DDR_FAST"
+			(at 197.5485 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 71.12 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 168.91 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74064eab-bfdf-4fe9-82b4-23786ec14591")
+		(property "Netclass" "DDR_CLEAN"
+			(at 169.6085 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 43.18 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 140.97 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7dc8a177-d842-47d2-9559-2d8eb67a775b")
+		(property "Netclass" "DDR_FAST"
+			(at 141.6685 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 15.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 140.97 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "802beba9-21b4-4bc7-bf13-00761f85b1c6")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 15.24 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 196.85 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "827094de-8089-41a9-98fd-48d71992ee01")
+		(property "Netclass" "DDR_FAST"
+			(at 197.5485 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 71.12 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 143.51 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87059ee8-b9f5-4d02-815d-4097299e0dbe")
+		(property "Netclass" "DDR_MID"
+			(at 144.2085 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 17.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 196.85 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b1e4b80-82e0-4be0-9d9d-3e610d039997")
+		(property "Netclass" "DDR_FAST"
+			(at 197.5485 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 71.12 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 140.97 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "920f7ea8-e91a-461c-86f1-c14528222cd7")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 15.24 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 140.97 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96bbfb8d-4b47-4cb1-9353-b2e1473048e2")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 15.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 196.85 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98897e74-27f1-4c3a-b5d1-b9ef5deeefbf")
+		(property "Netclass" "DDR_FAST"
+			(at 197.5485 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 71.12 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 196.85 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cfc2332-325a-4321-8449-fb2b6bbb9496")
+		(property "Netclass" "DDR_FAST"
+			(at 197.5485 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 71.12 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 196.85 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8a722fe-7327-47f3-9ff9-077637ac2325")
+		(property "Netclass" "DDR_FAST"
+			(at 197.5485 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 140.97 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "acca07c5-6612-442a-beff-58489a2d199d")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 15.24 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 140.97 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3bfa5a3-197c-4f06-9679-5357f81435b1")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 15.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 196.85 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c46cde1e-c0ac-458d-901e-f9b37e92a625")
+		(property "Netclass" "DDR_FAST"
+			(at 197.5485 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 71.12 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 143.51 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7853900-dc1d-43cf-9982-8a7beb200c4b")
+		(property "Netclass" "DDR_MID"
+			(at 144.2085 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 17.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 196.7811 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cebe1797-bbe2-4584-b64b-b0b045eeba5e")
+		(property "Netclass" "DDR_FAST"
+			(at 197.4796 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 71.0511 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 196.8176 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4f09e12-61ed-4c15-bc7e-9012f32a100e")
+		(property "Netclass" "DDR_FAST"
+			(at 197.5161 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 71.0876 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 196.85 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dab5b7ec-80bf-47d1-99dc-f7cbfcd05b5c")
+		(property "Netclass" "DDR_FAST"
+			(at 197.5485 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 71.12 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 184.15 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df3dca36-c620-44a9-83e1-f40105bf90b2")
+		(property "Netclass" "DDR_FAST"
+			(at 184.8485 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 58.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 140.97 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4d148ee-a65a-45a1-9532-233b1baf6203")
+		(property "Netclass" "DDR_FAST"
+			(at 141.6685 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 15.24 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 140.97 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e659ac17-f89d-438a-b63c-b9622fe8757b")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 15.24 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 196.8207 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea33fbad-d30c-400a-809c-50f7757d2dea")
+		(property "Netclass" "DDR_FAST"
+			(at 197.5192 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 71.0907 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 184.15 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ead77f7c-1caf-4868-9980-9e3a19f942b7")
+		(property "Netclass" "DDR_FAST"
+			(at 184.8485 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 58.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 184.15 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb5434cd-1506-4e98-95f8-857c2df9d352")
+		(property "Netclass" "DDR_FAST"
+			(at 184.8485 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 58.42 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 140.97 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed37935f-d187-4b42-9192-490508765b76")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 15.24 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 184.15 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eee36790-060d-4245-a306-34ee285aeecc")
+		(property "Netclass" "DDR_CLEAN"
+			(at 184.8485 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 58.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 196.85 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1d35d62-8c41-4623-b22f-9b11621d851e")
+		(property "Netclass" "DDR_FAST"
+			(at 197.5485 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 71.12 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 140.97 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f482bb47-b27b-4f1a-84b5-112b12ce29a0")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 15.24 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 143.51 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9b3754e-92d4-45e6-9c7d-7c5f5444349e")
+		(property "Netclass" "DDR_MID"
+			(at 144.2085 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 17.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 141.0138 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fba6622a-97cd-4f14-aa64-3a5701faf3ef")
+		(property "Netclass" "DDR_MID"
+			(at 141.7123 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 15.2838 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 140.97 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe71c69c-8b5a-4637-902e-79ebc68c52ec")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 15.24 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 196.85 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fec3d6d2-0eeb-4000-810c-fc5eed2efafa")
+		(property "Netclass" "DDR_FAST"
+			(at 197.5485 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 71.12 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 140.97 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff7e27f5-4bdc-4c4b-ad54-1a43bc081d93")
+		(property "Netclass" "DDR_MID"
+			(at 141.6685 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Class" ""
+			(at 15.24 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26905,7 +27043,7 @@
 	)
 	(symbol
 		(lib_id "Resistors SMD:R0402_240R_1%_0.0625W_100PPM")
-		(at 182.88 120.65 0)
+		(at 185.42 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26913,7 +27051,7 @@
 		(dnp no)
 		(uuid "886e57cc-47ad-45c9-9bd7-079a8f1b1d8c")
 		(property "Reference" "R72"
-			(at 186.69 118.872 0)
+			(at 189.23 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26921,7 +27059,7 @@
 			)
 		)
 		(property "Value" "R0402_240R_1%_0.0625W_100PPM"
-			(at 182.88 125.603 0)
+			(at 185.42 125.603 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26931,7 +27069,7 @@
 			)
 		)
 		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 182.88 127.508 0)
+			(at 185.42 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26941,7 +27079,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 182.88 129.413 0)
+			(at 185.42 129.413 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26951,7 +27089,7 @@
 			)
 		)
 		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 182.88 120.65 0)
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26960,7 +27098,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 186.69 120.65 0)
+			(at 189.23 120.65 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -26968,7 +27106,7 @@
 			)
 		)
 		(property "Val" "240"
-			(at 186.69 122.682 0)
+			(at 189.23 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26976,7 +27114,7 @@
 			)
 		)
 		(property "Part Number" "R0402_240R_1%_0.0625W_100PPM"
-			(at 182.88 131.318 0)
+			(at 185.42 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26986,7 +27124,7 @@
 			)
 		)
 		(property "Library Ref" "Resistor - 1%"
-			(at 182.88 133.223 0)
+			(at 185.42 133.223 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26996,7 +27134,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Resistors.SchLib"
-			(at 182.88 135.128 0)
+			(at 185.42 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27006,7 +27144,7 @@
 			)
 		)
 		(property "Comment" "240"
-			(at 182.88 137.033 0)
+			(at 185.42 137.033 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27016,7 +27154,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 182.88 138.938 0)
+			(at 185.42 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27026,7 +27164,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 182.88 140.843 0)
+			(at 185.42 140.843 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27036,7 +27174,7 @@
 			)
 		)
 		(property "PackageDescription" " "
-			(at 182.88 142.748 0)
+			(at 185.42 142.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27046,7 +27184,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 182.88 144.653 0)
+			(at 185.42 144.653 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27056,7 +27194,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
-			(at 182.88 146.558 0)
+			(at 185.42 146.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27066,7 +27204,7 @@
 			)
 		)
 		(property "Footprint Ref" "RESC1005X40N"
-			(at 182.88 148.463 0)
+			(at 185.42 148.463 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27076,7 +27214,7 @@
 			)
 		)
 		(property "Status" "Not Recommended"
-			(at 182.88 150.368 0)
+			(at 185.42 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27086,7 +27224,7 @@
 			)
 		)
 		(property "Power" "0.0625W"
-			(at 182.88 152.273 0)
+			(at 185.42 152.273 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27096,7 +27234,7 @@
 			)
 		)
 		(property "TC" "±100ppm/°C"
-			(at 182.88 154.178 0)
+			(at 185.42 154.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27106,7 +27244,7 @@
 			)
 		)
 		(property "Voltage" " "
-			(at 182.88 156.083 0)
+			(at 185.42 156.083 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27116,7 +27254,7 @@
 			)
 		)
 		(property "Part Description" "General Purpose Thick Film Chip Resistor"
-			(at 182.88 157.988 0)
+			(at 185.42 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27126,7 +27264,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 182.88 159.893 0)
+			(at 185.42 159.893 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27136,7 +27274,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "R0402_240R_1%_0.0625W_100PPM"
-			(at 182.88 161.798 0)
+			(at 185.42 161.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27146,7 +27284,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 182.88 163.703 0)
+			(at 185.42 163.703 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27156,7 +27294,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 182.88 165.608 0)
+			(at 185.42 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27166,7 +27304,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 182.88 167.513 0)
+			(at 185.42 167.513 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27176,7 +27314,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 182.88 169.418 0)
+			(at 185.42 169.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27186,7 +27324,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 182.88 171.323 0)
+			(at 185.42 171.323 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27196,7 +27334,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 182.88 173.228 0)
+			(at 185.42 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27206,7 +27344,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 182.88 175.133 0)
+			(at 185.42 175.133 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27216,7 +27354,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 182.88 177.038 0)
+			(at 185.42 177.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27226,7 +27364,7 @@
 			)
 		)
 		(property "ComponentHeight" " "
-			(at 182.88 178.943 0)
+			(at 185.42 178.943 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27236,7 +27374,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 182.88 180.848 0)
+			(at 185.42 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27246,7 +27384,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" "232270672401L"
-			(at 182.88 182.753 0)
+			(at 185.42 182.753 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27256,7 +27394,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 182.88 184.658 0)
+			(at 185.42 184.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27266,7 +27404,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 182.88 186.563 0)
+			(at 185.42 186.563 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27276,7 +27414,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 182.88 188.468 0)
+			(at 185.42 188.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27286,7 +27424,7 @@
 			)
 		)
 		(property "CreateDate" "12/03/07 00:00:00"
-			(at 182.88 190.373 0)
+			(at 185.42 190.373 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27296,7 +27434,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "10/17/12 00:00:00"
-			(at 182.88 192.278 0)
+			(at 185.42 192.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27306,7 +27444,7 @@
 			)
 		)
 		(property "Database Table Name" "Resistors"
-			(at 182.88 194.183 0)
+			(at 185.42 194.183 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27316,7 +27454,7 @@
 			)
 		)
 		(property "Library Name" "Resistors SMD"
-			(at 182.88 196.088 0)
+			(at 185.42 196.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27326,7 +27464,7 @@
 			)
 		)
 		(property "Footprint Library" "Resistors SMD"
-			(at 182.88 197.993 0)
+			(at 185.42 197.993 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27336,7 +27474,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 182.88 199.898 0)
+			(at 185.42 199.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27346,7 +27484,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 182.88 120.65 0)
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27355,7 +27493,7 @@
 			)
 		)
 		(property "LCSC" "C25094"
-			(at 182.88 120.65 0)
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36929,7 +37067,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 120.65 0)
+		(at 195.58 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36937,7 +37075,7 @@
 		(dnp no)
 		(uuid "dfc2dd52-3f66-4a82-a64c-cdfcf68928e2")
 		(property "Reference" "#PWR070"
-			(at 194.31 127 0)
+			(at 195.58 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36946,7 +37084,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 124.206 0)
+			(at 195.58 124.206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36954,7 +37092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 120.65 0)
+			(at 195.58 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36963,7 +37101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 120.65 0)
+			(at 195.58 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36972,7 +37110,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 120.65 0)
+			(at 195.58 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)

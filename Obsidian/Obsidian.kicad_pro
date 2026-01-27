@@ -508,7 +508,7 @@
         "clearance": 0.127,
         "name": "ARDUINO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.4,
@@ -517,25 +517,43 @@
       {
         "name": "CLK",
         "pcb_color": "rgb(108, 255, 0)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDRA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDRLD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDRUD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR_CLEAN",
+        "pcb_color": "rgb(0, 179, 175)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR_FAST",
+        "pcb_color": "rgb(230, 0, 255)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR_MID",
+        "pcb_color": "rgb(91, 92, 255)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -543,8 +561,8 @@
         "diff_pair_gap": 0.26,
         "diff_pair_width": 0.12,
         "name": "DRAM",
-        "pcb_color": "rgb(179, 136, 255)",
-        "priority": 8,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.4,
@@ -556,7 +574,7 @@
         "diff_pair_width": 0.14,
         "name": "MGT",
         "pcb_color": "rgb(0, 229, 255)",
-        "priority": 5,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.4,
@@ -566,7 +584,7 @@
         "clearance": 0.127,
         "name": "PMOD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.14,
         "via_diameter": 0.4,
@@ -576,7 +594,7 @@
         "clearance": 0.127,
         "name": "RGMII",
         "pcb_color": "rgb(255, 248, 0)",
-        "priority": 6,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.4,
@@ -624,148 +642,151 @@
         "CLK"
       ],
       "/DDR/DDR3_A0": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_A1": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_A10": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_A11": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_A12": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_A13": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_A14": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_A2": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_A3": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_A4": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_A5": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_A6": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_A7": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_A8": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_A9": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_BA0": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_BA1": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_BA2": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_CAS": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_CE": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_CKE0": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_CLK_N": [
-        "DDRA"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_CLK_P": [
-        "DDRA"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D0": [
-        "DDRLD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D1": [
-        "DDRLD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D10": [
-        "DDRUD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D11": [
-        "DDRUD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D12": [
-        "DDRUD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D13": [
-        "DDRUD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D14": [
-        "DDRUD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D15": [
-        "DDRUD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D2": [
-        "DDRLD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D3": [
-        "DDRLD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D4": [
-        "DDRLD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D5": [
-        "DDRLD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D6": [
-        "DDRLD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D7": [
-        "DDRLD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D8": [
-        "DDRUD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_D9": [
-        "DDRUD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_DM0": [
-        "DDRLD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_DM1": [
-        "DDRUD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_DQS0_N": [
-        "DDRLD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_DQS0_P": [
-        "DDRLD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_DQS1_N": [
-        "DDRUD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_DQS1_P": [
-        "DDRUD"
+        "DDR_FAST"
       ],
       "/DDR/DDR3_ODT": [
-        "DDRA"
+        "DDR_MID"
       ],
       "/DDR/DDR3_RAS": [
-        "DDRA"
+        "DDR_MID"
+      ],
+      "/DDR/DDR3_RST": [
+        "DDR_MID"
       ],
       "/DDR/DDR3_WE": [
-        "DDRA"
+        "DDR_MID"
       ],
       "CLK2": [
         "CLK"
@@ -796,6 +817,9 @@
       ],
       "DDR3_A14": [
         "DDRA"
+      ],
+      "DDR3_A15": [
+        "DDR_MID"
       ],
       "DDR3_A2": [
         "DDRA"
@@ -920,6 +944,9 @@
       "DDR3_WE": [
         "DDRA"
       ],
+      "DDRVREF": [
+        "DDR_CLEAN"
+      ],
       "MGT_RX0_N": [
         "MGT"
       ],
@@ -968,6 +995,9 @@
       "MGT_TX3_P": [
         "MGT"
       ],
+      "Net-(U2-ZQ)": [
+        "DDR_CLEAN"
+      ],
       "REF_CLK0_N": [
         "CLK"
       ],
@@ -983,10 +1013,6 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "DRAM",
-        "pattern": "DDR3*"
-      },
-      {
         "netclass": "PMOD",
         "pattern": "PMOD*"
       },
@@ -1001,10 +1027,6 @@
       {
         "netclass": "ARDUINO",
         "pattern": "ARDUINO*"
-      },
-      {
-        "netclass": "DDRA",
-        "pattern": "DDR3_A*"
       }
     ]
   },
