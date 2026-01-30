@@ -11200,10 +11200,10 @@
 		)
 	)
 	(bus_alias "USB_DBG"
-		(members "DBG_TCK" "DBG_TDI_DO" "DBG_TDI_DI" "DBG_TMS")
+		(members "DBG_TCK" "DBG_TDI" "DBG_TDO" "DBG_TMS")
 	)
 	(bus_alias "USB_SERIAL"
-		(members "UART_TX" "UART_RX" "RTS")
+		(members "USB_TX_FPGA_RX" "USB_RX_FPGA_TX" "RTS")
 	)
 	(junction
 		(at 147.32 125.73)
@@ -13084,7 +13084,7 @@
 		)
 		(uuid "fd58e4dd-7ae2-452d-b396-26ecb6ad8132")
 	)
-	(label "UART_RX"
+	(label "USB_RX_FPGA_TX"
 		(at 226.06 77.47 0)
 		(effects
 			(font
@@ -13154,7 +13154,7 @@
 		)
 		(uuid "99fb3cb5-7fe7-4125-8a30-68945711caba")
 	)
-	(label "DBG_TDI_DI"
+	(label "DBG_TDO"
 		(at 223.52 34.29 0)
 		(effects
 			(font
@@ -13164,7 +13164,7 @@
 		)
 		(uuid "ad42d596-06fa-4a5f-8358-db4597cc2531")
 	)
-	(label "UART_TX"
+	(label "USB_TX_FPGA_RX"
 		(at 226.06 74.93 0)
 		(effects
 			(font
@@ -13184,7 +13184,7 @@
 		)
 		(uuid "ef6c7a5f-28eb-4196-adbc-5de895449dd3")
 	)
-	(label "DBG_TDI_DO"
+	(label "DBG_TDI"
 		(at 223.52 31.75 0)
 		(effects
 			(font

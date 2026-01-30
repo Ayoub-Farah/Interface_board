@@ -18441,7 +18441,7 @@
 		)
 		(uuid "665bf35d-0d5d-42e8-8eb5-7a8ddc6c4c41")
 	)
-	(label "UART_TX"
+	(label "USB_RX_FPGA_TX"
 		(at 195.58 207.01 0)
 		(effects
 			(font
@@ -19363,7 +19363,7 @@
 		)
 		(uuid "d057ec8d-1852-4b97-8e81-73a3299538bb")
 	)
-	(label "UART_RX"
+	(label "USB_TX_FPGA_RX"
 		(at 195.58 204.47 0)
 		(effects
 			(font

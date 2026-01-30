@@ -14315,7 +14315,7 @@
 		)
 		(uuid "033ba971-d4ed-46d2-ba36-e0e1c1ef8c68")
 	)
-	(label "DBG_TDI_DI"
+	(label "DBG_TDI"
 		(at 139.7 68.58 180)
 		(effects
 			(font
@@ -14355,7 +14355,7 @@
 		)
 		(uuid "22d1c43f-3337-414b-bbc1-c4068edbf4cf")
 	)
-	(label "DBG_TDI_DO"
+	(label "DBG_TDI"
 		(at 224.79 29.21 0)
 		(effects
 			(font
@@ -14387,7 +14387,7 @@
 		)
 		(uuid "42d1d153-fa8c-4cb4-ac74-16dd9cd5cb29")
 	)
-	(label "DBG_TDI_DO"
+	(label "DBG_TDO"
 		(at 139.7 71.12 180)
 		(effects
 			(font
@@ -14431,7 +14431,7 @@
 		)
 		(uuid "8965e0ed-19db-4a8a-8158-5129d295c3b0")
 	)
-	(label "DBG_TDI_DI"
+	(label "DBG_TDO"
 		(at 224.79 33.02 0)
 		(effects
 			(font
