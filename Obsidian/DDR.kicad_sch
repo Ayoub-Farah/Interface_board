@@ -158,7 +158,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_BGA:FBGA-96_8x14mm_Layout9x16_P0.8mm"
+			(property "Footprint" "Footprint:FBGA-96_8x14mm_Layout9x16_P0.8mm"
 				(at -1.27 45.72 0)
 				(effects
 					(font
@@ -194,7 +194,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "BGA*9.0x13.0mm*P0.8mm*"
+			(property "ki_fp_filters" "FBGA-96_9x14mm_Layout9x16_P0.8mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13359,7 +13359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 118.618 52.07 0)
 			(effects
 				(font
@@ -13837,7 +13837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 133.858 52.07 0)
 			(effects
 				(font
@@ -14315,7 +14315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 70.358 184.15 0)
 			(effects
 				(font
@@ -14784,7 +14784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 99.568 167.64 0)
 			(effects
 				(font
@@ -15253,7 +15253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 105.918 52.07 0)
 			(effects
 				(font
@@ -15731,7 +15731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 95.758 52.07 0)
 			(effects
 				(font
@@ -16274,7 +16274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 93.218 52.07 0)
 			(effects
 				(font
@@ -16752,7 +16752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 108.458 167.64 0)
 			(effects
 				(font
@@ -17221,7 +17221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 108.458 52.07 0)
 			(effects
 				(font
@@ -17699,7 +17699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 89.408 184.15 0)
 			(effects
 				(font
@@ -18298,7 +18298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 51.308 167.64 0)
 			(effects
 				(font
@@ -18832,7 +18832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 83.058 167.64 0)
 			(effects
 				(font
@@ -19302,7 +19302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 116.078 167.64 0)
 			(effects
 				(font
@@ -19771,7 +19771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 70.358 167.64 0)
 			(effects
 				(font
@@ -20240,7 +20240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 80.518 52.07 0)
 			(effects
 				(font
@@ -20718,7 +20718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 76.708 167.64 0)
 			(effects
 				(font
@@ -21187,7 +21187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 141.478 40.64 0)
 			(effects
 				(font
@@ -21722,7 +21722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 131.318 52.07 0)
 			(effects
 				(font
@@ -22200,7 +22200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 103.378 52.07 0)
 			(effects
 				(font
@@ -22678,7 +22678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 44.958 167.64 0)
 			(effects
 				(font
@@ -23278,7 +23278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 113.538 40.64 0)
 			(effects
 				(font
@@ -23747,7 +23747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 126.238 52.07 0)
 			(effects
 				(font
@@ -24225,7 +24225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 138.938 52.07 0)
 			(effects
 				(font
@@ -24768,7 +24768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 98.298 40.64 0)
 			(effects
 				(font
@@ -25237,7 +25237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 146.558 142.24 0)
 			(effects
 				(font
@@ -25713,7 +25713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 128.778 52.07 0)
 			(effects
 				(font
@@ -26190,7 +26190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 105.41 116.078 0)
 			(effects
 				(font
@@ -26666,7 +26666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X70N"
+		(property "Footprint" "Footprint:CAPC1005X70N"
 			(at 83.058 40.64 0)
 			(effects
 				(font
@@ -27134,7 +27134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 185.42 127.508 0)
 			(effects
 				(font
@@ -27610,7 +27610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 51.308 184.15 0)
 			(effects
 				(font
@@ -28079,7 +28079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 123.698 52.07 0)
 			(effects
 				(font
@@ -28557,7 +28557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 90.678 52.07 0)
 			(effects
 				(font
@@ -29035,7 +29035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 88.138 52.07 0)
 			(effects
 				(font
@@ -29578,7 +29578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 44.958 184.15 0)
 			(effects
 				(font
@@ -30047,7 +30047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 83.058 184.15 0)
 			(effects
 				(font
@@ -30516,7 +30516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 57.658 184.15 0)
 			(effects
 				(font
@@ -30985,7 +30985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 100.838 52.07 0)
 			(effects
 				(font
@@ -31463,7 +31463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 57.658 167.64 0)
 			(effects
 				(font
@@ -32063,7 +32063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:FBGA-96_9x14mm_Layout9x16_P0.8mm"
+		(property "Footprint" "Footprint:FBGA-96_9x14mm_Layout9x16_P0.8mm"
 			(at 163.83 49.53 0)
 			(effects
 				(font
@@ -32433,7 +32433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 85.598 52.07 0)
 			(effects
 				(font
@@ -32911,7 +32911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 89.408 167.64 0)
 			(effects
 				(font
@@ -33380,7 +33380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 64.008 167.64 0)
 			(effects
 				(font
@@ -33849,7 +33849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 116.078 52.07 0)
 			(effects
 				(font
@@ -34327,7 +34327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 64.008 184.15 0)
 			(effects
 				(font
@@ -34796,7 +34796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 110.998 52.07 0)
 			(effects
 				(font
@@ -35274,7 +35274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 76.708 184.15 0)
 			(effects
 				(font
@@ -35743,7 +35743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 83.058 52.07 0)
 			(effects
 				(font
@@ -36221,7 +36221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 105.918 40.64 0)
 			(effects
 				(font
@@ -36690,7 +36690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 90.678 40.64 0)
 			(effects
 				(font
@@ -37224,7 +37224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 102.108 184.15 0)
 			(effects
 				(font
@@ -37758,7 +37758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 113.538 52.07 0)
 			(effects
 				(font
@@ -38236,7 +38236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 109.728 184.15 0)
 			(effects
 				(font
@@ -38705,7 +38705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 133.858 40.64 0)
 			(effects
 				(font
@@ -39174,7 +39174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 141.478 52.07 0)
 			(effects
 				(font
@@ -39652,7 +39652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 136.398 52.07 0)
 			(effects
 				(font
@@ -40130,7 +40130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 126.238 40.64 0)
 			(effects
 				(font
@@ -40599,7 +40599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 121.158 52.07 0)
 			(effects
 				(font
@@ -41077,7 +41077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 98.298 52.07 0)
 			(effects
 				(font

@@ -13168,7 +13168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 154.178 66.04 0)
 			(effects
 				(font
@@ -13637,7 +13637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 146.558 66.04 0)
 			(effects
 				(font
@@ -14106,7 +14106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC2012X145N"
+		(property "Footprint" "Footprint:CAPC2012X145N"
 			(at 163.068 82.55 0)
 			(effects
 				(font
@@ -14639,7 +14639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:Xilinx_CSG325"
+		(property "Footprint" "Footprint:Xilinx_CSG325"
 			(at 213.36 107.95 0)
 			(effects
 				(font
@@ -15692,7 +15692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 199.898 39.37 0)
 			(effects
 				(font
@@ -16161,7 +16161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 154.178 39.37 0)
 			(effects
 				(font
@@ -16630,7 +16630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 218.948 132.08 0)
 			(effects
 				(font
@@ -17164,7 +17164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 161.798 53.34 0)
 			(effects
 				(font
@@ -17633,7 +17633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 169.418 53.34 0)
 			(effects
 				(font
@@ -18102,7 +18102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 198.628 132.08 0)
 			(effects
 				(font
@@ -18636,7 +18636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 177.038 53.34 0)
 			(effects
 				(font
@@ -19105,7 +19105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 184.658 39.37 0)
 			(effects
 				(font
@@ -19574,7 +19574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 231.648 87.63 0)
 			(effects
 				(font
@@ -20043,7 +20043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 177.038 66.04 0)
 			(effects
 				(font
@@ -20578,7 +20578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 169.418 39.37 0)
 			(effects
 				(font
@@ -21112,7 +21112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 70.358 33.02 0)
 			(effects
 				(font
@@ -21581,7 +21581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 146.558 53.34 0)
 			(effects
 				(font
@@ -22050,7 +22050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC2012X145N"
+		(property "Footprint" "Footprint:CAPC2012X145N"
 			(at 146.558 82.55 0)
 			(effects
 				(font
@@ -22519,7 +22519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 65.278 74.93 0)
 			(effects
 				(font
@@ -22988,7 +22988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 224.028 87.63 0)
 			(effects
 				(font
@@ -23457,7 +23457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 61.468 57.15 0)
 			(effects
 				(font
@@ -23926,7 +23926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 79.248 33.02 0)
 			(effects
 				(font
@@ -24395,7 +24395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC2012X145N"
+		(property "Footprint" "Footprint:CAPC2012X145N"
 			(at 155.448 82.55 0)
 			(effects
 				(font
@@ -24929,7 +24929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 254.508 87.63 0)
 			(effects
 				(font
@@ -25398,7 +25398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC2012X145N"
+		(property "Footprint" "Footprint:CAPC2012X145N"
 			(at 24.638 33.02 0)
 			(effects
 				(font
@@ -25931,7 +25931,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:Xilinx_CSG325"
+		(property "Footprint" "Footprint:Xilinx_CSG325"
 			(at 101.6 102.87 0)
 			(effects
 				(font
@@ -26984,7 +26984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 62.738 33.02 0)
 			(effects
 				(font
@@ -27452,7 +27452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 251.46 141.478 0)
 			(effects
 				(font
@@ -27867,6 +27867,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Resistors"
+			(at 251.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 251.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 251.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d413f4f-6c60-44fc-9520-5cb30b339389")
 		)
@@ -27910,7 +27937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 177.038 39.37 0)
 			(effects
 				(font
@@ -28379,7 +28406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 74.168 74.93 0)
 			(effects
 				(font
@@ -28848,7 +28875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 33.528 33.02 0)
 			(effects
 				(font
@@ -29382,7 +29409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC2012X145N"
+		(property "Footprint" "Footprint:CAPC2012X145N"
 			(at 57.658 74.93 0)
 			(effects
 				(font
@@ -29851,7 +29878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductors SMD:INDC1005X55N"
+		(property "Footprint" "Footprint:INDC1005X55N"
 			(at 39.37 56.388 0)
 			(effects
 				(font
@@ -30344,7 +30371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 183.388 132.08 0)
 			(effects
 				(font
@@ -30878,7 +30905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 184.658 53.34 0)
 			(effects
 				(font
@@ -31347,7 +31374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 55.118 33.02 0)
 			(effects
 				(font
@@ -31816,7 +31843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 211.328 132.08 0)
 			(effects
 				(font
@@ -32285,7 +32312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 192.278 39.37 0)
 			(effects
 				(font
@@ -32754,7 +32781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 246.888 87.63 0)
 			(effects
 				(font
@@ -33223,7 +33250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 169.418 66.04 0)
 			(effects
 				(font
@@ -33823,7 +33850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 161.798 66.04 0)
 			(effects
 				(font
@@ -34292,7 +34319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 191.008 132.08 0)
 			(effects
 				(font
@@ -34956,7 +34983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 154.178 53.34 0)
 			(effects
 				(font
@@ -35425,7 +35452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 146.558 39.37 0)
 			(effects
 				(font
@@ -35895,7 +35922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 202.692 87.63 0)
 			(effects
 				(font
@@ -36365,7 +36392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 195.072 87.63 0)
 			(effects
 				(font
@@ -36899,7 +36926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 239.268 87.63 0)
 			(effects
 				(font
@@ -37433,7 +37460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 38.608 57.15 0)
 			(effects
 				(font
@@ -37902,7 +37929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 41.148 33.02 0)
 			(effects
 				(font
@@ -38436,7 +38463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 184.658 66.04 0)
 			(effects
 				(font
@@ -38905,7 +38932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 47.498 33.02 0)
 			(effects
 				(font
@@ -39374,7 +39401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 204.978 132.08 0)
 			(effects
 				(font
@@ -39843,7 +39870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 161.798 39.37 0)
 			(effects
 				(font

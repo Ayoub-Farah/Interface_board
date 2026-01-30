@@ -5374,8 +5374,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.81 0)
+			(property "Reference" "SW1"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5383,14 +5383,14 @@
 				)
 			)
 			(property "Value" "SW_DIP_x01"
-				(at 0 -3.81 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Footprint:SW_OMRON_A6SN-1101"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5417,6 +5417,24 @@
 					(hide yes)
 				)
 			)
+			(property "FT Rotation Offset" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C7421519"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "dip switch"
 				(at 0 0 0)
 				(effects
@@ -5426,7 +5444,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW?DIP?x1*"
+			(property "ki_fp_filters" "SW?DIP?x1* SW_OMRON_A6SN-1101"
 				(at 0 0 0)
 				(effects
 					(font
@@ -11892,7 +11910,7 @@
 		(uuid "1239bb34-4385-4ce9-bcef-def844e7ec0b")
 	)
 	(junction
-		(at 210.82 223.52)
+		(at 288.29 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12ea19eb-0289-41c9-b680-e5d0c3e4c03d")
@@ -12108,13 +12126,13 @@
 		(uuid "8f28a387-75ec-4e34-86c9-15f9417db090")
 	)
 	(junction
-		(at 276.86 251.46)
+		(at 223.52 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "911537e9-1aa0-4748-8b53-82e74fd68033")
 	)
 	(junction
-		(at 203.2 223.52)
+		(at 280.67 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94d2c208-c9e6-4dd7-9f5c-bf0cdf3fc8e2")
@@ -12156,7 +12174,7 @@
 		(uuid "ac8e8b92-454d-49ce-a9c2-c8f13bbde5a4")
 	)
 	(junction
-		(at 207.01 223.52)
+		(at 284.48 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad43b4c5-d1f8-4a64-8d29-84b1a75092d3")
@@ -12180,13 +12198,13 @@
 		(uuid "b61c7c58-bf9a-477b-bff8-ecd450f3bc6b")
 	)
 	(junction
-		(at 241.3 251.46)
+		(at 187.96 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b69420b6-9f3d-4f12-9c12-b650d479efbf")
 	)
 	(junction
-		(at 252.73 267.97)
+		(at 199.39 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8fa3c67-7bf0-4af4-84e5-ca2c84cb3859")
@@ -12346,7 +12364,7 @@
 		(uuid "017013bc-4d37-4cfd-82c0-0267d26d6431")
 	)
 	(bus_entry
-		(at 285.75 251.46)
+		(at 232.41 250.19)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -13093,7 +13111,7 @@
 		(uuid "90a7135b-0f0e-479f-add4-8f92a62259b0")
 	)
 	(bus_entry
-		(at 250.19 251.46)
+		(at 196.85 250.19)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -13747,7 +13765,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 229.87) (xy 182.88 232.41)
+			(xy 260.35 234.95) (xy 260.35 237.49)
 		)
 		(stroke
 			(width 0)
@@ -14037,7 +14055,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 223.52) (xy 207.01 223.52)
+			(xy 280.67 228.6) (xy 284.48 228.6)
 		)
 		(stroke
 			(width 0)
@@ -14047,7 +14065,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 223.52) (xy 203.2 223.52)
+			(xy 271.78 228.6) (xy 280.67 228.6)
 		)
 		(stroke
 			(width 0)
@@ -14077,7 +14095,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 238.76) (xy 210.82 231.14)
+			(xy 288.29 243.84) (xy 288.29 236.22)
 		)
 		(stroke
 			(width 0)
@@ -14317,7 +14335,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 232.41) (xy 194.31 231.14)
+			(xy 271.78 237.49) (xy 271.78 236.22)
 		)
 		(stroke
 			(width 0)
@@ -14567,7 +14585,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 229.87) (xy 182.88 229.87)
+			(xy 259.08 234.95) (xy 260.35 234.95)
 		)
 		(stroke
 			(width 0)
@@ -14837,7 +14855,7 @@
 	)
 	(bus
 		(pts
-			(xy 228.6 267.97) (xy 252.73 267.97)
+			(xy 175.26 266.7) (xy 199.39 266.7)
 		)
 		(stroke
 			(width 0)
@@ -14897,7 +14915,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 251.46) (xy 241.3 251.46)
+			(xy 185.42 250.19) (xy 187.96 250.19)
 		)
 		(stroke
 			(width 0)
@@ -14937,7 +14955,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 238.76) (xy 210.82 238.76)
+			(xy 261.62 243.84) (xy 288.29 243.84)
 		)
 		(stroke
 			(width 0)
@@ -14997,7 +15015,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 251.46) (xy 276.86 251.46)
+			(xy 220.98 250.19) (xy 223.52 250.19)
 		)
 		(stroke
 			(width 0)
@@ -15057,7 +15075,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 259.08) (xy 232.41 255.27)
+			(xy 179.07 257.81) (xy 179.07 254)
 		)
 		(stroke
 			(width 0)
@@ -15357,7 +15375,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 223.52) (xy 210.82 223.52)
+			(xy 284.48 228.6) (xy 288.29 228.6)
 		)
 		(stroke
 			(width 0)
@@ -15877,7 +15895,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 259.08) (xy 267.97 255.27)
+			(xy 214.63 257.81) (xy 214.63 254)
 		)
 		(stroke
 			(width 0)
@@ -15897,7 +15915,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 242.57) (xy 184.15 242.57)
+			(xy 295.91 247.65) (xy 261.62 247.65)
 		)
 		(stroke
 			(width 0)
@@ -16157,7 +16175,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 223.52) (xy 218.44 223.52)
+			(xy 288.29 228.6) (xy 295.91 228.6)
 		)
 		(stroke
 			(width 0)
@@ -16937,7 +16955,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 251.46) (xy 285.75 251.46)
+			(xy 223.52 250.19) (xy 232.41 250.19)
 		)
 		(stroke
 			(width 0)
@@ -17077,7 +17095,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 234.95) (xy 203.2 234.95)
+			(xy 259.08 240.03) (xy 280.67 240.03)
 		)
 		(stroke
 			(width 0)
@@ -17207,7 +17225,7 @@
 	)
 	(bus
 		(pts
-			(xy 288.29 254) (xy 288.29 267.97)
+			(xy 234.95 252.73) (xy 234.95 266.7)
 		)
 		(stroke
 			(width 0)
@@ -17317,7 +17335,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 232.41) (xy 194.31 232.41)
+			(xy 260.35 237.49) (xy 271.78 237.49)
 		)
 		(stroke
 			(width 0)
@@ -17417,7 +17435,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 251.46) (xy 250.19 251.46)
+			(xy 187.96 250.19) (xy 196.85 250.19)
 		)
 		(stroke
 			(width 0)
@@ -17437,7 +17455,7 @@
 	)
 	(bus
 		(pts
-			(xy 252.73 254) (xy 252.73 267.97)
+			(xy 199.39 252.73) (xy 199.39 266.7)
 		)
 		(stroke
 			(width 0)
@@ -17537,7 +17555,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 231.14) (xy 218.44 242.57)
+			(xy 295.91 236.22) (xy 295.91 247.65)
 		)
 		(stroke
 			(width 0)
@@ -17557,7 +17575,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 234.95) (xy 203.2 231.14)
+			(xy 280.67 240.03) (xy 280.67 236.22)
 		)
 		(stroke
 			(width 0)
@@ -17577,7 +17595,7 @@
 	)
 	(bus
 		(pts
-			(xy 252.73 267.97) (xy 288.29 267.97)
+			(xy 199.39 266.7) (xy 234.95 266.7)
 		)
 		(stroke
 			(width 0)
@@ -17696,7 +17714,7 @@
 		(uuid "ffe5718a-0674-4a12-8232-79f17035a848")
 	)
 	(label "MDIO_PHY"
-		(at 184.15 242.57 0)
+		(at 261.62 247.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17992,7 +18010,7 @@
 		(uuid "24d37ce0-bec7-42e4-8a37-fb9c51a009e3")
 	)
 	(label "I2C_SDA_Ardu"
-		(at 184.15 238.76 0)
+		(at 261.62 243.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18300,7 +18318,7 @@
 		(uuid "5923fe05-cdba-4c88-8dda-15f4a51942d1")
 	)
 	(label "I2C_SDA"
-		(at 184.15 232.41 0)
+		(at 261.62 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19040,7 +19058,7 @@
 		(uuid "b4affe69-5be5-4bb0-b992-3e9cae3fe4c2")
 	)
 	(label "{SFP_CTRL}"
-		(at 242.57 267.97 180)
+		(at 189.23 266.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19256,7 +19274,7 @@
 		(uuid "ca50c49f-bd7d-4132-bf2b-d70957db361c")
 	)
 	(label "I2C_SCL"
-		(at 184.15 234.95 0)
+		(at 261.62 240.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19436,7 +19454,7 @@
 		(uuid "d90a04d5-a31c-4e35-bf65-1e819290d226")
 	)
 	(label "LED1"
-		(at 274.32 251.46 0)
+		(at 220.98 250.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19456,7 +19474,7 @@
 		(uuid "da5ba4a1-0401-4102-b402-054ee1a43068")
 	)
 	(label "LED0"
-		(at 238.76 251.46 0)
+		(at 185.42 250.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19824,7 +19842,7 @@
 	)
 	(hierarchical_label "{SFP_CTRL}"
 		(shape bidirectional)
-		(at 228.6 267.97 180)
+		(at 175.26 266.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19835,7 +19853,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:TestPoint")
-		(at 181.61 234.95 90)
+		(at 259.08 240.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19843,7 +19861,7 @@
 		(dnp no)
 		(uuid "037ea314-00d2-4166-827b-6487511bbab1")
 		(property "Reference" "TP2"
-			(at 175.26 234.95 90)
+			(at 252.73 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19851,7 +19869,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 177.038 236.728 90)
+			(at 254.508 241.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19859,7 +19877,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 181.61 229.87 0)
+			(at 259.08 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19868,7 +19886,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 229.87 0)
+			(at 259.08 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19877,7 +19895,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 181.61 234.95 0)
+			(at 259.08 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19886,7 +19904,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 181.61 234.95 90)
+			(at 259.08 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19895,7 +19913,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 181.61 234.95 90)
+			(at 259.08 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19917,7 +19935,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:LED_KINGBRIGHT_KPH-1608CGCK")
-		(at 232.41 241.3 270)
+		(at 179.07 240.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19926,7 +19944,7 @@
 		(fields_autoplaced yes)
 		(uuid "03bb00da-17a5-40d0-bf55-ac0513cf421c")
 		(property "Reference" "LD3"
-			(at 237.49 241.0459 90)
+			(at 184.15 239.7759 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19935,7 +19953,7 @@
 			)
 		)
 		(property "Value" "LED_KINGBRIGHT_KPH-1608CGCK"
-			(at 226.949 241.3 0)
+			(at 173.609 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19944,8 +19962,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK"
-			(at 225.044 241.3 0)
+		(property "Footprint" "Footprint:LED_KINGBRIGHT_KPH-1608CGCK"
+			(at 171.704 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19955,7 +19973,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_KINGBRIGHT_KPH-1608CGCK.pdf"
-			(at 223.139 241.3 0)
+			(at 169.799 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19965,7 +19983,7 @@
 			)
 		)
 		(property "Description" "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness"
-			(at 232.41 241.3 0)
+			(at 179.07 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19974,7 +19992,7 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 237.49 243.5859 90)
+			(at 184.15 242.3159 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -19983,7 +20001,7 @@
 			)
 		)
 		(property "Part Number" "LED_KINGBRIGHT_KPH-1608CGCK"
-			(at 221.234 241.3 0)
+			(at 167.894 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19993,7 +20011,7 @@
 			)
 		)
 		(property "Library Ref" "LED Green 1C 2A"
-			(at 219.329 241.3 0)
+			(at 165.989 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20003,7 +20021,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\LEDs & Displays.SchLib"
-			(at 217.424 241.3 0)
+			(at 164.084 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20013,7 +20031,7 @@
 			)
 		)
 		(property "Comment" " "
-			(at 215.519 241.3 0)
+			(at 162.179 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20023,7 +20041,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 213.614 241.3 0)
+			(at 160.274 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20033,7 +20051,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 211.709 241.3 0)
+			(at 158.369 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20043,7 +20061,7 @@
 			)
 		)
 		(property "Device" " "
-			(at 209.804 241.3 0)
+			(at 156.464 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20053,7 +20071,7 @@
 			)
 		)
 		(property "PackageDescription" "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm"
-			(at 207.899 241.3 0)
+			(at 154.559 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20063,7 +20081,7 @@
 			)
 		)
 		(property "Status" " "
-			(at 205.994 241.3 0)
+			(at 152.654 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20073,7 +20091,7 @@
 			)
 		)
 		(property "Part Description" "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness"
-			(at 204.089 241.3 0)
+			(at 150.749 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20083,7 +20101,7 @@
 			)
 		)
 		(property "Manufacturer" "KINGBRIGHT"
-			(at 202.184 241.3 0)
+			(at 148.844 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20093,7 +20111,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "KPH-1608CGCK"
-			(at 200.279 241.3 0)
+			(at 146.939 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20103,7 +20121,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 198.374 241.3 0)
+			(at 145.034 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20113,7 +20131,7 @@
 			)
 		)
 		(property "Case" "0603"
-			(at 196.469 241.3 0)
+			(at 143.129 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20123,7 +20141,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 194.564 241.3 0)
+			(at 141.224 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20133,7 +20151,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 192.659 241.3 0)
+			(at 139.319 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20143,7 +20161,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 190.754 241.3 0)
+			(at 137.414 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20153,7 +20171,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 188.849 241.3 0)
+			(at 135.509 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20163,7 +20181,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 186.944 241.3 0)
+			(at 133.604 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20173,7 +20191,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 185.039 241.3 0)
+			(at 131.699 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20183,7 +20201,7 @@
 			)
 		)
 		(property "Bonding" "No"
-			(at 183.134 241.3 0)
+			(at 129.794 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20193,7 +20211,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 181.229 241.3 0)
+			(at 127.889 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20203,7 +20221,7 @@
 			)
 		)
 		(property "ComponentHeight" "0.65mm"
-			(at 179.324 241.3 0)
+			(at 125.984 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20213,7 +20231,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\ICs And Semiconductors SMD.PcbLib"
-			(at 177.419 241.3 0)
+			(at 124.079 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20223,7 +20241,7 @@
 			)
 		)
 		(property "Footprint Ref" "LED_KINGBRIGHT_KPH-1608CGCK"
-			(at 175.514 241.3 0)
+			(at 122.174 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20233,7 +20251,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_KINGBRIGHT_KPH-1608CGCK.pdf"
-			(at 173.609 241.3 0)
+			(at 120.269 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20243,7 +20261,7 @@
 			)
 		)
 		(property "ComponentLink1URL" " "
-			(at 171.704 241.3 0)
+			(at 118.364 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20253,7 +20271,7 @@
 			)
 		)
 		(property "ComponentLink1Description" " "
-			(at 169.799 241.3 0)
+			(at 116.459 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20263,7 +20281,7 @@
 			)
 		)
 		(property "ComponentLink2URL" " "
-			(at 167.894 241.3 0)
+			(at 114.554 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20273,7 +20291,7 @@
 			)
 		)
 		(property "ComponentLink2Description" " "
-			(at 165.989 241.3 0)
+			(at 112.649 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20283,7 +20301,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 164.084 241.3 0)
+			(at 110.744 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20293,7 +20311,7 @@
 			)
 		)
 		(property "CreateDate" "07/03/17 00:00:00"
-			(at 162.179 241.3 0)
+			(at 108.839 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20303,7 +20321,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "07/03/17 00:00:00"
-			(at 160.274 241.3 0)
+			(at 106.934 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20313,7 +20331,7 @@
 			)
 		)
 		(property "Database Table Name" "ICs And Semiconductors"
-			(at 158.369 241.3 0)
+			(at 105.029 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20323,7 +20341,7 @@
 			)
 		)
 		(property "Library Name" "LEDs & Displays"
-			(at 156.464 241.3 0)
+			(at 103.124 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20333,7 +20351,7 @@
 			)
 		)
 		(property "Footprint Library" "ICs And Semiconductors SMD"
-			(at 154.559 241.3 0)
+			(at 101.219 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20343,7 +20361,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 152.654 241.3 0)
+			(at 99.314 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20353,7 +20371,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 232.41 241.3 90)
+			(at 179.07 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20362,7 +20380,7 @@
 			)
 		)
 		(property "LCSC" "C5879295"
-			(at 232.41 241.3 90)
+			(at 179.07 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20387,7 +20405,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:BSS138LT1G")
-		(at 238.76 251.46 0)
+		(at 185.42 250.19 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20397,7 +20415,7 @@
 		(fields_autoplaced yes)
 		(uuid "03fb7e8d-fed8-479b-b5ba-921ebd8419c1")
 		(property "Reference" "Q1"
-			(at 229.87 250.1899 0)
+			(at 176.53 248.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20406,7 +20424,7 @@
 			)
 		)
 		(property "Value" "BSS138LT1G"
-			(at 238.76 258.953 0)
+			(at 185.42 257.683 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20415,8 +20433,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:SOT95P240X110-3N"
-			(at 238.76 260.858 0)
+		(property "Footprint" "Footprint:SOT95P240X110-3N"
+			(at 185.42 259.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20426,7 +20444,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf"
-			(at 238.76 262.763 0)
+			(at 185.42 261.493 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20436,7 +20454,7 @@
 			)
 		)
 		(property "Description" "50V, 200mA N-Channel Enhancement Mode Field-Effect Transistor"
-			(at 238.76 251.46 0)
+			(at 185.42 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20445,7 +20463,7 @@
 			)
 		)
 		(property "Part Number" "BSS138LT1G"
-			(at 238.76 264.668 0)
+			(at 185.42 263.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20455,7 +20473,7 @@
 			)
 		)
 		(property "Library Ref" "N-MOSFET-D 1G 2S 3D"
-			(at 238.76 266.573 0)
+			(at 185.42 265.303 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20465,7 +20483,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Transistors.SchLib"
-			(at 238.76 268.478 0)
+			(at 185.42 267.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20475,7 +20493,7 @@
 			)
 		)
 		(property "Comment" "BSS138LT1G"
-			(at 238.76 270.383 0)
+			(at 185.42 269.113 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20485,7 +20503,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 238.76 272.288 0)
+			(at 185.42 271.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20495,7 +20513,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 238.76 274.193 0)
+			(at 185.42 272.923 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20505,7 +20523,7 @@
 			)
 		)
 		(property "Device" "BSS138LT1G"
-			(at 238.76 276.098 0)
+			(at 185.42 274.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20515,7 +20533,7 @@
 			)
 		)
 		(property "PackageDescription" "SOT23, 0.95mm Pitch; 3 Pin, 1.40mm W X 3.00mm L X 1.10mm H body, IPC Medium Density"
-			(at 238.76 278.003 0)
+			(at 185.42 276.733 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20525,7 +20543,7 @@
 			)
 		)
 		(property "Status" " "
-			(at 238.76 279.908 0)
+			(at 185.42 278.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20535,7 +20553,7 @@
 			)
 		)
 		(property "Part Description" "50V, 200mA N-Channel Enhancement Mode Field-Effect Transistor"
-			(at 238.76 281.813 0)
+			(at 185.42 280.543 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20545,7 +20563,7 @@
 			)
 		)
 		(property "Manufacturer" "ON SEMICONDUCTOR"
-			(at 238.76 283.718 0)
+			(at 185.42 282.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20555,7 +20573,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "BSS138L"
-			(at 238.76 285.623 0)
+			(at 185.42 284.353 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20565,7 +20583,7 @@
 			)
 		)
 		(property "Pin Count" "3"
-			(at 238.76 287.528 0)
+			(at 185.42 286.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20575,7 +20593,7 @@
 			)
 		)
 		(property "Case" "SOT23-3"
-			(at 238.76 289.433 0)
+			(at 185.42 288.163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20585,7 +20603,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 238.76 291.338 0)
+			(at 185.42 290.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20595,7 +20613,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 238.76 293.243 0)
+			(at 185.42 291.973 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20605,7 +20623,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 238.76 295.148 0)
+			(at 185.42 293.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20615,7 +20633,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 238.76 297.053 0)
+			(at 185.42 295.783 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20625,7 +20643,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 238.76 298.958 0)
+			(at 185.42 297.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20635,7 +20653,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 238.76 300.863 0)
+			(at 185.42 299.593 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20645,7 +20663,7 @@
 			)
 		)
 		(property "Bonding" "No"
-			(at 238.76 302.768 0)
+			(at 185.42 301.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20655,7 +20673,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 238.76 304.673 0)
+			(at 185.42 303.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20665,7 +20683,7 @@
 			)
 		)
 		(property "ComponentHeight" "1.11mm"
-			(at 238.76 306.578 0)
+			(at 185.42 305.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20675,7 +20693,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\ICs And Semiconductors SMD.PcbLib"
-			(at 238.76 308.483 0)
+			(at 185.42 307.213 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20685,7 +20703,7 @@
 			)
 		)
 		(property "Footprint Ref" "SOT95P240X110-3N"
-			(at 238.76 310.388 0)
+			(at 185.42 309.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20695,7 +20713,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf"
-			(at 238.76 312.293 0)
+			(at 185.42 311.023 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20705,7 +20723,7 @@
 			)
 		)
 		(property "ComponentLink1URL" " "
-			(at 238.76 314.198 0)
+			(at 185.42 312.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20715,7 +20733,7 @@
 			)
 		)
 		(property "ComponentLink1Description" " "
-			(at 238.76 316.103 0)
+			(at 185.42 314.833 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20725,7 +20743,7 @@
 			)
 		)
 		(property "ComponentLink2URL" " "
-			(at 238.76 318.008 0)
+			(at 185.42 316.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20735,7 +20753,7 @@
 			)
 		)
 		(property "ComponentLink2Description" " "
-			(at 238.76 319.913 0)
+			(at 185.42 318.643 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20745,7 +20763,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 238.76 321.818 0)
+			(at 185.42 320.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20755,7 +20773,7 @@
 			)
 		)
 		(property "CreateDate" "03/23/09 00:00:00"
-			(at 238.76 323.723 0)
+			(at 185.42 322.453 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20765,7 +20783,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "05/25/22 00:00:00"
-			(at 238.76 325.628 0)
+			(at 185.42 324.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20775,7 +20793,7 @@
 			)
 		)
 		(property "SCEM" " "
-			(at 238.76 327.533 0)
+			(at 185.42 326.263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20785,7 +20803,7 @@
 			)
 		)
 		(property "LatestRevisionDate1" " "
-			(at 238.76 329.438 0)
+			(at 185.42 328.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20795,7 +20813,7 @@
 			)
 		)
 		(property "Database Table Name" "ICs And Semiconductors"
-			(at 238.76 331.343 0)
+			(at 185.42 330.073 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20805,7 +20823,7 @@
 			)
 		)
 		(property "Library Name" "Transistors"
-			(at 238.76 333.248 0)
+			(at 185.42 331.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20815,7 +20833,7 @@
 			)
 		)
 		(property "Footprint Library" "ICs And Semiconductors SMD"
-			(at 238.76 335.153 0)
+			(at 185.42 333.883 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20825,7 +20843,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 238.76 337.058 0)
+			(at 185.42 335.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20835,7 +20853,7 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
-			(at 238.76 251.46 0)
+			(at 185.42 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20844,7 +20862,7 @@
 			)
 		)
 		(property "LCSC" "C82045"
-			(at 238.76 251.46 0)
+			(at 185.42 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20897,7 +20915,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-8N"
+		(property "Footprint" "Footprint:SOP65P640X120-8N"
 			(at 106.68 232.41 0)
 			(effects
 				(font
@@ -21083,7 +21101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 99.568 60.96 0)
 			(effects
 				(font
@@ -21618,7 +21636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 323.088 62.23 0)
 			(effects
 				(font
@@ -22061,7 +22079,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:GND")
-		(at 241.3 259.08 0)
+		(at 187.96 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22069,7 +22087,7 @@
 		(dnp no)
 		(uuid "2bd7b100-32f9-4484-bd13-3807bd0d448c")
 		(property "Reference" "#PWR0322"
-			(at 241.3 265.43 0)
+			(at 187.96 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22078,7 +22096,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 262.89 0)
+			(at 187.96 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22086,7 +22104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 259.08 0)
+			(at 187.96 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22095,7 +22113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 259.08 0)
+			(at 187.96 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22104,7 +22122,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 259.08 0)
+			(at 187.96 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22152,7 +22170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 114.808 60.96 0)
 			(effects
 				(font
@@ -22595,7 +22613,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:TestPoint")
-		(at 181.61 229.87 90)
+		(at 259.08 234.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22603,7 +22621,7 @@
 		(dnp no)
 		(uuid "2e310e45-bc8e-48f1-95dd-c19d3c418207")
 		(property "Reference" "TP3"
-			(at 175.26 229.87 90)
+			(at 252.73 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22611,7 +22629,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 177.038 231.648 90)
+			(at 254.508 236.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22619,7 +22637,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 181.61 224.79 0)
+			(at 259.08 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22628,7 +22646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 224.79 0)
+			(at 259.08 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22637,7 +22655,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 181.61 229.87 0)
+			(at 259.08 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22646,7 +22664,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 181.61 229.87 90)
+			(at 259.08 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22655,7 +22673,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 181.61 229.87 90)
+			(at 259.08 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22677,7 +22695,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:R0402_4K7_1%_0.0625W_100PPM")
-		(at 194.31 231.14 90)
+		(at 271.78 236.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22685,7 +22703,7 @@
 		(dnp no)
 		(uuid "35746612-95f8-47d1-b0fa-8b97626ceea5")
 		(property "Reference" "R139"
-			(at 195.326 225.552 90)
+			(at 272.796 230.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22694,7 +22712,7 @@
 			)
 		)
 		(property "Value" "R0402_4K7_1%_0.0625W_100PPM"
-			(at 199.263 231.14 0)
+			(at 276.733 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22703,8 +22721,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 201.168 231.14 0)
+		(property "Footprint" "Footprint:RESC1005X40N"
+			(at 278.638 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22714,7 +22732,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 203.073 231.14 0)
+			(at 280.543 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22724,7 +22742,7 @@
 			)
 		)
 		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 194.31 231.14 0)
+			(at 271.78 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22733,7 +22751,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 194.31 226.314 0)
+			(at 271.78 231.394 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -22742,7 +22760,7 @@
 			)
 		)
 		(property "Val" "4k7"
-			(at 195.326 227.838 90)
+			(at 272.796 232.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22751,7 +22769,7 @@
 			)
 		)
 		(property "Part Number" "R0402_4K7_1%_0.0625W_100PPM"
-			(at 204.978 231.14 0)
+			(at 282.448 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22761,7 +22779,7 @@
 			)
 		)
 		(property "Library Ref" "Resistor - 1%"
-			(at 206.883 231.14 0)
+			(at 284.353 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22771,7 +22789,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Resistors.SchLib"
-			(at 208.788 231.14 0)
+			(at 286.258 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22781,7 +22799,7 @@
 			)
 		)
 		(property "Comment" "4k7"
-			(at 210.693 231.14 0)
+			(at 288.163 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22791,7 +22809,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 212.598 231.14 0)
+			(at 290.068 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22801,7 +22819,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 214.503 231.14 0)
+			(at 291.973 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22811,7 +22829,7 @@
 			)
 		)
 		(property "PackageDescription" " "
-			(at 216.408 231.14 0)
+			(at 293.878 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22821,7 +22839,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 218.313 231.14 0)
+			(at 295.783 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22831,7 +22849,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
-			(at 220.218 231.14 0)
+			(at 297.688 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22841,7 +22859,7 @@
 			)
 		)
 		(property "Footprint Ref" "RESC1005X40N"
-			(at 222.123 231.14 0)
+			(at 299.593 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22851,7 +22869,7 @@
 			)
 		)
 		(property "Status" "Not Recommended"
-			(at 224.028 231.14 0)
+			(at 301.498 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22861,7 +22879,7 @@
 			)
 		)
 		(property "Power" "0.0625W"
-			(at 225.933 231.14 0)
+			(at 303.403 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22871,7 +22889,7 @@
 			)
 		)
 		(property "TC" "±100ppm/°C"
-			(at 227.838 231.14 0)
+			(at 305.308 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22881,7 +22899,7 @@
 			)
 		)
 		(property "Voltage" " "
-			(at 229.743 231.14 0)
+			(at 307.213 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22891,7 +22909,7 @@
 			)
 		)
 		(property "Part Description" "General Purpose Thick Film Chip Resistor"
-			(at 231.648 231.14 0)
+			(at 309.118 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22901,7 +22919,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 233.553 231.14 0)
+			(at 311.023 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22911,7 +22929,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "R0402_4K7_1%_0.0625W_100PPM"
-			(at 235.458 231.14 0)
+			(at 312.928 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22921,7 +22939,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 237.363 231.14 0)
+			(at 314.833 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22931,7 +22949,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 239.268 231.14 0)
+			(at 316.738 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22941,7 +22959,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 241.173 231.14 0)
+			(at 318.643 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22951,7 +22969,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 243.078 231.14 0)
+			(at 320.548 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22961,7 +22979,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 244.983 231.14 0)
+			(at 322.453 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22971,7 +22989,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 246.888 231.14 0)
+			(at 324.358 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22981,7 +22999,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 248.793 231.14 0)
+			(at 326.263 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22991,7 +23009,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 250.698 231.14 0)
+			(at 328.168 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23001,7 +23019,7 @@
 			)
 		)
 		(property "ComponentHeight" " "
-			(at 252.603 231.14 0)
+			(at 330.073 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23011,7 +23029,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 254.508 231.14 0)
+			(at 331.978 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23021,7 +23039,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" "232270674702L"
-			(at 256.413 231.14 0)
+			(at 333.883 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23031,7 +23049,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 258.318 231.14 0)
+			(at 335.788 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23041,7 +23059,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 260.223 231.14 0)
+			(at 337.693 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23051,7 +23069,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 262.128 231.14 0)
+			(at 339.598 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23061,7 +23079,7 @@
 			)
 		)
 		(property "CreateDate" "12/03/07 00:00:00"
-			(at 264.033 231.14 0)
+			(at 341.503 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23071,7 +23089,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "10/17/12 00:00:00"
-			(at 265.938 231.14 0)
+			(at 343.408 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23081,7 +23099,7 @@
 			)
 		)
 		(property "Database Table Name" "Resistors"
-			(at 267.843 231.14 0)
+			(at 345.313 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23091,7 +23109,7 @@
 			)
 		)
 		(property "Library Name" "Resistors SMD"
-			(at 269.748 231.14 0)
+			(at 347.218 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23101,7 +23119,7 @@
 			)
 		)
 		(property "Footprint Library" "Resistors SMD"
-			(at 271.653 231.14 0)
+			(at 349.123 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23111,7 +23129,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 273.558 231.14 0)
+			(at 351.028 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23121,7 +23139,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 194.31 231.14 90)
+			(at 271.78 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23130,7 +23148,7 @@
 			)
 		)
 		(property "LCSC" "C25900"
-			(at 194.31 231.14 90)
+			(at 271.78 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23181,7 +23199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 337.058 62.23 0)
 			(effects
 				(font
@@ -23624,7 +23642,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:+1V0")
-		(at 207.01 223.52 0)
+		(at 284.48 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23632,7 +23650,7 @@
 		(dnp no)
 		(uuid "38254ef8-cedd-4a0d-a674-2925ddc987cf")
 		(property "Reference" "#PWR0293"
-			(at 207.01 227.33 0)
+			(at 284.48 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23641,7 +23659,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 206.502 219.71 0)
+			(at 283.972 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23649,7 +23667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 223.52 0)
+			(at 284.48 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23658,7 +23676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 223.52 0)
+			(at 284.48 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23667,7 +23685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 207.01 223.52 0)
+			(at 284.48 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23715,7 +23733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 301.498 62.23 0)
 			(effects
 				(font
@@ -24158,7 +24176,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:+1V0")
-		(at 267.97 229.87 0)
+		(at 214.63 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24166,7 +24184,7 @@
 		(dnp no)
 		(uuid "4ed52d70-b2ca-4ad8-969e-967ba6ef2881")
 		(property "Reference" "#PWR0323"
-			(at 267.97 233.68 0)
+			(at 214.63 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24175,7 +24193,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 267.97 226.314 0)
+			(at 214.63 225.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24183,7 +24201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 229.87 0)
+			(at 214.63 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24192,7 +24210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 229.87 0)
+			(at 214.63 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24201,7 +24219,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 267.97 229.87 0)
+			(at 214.63 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24223,7 +24241,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:R0402_10K_1%_0.0625W_100PPM")
-		(at 241.3 259.08 90)
+		(at 187.96 257.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24231,7 +24249,7 @@
 		(dnp no)
 		(uuid "511012bf-a95d-4c13-9a4f-eb92e48f5ab3")
 		(property "Reference" "R156"
-			(at 239.522 255.524 0)
+			(at 186.182 254.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24239,7 +24257,7 @@
 			)
 		)
 		(property "Value" "R0402_10K_1%_0.0625W_100PPM"
-			(at 246.253 259.08 0)
+			(at 192.913 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24248,8 +24266,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 248.158 259.08 0)
+		(property "Footprint" "Footprint:RESC1005X40N"
+			(at 194.818 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24259,7 +24277,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 250.063 259.08 0)
+			(at 196.723 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24269,7 +24287,7 @@
 			)
 		)
 		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 241.3 259.08 0)
+			(at 187.96 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24278,7 +24296,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 241.3 255.27 0)
+			(at 187.96 254 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -24286,7 +24304,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 243.332 255.27 0)
+			(at 189.992 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24294,7 +24312,7 @@
 			)
 		)
 		(property "Part Number" "R0402_10K_1%_0.0625W_100PPM"
-			(at 251.968 259.08 0)
+			(at 198.628 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24304,7 +24322,7 @@
 			)
 		)
 		(property "Library Ref" "Resistor - 1%"
-			(at 253.873 259.08 0)
+			(at 200.533 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24314,7 +24332,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Resistors.SchLib"
-			(at 255.778 259.08 0)
+			(at 202.438 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24324,7 +24342,7 @@
 			)
 		)
 		(property "Comment" "10k"
-			(at 257.683 259.08 0)
+			(at 204.343 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24334,7 +24352,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 259.588 259.08 0)
+			(at 206.248 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24344,7 +24362,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 261.493 259.08 0)
+			(at 208.153 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24354,7 +24372,7 @@
 			)
 		)
 		(property "PackageDescription" " "
-			(at 263.398 259.08 0)
+			(at 210.058 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24364,7 +24382,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 265.303 259.08 0)
+			(at 211.963 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24374,7 +24392,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
-			(at 267.208 259.08 0)
+			(at 213.868 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24384,7 +24402,7 @@
 			)
 		)
 		(property "Footprint Ref" "RESC1005X40N"
-			(at 269.113 259.08 0)
+			(at 215.773 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24394,7 +24412,7 @@
 			)
 		)
 		(property "Status" "Not Recommended"
-			(at 271.018 259.08 0)
+			(at 217.678 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24404,7 +24422,7 @@
 			)
 		)
 		(property "Power" "0.0625W"
-			(at 272.923 259.08 0)
+			(at 219.583 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24414,7 +24432,7 @@
 			)
 		)
 		(property "TC" "±100ppm/°C"
-			(at 274.828 259.08 0)
+			(at 221.488 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24424,7 +24442,7 @@
 			)
 		)
 		(property "Voltage" " "
-			(at 276.733 259.08 0)
+			(at 223.393 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24434,7 +24452,7 @@
 			)
 		)
 		(property "Part Description" "General Purpose Thick Film Chip Resistor"
-			(at 278.638 259.08 0)
+			(at 225.298 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24444,7 +24462,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 280.543 259.08 0)
+			(at 227.203 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24454,7 +24472,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "R0402_10K_1%_0.0625W_100PPM"
-			(at 282.448 259.08 0)
+			(at 229.108 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24464,7 +24482,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 284.353 259.08 0)
+			(at 231.013 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24474,7 +24492,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 286.258 259.08 0)
+			(at 232.918 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24484,7 +24502,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 288.163 259.08 0)
+			(at 234.823 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24494,7 +24512,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 290.068 259.08 0)
+			(at 236.728 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24504,7 +24522,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 291.973 259.08 0)
+			(at 238.633 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24514,7 +24532,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 293.878 259.08 0)
+			(at 240.538 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24524,7 +24542,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 295.783 259.08 0)
+			(at 242.443 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24534,7 +24552,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 297.688 259.08 0)
+			(at 244.348 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24544,7 +24562,7 @@
 			)
 		)
 		(property "ComponentHeight" " "
-			(at 299.593 259.08 0)
+			(at 246.253 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24554,7 +24572,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 301.498 259.08 0)
+			(at 248.158 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24564,7 +24582,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" "232270671003L"
-			(at 303.403 259.08 0)
+			(at 250.063 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24574,7 +24592,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 305.308 259.08 0)
+			(at 251.968 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24584,7 +24602,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 307.213 259.08 0)
+			(at 253.873 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24594,7 +24612,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 309.118 259.08 0)
+			(at 255.778 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24604,7 +24622,7 @@
 			)
 		)
 		(property "CreateDate" "12/03/07 00:00:00"
-			(at 311.023 259.08 0)
+			(at 257.683 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24614,7 +24632,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "10/17/12 00:00:00"
-			(at 312.928 259.08 0)
+			(at 259.588 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24624,7 +24642,7 @@
 			)
 		)
 		(property "Database Table Name" "Resistors"
-			(at 314.833 259.08 0)
+			(at 261.493 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24634,7 +24652,7 @@
 			)
 		)
 		(property "Library Name" "Resistors SMD"
-			(at 316.738 259.08 0)
+			(at 263.398 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24644,7 +24662,7 @@
 			)
 		)
 		(property "Footprint Library" "Resistors SMD"
-			(at 318.643 259.08 0)
+			(at 265.303 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24654,7 +24672,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 320.548 259.08 0)
+			(at 267.208 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24664,7 +24682,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 241.3 259.08 0)
+			(at 187.96 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24673,7 +24691,7 @@
 			)
 		)
 		(property "LCSC" "C60490"
-			(at 241.3 259.08 0)
+			(at 187.96 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24724,7 +24742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 147.828 60.96 0)
 			(effects
 				(font
@@ -25167,7 +25185,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:GND")
-		(at 276.86 259.08 0)
+		(at 223.52 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25175,7 +25193,7 @@
 		(dnp no)
 		(uuid "5bbd5f26-d29a-4bc7-a01c-69cfcf3567c3")
 		(property "Reference" "#PWR0325"
-			(at 276.86 265.43 0)
+			(at 223.52 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25184,7 +25202,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 262.89 0)
+			(at 223.52 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25192,7 +25210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 259.08 0)
+			(at 223.52 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25201,7 +25219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 259.08 0)
+			(at 223.52 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25210,7 +25228,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 259.08 0)
+			(at 223.52 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25258,7 +25276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 84.328 60.96 0)
 			(effects
 				(font
@@ -25701,7 +25719,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:R0402_10K_1%_0.0625W_100PPM")
-		(at 276.86 259.08 90)
+		(at 223.52 257.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25709,7 +25727,7 @@
 		(dnp no)
 		(uuid "5fbabf4b-5055-48f3-a8c3-d41f73e3d0b2")
 		(property "Reference" "R158"
-			(at 275.082 255.524 0)
+			(at 221.742 254.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25717,7 +25735,7 @@
 			)
 		)
 		(property "Value" "R0402_10K_1%_0.0625W_100PPM"
-			(at 281.813 259.08 0)
+			(at 228.473 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25726,8 +25744,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 283.718 259.08 0)
+		(property "Footprint" "Footprint:RESC1005X40N"
+			(at 230.378 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25737,7 +25755,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 285.623 259.08 0)
+			(at 232.283 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25747,7 +25765,7 @@
 			)
 		)
 		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 276.86 259.08 0)
+			(at 223.52 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25756,7 +25774,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 276.86 255.27 0)
+			(at 223.52 254 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -25764,7 +25782,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 278.892 255.27 0)
+			(at 225.552 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25772,7 +25790,7 @@
 			)
 		)
 		(property "Part Number" "R0402_10K_1%_0.0625W_100PPM"
-			(at 287.528 259.08 0)
+			(at 234.188 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25782,7 +25800,7 @@
 			)
 		)
 		(property "Library Ref" "Resistor - 1%"
-			(at 289.433 259.08 0)
+			(at 236.093 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25792,7 +25810,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Resistors.SchLib"
-			(at 291.338 259.08 0)
+			(at 237.998 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25802,7 +25820,7 @@
 			)
 		)
 		(property "Comment" "10k"
-			(at 293.243 259.08 0)
+			(at 239.903 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25812,7 +25830,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 295.148 259.08 0)
+			(at 241.808 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25822,7 +25840,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 297.053 259.08 0)
+			(at 243.713 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25832,7 +25850,7 @@
 			)
 		)
 		(property "PackageDescription" " "
-			(at 298.958 259.08 0)
+			(at 245.618 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25842,7 +25860,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 300.863 259.08 0)
+			(at 247.523 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25852,7 +25870,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
-			(at 302.768 259.08 0)
+			(at 249.428 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25862,7 +25880,7 @@
 			)
 		)
 		(property "Footprint Ref" "RESC1005X40N"
-			(at 304.673 259.08 0)
+			(at 251.333 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25872,7 +25890,7 @@
 			)
 		)
 		(property "Status" "Not Recommended"
-			(at 306.578 259.08 0)
+			(at 253.238 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25882,7 +25900,7 @@
 			)
 		)
 		(property "Power" "0.0625W"
-			(at 308.483 259.08 0)
+			(at 255.143 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25892,7 +25910,7 @@
 			)
 		)
 		(property "TC" "±100ppm/°C"
-			(at 310.388 259.08 0)
+			(at 257.048 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25902,7 +25920,7 @@
 			)
 		)
 		(property "Voltage" " "
-			(at 312.293 259.08 0)
+			(at 258.953 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25912,7 +25930,7 @@
 			)
 		)
 		(property "Part Description" "General Purpose Thick Film Chip Resistor"
-			(at 314.198 259.08 0)
+			(at 260.858 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25922,7 +25940,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 316.103 259.08 0)
+			(at 262.763 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25932,7 +25950,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "R0402_10K_1%_0.0625W_100PPM"
-			(at 318.008 259.08 0)
+			(at 264.668 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25942,7 +25960,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 319.913 259.08 0)
+			(at 266.573 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25952,7 +25970,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 321.818 259.08 0)
+			(at 268.478 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25962,7 +25980,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 323.723 259.08 0)
+			(at 270.383 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25972,7 +25990,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 325.628 259.08 0)
+			(at 272.288 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25982,7 +26000,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 327.533 259.08 0)
+			(at 274.193 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25992,7 +26010,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 329.438 259.08 0)
+			(at 276.098 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26002,7 +26020,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 331.343 259.08 0)
+			(at 278.003 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26012,7 +26030,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 333.248 259.08 0)
+			(at 279.908 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26022,7 +26040,7 @@
 			)
 		)
 		(property "ComponentHeight" " "
-			(at 335.153 259.08 0)
+			(at 281.813 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26032,7 +26050,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 337.058 259.08 0)
+			(at 283.718 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26042,7 +26060,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" "232270671003L"
-			(at 338.963 259.08 0)
+			(at 285.623 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26052,7 +26070,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 340.868 259.08 0)
+			(at 287.528 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26062,7 +26080,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 342.773 259.08 0)
+			(at 289.433 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26072,7 +26090,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 344.678 259.08 0)
+			(at 291.338 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26082,7 +26100,7 @@
 			)
 		)
 		(property "CreateDate" "12/03/07 00:00:00"
-			(at 346.583 259.08 0)
+			(at 293.243 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26092,7 +26110,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "10/17/12 00:00:00"
-			(at 348.488 259.08 0)
+			(at 295.148 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26102,7 +26120,7 @@
 			)
 		)
 		(property "Database Table Name" "Resistors"
-			(at 350.393 259.08 0)
+			(at 297.053 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26112,7 +26130,7 @@
 			)
 		)
 		(property "Library Name" "Resistors SMD"
-			(at 352.298 259.08 0)
+			(at 298.958 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26122,7 +26140,7 @@
 			)
 		)
 		(property "Footprint Library" "Resistors SMD"
-			(at 354.203 259.08 0)
+			(at 300.863 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26132,7 +26150,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 356.108 259.08 0)
+			(at 302.768 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26142,7 +26160,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 276.86 259.08 0)
+			(at 223.52 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26151,7 +26169,7 @@
 			)
 		)
 		(property "LCSC" "C60490"
-			(at 276.86 259.08 0)
+			(at 223.52 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26176,7 +26194,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:R0402_4K7_1%_0.0625W_100PPM")
-		(at 218.44 231.14 90)
+		(at 295.91 236.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26184,7 +26202,7 @@
 		(dnp no)
 		(uuid "601a9cb9-a4b7-40fb-9a61-95aa6be6bf88")
 		(property "Reference" "R182"
-			(at 219.456 225.552 90)
+			(at 296.926 230.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26193,7 +26211,7 @@
 			)
 		)
 		(property "Value" "R0402_4K7_1%_0.0625W_100PPM"
-			(at 223.393 231.14 0)
+			(at 300.863 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26202,8 +26220,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 225.298 231.14 0)
+		(property "Footprint" "Footprint:RESC1005X40N"
+			(at 302.768 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26213,7 +26231,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 227.203 231.14 0)
+			(at 304.673 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26223,7 +26241,7 @@
 			)
 		)
 		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 218.44 231.14 0)
+			(at 295.91 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26232,7 +26250,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 218.44 226.314 0)
+			(at 295.91 231.394 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -26241,7 +26259,7 @@
 			)
 		)
 		(property "Val" "4k7"
-			(at 219.456 227.838 90)
+			(at 296.926 232.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26250,7 +26268,7 @@
 			)
 		)
 		(property "Part Number" "R0402_4K7_1%_0.0625W_100PPM"
-			(at 229.108 231.14 0)
+			(at 306.578 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26260,7 +26278,7 @@
 			)
 		)
 		(property "Library Ref" "Resistor - 1%"
-			(at 231.013 231.14 0)
+			(at 308.483 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26270,7 +26288,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Resistors.SchLib"
-			(at 232.918 231.14 0)
+			(at 310.388 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26280,7 +26298,7 @@
 			)
 		)
 		(property "Comment" "4k7"
-			(at 234.823 231.14 0)
+			(at 312.293 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26290,7 +26308,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 236.728 231.14 0)
+			(at 314.198 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26300,7 +26318,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 238.633 231.14 0)
+			(at 316.103 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26310,7 +26328,7 @@
 			)
 		)
 		(property "PackageDescription" " "
-			(at 240.538 231.14 0)
+			(at 318.008 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26320,7 +26338,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 242.443 231.14 0)
+			(at 319.913 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26330,7 +26348,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
-			(at 244.348 231.14 0)
+			(at 321.818 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26340,7 +26358,7 @@
 			)
 		)
 		(property "Footprint Ref" "RESC1005X40N"
-			(at 246.253 231.14 0)
+			(at 323.723 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26350,7 +26368,7 @@
 			)
 		)
 		(property "Status" "Not Recommended"
-			(at 248.158 231.14 0)
+			(at 325.628 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26360,7 +26378,7 @@
 			)
 		)
 		(property "Power" "0.0625W"
-			(at 250.063 231.14 0)
+			(at 327.533 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26370,7 +26388,7 @@
 			)
 		)
 		(property "TC" "±100ppm/°C"
-			(at 251.968 231.14 0)
+			(at 329.438 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26380,7 +26398,7 @@
 			)
 		)
 		(property "Voltage" " "
-			(at 253.873 231.14 0)
+			(at 331.343 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26390,7 +26408,7 @@
 			)
 		)
 		(property "Part Description" "General Purpose Thick Film Chip Resistor"
-			(at 255.778 231.14 0)
+			(at 333.248 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26400,7 +26418,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 257.683 231.14 0)
+			(at 335.153 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26410,7 +26428,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "R0402_4K7_1%_0.0625W_100PPM"
-			(at 259.588 231.14 0)
+			(at 337.058 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26420,7 +26438,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 261.493 231.14 0)
+			(at 338.963 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26430,7 +26448,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 263.398 231.14 0)
+			(at 340.868 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26440,7 +26458,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 265.303 231.14 0)
+			(at 342.773 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26450,7 +26468,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 267.208 231.14 0)
+			(at 344.678 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26460,7 +26478,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 269.113 231.14 0)
+			(at 346.583 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26470,7 +26488,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 271.018 231.14 0)
+			(at 348.488 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26480,7 +26498,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 272.923 231.14 0)
+			(at 350.393 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26490,7 +26508,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 274.828 231.14 0)
+			(at 352.298 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26500,7 +26518,7 @@
 			)
 		)
 		(property "ComponentHeight" " "
-			(at 276.733 231.14 0)
+			(at 354.203 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26510,7 +26528,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 278.638 231.14 0)
+			(at 356.108 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26520,7 +26538,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" "232270674702L"
-			(at 280.543 231.14 0)
+			(at 358.013 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26530,7 +26548,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 282.448 231.14 0)
+			(at 359.918 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26540,7 +26558,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 284.353 231.14 0)
+			(at 361.823 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26550,7 +26568,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 286.258 231.14 0)
+			(at 363.728 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26560,7 +26578,7 @@
 			)
 		)
 		(property "CreateDate" "12/03/07 00:00:00"
-			(at 288.163 231.14 0)
+			(at 365.633 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26570,7 +26588,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "10/17/12 00:00:00"
-			(at 290.068 231.14 0)
+			(at 367.538 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26580,7 +26598,7 @@
 			)
 		)
 		(property "Database Table Name" "Resistors"
-			(at 291.973 231.14 0)
+			(at 369.443 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26590,7 +26608,7 @@
 			)
 		)
 		(property "Library Name" "Resistors SMD"
-			(at 293.878 231.14 0)
+			(at 371.348 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26600,7 +26618,7 @@
 			)
 		)
 		(property "Footprint Library" "Resistors SMD"
-			(at 295.783 231.14 0)
+			(at 373.253 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26610,7 +26628,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 297.688 231.14 0)
+			(at 375.158 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26620,7 +26638,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 218.44 231.14 90)
+			(at 295.91 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26629,7 +26647,7 @@
 			)
 		)
 		(property "LCSC" "C25900"
-			(at 218.44 231.14 90)
+			(at 295.91 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26654,7 +26672,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:R0402_4K7_1%_0.0625W_100PPM")
-		(at 210.82 231.14 90)
+		(at 288.29 236.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26662,7 +26680,7 @@
 		(dnp no)
 		(uuid "632f41e6-d4d6-4e2f-805f-433590dfceec")
 		(property "Reference" "R141"
-			(at 211.836 225.552 90)
+			(at 289.306 230.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26671,7 +26689,7 @@
 			)
 		)
 		(property "Value" "R0402_4K7_1%_0.0625W_100PPM"
-			(at 215.773 231.14 0)
+			(at 293.243 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26680,8 +26698,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 217.678 231.14 0)
+		(property "Footprint" "Footprint:RESC1005X40N"
+			(at 295.148 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26691,7 +26709,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 219.583 231.14 0)
+			(at 297.053 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26701,7 +26719,7 @@
 			)
 		)
 		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 210.82 231.14 0)
+			(at 288.29 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26710,7 +26728,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 210.82 226.314 0)
+			(at 288.29 231.394 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -26719,7 +26737,7 @@
 			)
 		)
 		(property "Val" "4k7"
-			(at 211.836 227.838 90)
+			(at 289.306 232.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26728,7 +26746,7 @@
 			)
 		)
 		(property "Part Number" "R0402_4K7_1%_0.0625W_100PPM"
-			(at 221.488 231.14 0)
+			(at 298.958 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26738,7 +26756,7 @@
 			)
 		)
 		(property "Library Ref" "Resistor - 1%"
-			(at 223.393 231.14 0)
+			(at 300.863 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26748,7 +26766,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Resistors.SchLib"
-			(at 225.298 231.14 0)
+			(at 302.768 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26758,7 +26776,7 @@
 			)
 		)
 		(property "Comment" "4k7"
-			(at 227.203 231.14 0)
+			(at 304.673 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26768,7 +26786,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 229.108 231.14 0)
+			(at 306.578 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26778,7 +26796,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 231.013 231.14 0)
+			(at 308.483 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26788,7 +26806,7 @@
 			)
 		)
 		(property "PackageDescription" " "
-			(at 232.918 231.14 0)
+			(at 310.388 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26798,7 +26816,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 234.823 231.14 0)
+			(at 312.293 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26808,7 +26826,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
-			(at 236.728 231.14 0)
+			(at 314.198 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26818,7 +26836,7 @@
 			)
 		)
 		(property "Footprint Ref" "RESC1005X40N"
-			(at 238.633 231.14 0)
+			(at 316.103 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26828,7 +26846,7 @@
 			)
 		)
 		(property "Status" "Not Recommended"
-			(at 240.538 231.14 0)
+			(at 318.008 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26838,7 +26856,7 @@
 			)
 		)
 		(property "Power" "0.0625W"
-			(at 242.443 231.14 0)
+			(at 319.913 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26848,7 +26866,7 @@
 			)
 		)
 		(property "TC" "±100ppm/°C"
-			(at 244.348 231.14 0)
+			(at 321.818 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26858,7 +26876,7 @@
 			)
 		)
 		(property "Voltage" " "
-			(at 246.253 231.14 0)
+			(at 323.723 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26868,7 +26886,7 @@
 			)
 		)
 		(property "Part Description" "General Purpose Thick Film Chip Resistor"
-			(at 248.158 231.14 0)
+			(at 325.628 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26878,7 +26896,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 250.063 231.14 0)
+			(at 327.533 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26888,7 +26906,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "R0402_4K7_1%_0.0625W_100PPM"
-			(at 251.968 231.14 0)
+			(at 329.438 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26898,7 +26916,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 253.873 231.14 0)
+			(at 331.343 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26908,7 +26926,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 255.778 231.14 0)
+			(at 333.248 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26918,7 +26936,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 257.683 231.14 0)
+			(at 335.153 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26928,7 +26946,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 259.588 231.14 0)
+			(at 337.058 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26938,7 +26956,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 261.493 231.14 0)
+			(at 338.963 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26948,7 +26966,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 263.398 231.14 0)
+			(at 340.868 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26958,7 +26976,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 265.303 231.14 0)
+			(at 342.773 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26968,7 +26986,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 267.208 231.14 0)
+			(at 344.678 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26978,7 +26996,7 @@
 			)
 		)
 		(property "ComponentHeight" " "
-			(at 269.113 231.14 0)
+			(at 346.583 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26988,7 +27006,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 271.018 231.14 0)
+			(at 348.488 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26998,7 +27016,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" "232270674702L"
-			(at 272.923 231.14 0)
+			(at 350.393 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27008,7 +27026,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 274.828 231.14 0)
+			(at 352.298 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27018,7 +27036,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 276.733 231.14 0)
+			(at 354.203 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27028,7 +27046,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 278.638 231.14 0)
+			(at 356.108 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27038,7 +27056,7 @@
 			)
 		)
 		(property "CreateDate" "12/03/07 00:00:00"
-			(at 280.543 231.14 0)
+			(at 358.013 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27048,7 +27066,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "10/17/12 00:00:00"
-			(at 282.448 231.14 0)
+			(at 359.918 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27058,7 +27076,7 @@
 			)
 		)
 		(property "Database Table Name" "Resistors"
-			(at 284.353 231.14 0)
+			(at 361.823 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27068,7 +27086,7 @@
 			)
 		)
 		(property "Library Name" "Resistors SMD"
-			(at 286.258 231.14 0)
+			(at 363.728 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27078,7 +27096,7 @@
 			)
 		)
 		(property "Footprint Library" "Resistors SMD"
-			(at 288.163 231.14 0)
+			(at 365.633 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27088,7 +27106,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 290.068 231.14 0)
+			(at 367.538 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27098,7 +27116,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 210.82 231.14 90)
+			(at 288.29 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27107,7 +27125,7 @@
 			)
 		)
 		(property "LCSC" "C25900"
-			(at 210.82 231.14 90)
+			(at 288.29 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27158,7 +27176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 91.948 60.96 0)
 			(effects
 				(font
@@ -27627,7 +27645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:Xilinx_CSG325"
+		(property "Footprint" "Footprint:Xilinx_CSG325"
 			(at 299.72 140.97 0)
 			(effects
 				(font
@@ -28680,7 +28698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 70.358 60.96 0)
 			(effects
 				(font
@@ -29123,7 +29141,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:BSS138LT1G")
-		(at 274.32 251.46 0)
+		(at 220.98 250.19 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29133,7 +29151,7 @@
 		(fields_autoplaced yes)
 		(uuid "709f7739-89ed-4d03-a5a4-42584af50032")
 		(property "Reference" "Q2"
-			(at 265.43 250.1899 0)
+			(at 212.09 248.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29142,7 +29160,7 @@
 			)
 		)
 		(property "Value" "BSS138LT1G"
-			(at 274.32 258.953 0)
+			(at 220.98 257.683 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29151,8 +29169,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:SOT95P240X110-3N"
-			(at 274.32 260.858 0)
+		(property "Footprint" "Footprint:SOT95P240X110-3N"
+			(at 220.98 259.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29162,7 +29180,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf"
-			(at 274.32 262.763 0)
+			(at 220.98 261.493 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29172,7 +29190,7 @@
 			)
 		)
 		(property "Description" "50V, 200mA N-Channel Enhancement Mode Field-Effect Transistor"
-			(at 274.32 251.46 0)
+			(at 220.98 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29181,7 +29199,7 @@
 			)
 		)
 		(property "Part Number" "BSS138LT1G"
-			(at 274.32 264.668 0)
+			(at 220.98 263.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29191,7 +29209,7 @@
 			)
 		)
 		(property "Library Ref" "N-MOSFET-D 1G 2S 3D"
-			(at 274.32 266.573 0)
+			(at 220.98 265.303 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29201,7 +29219,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Transistors.SchLib"
-			(at 274.32 268.478 0)
+			(at 220.98 267.208 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29211,7 +29229,7 @@
 			)
 		)
 		(property "Comment" "BSS138LT1G"
-			(at 274.32 270.383 0)
+			(at 220.98 269.113 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29221,7 +29239,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 274.32 272.288 0)
+			(at 220.98 271.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29231,7 +29249,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 274.32 274.193 0)
+			(at 220.98 272.923 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29241,7 +29259,7 @@
 			)
 		)
 		(property "Device" "BSS138LT1G"
-			(at 274.32 276.098 0)
+			(at 220.98 274.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29251,7 +29269,7 @@
 			)
 		)
 		(property "PackageDescription" "SOT23, 0.95mm Pitch; 3 Pin, 1.40mm W X 3.00mm L X 1.10mm H body, IPC Medium Density"
-			(at 274.32 278.003 0)
+			(at 220.98 276.733 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29261,7 +29279,7 @@
 			)
 		)
 		(property "Status" " "
-			(at 274.32 279.908 0)
+			(at 220.98 278.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29271,7 +29289,7 @@
 			)
 		)
 		(property "Part Description" "50V, 200mA N-Channel Enhancement Mode Field-Effect Transistor"
-			(at 274.32 281.813 0)
+			(at 220.98 280.543 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29281,7 +29299,7 @@
 			)
 		)
 		(property "Manufacturer" "ON SEMICONDUCTOR"
-			(at 274.32 283.718 0)
+			(at 220.98 282.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29291,7 +29309,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "BSS138L"
-			(at 274.32 285.623 0)
+			(at 220.98 284.353 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29301,7 +29319,7 @@
 			)
 		)
 		(property "Pin Count" "3"
-			(at 274.32 287.528 0)
+			(at 220.98 286.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29311,7 +29329,7 @@
 			)
 		)
 		(property "Case" "SOT23-3"
-			(at 274.32 289.433 0)
+			(at 220.98 288.163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29321,7 +29339,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 274.32 291.338 0)
+			(at 220.98 290.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29331,7 +29349,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 274.32 293.243 0)
+			(at 220.98 291.973 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29341,7 +29359,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 274.32 295.148 0)
+			(at 220.98 293.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29351,7 +29369,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 274.32 297.053 0)
+			(at 220.98 295.783 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29361,7 +29379,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 274.32 298.958 0)
+			(at 220.98 297.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29371,7 +29389,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 274.32 300.863 0)
+			(at 220.98 299.593 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29381,7 +29399,7 @@
 			)
 		)
 		(property "Bonding" "No"
-			(at 274.32 302.768 0)
+			(at 220.98 301.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29391,7 +29409,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 274.32 304.673 0)
+			(at 220.98 303.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29401,7 +29419,7 @@
 			)
 		)
 		(property "ComponentHeight" "1.11mm"
-			(at 274.32 306.578 0)
+			(at 220.98 305.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29411,7 +29429,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\ICs And Semiconductors SMD.PcbLib"
-			(at 274.32 308.483 0)
+			(at 220.98 307.213 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29421,7 +29439,7 @@
 			)
 		)
 		(property "Footprint Ref" "SOT95P240X110-3N"
-			(at 274.32 310.388 0)
+			(at 220.98 309.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29431,7 +29449,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\BSS138LT1G.pdf"
-			(at 274.32 312.293 0)
+			(at 220.98 311.023 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29441,7 +29459,7 @@
 			)
 		)
 		(property "ComponentLink1URL" " "
-			(at 274.32 314.198 0)
+			(at 220.98 312.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29451,7 +29469,7 @@
 			)
 		)
 		(property "ComponentLink1Description" " "
-			(at 274.32 316.103 0)
+			(at 220.98 314.833 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29461,7 +29479,7 @@
 			)
 		)
 		(property "ComponentLink2URL" " "
-			(at 274.32 318.008 0)
+			(at 220.98 316.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29471,7 +29489,7 @@
 			)
 		)
 		(property "ComponentLink2Description" " "
-			(at 274.32 319.913 0)
+			(at 220.98 318.643 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29481,7 +29499,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 274.32 321.818 0)
+			(at 220.98 320.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29491,7 +29509,7 @@
 			)
 		)
 		(property "CreateDate" "03/23/09 00:00:00"
-			(at 274.32 323.723 0)
+			(at 220.98 322.453 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29501,7 +29519,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "05/25/22 00:00:00"
-			(at 274.32 325.628 0)
+			(at 220.98 324.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29511,7 +29529,7 @@
 			)
 		)
 		(property "SCEM" " "
-			(at 274.32 327.533 0)
+			(at 220.98 326.263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29521,7 +29539,7 @@
 			)
 		)
 		(property "LatestRevisionDate1" " "
-			(at 274.32 329.438 0)
+			(at 220.98 328.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29531,7 +29549,7 @@
 			)
 		)
 		(property "Database Table Name" "ICs And Semiconductors"
-			(at 274.32 331.343 0)
+			(at 220.98 330.073 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29541,7 +29559,7 @@
 			)
 		)
 		(property "Library Name" "Transistors"
-			(at 274.32 333.248 0)
+			(at 220.98 331.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29551,7 +29569,7 @@
 			)
 		)
 		(property "Footprint Library" "ICs And Semiconductors SMD"
-			(at 274.32 335.153 0)
+			(at 220.98 333.883 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29561,7 +29579,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 274.32 337.058 0)
+			(at 220.98 335.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29571,7 +29589,7 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
-			(at 274.32 251.46 0)
+			(at 220.98 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29580,7 +29598,7 @@
 			)
 		)
 		(property "LCSC" "C82045"
-			(at 274.32 251.46 0)
+			(at 220.98 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29634,7 +29652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 121.158 60.96 0)
 			(effects
 				(font
@@ -30103,7 +30121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 155.448 60.96 0)
 			(effects
 				(font
@@ -30637,7 +30655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 179.578 60.96 0)
 			(effects
 				(font
@@ -31106,7 +31124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 76.708 60.96 0)
 			(effects
 				(font
@@ -31575,7 +31593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 192.278 60.96 0)
 			(effects
 				(font
@@ -32018,7 +32036,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:R0402_10K_1%_0.0625W_100PPM")
-		(at 267.97 237.49 90)
+		(at 214.63 236.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32026,7 +32044,7 @@
 		(dnp no)
 		(uuid "89c7e264-df32-44a2-9d61-959224c4c10c")
 		(property "Reference" "R157"
-			(at 266.192 233.934 0)
+			(at 212.852 232.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32034,7 +32052,7 @@
 			)
 		)
 		(property "Value" "R0402_10K_1%_0.0625W_100PPM"
-			(at 272.923 237.49 0)
+			(at 219.583 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32043,8 +32061,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 274.828 237.49 0)
+		(property "Footprint" "Footprint:RESC1005X40N"
+			(at 221.488 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32054,7 +32072,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 276.733 237.49 0)
+			(at 223.393 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32064,7 +32082,7 @@
 			)
 		)
 		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 267.97 237.49 0)
+			(at 214.63 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32073,7 +32091,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 267.97 233.68 0)
+			(at 214.63 232.41 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -32081,7 +32099,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 270.002 233.68 0)
+			(at 216.662 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32089,7 +32107,7 @@
 			)
 		)
 		(property "Part Number" "R0402_10K_1%_0.0625W_100PPM"
-			(at 278.638 237.49 0)
+			(at 225.298 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32099,7 +32117,7 @@
 			)
 		)
 		(property "Library Ref" "Resistor - 1%"
-			(at 280.543 237.49 0)
+			(at 227.203 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32109,7 +32127,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Resistors.SchLib"
-			(at 282.448 237.49 0)
+			(at 229.108 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32119,7 +32137,7 @@
 			)
 		)
 		(property "Comment" "10k"
-			(at 284.353 237.49 0)
+			(at 231.013 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32129,7 +32147,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 286.258 237.49 0)
+			(at 232.918 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32139,7 +32157,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 288.163 237.49 0)
+			(at 234.823 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32149,7 +32167,7 @@
 			)
 		)
 		(property "PackageDescription" " "
-			(at 290.068 237.49 0)
+			(at 236.728 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32159,7 +32177,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 291.973 237.49 0)
+			(at 238.633 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32169,7 +32187,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
-			(at 293.878 237.49 0)
+			(at 240.538 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32179,7 +32197,7 @@
 			)
 		)
 		(property "Footprint Ref" "RESC1005X40N"
-			(at 295.783 237.49 0)
+			(at 242.443 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32189,7 +32207,7 @@
 			)
 		)
 		(property "Status" "Not Recommended"
-			(at 297.688 237.49 0)
+			(at 244.348 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32199,7 +32217,7 @@
 			)
 		)
 		(property "Power" "0.0625W"
-			(at 299.593 237.49 0)
+			(at 246.253 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32209,7 +32227,7 @@
 			)
 		)
 		(property "TC" "±100ppm/°C"
-			(at 301.498 237.49 0)
+			(at 248.158 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32219,7 +32237,7 @@
 			)
 		)
 		(property "Voltage" " "
-			(at 303.403 237.49 0)
+			(at 250.063 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32229,7 +32247,7 @@
 			)
 		)
 		(property "Part Description" "General Purpose Thick Film Chip Resistor"
-			(at 305.308 237.49 0)
+			(at 251.968 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32239,7 +32257,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 307.213 237.49 0)
+			(at 253.873 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32249,7 +32267,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "R0402_10K_1%_0.0625W_100PPM"
-			(at 309.118 237.49 0)
+			(at 255.778 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32259,7 +32277,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 311.023 237.49 0)
+			(at 257.683 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32269,7 +32287,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 312.928 237.49 0)
+			(at 259.588 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32279,7 +32297,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 314.833 237.49 0)
+			(at 261.493 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32289,7 +32307,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 316.738 237.49 0)
+			(at 263.398 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32299,7 +32317,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 318.643 237.49 0)
+			(at 265.303 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32309,7 +32327,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 320.548 237.49 0)
+			(at 267.208 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32319,7 +32337,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 322.453 237.49 0)
+			(at 269.113 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32329,7 +32347,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 324.358 237.49 0)
+			(at 271.018 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32339,7 +32357,7 @@
 			)
 		)
 		(property "ComponentHeight" " "
-			(at 326.263 237.49 0)
+			(at 272.923 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32349,7 +32367,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 328.168 237.49 0)
+			(at 274.828 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32359,7 +32377,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" "232270671003L"
-			(at 330.073 237.49 0)
+			(at 276.733 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32369,7 +32387,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 331.978 237.49 0)
+			(at 278.638 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32379,7 +32397,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 333.883 237.49 0)
+			(at 280.543 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32389,7 +32407,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 335.788 237.49 0)
+			(at 282.448 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32399,7 +32417,7 @@
 			)
 		)
 		(property "CreateDate" "12/03/07 00:00:00"
-			(at 337.693 237.49 0)
+			(at 284.353 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32409,7 +32427,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "10/17/12 00:00:00"
-			(at 339.598 237.49 0)
+			(at 286.258 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32419,7 +32437,7 @@
 			)
 		)
 		(property "Database Table Name" "Resistors"
-			(at 341.503 237.49 0)
+			(at 288.163 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32429,7 +32447,7 @@
 			)
 		)
 		(property "Library Name" "Resistors SMD"
-			(at 343.408 237.49 0)
+			(at 290.068 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32439,7 +32457,7 @@
 			)
 		)
 		(property "Footprint Library" "Resistors SMD"
-			(at 345.313 237.49 0)
+			(at 291.973 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32449,7 +32467,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 347.218 237.49 0)
+			(at 293.878 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32459,7 +32477,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 267.97 237.49 0)
+			(at 214.63 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32468,7 +32486,7 @@
 			)
 		)
 		(property "LCSC" "C60490"
-			(at 267.97 237.49 0)
+			(at 214.63 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32517,7 +32535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:Xilinx_CSG325"
+		(property "Footprint" "Footprint:Xilinx_CSG325"
 			(at 143.51 140.97 0)
 			(effects
 				(font
@@ -33570,7 +33588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 141.478 60.96 0)
 			(effects
 				(font
@@ -34143,7 +34161,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:+1V0")
-		(at 232.41 229.87 0)
+		(at 179.07 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34151,7 +34169,7 @@
 		(dnp no)
 		(uuid "96f9c4b6-8e87-4a50-b8ab-680f0e109366")
 		(property "Reference" "#PWR0321"
-			(at 232.41 233.68 0)
+			(at 179.07 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34160,7 +34178,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 232.41 226.314 0)
+			(at 179.07 225.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34168,7 +34186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 229.87 0)
+			(at 179.07 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34177,7 +34195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 229.87 0)
+			(at 179.07 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34186,7 +34204,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 232.41 229.87 0)
+			(at 179.07 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34340,7 +34358,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:LED_KINGBRIGHT_KPH-1608CGCK")
-		(at 267.97 241.3 270)
+		(at 214.63 240.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34349,7 +34367,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad651907-1c5b-40c1-9b6f-534c27227c31")
 		(property "Reference" "LD4"
-			(at 273.05 241.0459 90)
+			(at 219.71 239.7759 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34358,7 +34376,7 @@
 			)
 		)
 		(property "Value" "LED_KINGBRIGHT_KPH-1608CGCK"
-			(at 262.509 241.3 0)
+			(at 209.169 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34367,8 +34385,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK"
-			(at 260.604 241.3 0)
+		(property "Footprint" "Footprint:LED_KINGBRIGHT_KPH-1608CGCK"
+			(at 207.264 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34378,7 +34396,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_KINGBRIGHT_KPH-1608CGCK.pdf"
-			(at 258.699 241.3 0)
+			(at 205.359 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34388,7 +34406,7 @@
 			)
 		)
 		(property "Description" "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness"
-			(at 267.97 241.3 0)
+			(at 214.63 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34397,7 +34415,7 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 273.05 243.5859 90)
+			(at 219.71 242.3159 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -34406,7 +34424,7 @@
 			)
 		)
 		(property "Part Number" "LED_KINGBRIGHT_KPH-1608CGCK"
-			(at 256.794 241.3 0)
+			(at 203.454 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34416,7 +34434,7 @@
 			)
 		)
 		(property "Library Ref" "LED Green 1C 2A"
-			(at 254.889 241.3 0)
+			(at 201.549 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34426,7 +34444,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\LEDs & Displays.SchLib"
-			(at 252.984 241.3 0)
+			(at 199.644 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34436,7 +34454,7 @@
 			)
 		)
 		(property "Comment" " "
-			(at 251.079 241.3 0)
+			(at 197.739 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34446,7 +34464,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 249.174 241.3 0)
+			(at 195.834 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34456,7 +34474,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 247.269 241.3 0)
+			(at 193.929 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34466,7 +34484,7 @@
 			)
 		)
 		(property "Device" " "
-			(at 245.364 241.3 0)
+			(at 192.024 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34476,7 +34494,7 @@
 			)
 		)
 		(property "PackageDescription" "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm"
-			(at 243.459 241.3 0)
+			(at 190.119 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34486,7 +34504,7 @@
 			)
 		)
 		(property "Status" " "
-			(at 241.554 241.3 0)
+			(at 188.214 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34496,7 +34514,7 @@
 			)
 		)
 		(property "Part Description" "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness"
-			(at 239.649 241.3 0)
+			(at 186.309 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34506,7 +34524,7 @@
 			)
 		)
 		(property "Manufacturer" "KINGBRIGHT"
-			(at 237.744 241.3 0)
+			(at 184.404 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34516,7 +34534,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "KPH-1608CGCK"
-			(at 235.839 241.3 0)
+			(at 182.499 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34526,7 +34544,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 233.934 241.3 0)
+			(at 180.594 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34536,7 +34554,7 @@
 			)
 		)
 		(property "Case" "0603"
-			(at 232.029 241.3 0)
+			(at 178.689 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34546,7 +34564,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 230.124 241.3 0)
+			(at 176.784 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34556,7 +34574,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 228.219 241.3 0)
+			(at 174.879 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34566,7 +34584,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 226.314 241.3 0)
+			(at 172.974 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34576,7 +34594,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 224.409 241.3 0)
+			(at 171.069 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34586,7 +34604,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 222.504 241.3 0)
+			(at 169.164 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34596,7 +34614,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 220.599 241.3 0)
+			(at 167.259 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34606,7 +34624,7 @@
 			)
 		)
 		(property "Bonding" "No"
-			(at 218.694 241.3 0)
+			(at 165.354 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34616,7 +34634,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 216.789 241.3 0)
+			(at 163.449 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34626,7 +34644,7 @@
 			)
 		)
 		(property "ComponentHeight" "0.65mm"
-			(at 214.884 241.3 0)
+			(at 161.544 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34636,7 +34654,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\ICs And Semiconductors SMD.PcbLib"
-			(at 212.979 241.3 0)
+			(at 159.639 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34646,7 +34664,7 @@
 			)
 		)
 		(property "Footprint Ref" "LED_KINGBRIGHT_KPH-1608CGCK"
-			(at 211.074 241.3 0)
+			(at 157.734 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34656,7 +34674,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_KINGBRIGHT_KPH-1608CGCK.pdf"
-			(at 209.169 241.3 0)
+			(at 155.829 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34666,7 +34684,7 @@
 			)
 		)
 		(property "ComponentLink1URL" " "
-			(at 207.264 241.3 0)
+			(at 153.924 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34676,7 +34694,7 @@
 			)
 		)
 		(property "ComponentLink1Description" " "
-			(at 205.359 241.3 0)
+			(at 152.019 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34686,7 +34704,7 @@
 			)
 		)
 		(property "ComponentLink2URL" " "
-			(at 203.454 241.3 0)
+			(at 150.114 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34696,7 +34714,7 @@
 			)
 		)
 		(property "ComponentLink2Description" " "
-			(at 201.549 241.3 0)
+			(at 148.209 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34706,7 +34724,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 199.644 241.3 0)
+			(at 146.304 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34716,7 +34734,7 @@
 			)
 		)
 		(property "CreateDate" "07/03/17 00:00:00"
-			(at 197.739 241.3 0)
+			(at 144.399 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34726,7 +34744,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "07/03/17 00:00:00"
-			(at 195.834 241.3 0)
+			(at 142.494 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34736,7 +34754,7 @@
 			)
 		)
 		(property "Database Table Name" "ICs And Semiconductors"
-			(at 193.929 241.3 0)
+			(at 140.589 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34746,7 +34764,7 @@
 			)
 		)
 		(property "Library Name" "LEDs & Displays"
-			(at 192.024 241.3 0)
+			(at 138.684 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34756,7 +34774,7 @@
 			)
 		)
 		(property "Footprint Library" "ICs And Semiconductors SMD"
-			(at 190.119 241.3 0)
+			(at 136.779 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34766,7 +34784,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 188.214 241.3 0)
+			(at 134.874 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34776,7 +34794,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 267.97 241.3 90)
+			(at 214.63 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34785,7 +34803,7 @@
 			)
 		)
 		(property "LCSC" "C5879295"
-			(at 267.97 241.3 90)
+			(at 214.63 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34836,7 +34854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 108.458 60.96 0)
 			(effects
 				(font
@@ -35279,7 +35297,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:GND")
-		(at 232.41 259.08 0)
+		(at 179.07 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35287,7 +35305,7 @@
 		(dnp no)
 		(uuid "b4cb5df1-86d9-46d4-b01f-d29884c3eadf")
 		(property "Reference" "#PWR0320"
-			(at 232.41 265.43 0)
+			(at 179.07 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35296,7 +35314,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 262.89 0)
+			(at 179.07 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35304,7 +35322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 259.08 0)
+			(at 179.07 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35313,7 +35331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 259.08 0)
+			(at 179.07 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35322,7 +35340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 259.08 0)
+			(at 179.07 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35344,7 +35362,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:R0402_4K7_1%_0.0625W_100PPM")
-		(at 203.2 231.14 90)
+		(at 280.67 236.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35352,7 +35370,7 @@
 		(dnp no)
 		(uuid "b6111889-f6ea-4135-b719-07de17b129d0")
 		(property "Reference" "R140"
-			(at 204.216 225.552 90)
+			(at 281.686 230.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35361,7 +35379,7 @@
 			)
 		)
 		(property "Value" "R0402_4K7_1%_0.0625W_100PPM"
-			(at 208.153 231.14 0)
+			(at 285.623 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35370,8 +35388,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 210.058 231.14 0)
+		(property "Footprint" "Footprint:RESC1005X40N"
+			(at 287.528 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35381,7 +35399,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 211.963 231.14 0)
+			(at 289.433 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35391,7 +35409,7 @@
 			)
 		)
 		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 203.2 231.14 0)
+			(at 280.67 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35400,7 +35418,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 203.2 226.314 0)
+			(at 280.67 231.394 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -35409,7 +35427,7 @@
 			)
 		)
 		(property "Val" "4k7"
-			(at 204.216 227.838 90)
+			(at 281.686 232.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35418,7 +35436,7 @@
 			)
 		)
 		(property "Part Number" "R0402_4K7_1%_0.0625W_100PPM"
-			(at 213.868 231.14 0)
+			(at 291.338 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35428,7 +35446,7 @@
 			)
 		)
 		(property "Library Ref" "Resistor - 1%"
-			(at 215.773 231.14 0)
+			(at 293.243 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35438,7 +35456,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Resistors.SchLib"
-			(at 217.678 231.14 0)
+			(at 295.148 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35448,7 +35466,7 @@
 			)
 		)
 		(property "Comment" "4k7"
-			(at 219.583 231.14 0)
+			(at 297.053 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35458,7 +35476,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 221.488 231.14 0)
+			(at 298.958 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35468,7 +35486,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 223.393 231.14 0)
+			(at 300.863 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35478,7 +35496,7 @@
 			)
 		)
 		(property "PackageDescription" " "
-			(at 225.298 231.14 0)
+			(at 302.768 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35488,7 +35506,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 227.203 231.14 0)
+			(at 304.673 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35498,7 +35516,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
-			(at 229.108 231.14 0)
+			(at 306.578 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35508,7 +35526,7 @@
 			)
 		)
 		(property "Footprint Ref" "RESC1005X40N"
-			(at 231.013 231.14 0)
+			(at 308.483 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35518,7 +35536,7 @@
 			)
 		)
 		(property "Status" "Not Recommended"
-			(at 232.918 231.14 0)
+			(at 310.388 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35528,7 +35546,7 @@
 			)
 		)
 		(property "Power" "0.0625W"
-			(at 234.823 231.14 0)
+			(at 312.293 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35538,7 +35556,7 @@
 			)
 		)
 		(property "TC" "±100ppm/°C"
-			(at 236.728 231.14 0)
+			(at 314.198 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35548,7 +35566,7 @@
 			)
 		)
 		(property "Voltage" " "
-			(at 238.633 231.14 0)
+			(at 316.103 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35558,7 +35576,7 @@
 			)
 		)
 		(property "Part Description" "General Purpose Thick Film Chip Resistor"
-			(at 240.538 231.14 0)
+			(at 318.008 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35568,7 +35586,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 242.443 231.14 0)
+			(at 319.913 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35578,7 +35596,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "R0402_4K7_1%_0.0625W_100PPM"
-			(at 244.348 231.14 0)
+			(at 321.818 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35588,7 +35606,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 246.253 231.14 0)
+			(at 323.723 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35598,7 +35616,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 248.158 231.14 0)
+			(at 325.628 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35608,7 +35626,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 250.063 231.14 0)
+			(at 327.533 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35618,7 +35636,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 251.968 231.14 0)
+			(at 329.438 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35628,7 +35646,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 253.873 231.14 0)
+			(at 331.343 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35638,7 +35656,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 255.778 231.14 0)
+			(at 333.248 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35648,7 +35666,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 257.683 231.14 0)
+			(at 335.153 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35658,7 +35676,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 259.588 231.14 0)
+			(at 337.058 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35668,7 +35686,7 @@
 			)
 		)
 		(property "ComponentHeight" " "
-			(at 261.493 231.14 0)
+			(at 338.963 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35678,7 +35696,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 263.398 231.14 0)
+			(at 340.868 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35688,7 +35706,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" "232270674702L"
-			(at 265.303 231.14 0)
+			(at 342.773 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35698,7 +35716,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 267.208 231.14 0)
+			(at 344.678 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35708,7 +35726,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 269.113 231.14 0)
+			(at 346.583 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35718,7 +35736,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 271.018 231.14 0)
+			(at 348.488 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35728,7 +35746,7 @@
 			)
 		)
 		(property "CreateDate" "12/03/07 00:00:00"
-			(at 272.923 231.14 0)
+			(at 350.393 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35738,7 +35756,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "10/17/12 00:00:00"
-			(at 274.828 231.14 0)
+			(at 352.298 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35748,7 +35766,7 @@
 			)
 		)
 		(property "Database Table Name" "Resistors"
-			(at 276.733 231.14 0)
+			(at 354.203 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35758,7 +35776,7 @@
 			)
 		)
 		(property "Library Name" "Resistors SMD"
-			(at 278.638 231.14 0)
+			(at 356.108 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35768,7 +35786,7 @@
 			)
 		)
 		(property "Footprint Library" "Resistors SMD"
-			(at 280.543 231.14 0)
+			(at 358.013 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35778,7 +35796,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 282.448 231.14 0)
+			(at 359.918 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35788,7 +35806,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 203.2 231.14 90)
+			(at 280.67 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35797,7 +35815,7 @@
 			)
 		)
 		(property "LCSC" "C25900"
-			(at 203.2 231.14 90)
+			(at 280.67 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35848,7 +35866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 343.408 62.23 0)
 			(effects
 				(font
@@ -36315,7 +36333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches:SW_OMRON_A6SN-1101"
+		(property "Footprint" "Footprint:SW_OMRON_A6SN-1101"
 			(at 220.98 71.12 0)
 			(effects
 				(font
@@ -36469,7 +36487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 133.858 60.96 0)
 			(effects
 				(font
@@ -36938,7 +36956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 170.688 60.96 0)
 			(effects
 				(font
@@ -37471,7 +37489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 57.658 82.55 0)
 			(effects
 				(font
@@ -37947,7 +37965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 293.878 62.23 0)
 			(effects
 				(font
@@ -38416,7 +38434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 163.068 60.96 0)
 			(effects
 				(font
@@ -38885,7 +38903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 315.468 62.23 0)
 			(effects
 				(font
@@ -39354,7 +39372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 62.738 60.96 0)
 			(effects
 				(font
@@ -39797,7 +39815,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:GND")
-		(at 267.97 259.08 0)
+		(at 214.63 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39805,7 +39823,7 @@
 		(dnp no)
 		(uuid "d922dc9c-beb9-426c-8020-fad58cda0128")
 		(property "Reference" "#PWR0324"
-			(at 267.97 265.43 0)
+			(at 214.63 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39814,7 +39832,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 267.97 262.89 0)
+			(at 214.63 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39822,7 +39840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 259.08 0)
+			(at 214.63 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39831,7 +39849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 259.08 0)
+			(at 214.63 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39840,7 +39858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 259.08 0)
+			(at 214.63 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39888,7 +39906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 152.908 240.03 0)
 			(effects
 				(font
@@ -40397,7 +40415,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:R0402_10K_1%_0.0625W_100PPM")
-		(at 232.41 237.49 90)
+		(at 179.07 236.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40405,7 +40423,7 @@
 		(dnp no)
 		(uuid "ebe2cba1-2a59-436b-b644-d1054de59991")
 		(property "Reference" "R155"
-			(at 230.632 233.934 0)
+			(at 177.292 232.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40413,7 +40431,7 @@
 			)
 		)
 		(property "Value" "R0402_10K_1%_0.0625W_100PPM"
-			(at 237.363 237.49 0)
+			(at 184.023 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40422,8 +40440,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 239.268 237.49 0)
+		(property "Footprint" "Footprint:RESC1005X40N"
+			(at 185.928 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40433,7 +40451,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 241.173 237.49 0)
+			(at 187.833 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40443,7 +40461,7 @@
 			)
 		)
 		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 232.41 237.49 0)
+			(at 179.07 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40452,7 +40470,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 232.41 233.68 0)
+			(at 179.07 232.41 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -40460,7 +40478,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 234.442 233.68 0)
+			(at 181.102 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40468,7 +40486,7 @@
 			)
 		)
 		(property "Part Number" "R0402_10K_1%_0.0625W_100PPM"
-			(at 243.078 237.49 0)
+			(at 189.738 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40478,7 +40496,7 @@
 			)
 		)
 		(property "Library Ref" "Resistor - 1%"
-			(at 244.983 237.49 0)
+			(at 191.643 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40488,7 +40506,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Resistors.SchLib"
-			(at 246.888 237.49 0)
+			(at 193.548 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40498,7 +40516,7 @@
 			)
 		)
 		(property "Comment" "10k"
-			(at 248.793 237.49 0)
+			(at 195.453 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40508,7 +40526,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 250.698 237.49 0)
+			(at 197.358 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40518,7 +40536,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 252.603 237.49 0)
+			(at 199.263 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40528,7 +40546,7 @@
 			)
 		)
 		(property "PackageDescription" " "
-			(at 254.508 237.49 0)
+			(at 201.168 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40538,7 +40556,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 256.413 237.49 0)
+			(at 203.073 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40548,7 +40566,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
-			(at 258.318 237.49 0)
+			(at 204.978 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40558,7 +40576,7 @@
 			)
 		)
 		(property "Footprint Ref" "RESC1005X40N"
-			(at 260.223 237.49 0)
+			(at 206.883 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40568,7 +40586,7 @@
 			)
 		)
 		(property "Status" "Not Recommended"
-			(at 262.128 237.49 0)
+			(at 208.788 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40578,7 +40596,7 @@
 			)
 		)
 		(property "Power" "0.0625W"
-			(at 264.033 237.49 0)
+			(at 210.693 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40588,7 +40606,7 @@
 			)
 		)
 		(property "TC" "±100ppm/°C"
-			(at 265.938 237.49 0)
+			(at 212.598 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40598,7 +40616,7 @@
 			)
 		)
 		(property "Voltage" " "
-			(at 267.843 237.49 0)
+			(at 214.503 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40608,7 +40626,7 @@
 			)
 		)
 		(property "Part Description" "General Purpose Thick Film Chip Resistor"
-			(at 269.748 237.49 0)
+			(at 216.408 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40618,7 +40636,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 271.653 237.49 0)
+			(at 218.313 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40628,7 +40646,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "R0402_10K_1%_0.0625W_100PPM"
-			(at 273.558 237.49 0)
+			(at 220.218 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40638,7 +40656,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 275.463 237.49 0)
+			(at 222.123 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40648,7 +40666,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 277.368 237.49 0)
+			(at 224.028 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40658,7 +40676,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 279.273 237.49 0)
+			(at 225.933 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40668,7 +40686,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 281.178 237.49 0)
+			(at 227.838 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40678,7 +40696,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 283.083 237.49 0)
+			(at 229.743 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40688,7 +40706,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 284.988 237.49 0)
+			(at 231.648 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40698,7 +40716,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 286.893 237.49 0)
+			(at 233.553 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40708,7 +40726,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 288.798 237.49 0)
+			(at 235.458 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40718,7 +40736,7 @@
 			)
 		)
 		(property "ComponentHeight" " "
-			(at 290.703 237.49 0)
+			(at 237.363 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40728,7 +40746,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 292.608 237.49 0)
+			(at 239.268 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40738,7 +40756,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" "232270671003L"
-			(at 294.513 237.49 0)
+			(at 241.173 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40748,7 +40766,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 296.418 237.49 0)
+			(at 243.078 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40758,7 +40776,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 298.323 237.49 0)
+			(at 244.983 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40768,7 +40786,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 300.228 237.49 0)
+			(at 246.888 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40778,7 +40796,7 @@
 			)
 		)
 		(property "CreateDate" "12/03/07 00:00:00"
-			(at 302.133 237.49 0)
+			(at 248.793 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40788,7 +40806,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "10/17/12 00:00:00"
-			(at 304.038 237.49 0)
+			(at 250.698 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40798,7 +40816,7 @@
 			)
 		)
 		(property "Database Table Name" "Resistors"
-			(at 305.943 237.49 0)
+			(at 252.603 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40808,7 +40826,7 @@
 			)
 		)
 		(property "Library Name" "Resistors SMD"
-			(at 307.848 237.49 0)
+			(at 254.508 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40818,7 +40836,7 @@
 			)
 		)
 		(property "Footprint Library" "Resistors SMD"
-			(at 309.753 237.49 0)
+			(at 256.413 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40828,7 +40846,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 311.658 237.49 0)
+			(at 258.318 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40838,7 +40856,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 232.41 237.49 0)
+			(at 179.07 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40847,7 +40865,7 @@
 			)
 		)
 		(property "LCSC" "C60490"
-			(at 232.41 237.49 0)
+			(at 179.07 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40898,7 +40916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 307.848 62.23 0)
 			(effects
 				(font
@@ -41367,7 +41385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 330.708 62.23 0)
 			(effects
 				(font
@@ -41836,7 +41854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 185.928 60.96 0)
 			(effects
 				(font

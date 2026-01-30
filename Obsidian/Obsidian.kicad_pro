@@ -440,15 +440,15 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
-      "footprint_filter": "ignore",
-      "footprint_link_issues": "ignore",
+      "footprint_filter": "warning",
+      "footprint_link_issues": "warning",
       "four_way_junction": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "ignore",
-      "lib_symbol_mismatch": "ignore",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -1075,13 +1075,13 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -1853,6 +1853,18 @@
           "label": "FT Rotation Offset",
           "name": "FT Rotation Offset",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLC_3D_Size",
+          "name": "JLC_3D_Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC_3DModel_Q",
+          "name": "JLC_3DModel_Q",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1860,7 +1872,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${DNP}"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -1957,8 +1969,12 @@
     ]
   ],
   "text_variables": {
-    "author": "Michal Gaska",
-    "name": "Obsidian A35",
-    "rev": "1.0.0"
+    "ELECTRICAL_DESIGNER": "Ayoub FARAH",
+    "GIT_LINK": "https://github.com/Ayoub-Farah/Interface_board/tree/Obsidian_Twist_Compatibility",
+    "PROJECT_NAME": "Obsidian",
+    "RELEASE_DATE": "02/26",
+    "author": "Ayoub",
+    "name": "FARAH",
+    "rev": "V1.0"
   }
 }

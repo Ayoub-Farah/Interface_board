@@ -7278,8 +7278,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.81 0)
+			(property "Reference" "SW1"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7287,14 +7287,14 @@
 				)
 			)
 			(property "Value" "SW_DIP_x01"
-				(at 0 -3.81 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Footprint:SW_OMRON_A6SN-1101"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7321,6 +7321,24 @@
 					(hide yes)
 				)
 			)
+			(property "FT Rotation Offset" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C7421519"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "dip switch"
 				(at 0 0 0)
 				(effects
@@ -7330,7 +7348,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW?DIP?x1*"
+			(property "ki_fp_filters" "SW?DIP?x1* SW_OMRON_A6SN-1101"
 				(at 0 0 0)
 				(effects
 					(font
@@ -14612,7 +14630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X70N"
+		(property "Footprint" "Footprint:CAPC1005X70N"
 			(at 168.148 138.43 0)
 			(effects
 				(font
@@ -15279,7 +15297,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Footprint:SOT-23"
 			(at 189.23 149.86 0)
 			(effects
 				(font
@@ -15372,7 +15390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 175.768 138.43 0)
 			(effects
 				(font
@@ -15841,7 +15859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 102.108 46.99 0)
 			(effects
 				(font
@@ -16310,7 +16328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_BGA:Xilinx_CSG325"
+		(property "Footprint" "Footprint:Xilinx_CSG325"
 			(at 83.82 88.9 0)
 			(effects
 				(font
@@ -17363,7 +17381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 133.35 146.558 0)
 			(effects
 				(font
@@ -17877,7 +17895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X70N"
+		(property "Footprint" "Footprint:CAPC1005X70N"
 			(at 208.788 146.05 0)
 			(effects
 				(font
@@ -18345,7 +18363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductors SMD:INDC1608X95N"
+		(property "Footprint" "Footprint:INDC1608X95N"
 			(at 154.94 154.178 0)
 			(effects
 				(font
@@ -18837,7 +18855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switches:SW_OMRON_A6SN-1101"
+		(property "Footprint" "Footprint:SW_OMRON_A6SN-1101"
 			(at 184.15 74.93 0)
 			(effects
 				(font
@@ -18989,7 +19007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 260.858 110.49 0)
 			(effects
 				(font
@@ -19531,7 +19549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 110.998 46.99 0)
 			(effects
 				(font
@@ -20001,7 +20019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:SOT95P240X110-3N"
+		(property "Footprint" "Footprint:SOT95P240X110-3N"
 			(at 247.65 133.858 0)
 			(effects
 				(font
@@ -20484,7 +20502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 166.878 83.82 0)
 			(effects
 				(font
@@ -21025,7 +21043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:SOIC127P1030X265-16N"
+		(property "Footprint" "Footprint:SOIC127P1030X265-16N"
 			(at 220.98 93.98 0)
 			(effects
 				(font
@@ -21591,7 +21609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 157.48 82.042 0)
 			(effects
 				(font
@@ -22134,7 +22152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 157.48 79.502 0)
 			(effects
 				(font
@@ -22743,7 +22761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 188.468 91.44 0)
 			(effects
 				(font
@@ -23221,7 +23239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 175.768 91.44 0)
 			(effects
 				(font
@@ -23830,7 +23848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 182.118 91.44 0)
 			(effects
 				(font
@@ -24309,7 +24327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:LED_KINGBRIGHT_KPH-1608CGCK"
+		(property "Footprint" "Footprint:LED_KINGBRIGHT_KPH-1608CGCK"
 			(at 246.634 114.3 0)
 			(effects
 				(font
@@ -25039,7 +25057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductors SMD:INDC2013X145N"
+		(property "Footprint" "Footprint:INDC2013X145N"
 			(at 149.86 137.16 0)
 			(effects
 				(font

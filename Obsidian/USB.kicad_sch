@@ -13244,7 +13244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 156.718 95.25 0)
 			(effects
 				(font
@@ -13995,7 +13995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 187.198 115.57 0)
 			(effects
 				(font
@@ -14531,7 +14531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 163.068 151.13 0)
 			(effects
 				(font
@@ -15000,7 +15000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 155.448 133.35 0)
 			(effects
 				(font
@@ -15469,7 +15469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 155.448 151.13 0)
 			(effects
 				(font
@@ -15938,7 +15938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 180.34 49.022 0)
 			(effects
 				(font
@@ -16473,7 +16473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 109.728 116.84 0)
 			(effects
 				(font
@@ -17008,7 +17008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 113.03 81.788 0)
 			(effects
 				(font
@@ -17615,7 +17615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 180.34 61.722 0)
 			(effects
 				(font
@@ -18345,7 +18345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 97.028 116.84 0)
 			(effects
 				(font
@@ -18888,7 +18888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC2012X135N"
+		(property "Footprint" "Footprint:CAPC2012X135N"
 			(at 121.158 116.84 0)
 			(effects
 				(font
@@ -19357,7 +19357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 163.068 133.35 0)
 			(effects
 				(font
@@ -19892,7 +19892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 161.29 21.082 0)
 			(effects
 				(font
@@ -20427,7 +20427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 166.878 74.93 0)
 			(effects
 				(font
@@ -21424,7 +21424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 173.228 74.93 0)
 			(effects
 				(font
@@ -21899,7 +21899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 125.73 72.898 0)
 			(effects
 				(font
@@ -22438,7 +22438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:SOT95P280X145-5N"
+		(property "Footprint" "Footprint:SOT95P280X145-5N"
 			(at 53.34 144.526 0)
 			(effects
 				(font
@@ -22856,7 +22856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductors SMD:INDC1005X55N"
+		(property "Footprint" "Footprint:INDC1005X55N"
 			(at 160.02 114.808 0)
 			(effects
 				(font
@@ -23285,7 +23285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:XTAL_TXC_7A"
+		(property "Footprint" "Footprint:XTAL_TXC_7A"
 			(at 172.72 66.04 0)
 			(effects
 				(font
@@ -23819,7 +23819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 170.688 133.35 0)
 			(effects
 				(font
@@ -24352,7 +24352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 68.58 47.498 0)
 			(effects
 				(font
@@ -24893,7 +24893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 179.578 115.57 0)
 			(effects
 				(font
@@ -25362,7 +25362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 178.308 151.13 0)
 			(effects
 				(font
@@ -25831,7 +25831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 44.958 116.84 0)
 			(effects
 				(font
@@ -26299,7 +26299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:SOIC127P600X175-8N"
+		(property "Footprint" "Footprint:SOIC127P600X175-8N"
 			(at 143.51 96.52 0)
 			(effects
 				(font
@@ -26787,7 +26787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductors SMD:INDC1005X55N"
+		(property "Footprint" "Footprint:INDC1005X55N"
 			(at 26.67 116.078 0)
 			(effects
 				(font
@@ -27214,7 +27214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductors SMD:INDC1005X55N"
+		(property "Footprint" "Footprint:INDC1005X55N"
 			(at 160.02 100.838 0)
 			(effects
 				(font
@@ -27707,7 +27707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductors SMD:IND_WURTH_WE-PMCI_0806LR"
+		(property "Footprint" "Footprint:IND_WURTH_WE-PMCI_0806LR"
 			(at 76.2 115.57 0)
 			(effects
 				(font
@@ -28133,7 +28133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:QFN50P900X900X100-65N-S445"
+		(property "Footprint" "Footprint:QFN50P900X900X100-65N-S445"
 			(at 186.69 160.02 0)
 			(effects
 				(font
@@ -28790,7 +28790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Footprint:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 53.34 48.26 0)
 			(effects
 				(font
@@ -28922,7 +28922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 161.29 26.162 0)
 			(effects
 				(font
@@ -29391,7 +29391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:SOT190P230X110-4N"
+		(property "Footprint" "Footprint:SOT190P230X110-4N"
 			(at 106.68 69.85 0)
 			(effects
 				(font
@@ -29886,7 +29886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 172.72 53.848 0)
 			(effects
 				(font
@@ -30494,7 +30494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 64.262 118.11 0)
 			(effects
 				(font
@@ -30910,6 +30910,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Resistors"
+			(at 90.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 90.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 90.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b936e37a-f4f3-4392-9c0e-b23a32f79afc")
 		)
@@ -30953,7 +30980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 180.34 45.212 0)
 			(effects
 				(font
@@ -31431,7 +31458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 179.578 101.6 0)
 			(effects
 				(font
@@ -31899,7 +31926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 68.58 44.958 0)
 			(effects
 				(font
@@ -32375,7 +32402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 170.688 151.13 0)
 			(effects
 				(font
@@ -33039,7 +33066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 187.198 101.6 0)
 			(effects
 				(font

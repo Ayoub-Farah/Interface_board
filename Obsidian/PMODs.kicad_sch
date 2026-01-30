@@ -144,8 +144,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 7.62 0)
+			(property "Reference" "J4"
+				(at 1.27 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -153,14 +153,14 @@
 				)
 			)
 			(property "Value" "Conn_02x06_Top_Bottom"
-				(at 1.27 -10.16 0)
+				(at 1.27 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Footprint:PinSocket_2x06_P2.54mm_Horizontal_PMOD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -187,6 +187,24 @@
 					(hide yes)
 				)
 			)
+			(property "FT Rotation Offset" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
@@ -196,7 +214,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "PinSocket_2x06_P2.54mm_Horizontal_PMOD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2789,7 +2807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Miscellaneous THD:PinSocket_2x06_P2.54mm_Horizontal_PMOD"
+		(property "Footprint" "Footprint:PinSocket_2x06_P2.54mm_Horizontal_PMOD"
 			(at 119.38 55.88 0)
 			(effects
 				(font
@@ -2970,7 +2988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Miscellaneous THD:PinSocket_2x06_P2.54mm_Horizontal_PMOD"
+		(property "Footprint" "Footprint:PinSocket_2x06_P2.54mm_Horizontal_PMOD"
 			(at 210.82 55.88 0)
 			(effects
 				(font
@@ -3086,7 +3104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Miscellaneous THD:PinSocket_2x06_P2.54mm_Horizontal_PMOD"
+		(property "Footprint" "Footprint:PinSocket_2x06_P2.54mm_Horizontal_PMOD"
 			(at 210.82 87.63 0)
 			(effects
 				(font
@@ -3724,7 +3742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Miscellaneous THD:PinSocket_2x06_P2.54mm_Vertical_PMOD"
+		(property "Footprint" "Footprint:PinSocket_2x06_P2.54mm_Horizontal_PMOD"
 			(at 118.11 118.11 0)
 			(effects
 				(font
@@ -3840,7 +3858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Miscellaneous THD:PinSocket_2x06_P2.54mm_Vertical_PMOD"
+		(property "Footprint" "Footprint:PinSocket_2x06_P2.54mm_Horizontal_PMOD"
 			(at 209.55 118.11 0)
 			(effects
 				(font
@@ -4347,7 +4365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Miscellaneous THD:PinSocket_2x06_P2.54mm_Horizontal_PMOD"
+		(property "Footprint" "Footprint:PinSocket_2x06_P2.54mm_Horizontal_PMOD"
 			(at 119.38 87.63 0)
 			(effects
 				(font

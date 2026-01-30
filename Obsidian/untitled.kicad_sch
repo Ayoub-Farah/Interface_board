@@ -15214,7 +15214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 260.35 33.528 0)
 			(effects
 				(font
@@ -15942,7 +15942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 176.53 71.628 0)
 			(effects
 				(font
@@ -16365,6 +16365,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Resistors"
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea11662a-9d85-4f90-a027-09173b45151d")
 		)
@@ -16474,7 +16501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 251.46 151.638 0)
 			(effects
 				(font
@@ -16942,7 +16969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:SOIC127P600X175-8N"
+		(property "Footprint" "Footprint:SOIC127P600X175-8N"
 			(at 58.42 168.91 0)
 			(effects
 				(font
@@ -17051,7 +17078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 251.46 146.558 0)
 			(effects
 				(font
@@ -17651,7 +17678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 52.832 160.02 0)
 			(effects
 				(font
@@ -18100,7 +18127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 93.472 149.86 0)
 			(effects
 				(font
@@ -18549,7 +18576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1709X100N"
+		(property "Footprint" "Footprint:CAPC1709X100N"
 			(at 98.552 175.26 0)
 			(effects
 				(font
@@ -19063,7 +19090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1709X100N"
+		(property "Footprint" "Footprint:CAPC1709X100N"
 			(at 120.142 175.26 0)
 			(effects
 				(font
@@ -19512,7 +19539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 110.49 127.508 0)
 			(effects
 				(font
@@ -20034,7 +20061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "INDC1608X65N"
+		(property "Footprint" "Footprint:INDC1608X65N"
 			(at 137.16 200.66 0)
 			(effects
 				(font
@@ -20442,7 +20469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at -6.858 59.69 0)
 			(effects
 				(font
@@ -20890,7 +20917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 176.53 76.708 0)
 			(effects
 				(font
@@ -21305,6 +21332,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Resistors"
+			(at 176.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 176.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 176.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8a5cd11-5bf5-415d-94db-8e5aa90ff2bc")
 		)
@@ -21413,7 +21467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 45.212 60.96 0)
 			(effects
 				(font
@@ -21927,7 +21981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 223.012 63.5 0)
 			(effects
 				(font
@@ -22438,7 +22492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:SOP65P490X110-8N"
+		(property "Footprint" "Footprint:SOP65P490X110-8N"
 			(at 67.31 167.386 0)
 			(effects
 				(font
@@ -22931,7 +22985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:XTAL_TXC_8Y"
+		(property "Footprint" "Footprint:XTAL_TXC_8Y"
 			(at 177.8 149.86 0)
 			(effects
 				(font
@@ -23404,7 +23458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 243.332 30.48 0)
 			(effects
 				(font
@@ -23945,7 +23999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 112.522 149.86 0)
 			(effects
 				(font
@@ -24394,7 +24448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 211.582 63.5 0)
 			(effects
 				(font
@@ -24842,7 +24896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 142.24 33.528 0)
 			(effects
 				(font
@@ -25279,7 +25333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:OSC_ABRACON_ASEMPC"
+		(property "Footprint" "Footprint:OSC_ABRACON_ASEMPC"
 			(at 105.41 60.706 0)
 			(effects
 				(font
@@ -25711,7 +25765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 224.282 81.28 0)
 			(effects
 				(font
@@ -26159,7 +26213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 144.78 131.318 0)
 			(effects
 				(font
@@ -26699,7 +26753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 176.53 56.388 0)
 			(effects
 				(font
@@ -27114,6 +27168,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Resistors"
+			(at 176.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 176.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 176.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43391ddf-82e9-4c02-b9ed-ca915ec1ed11")
 		)
@@ -27287,7 +27368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1709X100N"
+		(property "Footprint" "Footprint:CAPC1709X100N"
 			(at 104.902 175.26 0)
 			(effects
 				(font
@@ -27930,7 +28011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 248.158 153.67 0)
 			(effects
 				(font
@@ -28403,7 +28484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:QFN50P500X500X100-33N-S355"
+		(property "Footprint" "Footprint:QFN50P500X500X100-33N-S355"
 			(at 196.85 111.506 0)
 			(effects
 				(font
@@ -29033,7 +29114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:OSCCC320X500X160-4N"
+		(property "Footprint" "Footprint:OSCCC320X500X160-4N"
 			(at 113.03 44.8818 0)
 			(effects
 				(font
@@ -29272,7 +29353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 176.53 74.168 0)
 			(effects
 				(font
@@ -29695,6 +29776,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Resistors"
+			(at 176.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 176.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 176.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62122c8a-8996-45f2-9a6f-964735b37829")
 		)
@@ -29800,7 +29908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:SOT95P284X122-5N"
+		(property "Footprint" "Footprint:SOT95P284X122-5N"
 			(at 53.34 55.0418 0)
 			(effects
 				(font
@@ -30043,7 +30151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 236.982 30.48 0)
 			(effects
 				(font
@@ -30713,7 +30821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 222.25 145.288 0)
 			(effects
 				(font
@@ -31188,7 +31296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 176.53 81.788 0)
 			(effects
 				(font
@@ -31611,6 +31719,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Resistors"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "332847f5-6710-4d32-bac3-0fe653e5bae5")
 		)
@@ -31654,7 +31789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 66.802 60.96 0)
 			(effects
 				(font
@@ -32168,7 +32303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 99.822 149.86 0)
 			(effects
 				(font
@@ -32681,7 +32816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 161.798 39.37 0)
 			(effects
 				(font
@@ -33096,6 +33231,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Resistors"
+			(at 135.89 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 135.89 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 135.89 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69c2101d-23e5-4ae7-b22f-d5c31667e58a")
 		)
@@ -33201,7 +33363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:SOP65P490X110-8N"
+		(property "Footprint" "Footprint:SOP65P490X110-8N"
 			(at 67.31 141.986 0)
 			(effects
 				(font
@@ -33954,7 +34116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1709X100N"
+		(property "Footprint" "Footprint:CAPC1709X100N"
 			(at 145.542 66.04 0)
 			(effects
 				(font
@@ -34598,7 +34760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Footprint:MSOP-10_3x3mm_P0.5mm"
 			(at 201.93 163.83 0)
 			(effects
 				(font
@@ -34710,7 +34872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 205.232 81.28 0)
 			(effects
 				(font
@@ -35224,7 +35386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 125.222 149.86 0)
 			(effects
 				(font
@@ -35738,7 +35900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 171.958 114.3 0)
 			(effects
 				(font
@@ -36213,7 +36375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 244.348 153.67 0)
 			(effects
 				(font
@@ -36688,7 +36850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "INDC1608X65N"
+		(property "Footprint" "Footprint:INDC1608X65N"
 			(at 264.16 88.9 0)
 			(effects
 				(font
@@ -37162,7 +37324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 166.37 132.588 0)
 			(effects
 				(font
@@ -37696,7 +37858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 106.172 149.86 0)
 			(effects
 				(font
@@ -38145,7 +38307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 35.052 157.48 0)
 			(effects
 				(font
@@ -38667,7 +38829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 218.44 174.498 0)
 			(effects
 				(font
@@ -39082,6 +39244,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Resistors"
+			(at 218.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 218.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 218.44 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a57baab-3dd6-41e9-abc7-7be200a0b593")
 		)
@@ -39125,7 +39314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 55.372 60.96 0)
 			(effects
 				(font
@@ -39573,7 +39762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 222.25 150.368 0)
 			(effects
 				(font
@@ -40049,7 +40238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1709X100N"
+		(property "Footprint" "Footprint:CAPC1709X100N"
 			(at 126.492 175.26 0)
 			(effects
 				(font
@@ -40628,7 +40817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 229.87 137.668 0)
 			(effects
 				(font
@@ -41043,6 +41232,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Resistors"
+			(at 229.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 229.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 229.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c99d0fa3-6416-4f01-9930-bd17e42572f0")
 		)
@@ -41218,7 +41434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 260.35 36.068 0)
 			(effects
 				(font
@@ -41687,7 +41903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 85.852 101.6 0)
 			(effects
 				(font
@@ -42266,7 +42482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 211.582 81.28 0)
 			(effects
 				(font
@@ -42714,7 +42930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 176.53 66.548 0)
 			(effects
 				(font
@@ -43137,6 +43353,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Resistors"
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "067792c6-a117-40e0-b22e-04021ac123fb")
 		)
@@ -43374,7 +43617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 161.798 132.08 0)
 			(effects
 				(font
@@ -43850,7 +44093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 234.95 62.738 0)
 			(effects
 				(font
@@ -44328,7 +44571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 3.302 59.69 0)
 			(effects
 				(font
@@ -44907,7 +45150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1709X100N"
+		(property "Footprint" "Footprint:CAPC1709X100N"
 			(at 151.892 66.04 0)
 			(effects
 				(font
@@ -45355,7 +45598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 176.53 64.008 0)
 			(effects
 				(font
@@ -45778,6 +46021,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Resistors"
+			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6dfd845a-01bf-40ab-9427-bb5efecf4e8c")
 		)
@@ -46015,7 +46285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "INDC1608X65N"
+		(property "Footprint" "Footprint:INDC1608X65N"
 			(at 115.57 200.66 0)
 			(effects
 				(font
@@ -46423,7 +46693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors SMD:RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 110.49 152.908 0)
 			(effects
 				(font
@@ -46880,7 +47150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:OSC_IQD_CFPV-45"
+		(property "Footprint" "Footprint:OSC_IQD_CFPV-45"
 			(at 189.23 147.066 0)
 			(effects
 				(font
@@ -47449,7 +47719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 87.122 149.86 0)
 			(effects
 				(font
@@ -47898,7 +48168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 85.852 127 0)
 			(effects
 				(font
@@ -48476,7 +48746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RESC1005X40N"
+		(property "Footprint" "Footprint:RESC1005X40N"
 			(at 176.53 84.328 0)
 			(effects
 				(font
@@ -48899,6 +49169,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Resistors"
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1051e00-ebe8-44f7-af12-c3dd121b9460")
 		)
@@ -49072,7 +49369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CAPC1709X100N"
+		(property "Footprint" "Footprint:CAPC1709X100N"
 			(at 65.532 160.02 0)
 			(effects
 				(font
@@ -49586,7 +49883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 233.172 63.5 0)
 			(effects
 				(font
@@ -50100,7 +50397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 184.15 26.162 0)
 			(effects
 				(font
@@ -50569,7 +50866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitors SMD:CAPC0603X33N"
+		(property "Footprint" "Footprint:CAPC0603X33N"
 			(at 217.932 81.28 0)
 			(effects
 				(font

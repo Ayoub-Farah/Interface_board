@@ -6829,7 +6829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:Xilinx_CSG325"
+		(property "Footprint" "Footprint:Xilinx_CSG325"
 			(at 160.02 80.01 0)
 			(effects
 				(font
