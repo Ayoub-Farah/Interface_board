@@ -587,15 +587,15 @@
 		(uuid "5d2fea84-b7c8-48b5-b274-cebf3bb20af4")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/INDC1608X65N.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/BLM18SG121TN1D.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -0.3 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

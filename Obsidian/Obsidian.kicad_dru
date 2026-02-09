@@ -42,3 +42,10 @@
 #	(constraint length (min 29.5mm) (max 30.5mm) (opt 30mm))
 	(condition "A.NetClass == 'DDRUD'")
 )
+
+# ====== Courtyard Arduino ==== 
+
+(rule "allow_courtyard_overlap_for_stacked_shield"
+  (constraint courtyard_clearance (min -1mm))
+  (condition "A.hasComponentClass('STACKED_SHIELD') || B.hasComponentClass('STACKED_SHIELD')")
+)

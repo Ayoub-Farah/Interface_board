@@ -639,15 +639,15 @@
 		(uuid "36568c97-a4bb-4874-89fa-69b6afe6f7b7")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/CAPC1709X100N.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/CAPC1709X100N.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -0.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

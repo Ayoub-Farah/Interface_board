@@ -626,9 +626,9 @@
 		(uuid "2826f723-65b3-4f61-86f2-3e5fa8756570")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/CONN-TH_2604-1104.step"
+	(model "${KIPRJMOD}/libs/3D_folder/2604-1104.step"
 		(offset
-			(xyz 0.081 -2.6 -4)
+			(xyz -11.919 11.9 -2)
 		)
 		(scale
 			(xyz 1 1 1)

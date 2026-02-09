@@ -7,7 +7,7 @@
 		(at -0.7 2.7 180)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "1c968d52-9a72-4138-aaf1-073510e759ff")
+		(uuid "44f6c285-da27-4cc8-a73d-24a99ef242d8")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "1ca4030e-c106-41fc-8b7b-77920f06ecb8")
+		(uuid "2052476c-fcc2-44ae-9650-40c6e3b85fe0")
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c3b1c5cc-5749-43f8-ad99-8f5d4357bd26")
+		(uuid "ed08e8e6-efc8-4c3f-b7ca-ae5966e1a944")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "24f6f5a2-e44a-4850-93ce-bf1d6458c51f")
+		(uuid "4da022ea-0536-468c-9f7b-dcaeb0fc2266")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1309,9 +1309,9 @@
 	(pad "1" smd rect
 		(at -1.3625 -1.3375)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu")
 		(solder_mask_margin 0)
-		(solder_paste_margin -1)
+		(solder_paste_margin 0)
 		(uuid "b10e3874-a35d-4fad-a418-47bb6c74ab79")
 	)
 	(pad "1" smd custom
@@ -1372,9 +1372,9 @@
 	(pad "2" smd rect
 		(at -1.15 0.675)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu")
 		(solder_mask_margin 0)
-		(solder_paste_margin -1)
+		(solder_paste_margin 0)
 		(uuid "c213a2be-d5d7-4c78-a2b7-1f2a909110f5")
 	)
 	(pad "2" smd custom
@@ -1450,9 +1450,9 @@
 	(pad "3" smd rect
 		(at 1.15 0.675)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu")
 		(solder_mask_margin 0)
-		(solder_paste_margin -1)
+		(solder_paste_margin 0)
 		(uuid "79c4f56d-b393-431f-8312-7bbc3e5f8ef3")
 	)
 	(pad "3" thru_hole circle
@@ -1528,9 +1528,9 @@
 	(pad "4" smd rect
 		(at 1.3625 -1.3375)
 		(size 0.5 0.5)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu")
 		(solder_mask_margin 0)
-		(solder_paste_margin -1)
+		(solder_paste_margin 0)
 		(uuid "420dbab5-bbe4-430d-b391-78a018ed31be")
 	)
 	(pad "4" smd custom
@@ -1644,7 +1644,8 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/TPSM863257RDXR.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/TPSM863257RDXR--3DModel-STEP-510211.STEP"
+		(hide yes)
 		(offset
 			(xyz -0 0 0)
 		)

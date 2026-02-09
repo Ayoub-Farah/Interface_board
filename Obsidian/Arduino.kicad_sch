@@ -8007,6 +8007,15 @@
 				(hide yes)
 			)
 		)
+		(property "Component Class" "STACKED_SHIELD"
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "30047637-4a7e-4d1d-af77-a4cb4ce87448")
 		)

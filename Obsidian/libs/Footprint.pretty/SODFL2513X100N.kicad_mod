@@ -842,7 +842,7 @@
 		(uuid "a7ce179f-86a1-46c0-8438-576b3e561c21")
 	)
 	(embedded_fonts no)
-	(model "SODFL2513X100N.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/MM3Z12VB.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -850,7 +850,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -90)
 		)
 	)
 )

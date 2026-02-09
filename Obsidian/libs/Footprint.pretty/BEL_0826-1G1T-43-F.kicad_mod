@@ -2517,15 +2517,15 @@
 		(uuid "f416772a-8a8d-4ac6-988b-0b7e913b981a")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/BEL_0826-1G1T-43-F.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/0826-1G1T-43-F--3DModel-STEP-56544.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 10.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 180)
 		)
 	)
 )

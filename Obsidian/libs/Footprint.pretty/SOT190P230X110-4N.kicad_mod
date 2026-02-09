@@ -854,4 +854,15 @@
 		(uuid "16186f9a-2c10-4896-9fdd-0ed22b64d330")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3D_folder/PRTR5V0U2X.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 -180)
+		)
+	)
 )

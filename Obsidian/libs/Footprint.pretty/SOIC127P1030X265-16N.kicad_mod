@@ -822,7 +822,7 @@
 		(uuid "a0f3ae58-cc4b-43b7-ad25-27f639033415")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/SOIC127P1030X265-16N.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/W25Q128JVFIQ.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -830,7 +830,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

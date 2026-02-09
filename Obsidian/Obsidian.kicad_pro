@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.95,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 3.2,
+          "height": 5.5,
+          "width": 5.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -63,7 +63,12 @@
           "width": 0.14
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "via_dangling|112764285|61158000|a5da2ecd-d64c-42e1-873a-c946720f0920|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -83,15 +88,15 @@
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
-        "hole_clearance": "ignore",
+        "footprint_type_mismatch": "warning",
+        "hole_clearance": "error",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
-        "items_not_allowed": "warning",
+        "items_not_allowed": "ignore",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
@@ -104,11 +109,11 @@
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "warning",
         "starved_thermal": "error",
@@ -1933,7 +1938,7 @@
     ],
     [
       "74b17685-a06b-496e-ad9c-4554e740129f",
-      "FPGA_MISC"
+      "FPGA_DBG"
     ],
     [
       "f19bf9c4-473e-4b3f-a56f-356b0388d57c",
@@ -1974,7 +1979,7 @@
     "PROJECT_NAME": "Obsidian",
     "RELEASE_DATE": "02/26",
     "author": "Ayoub",
-    "name": "FARAH",
+    "name": "OBSIDIAN",
     "rev": "V1.0"
   }
 }

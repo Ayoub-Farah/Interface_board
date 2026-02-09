@@ -1299,7 +1299,7 @@
 		(uuid "42e45149-6b56-4fbe-895e-2ff7cc5c8fef")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/QFN50P900X900X100-65N-S445.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/FT2232HQ-REEL.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -1307,7 +1307,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

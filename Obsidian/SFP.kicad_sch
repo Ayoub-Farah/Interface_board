@@ -11319,7 +11319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 145.288 120.65 0)
 			(effects
 				(font
@@ -11329,7 +11329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 147.193 120.65 0)
 			(effects
 				(font
@@ -11339,7 +11339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 137.16 120.65 0)
 			(effects
 				(font
@@ -14075,7 +14075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 145.288 95.25 0)
 			(effects
 				(font
@@ -14085,7 +14085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 147.193 95.25 0)
 			(effects
 				(font
@@ -14095,7 +14095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 137.16 95.25 0)
 			(effects
 				(font
@@ -15978,7 +15978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.158 95.25 0)
 			(effects
 				(font
@@ -15988,7 +15988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 123.063 95.25 0)
 			(effects
 				(font
@@ -15998,7 +15998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 113.03 95.25 0)
 			(effects
 				(font
@@ -16447,7 +16447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 145.288 58.42 0)
 			(effects
 				(font
@@ -16457,7 +16457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 147.193 58.42 0)
 			(effects
 				(font
@@ -16467,7 +16467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 137.16 58.42 0)
 			(effects
 				(font
@@ -18003,7 +18003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.158 184.15 0)
 			(effects
 				(font
@@ -18013,7 +18013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 123.063 184.15 0)
 			(effects
 				(font
@@ -18023,7 +18023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 113.03 184.15 0)
 			(effects
 				(font
@@ -20169,7 +20169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:TYCO_1367073-1"
+		(property "Footprint" "Footprint:TYCO_1888247-1"
 			(at 152.4 137.16 0)
 			(effects
 				(font
@@ -20983,7 +20983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 145.288 33.02 0)
 			(effects
 				(font
@@ -20993,7 +20993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 147.193 33.02 0)
 			(effects
 				(font
@@ -21003,7 +21003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 137.16 33.02 0)
 			(effects
 				(font
@@ -21678,7 +21678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.158 246.38 0)
 			(effects
 				(font
@@ -21688,7 +21688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 123.063 246.38 0)
 			(effects
 				(font
@@ -21698,7 +21698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 113.03 246.38 0)
 			(effects
 				(font
@@ -23103,7 +23103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 368.808 210.82 0)
 			(effects
 				(font
@@ -23113,7 +23113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 370.713 210.82 0)
 			(effects
 				(font
@@ -23123,7 +23123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 360.68 210.82 0)
 			(effects
 				(font
@@ -24127,7 +24127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 361.188 153.67 0)
 			(effects
 				(font
@@ -24137,7 +24137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 363.093 153.67 0)
 			(effects
 				(font
@@ -24147,7 +24147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 353.06 153.67 0)
 			(effects
 				(font
@@ -25732,7 +25732,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TCA9535RTWR"
+		(property "Value" "TCA9555RTWR"
 			(at 344.17 82.55 0)
 			(effects
 				(font
@@ -27365,7 +27365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.158 33.02 0)
 			(effects
 				(font
@@ -27375,7 +27375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 123.063 33.02 0)
 			(effects
 				(font
@@ -27385,7 +27385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 113.03 33.02 0)
 			(effects
 				(font
@@ -27956,7 +27956,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TCA9535RTWR"
+		(property "Value" "TCA9555RTWR"
 			(at 344.17 151.13 0)
 			(effects
 				(font
@@ -28532,7 +28532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 145.288 158.75 0)
 			(effects
 				(font
@@ -28542,7 +28542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 147.193 158.75 0)
 			(effects
 				(font
@@ -28552,7 +28552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 137.16 158.75 0)
 			(effects
 				(font
@@ -33636,7 +33636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.158 220.98 0)
 			(effects
 				(font
@@ -33646,7 +33646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 123.063 220.98 0)
 			(effects
 				(font
@@ -33656,7 +33656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 113.03 220.98 0)
 			(effects
 				(font
@@ -36629,7 +36629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.158 158.75 0)
 			(effects
 				(font
@@ -36639,7 +36639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 123.063 158.75 0)
 			(effects
 				(font
@@ -36649,7 +36649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 113.03 158.75 0)
 			(effects
 				(font
@@ -41517,7 +41517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:TYCO_1367073-1"
+		(property "Footprint" "Footprint:TYCO_1888247-1"
 			(at 152.4 200.66 0)
 			(effects
 				(font
@@ -42839,7 +42839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.158 58.42 0)
 			(effects
 				(font
@@ -42849,7 +42849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 123.063 58.42 0)
 			(effects
 				(font
@@ -42859,7 +42859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 113.03 58.42 0)
 			(effects
 				(font
@@ -43374,7 +43374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 145.288 184.15 0)
 			(effects
 				(font
@@ -43384,7 +43384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 147.193 184.15 0)
 			(effects
 				(font
@@ -43394,7 +43394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 137.16 184.15 0)
 			(effects
 				(font
@@ -44452,7 +44452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 145.288 246.38 0)
 			(effects
 				(font
@@ -44462,7 +44462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 147.193 246.38 0)
 			(effects
 				(font
@@ -44472,7 +44472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 137.16 246.38 0)
 			(effects
 				(font
@@ -47008,7 +47008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.158 120.65 0)
 			(effects
 				(font
@@ -47018,7 +47018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 123.063 120.65 0)
 			(effects
 				(font
@@ -47028,7 +47028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 113.03 120.65 0)
 			(effects
 				(font
@@ -47955,7 +47955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 145.288 220.98 0)
 			(effects
 				(font
@@ -47965,7 +47965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 147.193 220.98 0)
 			(effects
 				(font
@@ -47975,7 +47975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 137.16 220.98 0)
 			(effects
 				(font
@@ -49029,7 +49029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 361.188 85.09 0)
 			(effects
 				(font
@@ -49039,7 +49039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 363.093 85.09 0)
 			(effects
 				(font
@@ -49049,7 +49049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 353.06 85.09 0)
 			(effects
 				(font

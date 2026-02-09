@@ -1,4 +1,4 @@
-26523113879389987
+26530245857455767
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60669,6 +60669,13 @@ SOT143, SOT, 1.90mm Pitch; 4 Pin, 1.30mm W X 2.90mm L X 1.10mm H body, IPC Mediu
 4
 4
 Footprint
+SW-SMD_2P-L6.2-W2.5-LS9.4
+
+
+0
+2
+2
+Footprint
 SW_OMRON_A6SN-1101
 Body 4.48x7.5mm, 1 Way SPST Surface-Mounting Slide Switch With Flat Actuator (A6SN Series)
 
@@ -60682,6 +60689,20 @@ TE_2180739-1
 0
 24
 24
+Footprint
+TE_2180739-1_1
+
+
+0
+48
+24
+Footprint
+TWIST
+
+
+0
+0
+0
 Footprint
 TYCO_1367073-1
 20 Position, Pitch 0.8mm SFP Receptacle (Small Form-factor Pluggable)
@@ -60719,6 +60740,13 @@ USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB410
 17
 Footprint
 VREG_TPSM863257RDXR
+
+
+0
+17
+7
+Footprint
+VREG_TPSM863257RDXR_1
 
 
 0

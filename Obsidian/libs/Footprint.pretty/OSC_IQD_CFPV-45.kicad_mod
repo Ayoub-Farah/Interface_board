@@ -679,15 +679,15 @@
 		(uuid "0eb66be8-f8c4-429c-9595-cfb6b22cf132")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/OSC_IQD_CFPV-45.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/SCTF SX7V20.000B20100F30TNNS.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 8 4 -2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 90)
 		)
 	)
 )

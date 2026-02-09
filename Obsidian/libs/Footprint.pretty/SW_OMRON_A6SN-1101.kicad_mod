@@ -1035,7 +1035,7 @@
 		(uuid "7c31ae0c-ef2a-4cab-b059-6a828a72b8df")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/SW_OMRON_A6SN-1101.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/A6SN-1101--3DModel-STEP-273799.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -1043,7 +1043,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -90)
 		)
 	)
 )

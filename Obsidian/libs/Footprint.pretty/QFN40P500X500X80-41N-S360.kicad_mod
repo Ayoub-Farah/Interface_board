@@ -635,7 +635,7 @@
 		(uuid "c229137a-9c6f-4246-ae96-1c5b18be7b76")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/QFN40P500X500X80-41N-S360.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/RTL8211F-CG--3DModel-STEP-56544.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -643,7 +643,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

@@ -326,7 +326,7 @@
 		(uuid "de6902cd-6691-46a6-9ba6-d79b3e277574")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/SOT95P284X122-5N.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/LP5951MF-3.0_NOPB.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -334,7 +334,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

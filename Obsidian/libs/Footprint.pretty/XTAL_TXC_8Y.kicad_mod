@@ -1103,7 +1103,7 @@
 		(uuid "46940c3f-57c1-4103-9d81-a5d7ede5d390")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/XTAL_TXC_8Y.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/ABM8W-25.0000MHZ-8-D1X-T3--3DModel-STEP-400430.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -1111,7 +1111,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -90)
 		)
 	)
 )

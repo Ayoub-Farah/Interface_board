@@ -595,4 +595,15 @@
 		(uuid "e2e1a671-5b69-44ed-87eb-fd2af1c63263")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3D_folder/KVT SMTSO-M3-10 gegurtet mit Klebepunkten.stp"
+		(offset
+			(xyz 0 0 -10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -0)
+		)
+	)
 )

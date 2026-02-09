@@ -573,24 +573,14 @@
 	)
 	(attr smd)
 	(fp_line
-		(start 0.65 0.25)
+		(start -0.65 -0.25)
 		(end 0.65 -0.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0fa98181-6888-4ec8-bd01-0523253654c0")
-	)
-	(fp_line
-		(start -0.65 0.25)
-		(end 0.65 0.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "1146f50e-43be-4e9a-9efc-dc7a4a9b8869")
+		(uuid "d9a00eae-a5d1-4d57-941e-ee38e03b8036")
 	)
 	(fp_line
 		(start -0.65 0.25)
@@ -603,34 +593,34 @@
 		(uuid "21708a5c-b838-4d60-aac8-58140f6ca33a")
 	)
 	(fp_line
-		(start -0.65 -0.25)
+		(start -0.65 0.25)
+		(end 0.65 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1146f50e-43be-4e9a-9efc-dc7a4a9b8869")
+	)
+	(fp_line
+		(start 0.65 0.25)
 		(end 0.65 -0.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d9a00eae-a5d1-4d57-941e-ee38e03b8036")
+		(uuid "0fa98181-6888-4ec8-bd01-0523253654c0")
 	)
 	(fp_line
-		(start 0.65 0.25)
+		(start -0.65 -0.25)
 		(end 0.65 -0.25)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "dc5fd592-8cf3-4722-9144-1c3a2c7f9d8a")
-	)
-	(fp_line
-		(start -0.65 0.25)
-		(end 0.65 0.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "2d22f323-52a5-4a3a-bf95-b83709d0808a")
+		(uuid "6975621e-decc-4f1b-859e-11f07e63eca6")
 	)
 	(fp_line
 		(start -0.65 0.25)
@@ -643,14 +633,24 @@
 		(uuid "51973f5f-a395-4762-903a-a30b2fe36e81")
 	)
 	(fp_line
-		(start -0.65 -0.25)
+		(start -0.65 0.25)
+		(end 0.65 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d22f323-52a5-4a3a-bf95-b83709d0808a")
+	)
+	(fp_line
+		(start 0.65 0.25)
 		(end 0.65 -0.25)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6975621e-decc-4f1b-859e-11f07e63eca6")
+		(uuid "dc5fd592-8cf3-4722-9144-1c3a2c7f9d8a")
 	)
 	(pad "1" smd rect
 		(at -0.35 0 180)
@@ -669,15 +669,15 @@
 		(uuid "8c015463-95f1-4c4b-a13c-2ebfb0fe99df")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/CAPC0603X33N.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/CAPC0603X33N.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -0.15 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

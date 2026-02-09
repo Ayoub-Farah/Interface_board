@@ -15214,7 +15214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 260.35 33.528 0)
 			(effects
 				(font
@@ -15224,7 +15224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 260.35 35.433 0)
 			(effects
 				(font
@@ -15234,7 +15234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 260.35 25.4 0)
 			(effects
 				(font
@@ -16501,7 +16501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 251.46 151.638 0)
 			(effects
 				(font
@@ -16511,7 +16511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 251.46 153.543 0)
 			(effects
 				(font
@@ -16521,7 +16521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -17031,6 +17031,330 @@
 				(hide yes)
 			)
 		)
+		(property "Author" "CERN DEM BC"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Bonding" "No"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "SOIC8"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "93C46B-I/SN"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" "1.75mm"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" " "
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" " "
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" " "
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" " "
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "02/14/20 00:00:00"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "ICs And Semiconductors"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device" "93C46B-I/SN"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "ICs And Semiconductors SMD"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Path" "PcbLib\\ICs And Semiconductors SMD.PcbLib"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Ref" "SOIC127P600X175-8N"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\93C46B-ISN.pdf"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "02/14/20 00:00:00"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Library Name" "Logic"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Library Path" "SchLib\\Logic.SchLib"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Library Ref" "93C46B-SN"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "License" "CC-BY-SA 4.0"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" "SOIC, 1.27mm Pitch; 8 Pin - Body 4x5mm, IPC Medium Density"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "1Kbit, 5V, MICROWIRE® Serial EEPROM with 16-Bit Organization"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "93C46B-I_SN"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "8"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCEM" " "
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" " "
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" " "
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" " "
+			(at 58.42 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "71d3fbd1-3144-4e52-882e-50c650f9945a")
 		)
@@ -17078,7 +17402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 251.46 146.558 0)
 			(effects
 				(font
@@ -17088,7 +17412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 251.46 148.463 0)
 			(effects
 				(font
@@ -17098,7 +17422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 251.46 138.43 0)
 			(effects
 				(font
@@ -18084,6 +18408,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Capacitors"
+			(at 80.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 80.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 80.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17f7feb7-ce65-4011-b41c-28e2f124af64")
 		)
@@ -18526,6 +18877,33 @@
 		)
 		(property "LCSC" "C190187"
 			(at 120.65 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 120.65 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 120.65 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 120.65 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19954,6 +20332,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Resistors"
+			(at 110.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 110.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 110.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba8a2b2c-520c-486a-8301-df19b19a39c9")
 		)
@@ -20469,7 +20874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at -6.858 59.69 0)
 			(effects
 				(font
@@ -20479,7 +20884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_TDK_C.pdf"
+		(property "Datasheet" ""
 			(at 9.144 59.69 0)
 			(effects
 				(font
@@ -20868,6 +21273,33 @@
 		)
 		(property "LCSC" "C29266"
 			(at 20.32 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 20.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 20.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 20.32 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21467,7 +21899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 45.212 60.96 0)
 			(effects
 				(font
@@ -21477,7 +21909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_TDK_C.pdf"
+		(property "Datasheet" ""
 			(at 61.214 60.96 0)
 			(effects
 				(font
@@ -21866,6 +22298,33 @@
 		)
 		(property "LCSC" "C29266"
 			(at 72.39 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 72.39 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22380,6 +22839,33 @@
 		)
 		(property "LCSC" "C190187"
 			(at 250.19 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 250.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 250.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 250.19 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24405,6 +24891,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Capacitors"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "759eab95-022d-4894-822e-f09705bff079")
 		)
@@ -24448,7 +24961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 211.582 63.5 0)
 			(effects
 				(font
@@ -24458,7 +24971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_TDK_C.pdf"
+		(property "Datasheet" ""
 			(at 227.584 63.5 0)
 			(effects
 				(font
@@ -24854,6 +25367,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Capacitors"
+			(at 238.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 238.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 238.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd913857-fbd2-406e-8068-b9acde226e32")
 		)
@@ -24896,7 +25436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 142.24 33.528 0)
 			(effects
 				(font
@@ -25283,6 +25823,33 @@
 			)
 		)
 		(property "LCSC" "C1531"
+			(at 142.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 142.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 142.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
 			(at 142.24 25.4 0)
 			(effects
 				(font
@@ -26164,6 +26731,33 @@
 		)
 		(property "LCSC" "C190187"
 			(at 251.46 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 251.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 251.46 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 251.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31789,7 +32383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.802 60.96 0)
 			(effects
 				(font
@@ -31799,7 +32393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" ""
 			(at 82.804 60.96 0)
 			(effects
 				(font
@@ -32188,6 +32782,33 @@
 		)
 		(property "LCSC" "C190187"
 			(at 93.98 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 93.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 93.98 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32702,6 +33323,33 @@
 		)
 		(property "LCSC" "C190187"
 			(at 127 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 127 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 127 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 127 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35278,6 +35926,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Capacitors"
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04c0ea8c-fbf0-4270-89a1-a3274dd7b5dd")
 		)
@@ -35785,6 +36460,33 @@
 		)
 		(property "LCSC" "C190187"
 			(at 152.4 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 152.4 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 152.4 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 152.4 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37324,7 +38026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 166.37 132.588 0)
 			(effects
 				(font
@@ -37334,7 +38036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 166.37 134.493 0)
 			(effects
 				(font
@@ -37344,7 +38046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 166.37 124.46 0)
 			(effects
 				(font
@@ -38264,6 +38966,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Capacitors"
+			(at 133.35 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 133.35 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 133.35 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b93ae992-8f5a-491a-be04-f8881dea4a8d")
 		)
@@ -38715,6 +39444,33 @@
 		)
 		(property "LCSC" "C25094"
 			(at 60.96 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors"
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 60.96 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39713,6 +40469,33 @@
 		)
 		(property "LCSC" "C190187"
 			(at 82.55 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 82.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 82.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 82.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41434,7 +42217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 260.35 36.068 0)
 			(effects
 				(font
@@ -41444,7 +42227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 260.35 37.973 0)
 			(effects
 				(font
@@ -41454,7 +42237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 260.35 27.94 0)
 			(effects
 				(font
@@ -42309,6 +43092,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Capacitors"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "267959d3-4fdb-4830-96b7-13eca1c64496")
 		)
@@ -42881,6 +43691,33 @@
 		)
 		(property "LCSC" "C190187"
 			(at 238.76 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 238.76 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 238.76 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 238.76 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44970,6 +45807,33 @@
 		)
 		(property "LCSC" "C190187"
 			(at 30.48 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 30.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 30.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 30.48 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47108,6 +47972,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Resistors"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37b92c71-2978-4300-9056-927a7f4ca4b7")
 		)
@@ -48125,6 +49016,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Capacitors"
+			(at 114.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 114.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 114.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "040367e1-4525-4cc5-a1fe-9ae748ff3d1e")
 		)
@@ -48567,6 +49485,33 @@
 		)
 		(property "LCSC" "C190187"
 			(at 113.03 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 113.03 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 113.03 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 113.03 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50289,6 +51234,33 @@
 				(hide yes)
 			)
 		)
+		(property "Database Table Name" "Capacitors"
+			(at 260.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 260.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 260.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76a232f4-53be-4e93-9a2d-bbf5675006a5")
 		)
@@ -50397,7 +51369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:CAPC1005X55N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 184.15 26.162 0)
 			(effects
 				(font
@@ -50407,7 +51379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" ""
 			(at 184.15 24.257 0)
 			(effects
 				(font
@@ -50417,7 +51389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+		(property "Description" ""
 			(at 184.15 34.29 0)
 			(effects
 				(font
@@ -51265,6 +52237,33 @@
 		)
 		(property "LCSC" "C190187"
 			(at 245.11 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 245.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 245.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+			(at 245.11 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

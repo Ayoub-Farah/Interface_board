@@ -531,24 +531,14 @@
 		(uuid "e26974ba-1ec7-4c37-937e-cda3a673d5a6")
 	)
 	(fp_line
-		(start 1.75 1)
+		(start -1.75 -1)
 		(end 1.75 -1)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f6b7213c-3536-4d0f-9e67-8d2a5e2a4071")
-	)
-	(fp_line
-		(start -1.75 1)
-		(end 1.75 1)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "66e8294b-b390-43a9-8215-95ecc6869dd3")
+		(uuid "94861e4f-5b20-4275-b03f-2928719b5c5b")
 	)
 	(fp_line
 		(start -1.75 1)
@@ -561,34 +551,34 @@
 		(uuid "9fa7ff79-6363-4710-a11e-45412ccfb791")
 	)
 	(fp_line
-		(start -1.75 -1)
+		(start -1.75 1)
+		(end 1.75 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66e8294b-b390-43a9-8215-95ecc6869dd3")
+	)
+	(fp_line
+		(start 1.75 1)
 		(end 1.75 -1)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "94861e4f-5b20-4275-b03f-2928719b5c5b")
+		(uuid "f6b7213c-3536-4d0f-9e67-8d2a5e2a4071")
 	)
 	(fp_line
-		(start 1 0.625)
+		(start -1 -0.625)
 		(end 1 -0.625)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5fff9e14-7a30-4f4c-9636-021e9c50997d")
-	)
-	(fp_line
-		(start -1 0.625)
-		(end 1 0.625)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "e5bcae8d-f08b-4cb5-bc71-e9a5c29af93e")
+		(uuid "cfdb7738-ac4a-4b82-9230-9e427b887d8c")
 	)
 	(fp_line
 		(start -1 0.625)
@@ -601,14 +591,24 @@
 		(uuid "a818c951-5713-4774-8f99-8c1d61b7b296")
 	)
 	(fp_line
-		(start -1 -0.625)
+		(start -1 0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5bcae8d-f08b-4cb5-bc71-e9a5c29af93e")
+	)
+	(fp_line
+		(start 1 0.625)
 		(end 1 -0.625)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "cfdb7738-ac4a-4b82-9230-9e427b887d8c")
+		(uuid "5fff9e14-7a30-4f4c-9636-021e9c50997d")
 	)
 	(pad "1" smd rect
 		(at -1 0 270)
@@ -623,15 +623,15 @@
 		(uuid "e56c8f63-4704-4647-b0a8-678ba850ad6b")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/INDC2013X145N.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/MLZ2012M150WT000.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -0.7 0.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -180 -0)
 		)
 	)
 )

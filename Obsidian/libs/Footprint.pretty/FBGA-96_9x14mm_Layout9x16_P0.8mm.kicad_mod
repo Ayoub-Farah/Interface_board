@@ -904,7 +904,7 @@
 		(uuid "21abb863-72fe-4426-a270-ab180bf78789")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/FBGA-96_9x14mm_Layout9x16_P0.8mm.step"
+	(model "${KIPRJMOD}/libs/3D_folder/MT41K512M16VRP-107_IT_P.stp"
 		(offset
 			(xyz 0 0 0)
 		)

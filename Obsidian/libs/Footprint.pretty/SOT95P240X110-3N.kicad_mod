@@ -835,7 +835,7 @@
 		(uuid "b5ad0f0d-81e6-4fce-875f-a2d3dbafe71d")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/SOT95P240X110-3N.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/BSS138LT1G.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -843,7 +843,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

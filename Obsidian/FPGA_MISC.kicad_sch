@@ -13428,6 +13428,19 @@
 	(bus_alias "CFG_QSPI"
 		(members "CFG_MOSI" "CFG_DIN" "CFG_FCS")
 	)
+	(rectangle
+		(start 231.14 43.18)
+		(end 275.59 54.61)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5eb4c11f-b894-436f-a0f2-cfad2373d485)
+	)
 	(text "FPGA DONE"
 		(exclude_from_sim no)
 		(at 263.906 111.506 0)
@@ -13437,6 +13450,16 @@
 			)
 		)
 		(uuid "07ab58ea-5caa-484c-8af1-a76eeecce341")
+	)
+	(text "Replacing S25FL128SAGMFI001 \nwith Winbond W25Q128JVFIQ\nPIN 14 is unconnected"
+		(exclude_from_sim no)
+		(at 253.238 49.022 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "64b2942d-b25b-4bab-bab6-d1878b6c6c8e")
 	)
 	(junction
 		(at 129.54 119.38)
@@ -13523,12 +13546,6 @@
 		(uuid "bad1956d-3945-4fbd-abfe-173475620793")
 	)
 	(junction
-		(at 246.38 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6b5559e-b1df-4e8d-bc11-e1a49f6d262b")
-	)
-	(junction
 		(at 175.26 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13545,6 +13562,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5993afc-e565-45cb-8b06-9ea79784f3c5")
+	)
+	(no_connect
+		(at 246.38 64.77)
+		(uuid "23f1bc9f-737a-46bf-9c9a-c1d603597ba0")
 	)
 	(no_connect
 		(at 215.9 82.55)
@@ -13624,6 +13645,16 @@
 			(type default)
 		)
 		(uuid "ff3eeaaa-fb4a-4eee-b04c-44777f4d4287")
+	)
+	(wire
+		(pts
+			(xy 247.65 82.55) (xy 246.38 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031169bb-271f-40f9-821d-a25e4965ce73")
 	)
 	(wire
 		(pts
@@ -13797,16 +13828,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 64.77) (xy 246.38 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4440a7b5-cefe-4d7c-928b-c2fcc8d526e8")
-	)
-	(wire
-		(pts
 			(xy 167.64 130.81) (xy 186.69 130.81)
 		)
 		(stroke
@@ -13844,16 +13865,6 @@
 			(type default)
 		)
 		(uuid "4b5322f8-e35c-4148-b0e0-17aac70274fe")
-	)
-	(wire
-		(pts
-			(xy 246.38 59.69) (xy 246.38 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5018d897-ff6b-4ad6-a58c-b6ed8201ec0d")
 	)
 	(wire
 		(pts
@@ -14254,6 +14265,16 @@
 			(type default)
 		)
 		(uuid "e95d849c-aca4-4d00-b6d4-cdcf3ad54133")
+	)
+	(wire
+		(pts
+			(xy 247.65 80.01) (xy 247.65 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef72181c-7e2f-4b27-8f31-3c3c1a552d11")
 	)
 	(wire
 		(pts
@@ -21034,7 +21055,7 @@
 				)
 			)
 		)
-		(property "Value" "S25FL128SAGMFI001"
+		(property "Value" "W25Q128JVFIQ"
 			(at 221.488 88.9 0)
 			(effects
 				(font
@@ -21053,7 +21074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\S25FL128SAGMFI001.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C111478.pdf"
 			(at 220.98 95.885 0)
 			(effects
 				(font
@@ -21072,7 +21093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "S25FL128SAGMFI001"
+		(property "Part Number" "W25Q128JVFIQ "
 			(at 220.98 97.79 0)
 			(effects
 				(font
@@ -21082,7 +21103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Library Ref" "S25FL128SAGMFI001"
+		(property "Library Ref" "W25Q128JVFIQ "
 			(at 220.98 99.695 0)
 			(effects
 				(font
@@ -24901,7 +24922,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:+1V0")
-		(at 246.38 59.69 0)
+		(at 247.65 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24910,7 +24931,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6269db6-676d-49c5-bf82-2a845f85ba4b")
 		(property "Reference" "#PWR0130"
-			(at 246.38 63.5 0)
+			(at 247.65 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24919,7 +24940,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 246.38 54.61 0)
+			(at 247.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24927,7 +24948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 59.69 0)
+			(at 247.65 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24936,7 +24957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 59.69 0)
+			(at 247.65 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24945,7 +24966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 246.38 59.69 0)
+			(at 247.65 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)

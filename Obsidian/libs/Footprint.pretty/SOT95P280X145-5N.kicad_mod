@@ -834,7 +834,7 @@
 		(uuid "a7990692-38c5-410f-829f-4f8583b26de3")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/SOT95P280X145-5N.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/TLV62565DBVR.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -842,7 +842,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

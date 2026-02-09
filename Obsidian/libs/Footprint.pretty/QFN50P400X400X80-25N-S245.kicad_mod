@@ -1067,7 +1067,7 @@
 		(uuid "283047e1-6533-41c2-9fb4-0c639d30bbf1")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/QFN50P400X400X80-25N-S245.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/TCA9555RTWR.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -1075,7 +1075,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

@@ -824,7 +824,7 @@
 		(uuid "9d7bedbe-b463-419f-b1db-b3262ac4ee72")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/SOP65P490X110-8N.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/DAC8551IADGKR.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -832,7 +832,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

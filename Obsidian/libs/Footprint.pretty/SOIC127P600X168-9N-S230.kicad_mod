@@ -327,15 +327,15 @@
 		(uuid "ea28e452-a241-40ec-a247-9d15988d8f12")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/SOIC127P600X168-9N-S230.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/RT9045AGSP.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 8.5 2.7 -1.7)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 90)
 		)
 	)
 )

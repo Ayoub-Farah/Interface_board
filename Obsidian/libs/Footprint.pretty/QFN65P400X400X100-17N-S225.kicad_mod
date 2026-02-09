@@ -972,7 +972,7 @@
 		(uuid "0db15a77-31fc-4072-9b0d-af4ffdb6025e")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/QFN65P400X400X100-17N-S225.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/PCA9546ARGVR.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -980,7 +980,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

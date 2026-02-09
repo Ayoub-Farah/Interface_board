@@ -573,24 +573,14 @@
 	)
 	(attr smd)
 	(fp_line
-		(start 1.55 2.5)
+		(start -1.55 -2.5)
 		(end 1.55 -2.5)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4b2c992b-dfbb-449b-8a4f-fdb6d949d9d4")
-	)
-	(fp_line
-		(start -1.55 2.5)
-		(end 1.55 2.5)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c0e1c615-50bb-41bb-8b32-5852e4fc3205")
+		(uuid "c70ff66d-c7a1-4df7-b8cd-cd7659d8a734")
 	)
 	(fp_line
 		(start -1.55 2.5)
@@ -603,14 +593,24 @@
 		(uuid "4b523093-c1e0-4b84-abb7-1023c69050e1")
 	)
 	(fp_line
-		(start -1.55 -2.5)
+		(start -1.55 2.5)
+		(end 1.55 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0e1c615-50bb-41bb-8b32-5852e4fc3205")
+	)
+	(fp_line
+		(start 1.55 2.5)
 		(end 1.55 -2.5)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c70ff66d-c7a1-4df7-b8cd-cd7659d8a734")
+		(uuid "4b2c992b-dfbb-449b-8a4f-fdb6d949d9d4")
 	)
 	(fp_circle
 		(center -2.4 -2.755)
@@ -624,24 +624,14 @@
 		(uuid "2e6ad818-4e86-4944-80d9-05137cb7dc7a")
 	)
 	(fp_line
-		(start 3.75 2.75)
+		(start -3.75 -2.75)
 		(end 3.75 -2.75)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "90d8c62d-c80a-4731-bff7-0ecd28a1ba80")
-	)
-	(fp_line
-		(start -3.75 2.75)
-		(end 3.75 2.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "777a46f4-ff67-47da-a4ac-3357d9aed655")
+		(uuid "cdae7627-8bf3-4935-af1a-2d279c1ef334")
 	)
 	(fp_line
 		(start -3.75 2.75)
@@ -654,34 +644,34 @@
 		(uuid "32ecb80c-340d-4003-aa07-daf86295d7c6")
 	)
 	(fp_line
-		(start -3.75 -2.75)
+		(start -3.75 2.75)
+		(end 3.75 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "777a46f4-ff67-47da-a4ac-3357d9aed655")
+	)
+	(fp_line
+		(start 3.75 2.75)
 		(end 3.75 -2.75)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "cdae7627-8bf3-4935-af1a-2d279c1ef334")
+		(uuid "90d8c62d-c80a-4731-bff7-0ecd28a1ba80")
 	)
 	(fp_line
-		(start 2 2.5)
+		(start -2 -2.5)
 		(end 2 -2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "17c9ec59-8955-454a-acb6-62faa2179965")
-	)
-	(fp_line
-		(start -2 2.5)
-		(end 2 2.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "eea05d4f-3168-4382-b704-1e4e86803cae")
+		(uuid "a9510cd1-37e0-4437-bac0-811dd3469bff")
 	)
 	(fp_line
 		(start -2 2.5)
@@ -694,14 +684,24 @@
 		(uuid "11cd717c-4d01-41cb-bc08-e652dcbd64a6")
 	)
 	(fp_line
-		(start -2 -2.5)
+		(start -2 2.5)
+		(end 2 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eea05d4f-3168-4382-b704-1e4e86803cae")
+	)
+	(fp_line
+		(start 2 2.5)
 		(end 2 -2.5)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a9510cd1-37e0-4437-bac0-811dd3469bff")
+		(uuid "17c9ec59-8955-454a-acb6-62faa2179965")
 	)
 	(fp_circle
 		(center -0.825 -1.75)
@@ -763,7 +763,7 @@
 		(uuid "18b16e12-84df-4b5a-a045-a51989abbaf0")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/SOIC127P600X175-8N.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/LM336M-2.5_NOPB.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -771,7 +771,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

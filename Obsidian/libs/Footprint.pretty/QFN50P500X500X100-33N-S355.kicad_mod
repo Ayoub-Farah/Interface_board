@@ -1006,7 +1006,7 @@
 		(uuid "97ebd0e2-a02f-41e1-9dc6-cefaf8d6ac8e")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/QFN50P500X500X100-33N-S355.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/CDCM61002RHBR.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -1014,7 +1014,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

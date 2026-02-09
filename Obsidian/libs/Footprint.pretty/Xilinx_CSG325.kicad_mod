@@ -2503,7 +2503,7 @@
 		(uuid "4908139c-19f4-4af2-aa20-8ef72f72cb6b")
 	)
 	(embedded_fonts no)
-	(model "${CERN3D}/BGA324C80P18X18_1500X1500X150.stp"
+	(model "${KIPRJMOD}/libs/3D_folder/XC7A35T1CSG325I.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -2511,7 +2511,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

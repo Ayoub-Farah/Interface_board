@@ -1,0 +1,270 @@
+(footprint "TWIST"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "da6f7370-c514-422f-85e4-475346623dec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TWIST"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14540ad2-796d-4c3f-b3c4-0ca2eb9eec60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba20e6d4-a01f-4163-8a77-fccf0510c9f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b6d43e4-7a25-4af1-9ffe-aa3ef317364a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0.2 0.2)
+		(end 100.2 160.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "b71ea06a-f750-4947-ae12-1fc27a51f337")
+	)
+	(fp_circle
+		(center 5.2 90.2)
+		(end 6.55 90.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "a91205f1-4a4e-4d74-867c-86ed67507cd0")
+	)
+	(fp_circle
+		(center 5.7 5.3)
+		(end 7.05 5.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "d2ac9cc6-e7f7-42d9-b676-4d8be108ca47")
+	)
+	(fp_circle
+		(center 94.7 5.2)
+		(end 96.05 5.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "2fd22c90-eb67-4073-b2e3-b92fe8529e6e")
+	)
+	(fp_circle
+		(center 95.2 90.3)
+		(end 96.55 90.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "b3e47cab-d2b1-4aa0-86ee-e87440ceab3f")
+	)
+	(fp_circle
+		(center 71.07 50)
+		(end 72.07 50)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "e62e5d32-c598-46be-bc24-8de5d37e3ae1")
+	)
+	(fp_circle
+		(center 73.61 11.9)
+		(end 74.61 11.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "8d58793e-e8d2-4f6c-802a-d300582ea069")
+	)
+	(fp_circle
+		(center 73.61 16.98)
+		(end 74.61 16.98)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "1a6f0043-1089-4b18-8c25-f1a2271ba74a")
+	)
+	(fp_circle
+		(center 73.61 19.52)
+		(end 74.61 19.52)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "59cc33db-e2bf-4476-bba2-ef2a786a2537")
+	)
+	(fp_circle
+		(center 73.61 42.38)
+		(end 74.61 42.38)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "86c40f8b-0c22-4257-b642-a1d2264cf62c")
+	)
+	(fp_circle
+		(center 88.85 22.06)
+		(end 89.85 22.06)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "be140758-6f97-48fc-8045-21cf1fcbc771")
+	)
+	(fp_text user "B2"
+		(at 73.1 12.2 0)
+		(unlocked yes)
+		(layer "User.4")
+		(uuid "0acd4cff-b6d4-4fcc-ae1e-00fd5badc49d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B3"
+		(at 73.1 42.6 0)
+		(unlocked yes)
+		(layer "User.4")
+		(uuid "9958fde4-bbe3-41ec-8c6e-9f799a066548")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B4"
+		(at 70.6 50.4 0)
+		(unlocked yes)
+		(layer "User.4")
+		(uuid "b033c658-7060-4140-814d-4d82a4f5c23a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "A4"
+		(at 73.1 19.9 0)
+		(unlocked yes)
+		(layer "User.4")
+		(uuid "b9679422-6a64-4ee2-9a1d-90f65ead656d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "A7"
+		(at 73.1 17.3 0)
+		(unlocked yes)
+		(layer "User.4")
+		(uuid "c3182d16-472d-4f62-9f1c-404eb9218057")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "A5"
+		(at 88.4 22.4 0)
+		(unlocked yes)
+		(layer "User.4")
+		(uuid "fc84f6e5-1c04-48d0-9661-cc4bb1cca940")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3D_folder/TWIST.step"
+		(offset
+			(xyz 0 0 -22)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
