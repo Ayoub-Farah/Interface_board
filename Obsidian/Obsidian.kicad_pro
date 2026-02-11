@@ -58,6 +58,11 @@
           "width": 0.0
         },
         {
+          "gap": 0.22,
+          "via_gap": 0.22,
+          "width": 0.12
+        },
+        {
           "gap": 0.26,
           "via_gap": 0.26,
           "width": 0.14
@@ -470,6 +475,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -1557,6 +1563,474 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DIGIKEY DESCRIPTION",
+          "name": "DIGIKEY DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ORDER_CODE_DIGIKEY",
+          "name": "ORDER_CODE_DIGIKEY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ORDER_CODE_FARNELL",
+          "name": "ORDER_CODE_FARNELL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ORDER_CODE_RS",
+          "name": "ORDER_CODE_RS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IS FEMALE",
+          "name": "IS FEMALE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LATESTREVISIONDATE",
+          "name": "LATESTREVISIONDATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LEAD FREE",
+          "name": "LEAD FREE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DRAIN TO SOURCE BREAKDOWN VOLTAGE",
+          "name": "DRAIN TO SOURCE BREAKDOWN VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART DESCRIPTION",
+          "name": "PART DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART NUMBER",
+          "name": "PART NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTIAL_ALTERNATE_INTERNAL_PART_NUMBER",
+          "name": "PARTIAL_ALTERNATE_INTERNAL_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DRAIN TO SOURCE RESISTANCE",
+          "name": "DRAIN TO SOURCE RESISTANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART_PREFERENCE",
+          "name": "PART_PREFERENCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART_TYPE",
+          "name": "PART_TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN COUNT",
+          "name": "PIN COUNT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER",
+          "name": "POWER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER DISSIPATION",
+          "name": "POWER DISSIPATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRESSFIT",
+          "name": "PRESSFIT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PULSE DRAIN CURRENT",
+          "name": "PULSE DRAIN CURRENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DRAIN TO SOURCE VOLTAGE",
+          "name": "DRAIN TO SOURCE VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT RATING",
+          "name": "CURRENT RATING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AUTHOR",
+          "name": "AUTHOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENT KIND",
+          "name": "COMPONENT KIND",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENT TYPE",
+          "name": "COMPONENT TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE",
+          "name": "CASE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AUTOMOTIVE",
+          "name": "AUTOMOTIVE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FOOTPRINT",
+          "name": "FOOTPRINT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FOOTPRINT URL",
+          "name": "FOOTPRINT URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "REVERSE RECOVERY CHARGE",
+          "name": "REVERSE RECOVERY CHARGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "REVERSE RECOVERY TIME",
+          "name": "REVERSE RECOVERY TIME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PART NUMBER",
+          "name": "MANUFACTURER PART NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RTHJA MAX",
+          "name": "RTHJA MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER1 COMPONENTHEIGHT",
+          "name": "MANUFACTURER1 COMPONENTHEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER1 EXAMPLE",
+          "name": "MANUFACTURER1 EXAMPLE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SENSE",
+          "name": "SENSE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SHOWFIELDS",
+          "name": "SHOWFIELDS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER1 PART NUMBER",
+          "name": "MANUFACTURER1 PART NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_HQ_COO",
+          "name": "MANUFACTURER_HQ_COO",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CATEGORY",
+          "name": "CATEGORY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FULL_ALTERNATE_INTERNAL_PART_NUMBER",
+          "name": "FULL_ALTERNATE_INTERNAL_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SOCKET",
+          "name": "SOCKET",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDOFF HEIGHT",
+          "name": "STANDOFF HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STATUS",
+          "name": "STATUS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTERNATE_EMS",
+          "name": "ALTERNATE_EMS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAX FORWARD DIODE VOLTAGE",
+          "name": "MAX FORWARD DIODE VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENT_COUNTRY_OF_ORIGIN",
+          "name": "COMPONENT_COUNTRY_OF_ORIGIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAX JUNCTION TEMP",
+          "name": "MAX JUNCTION TEMP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BMS_PART_NUMBER",
+          "name": "BMS_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUNTED",
+          "name": "MOUNTED",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONN ORIENTATION",
+          "name": "CONN ORIENTATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONTACT MATERIAL",
+          "name": "CONTACT MATERIAL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONTINUOUS DRAIN CURRENT",
+          "name": "CONTINUOUS DRAIN CURRENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GATE CHARGE AT VGS",
+          "name": "GATE CHARGE AT VGS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE",
+          "name": "TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE RANGE HIGH",
+          "name": "TEMPERATURE RANGE HIGH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE RANGE LOW",
+          "name": "TEMPERATURE RANGE LOW",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GATE TO SOURCE VOLTAGE",
+          "name": "GATE TO SOURCE VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "THRESHOLD VGS MAX",
+          "name": "THRESHOLD VGS MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "THRESHOLD VGS MIN",
+          "name": "THRESHOLD VGS MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TOLERANCE",
+          "name": "TOLERANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATEDATE",
+          "name": "CREATEDATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TURN OFF DELAY TIME",
+          "name": "TURN OFF DELAY TIME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TURN ON DELAY TIME",
+          "name": "TURN ON DELAY TIME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TYP FORWARD DIODE VOLTAGE",
+          "name": "TYP FORWARD DIODE VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEPLETION MODE",
+          "name": "DEPLETION MODE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "USB STANDARD",
+          "name": "USB STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE CLASS L1",
+          "name": "DEVICE CLASS L1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE CLASS L2",
+          "name": "DEVICE CLASS L2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE CLASS L3",
+          "name": "DEVICE CLASS L3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE",
+          "name": "VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ID",
+          "name": "ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE RATING",
+          "name": "VOLTAGE RATING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF CHANNELS",
+          "name": "NUMBER OF CHANNELS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF CONTACTS",
+          "name": "NUMBER OF CONTACTS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF P CHANNELS",
+          "name": "NUMBER OF P CHANNELS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INPUT CAPACITACE AT VDS",
+          "name": "INPUT CAPACITACE AT VDS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OCTOPART",
+          "name": "OCTOPART",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INTERNAL_PART_NUMBER",
+          "name": "INTERNAL_PART_NUMBER",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1662,7 +2136,7 @@
   ],
   "text_variables": {
     "author": "Michal Gaska",
-    "name": "Obsidian A35",
-    "rev": "1.0.0"
+    "name": "Obsidian",
+    "rev": "1.1.0"
   }
 }

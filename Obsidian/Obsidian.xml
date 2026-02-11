@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\48695\Qsync (1)\Berkeley\Marble Tiny git\Marble_Tiny\Marble_Tiny.kicad_sch</source>
-    <date>2025-05-01T20:55:04+0200</date>
-    <tool>Eeschema 9.0.1</tool>
+    <source>C:\Users\48695\Qsync (1)\Berkeley\Marble Tiny git\Obsidian\Obsidian.kicad_sch</source>
+    <date>2025-07-03T19:00:26+0200</date>
+    <tool>Eeschema 9.0.0</tool>
     <textvar name="author">Michal Gaska</textvar>
     <textvar name="name">Obsidian A35</textvar>
     <textvar name="rev">1.0.0</textvar>
@@ -13,7 +13,7 @@
         <company>Obsidian A35</company>
         <rev>1.0.0</rev>
         <date>2025-04-18</date>
-        <source>Marble_Tiny.kicad_sch</source>
+        <source>Obsidian.kicad_sch</source>
         <comment number="1" value="Michal Gaska"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -333,7 +333,7 @@
       <property name="Footprint Library" value="Pads"/>
       <property name="License" value="CC-BY-SA 4.0"/>
       <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="Marble_Tiny.kicad_sch"/>
+      <property name="Sheetfile" value="Obsidian.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>13ecfdde-3b85-4a6b-9e12-a9781f3ced15</tstamps>
     </comp>
@@ -427,7 +427,7 @@
       <property name="Footprint Library" value="Pads"/>
       <property name="License" value="CC-BY-SA 4.0"/>
       <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="Marble_Tiny.kicad_sch"/>
+      <property name="Sheetfile" value="Obsidian.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5e92ebeb-11bc-4353-b3ef-11e431a31c2f</tstamps>
     </comp>
@@ -521,7 +521,7 @@
       <property name="Footprint Library" value="Pads"/>
       <property name="License" value="CC-BY-SA 4.0"/>
       <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="Marble_Tiny.kicad_sch"/>
+      <property name="Sheetfile" value="Obsidian.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f29dcda9-8ec1-46ee-9da1-e80beef17375</tstamps>
     </comp>
@@ -615,7 +615,7 @@
       <property name="Footprint Library" value="Pads"/>
       <property name="License" value="CC-BY-SA 4.0"/>
       <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="Marble_Tiny.kicad_sch"/>
+      <property name="Sheetfile" value="Obsidian.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>06c6ea20-9616-4048-af47-d7c7c3ac8777</tstamps>
     </comp>
@@ -4226,6 +4226,117 @@
       <property name="Sheetfile" value="FPGA.kicad_sch"/>
       <sheetpath names="/FPGA/" tstamps="/26bc6f09-ebb0-4c32-8a32-ec70c3f97c4f/"/>
       <tstamps>5fbabf4b-5055-48f3-a8c3-d41f73e3d0b2</tstamps>
+    </comp>
+    <comp ref="R182">
+      <value>R0402_4K7_1%_0.0625W_100PPM</value>
+      <footprint>Resistors SMD:RESC1005X40N</footprint>
+      <datasheet>\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</datasheet>
+      <description>General Purpose Thick Film Chip Resistor</description>
+      <fields>
+        <field name="Tolerance">±1%</field>
+        <field name="Val">4k7</field>
+        <field name="Part Number">R0402_4K7_1%_0.0625W_100PPM</field>
+        <field name="Library Ref">Resistor - 1%</field>
+        <field name="Library Path">SchLib\Resistors.SchLib</field>
+        <field name="Comment">4k7</field>
+        <field name="Component Kind">Standard</field>
+        <field name="Component Type">Standard</field>
+        <field name="PackageDescription"> </field>
+        <field name="Pin Count">2</field>
+        <field name="Footprint Path">PcbLib\Resistors SMD.PcbLib</field>
+        <field name="Footprint Ref">RESC1005X40N</field>
+        <field name="Status">Not Recommended</field>
+        <field name="Power">0.0625W</field>
+        <field name="TC">±100ppm/°C</field>
+        <field name="Voltage"> </field>
+        <field name="Part Description">General Purpose Thick Film Chip Resistor</field>
+        <field name="Manufacturer">GENERIC</field>
+        <field name="Manufacturer Part Number">R0402_4K7_1%_0.0625W_100PPM</field>
+        <field name="Case">0402</field>
+        <field name="PressFit">No</field>
+        <field name="Mounted">Yes</field>
+        <field name="Sense Comment"> </field>
+        <field name="Sense">No</field>
+        <field name="Status Comment"> </field>
+        <field name="Socket">No</field>
+        <field name="SMD">Yes</field>
+        <field name="ComponentHeight"> </field>
+        <field name="Manufacturer1 Example">YAGEO PHYCOMP</field>
+        <field name="Manufacturer1 Part Number">232270674702L</field>
+        <field name="Manufacturer1 ComponentHeight">0.4mm</field>
+        <field name="HelpURL">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
+        <field name="Author">CERN DEM JLC</field>
+        <field name="CreateDate">12/03/07 00:00:00</field>
+        <field name="LatestRevisionDate">10/17/12 00:00:00</field>
+        <field name="Database Table Name">Resistors</field>
+        <field name="Library Name">Resistors SMD</field>
+        <field name="Footprint Library">Resistors SMD</field>
+        <field name="License">CC-BY-SA 4.0</field>
+        <field name="Footprint">Resistors SMD:RESC1005X40N</field>
+        <field name="Datasheet">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
+        <field name="Description">General Purpose Thick Film Chip Resistor</field>
+      </fields>
+      <libsource lib="Resistors SMD" part="R0402_4K7_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
+      <property name="Tolerance" value="±1%"/>
+      <property name="Val" value="4k7"/>
+      <property name="Part Number" value="R0402_4K7_1%_0.0625W_100PPM"/>
+      <property name="Library Ref" value="Resistor - 1%"/>
+      <property name="Library Path" value="SchLib\Resistors.SchLib"/>
+      <property name="Comment" value="4k7"/>
+      <property name="Component Kind" value="Standard"/>
+      <property name="Component Type" value="Standard"/>
+      <property name="PackageDescription" value=" "/>
+      <property name="Pin Count" value="2"/>
+      <property name="Footprint Path" value="PcbLib\Resistors SMD.PcbLib"/>
+      <property name="Footprint Ref" value="RESC1005X40N"/>
+      <property name="Status" value="Not Recommended"/>
+      <property name="Power" value="0.0625W"/>
+      <property name="TC" value="±100ppm/°C"/>
+      <property name="Voltage" value=" "/>
+      <property name="Part Description" value="General Purpose Thick Film Chip Resistor"/>
+      <property name="Manufacturer" value="GENERIC"/>
+      <property name="Manufacturer Part Number" value="R0402_4K7_1%_0.0625W_100PPM"/>
+      <property name="Case" value="0402"/>
+      <property name="PressFit" value="No"/>
+      <property name="Mounted" value="Yes"/>
+      <property name="Sense Comment" value=" "/>
+      <property name="Sense" value="No"/>
+      <property name="Status Comment" value=" "/>
+      <property name="Socket" value="No"/>
+      <property name="SMD" value="Yes"/>
+      <property name="ComponentHeight" value=" "/>
+      <property name="Manufacturer1 Example" value="YAGEO PHYCOMP"/>
+      <property name="Manufacturer1 Part Number" value="232270674702L"/>
+      <property name="Manufacturer1 ComponentHeight" value="0.4mm"/>
+      <property name="HelpURL" value="\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf"/>
+      <property name="Author" value="CERN DEM JLC"/>
+      <property name="CreateDate" value="12/03/07 00:00:00"/>
+      <property name="LatestRevisionDate" value="10/17/12 00:00:00"/>
+      <property name="Database Table Name" value="Resistors"/>
+      <property name="Library Name" value="Resistors SMD"/>
+      <property name="Footprint Library" value="Resistors SMD"/>
+      <property name="License" value="CC-BY-SA 4.0"/>
+      <property name="Sheetname" value="FPGA"/>
+      <property name="Sheetfile" value="FPGA.kicad_sch"/>
+      <sheetpath names="/FPGA/" tstamps="/26bc6f09-ebb0-4c32-8a32-ec70c3f97c4f/"/>
+      <tstamps>601a9cb9-a4b7-40fb-9a61-95aa6be6bf88</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_DIP_x01</value>
+      <footprint>Switches:SW_OMRON_A6SN-1101</footprint>
+      <description>1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <fields>
+        <field name="Footprint">Switches:SW_OMRON_A6SN-1101</field>
+        <field name="Datasheet"/>
+        <field name="Description">1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DIP_x01" description="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value="FPGA"/>
+      <property name="Sheetfile" value="FPGA.kicad_sch"/>
+      <property name="ki_keywords" value="dip switch"/>
+      <property name="ki_fp_filters" value="SW?DIP?x1*"/>
+      <sheetpath names="/FPGA/" tstamps="/26bc6f09-ebb0-4c32-8a32-ec70c3f97c4f/"/>
+      <tstamps>b7bb9449-b51f-4fe1-8432-8229978ca242</tstamps>
     </comp>
     <comp ref="TP2">
       <value>TestPoint</value>
@@ -21167,17 +21278,17 @@
       <tstamps>5ff17f0f-aa8b-4ca3-a0be-674828848378</tstamps>
     </comp>
     <comp ref="R142">
-      <value>R0402_4K7_1%_0.0625W_100PPM</value>
+      <value>R0402_30K_1%_0.0625W_100PPM</value>
       <footprint>Resistors SMD:RESC1005X40N</footprint>
       <datasheet>\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</datasheet>
       <description>General Purpose Thick Film Chip Resistor</description>
       <fields>
         <field name="Tolerance">±1%</field>
-        <field name="Val">4k7</field>
-        <field name="Part Number">R0402_4K7_1%_0.0625W_100PPM</field>
+        <field name="Val">30k</field>
+        <field name="Part Number">R0402_30K_1%_0.0625W_100PPM</field>
         <field name="Library Ref">Resistor - 1%</field>
         <field name="Library Path">SchLib\Resistors.SchLib</field>
-        <field name="Comment">4k7</field>
+        <field name="Comment">30k</field>
         <field name="Component Kind">Standard</field>
         <field name="Component Type">Standard</field>
         <field name="PackageDescription"> </field>
@@ -21190,7 +21301,7 @@
         <field name="Voltage"> </field>
         <field name="Part Description">General Purpose Thick Film Chip Resistor</field>
         <field name="Manufacturer">GENERIC</field>
-        <field name="Manufacturer Part Number">R0402_4K7_1%_0.0625W_100PPM</field>
+        <field name="Manufacturer Part Number">R0402_30K_1%_0.0625W_100PPM</field>
         <field name="Case">0402</field>
         <field name="PressFit">No</field>
         <field name="Mounted">Yes</field>
@@ -21201,7 +21312,7 @@
         <field name="SMD">Yes</field>
         <field name="ComponentHeight"> </field>
         <field name="Manufacturer1 Example">YAGEO PHYCOMP</field>
-        <field name="Manufacturer1 Part Number">232270674702L</field>
+        <field name="Manufacturer1 Part Number">232270673003L</field>
         <field name="Manufacturer1 ComponentHeight">0.4mm</field>
         <field name="HelpURL">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
         <field name="Author">CERN DEM JLC</field>
@@ -21215,13 +21326,13 @@
         <field name="Datasheet">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
         <field name="Description">General Purpose Thick Film Chip Resistor</field>
       </fields>
-      <libsource lib="Resistors SMD" part="R0402_4K7_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
+      <libsource lib="Resistors SMD" part="R0402_30K_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
       <property name="Tolerance" value="±1%"/>
-      <property name="Val" value="4k7"/>
-      <property name="Part Number" value="R0402_4K7_1%_0.0625W_100PPM"/>
+      <property name="Val" value="30k"/>
+      <property name="Part Number" value="R0402_30K_1%_0.0625W_100PPM"/>
       <property name="Library Ref" value="Resistor - 1%"/>
       <property name="Library Path" value="SchLib\Resistors.SchLib"/>
-      <property name="Comment" value="4k7"/>
+      <property name="Comment" value="30k"/>
       <property name="Component Kind" value="Standard"/>
       <property name="Component Type" value="Standard"/>
       <property name="PackageDescription" value=" "/>
@@ -21234,7 +21345,7 @@
       <property name="Voltage" value=" "/>
       <property name="Part Description" value="General Purpose Thick Film Chip Resistor"/>
       <property name="Manufacturer" value="GENERIC"/>
-      <property name="Manufacturer Part Number" value="R0402_4K7_1%_0.0625W_100PPM"/>
+      <property name="Manufacturer Part Number" value="R0402_30K_1%_0.0625W_100PPM"/>
       <property name="Case" value="0402"/>
       <property name="PressFit" value="No"/>
       <property name="Mounted" value="Yes"/>
@@ -21245,7 +21356,7 @@
       <property name="SMD" value="Yes"/>
       <property name="ComponentHeight" value=" "/>
       <property name="Manufacturer1 Example" value="YAGEO PHYCOMP"/>
-      <property name="Manufacturer1 Part Number" value="232270674702L"/>
+      <property name="Manufacturer1 Part Number" value="232270673003L"/>
       <property name="Manufacturer1 ComponentHeight" value="0.4mm"/>
       <property name="HelpURL" value="\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf"/>
       <property name="Author" value="CERN DEM JLC"/>
@@ -21258,20 +21369,20 @@
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/1f98e56a-3346-4f12-a356-5cd64c4ccde0/"/>
-      <tstamps>8088a231-3608-4682-8008-d29a7911c25c</tstamps>
+      <tstamps>52477a96-cf62-4ae0-837f-bd433821bde4</tstamps>
     </comp>
     <comp ref="R143">
-      <value>R0402_4K7_1%_0.0625W_100PPM</value>
+      <value>R0402_30K_1%_0.0625W_100PPM</value>
       <footprint>Resistors SMD:RESC1005X40N</footprint>
       <datasheet>\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</datasheet>
       <description>General Purpose Thick Film Chip Resistor</description>
       <fields>
         <field name="Tolerance">±1%</field>
-        <field name="Val">4k7</field>
-        <field name="Part Number">R0402_4K7_1%_0.0625W_100PPM</field>
+        <field name="Val">30k</field>
+        <field name="Part Number">R0402_30K_1%_0.0625W_100PPM</field>
         <field name="Library Ref">Resistor - 1%</field>
         <field name="Library Path">SchLib\Resistors.SchLib</field>
-        <field name="Comment">4k7</field>
+        <field name="Comment">30k</field>
         <field name="Component Kind">Standard</field>
         <field name="Component Type">Standard</field>
         <field name="PackageDescription"> </field>
@@ -21284,7 +21395,7 @@
         <field name="Voltage"> </field>
         <field name="Part Description">General Purpose Thick Film Chip Resistor</field>
         <field name="Manufacturer">GENERIC</field>
-        <field name="Manufacturer Part Number">R0402_4K7_1%_0.0625W_100PPM</field>
+        <field name="Manufacturer Part Number">R0402_30K_1%_0.0625W_100PPM</field>
         <field name="Case">0402</field>
         <field name="PressFit">No</field>
         <field name="Mounted">Yes</field>
@@ -21295,7 +21406,7 @@
         <field name="SMD">Yes</field>
         <field name="ComponentHeight"> </field>
         <field name="Manufacturer1 Example">YAGEO PHYCOMP</field>
-        <field name="Manufacturer1 Part Number">232270674702L</field>
+        <field name="Manufacturer1 Part Number">232270673003L</field>
         <field name="Manufacturer1 ComponentHeight">0.4mm</field>
         <field name="HelpURL">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
         <field name="Author">CERN DEM JLC</field>
@@ -21309,13 +21420,13 @@
         <field name="Datasheet">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
         <field name="Description">General Purpose Thick Film Chip Resistor</field>
       </fields>
-      <libsource lib="Resistors SMD" part="R0402_4K7_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
+      <libsource lib="Resistors SMD" part="R0402_30K_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
       <property name="Tolerance" value="±1%"/>
-      <property name="Val" value="4k7"/>
-      <property name="Part Number" value="R0402_4K7_1%_0.0625W_100PPM"/>
+      <property name="Val" value="30k"/>
+      <property name="Part Number" value="R0402_30K_1%_0.0625W_100PPM"/>
       <property name="Library Ref" value="Resistor - 1%"/>
       <property name="Library Path" value="SchLib\Resistors.SchLib"/>
-      <property name="Comment" value="4k7"/>
+      <property name="Comment" value="30k"/>
       <property name="Component Kind" value="Standard"/>
       <property name="Component Type" value="Standard"/>
       <property name="PackageDescription" value=" "/>
@@ -21328,7 +21439,7 @@
       <property name="Voltage" value=" "/>
       <property name="Part Description" value="General Purpose Thick Film Chip Resistor"/>
       <property name="Manufacturer" value="GENERIC"/>
-      <property name="Manufacturer Part Number" value="R0402_4K7_1%_0.0625W_100PPM"/>
+      <property name="Manufacturer Part Number" value="R0402_30K_1%_0.0625W_100PPM"/>
       <property name="Case" value="0402"/>
       <property name="PressFit" value="No"/>
       <property name="Mounted" value="Yes"/>
@@ -21339,7 +21450,7 @@
       <property name="SMD" value="Yes"/>
       <property name="ComponentHeight" value=" "/>
       <property name="Manufacturer1 Example" value="YAGEO PHYCOMP"/>
-      <property name="Manufacturer1 Part Number" value="232270674702L"/>
+      <property name="Manufacturer1 Part Number" value="232270673003L"/>
       <property name="Manufacturer1 ComponentHeight" value="0.4mm"/>
       <property name="HelpURL" value="\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf"/>
       <property name="Author" value="CERN DEM JLC"/>
@@ -21352,20 +21463,20 @@
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/1f98e56a-3346-4f12-a356-5cd64c4ccde0/"/>
-      <tstamps>6b8b72f5-0304-494c-b3d4-996a20a03172</tstamps>
+      <tstamps>214e1ac6-30d0-4093-8ca9-e5a4597d0ea9</tstamps>
     </comp>
     <comp ref="R144">
-      <value>R0402_4K7_1%_0.0625W_100PPM</value>
+      <value>R0402_30K_1%_0.0625W_100PPM</value>
       <footprint>Resistors SMD:RESC1005X40N</footprint>
       <datasheet>\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</datasheet>
       <description>General Purpose Thick Film Chip Resistor</description>
       <fields>
         <field name="Tolerance">±1%</field>
-        <field name="Val">4k7</field>
-        <field name="Part Number">R0402_4K7_1%_0.0625W_100PPM</field>
+        <field name="Val">30k</field>
+        <field name="Part Number">R0402_30K_1%_0.0625W_100PPM</field>
         <field name="Library Ref">Resistor - 1%</field>
         <field name="Library Path">SchLib\Resistors.SchLib</field>
-        <field name="Comment">4k7</field>
+        <field name="Comment">30k</field>
         <field name="Component Kind">Standard</field>
         <field name="Component Type">Standard</field>
         <field name="PackageDescription"> </field>
@@ -21378,7 +21489,7 @@
         <field name="Voltage"> </field>
         <field name="Part Description">General Purpose Thick Film Chip Resistor</field>
         <field name="Manufacturer">GENERIC</field>
-        <field name="Manufacturer Part Number">R0402_4K7_1%_0.0625W_100PPM</field>
+        <field name="Manufacturer Part Number">R0402_30K_1%_0.0625W_100PPM</field>
         <field name="Case">0402</field>
         <field name="PressFit">No</field>
         <field name="Mounted">Yes</field>
@@ -21389,7 +21500,7 @@
         <field name="SMD">Yes</field>
         <field name="ComponentHeight"> </field>
         <field name="Manufacturer1 Example">YAGEO PHYCOMP</field>
-        <field name="Manufacturer1 Part Number">232270674702L</field>
+        <field name="Manufacturer1 Part Number">232270673003L</field>
         <field name="Manufacturer1 ComponentHeight">0.4mm</field>
         <field name="HelpURL">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
         <field name="Author">CERN DEM JLC</field>
@@ -21403,13 +21514,13 @@
         <field name="Datasheet">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
         <field name="Description">General Purpose Thick Film Chip Resistor</field>
       </fields>
-      <libsource lib="Resistors SMD" part="R0402_4K7_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
+      <libsource lib="Resistors SMD" part="R0402_30K_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
       <property name="Tolerance" value="±1%"/>
-      <property name="Val" value="4k7"/>
-      <property name="Part Number" value="R0402_4K7_1%_0.0625W_100PPM"/>
+      <property name="Val" value="30k"/>
+      <property name="Part Number" value="R0402_30K_1%_0.0625W_100PPM"/>
       <property name="Library Ref" value="Resistor - 1%"/>
       <property name="Library Path" value="SchLib\Resistors.SchLib"/>
-      <property name="Comment" value="4k7"/>
+      <property name="Comment" value="30k"/>
       <property name="Component Kind" value="Standard"/>
       <property name="Component Type" value="Standard"/>
       <property name="PackageDescription" value=" "/>
@@ -21422,7 +21533,7 @@
       <property name="Voltage" value=" "/>
       <property name="Part Description" value="General Purpose Thick Film Chip Resistor"/>
       <property name="Manufacturer" value="GENERIC"/>
-      <property name="Manufacturer Part Number" value="R0402_4K7_1%_0.0625W_100PPM"/>
+      <property name="Manufacturer Part Number" value="R0402_30K_1%_0.0625W_100PPM"/>
       <property name="Case" value="0402"/>
       <property name="PressFit" value="No"/>
       <property name="Mounted" value="Yes"/>
@@ -21433,7 +21544,7 @@
       <property name="SMD" value="Yes"/>
       <property name="ComponentHeight" value=" "/>
       <property name="Manufacturer1 Example" value="YAGEO PHYCOMP"/>
-      <property name="Manufacturer1 Part Number" value="232270674702L"/>
+      <property name="Manufacturer1 Part Number" value="232270673003L"/>
       <property name="Manufacturer1 ComponentHeight" value="0.4mm"/>
       <property name="HelpURL" value="\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf"/>
       <property name="Author" value="CERN DEM JLC"/>
@@ -21446,20 +21557,20 @@
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/1f98e56a-3346-4f12-a356-5cd64c4ccde0/"/>
-      <tstamps>4e4c39e8-3f1a-4754-8758-5913d535c9a0</tstamps>
+      <tstamps>b25ad0e3-b9af-49e3-836c-00c7b736ca55</tstamps>
     </comp>
     <comp ref="R145">
-      <value>R0402_4K7_1%_0.0625W_100PPM</value>
+      <value>R0402_30K_1%_0.0625W_100PPM</value>
       <footprint>Resistors SMD:RESC1005X40N</footprint>
       <datasheet>\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</datasheet>
       <description>General Purpose Thick Film Chip Resistor</description>
       <fields>
         <field name="Tolerance">±1%</field>
-        <field name="Val">4k7</field>
-        <field name="Part Number">R0402_4K7_1%_0.0625W_100PPM</field>
+        <field name="Val">30k</field>
+        <field name="Part Number">R0402_30K_1%_0.0625W_100PPM</field>
         <field name="Library Ref">Resistor - 1%</field>
         <field name="Library Path">SchLib\Resistors.SchLib</field>
-        <field name="Comment">4k7</field>
+        <field name="Comment">30k</field>
         <field name="Component Kind">Standard</field>
         <field name="Component Type">Standard</field>
         <field name="PackageDescription"> </field>
@@ -21472,7 +21583,7 @@
         <field name="Voltage"> </field>
         <field name="Part Description">General Purpose Thick Film Chip Resistor</field>
         <field name="Manufacturer">GENERIC</field>
-        <field name="Manufacturer Part Number">R0402_4K7_1%_0.0625W_100PPM</field>
+        <field name="Manufacturer Part Number">R0402_30K_1%_0.0625W_100PPM</field>
         <field name="Case">0402</field>
         <field name="PressFit">No</field>
         <field name="Mounted">Yes</field>
@@ -21483,7 +21594,7 @@
         <field name="SMD">Yes</field>
         <field name="ComponentHeight"> </field>
         <field name="Manufacturer1 Example">YAGEO PHYCOMP</field>
-        <field name="Manufacturer1 Part Number">232270674702L</field>
+        <field name="Manufacturer1 Part Number">232270673003L</field>
         <field name="Manufacturer1 ComponentHeight">0.4mm</field>
         <field name="HelpURL">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
         <field name="Author">CERN DEM JLC</field>
@@ -21497,13 +21608,13 @@
         <field name="Datasheet">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
         <field name="Description">General Purpose Thick Film Chip Resistor</field>
       </fields>
-      <libsource lib="Resistors SMD" part="R0402_4K7_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
+      <libsource lib="Resistors SMD" part="R0402_30K_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
       <property name="Tolerance" value="±1%"/>
-      <property name="Val" value="4k7"/>
-      <property name="Part Number" value="R0402_4K7_1%_0.0625W_100PPM"/>
+      <property name="Val" value="30k"/>
+      <property name="Part Number" value="R0402_30K_1%_0.0625W_100PPM"/>
       <property name="Library Ref" value="Resistor - 1%"/>
       <property name="Library Path" value="SchLib\Resistors.SchLib"/>
-      <property name="Comment" value="4k7"/>
+      <property name="Comment" value="30k"/>
       <property name="Component Kind" value="Standard"/>
       <property name="Component Type" value="Standard"/>
       <property name="PackageDescription" value=" "/>
@@ -21516,7 +21627,7 @@
       <property name="Voltage" value=" "/>
       <property name="Part Description" value="General Purpose Thick Film Chip Resistor"/>
       <property name="Manufacturer" value="GENERIC"/>
-      <property name="Manufacturer Part Number" value="R0402_4K7_1%_0.0625W_100PPM"/>
+      <property name="Manufacturer Part Number" value="R0402_30K_1%_0.0625W_100PPM"/>
       <property name="Case" value="0402"/>
       <property name="PressFit" value="No"/>
       <property name="Mounted" value="Yes"/>
@@ -21527,7 +21638,7 @@
       <property name="SMD" value="Yes"/>
       <property name="ComponentHeight" value=" "/>
       <property name="Manufacturer1 Example" value="YAGEO PHYCOMP"/>
-      <property name="Manufacturer1 Part Number" value="232270674702L"/>
+      <property name="Manufacturer1 Part Number" value="232270673003L"/>
       <property name="Manufacturer1 ComponentHeight" value="0.4mm"/>
       <property name="HelpURL" value="\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf"/>
       <property name="Author" value="CERN DEM JLC"/>
@@ -21540,20 +21651,20 @@
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/1f98e56a-3346-4f12-a356-5cd64c4ccde0/"/>
-      <tstamps>25beb231-608e-4fa2-a96c-b388eb1edd64</tstamps>
+      <tstamps>17b38d2c-d1e1-405e-b76b-9aa6dd67c9aa</tstamps>
     </comp>
     <comp ref="R146">
-      <value>R0402_4K7_1%_0.0625W_100PPM</value>
+      <value>R0402_30K_1%_0.0625W_100PPM</value>
       <footprint>Resistors SMD:RESC1005X40N</footprint>
       <datasheet>\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</datasheet>
       <description>General Purpose Thick Film Chip Resistor</description>
       <fields>
         <field name="Tolerance">±1%</field>
-        <field name="Val">4k7</field>
-        <field name="Part Number">R0402_4K7_1%_0.0625W_100PPM</field>
+        <field name="Val">30k</field>
+        <field name="Part Number">R0402_30K_1%_0.0625W_100PPM</field>
         <field name="Library Ref">Resistor - 1%</field>
         <field name="Library Path">SchLib\Resistors.SchLib</field>
-        <field name="Comment">4k7</field>
+        <field name="Comment">30k</field>
         <field name="Component Kind">Standard</field>
         <field name="Component Type">Standard</field>
         <field name="PackageDescription"> </field>
@@ -21566,7 +21677,7 @@
         <field name="Voltage"> </field>
         <field name="Part Description">General Purpose Thick Film Chip Resistor</field>
         <field name="Manufacturer">GENERIC</field>
-        <field name="Manufacturer Part Number">R0402_4K7_1%_0.0625W_100PPM</field>
+        <field name="Manufacturer Part Number">R0402_30K_1%_0.0625W_100PPM</field>
         <field name="Case">0402</field>
         <field name="PressFit">No</field>
         <field name="Mounted">Yes</field>
@@ -21577,7 +21688,7 @@
         <field name="SMD">Yes</field>
         <field name="ComponentHeight"> </field>
         <field name="Manufacturer1 Example">YAGEO PHYCOMP</field>
-        <field name="Manufacturer1 Part Number">232270674702L</field>
+        <field name="Manufacturer1 Part Number">232270673003L</field>
         <field name="Manufacturer1 ComponentHeight">0.4mm</field>
         <field name="HelpURL">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
         <field name="Author">CERN DEM JLC</field>
@@ -21591,13 +21702,13 @@
         <field name="Datasheet">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
         <field name="Description">General Purpose Thick Film Chip Resistor</field>
       </fields>
-      <libsource lib="Resistors SMD" part="R0402_4K7_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
+      <libsource lib="Resistors SMD" part="R0402_30K_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
       <property name="Tolerance" value="±1%"/>
-      <property name="Val" value="4k7"/>
-      <property name="Part Number" value="R0402_4K7_1%_0.0625W_100PPM"/>
+      <property name="Val" value="30k"/>
+      <property name="Part Number" value="R0402_30K_1%_0.0625W_100PPM"/>
       <property name="Library Ref" value="Resistor - 1%"/>
       <property name="Library Path" value="SchLib\Resistors.SchLib"/>
-      <property name="Comment" value="4k7"/>
+      <property name="Comment" value="30k"/>
       <property name="Component Kind" value="Standard"/>
       <property name="Component Type" value="Standard"/>
       <property name="PackageDescription" value=" "/>
@@ -21610,7 +21721,7 @@
       <property name="Voltage" value=" "/>
       <property name="Part Description" value="General Purpose Thick Film Chip Resistor"/>
       <property name="Manufacturer" value="GENERIC"/>
-      <property name="Manufacturer Part Number" value="R0402_4K7_1%_0.0625W_100PPM"/>
+      <property name="Manufacturer Part Number" value="R0402_30K_1%_0.0625W_100PPM"/>
       <property name="Case" value="0402"/>
       <property name="PressFit" value="No"/>
       <property name="Mounted" value="Yes"/>
@@ -21621,7 +21732,7 @@
       <property name="SMD" value="Yes"/>
       <property name="ComponentHeight" value=" "/>
       <property name="Manufacturer1 Example" value="YAGEO PHYCOMP"/>
-      <property name="Manufacturer1 Part Number" value="232270674702L"/>
+      <property name="Manufacturer1 Part Number" value="232270673003L"/>
       <property name="Manufacturer1 ComponentHeight" value="0.4mm"/>
       <property name="HelpURL" value="\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf"/>
       <property name="Author" value="CERN DEM JLC"/>
@@ -21634,7 +21745,7 @@
       <property name="Sheetname" value="Power"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/1f98e56a-3346-4f12-a356-5cd64c4ccde0/"/>
-      <tstamps>d4dda6e2-b7d1-4c31-88cb-fff5a45e1624</tstamps>
+      <tstamps>ba598004-dc3b-4851-9828-9966ca2c47b0</tstamps>
     </comp>
     <comp ref="R147">
       <value>R0402_30K_1%_0.0625W_100PPM</value>
@@ -22387,6 +22498,476 @@
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/1f98e56a-3346-4f12-a356-5cd64c4ccde0/"/>
       <tstamps>5a87b7ec-e467-4bf8-a140-8736c9269169</tstamps>
+    </comp>
+    <comp ref="R177">
+      <value>R0402_12K_1%_0.0625W_100PPM</value>
+      <footprint>Resistors SMD:RESC1005X40N</footprint>
+      <datasheet>\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</datasheet>
+      <description>General Purpose Thick Film Chip Resistor</description>
+      <fields>
+        <field name="Tolerance">±1%</field>
+        <field name="Val">12k</field>
+        <field name="Part Number">R0402_12K_1%_0.0625W_100PPM</field>
+        <field name="Library Ref">Resistor - 1%</field>
+        <field name="Library Path">SchLib\Resistors.SchLib</field>
+        <field name="Comment">12k</field>
+        <field name="Component Kind">Standard</field>
+        <field name="Component Type">Standard</field>
+        <field name="PackageDescription"> </field>
+        <field name="Pin Count">2</field>
+        <field name="Footprint Path">PcbLib\Resistors SMD.PcbLib</field>
+        <field name="Footprint Ref">RESC1005X40N</field>
+        <field name="Status">Not Recommended</field>
+        <field name="Power">0.0625W</field>
+        <field name="TC">±100ppm/°C</field>
+        <field name="Voltage"> </field>
+        <field name="Part Description">General Purpose Thick Film Chip Resistor</field>
+        <field name="Manufacturer">GENERIC</field>
+        <field name="Manufacturer Part Number">R0402_12K_1%_0.0625W_100PPM</field>
+        <field name="Case">0402</field>
+        <field name="PressFit">No</field>
+        <field name="Mounted">Yes</field>
+        <field name="Sense Comment"> </field>
+        <field name="Sense">No</field>
+        <field name="Status Comment"> </field>
+        <field name="Socket">No</field>
+        <field name="SMD">Yes</field>
+        <field name="ComponentHeight"> </field>
+        <field name="Manufacturer1 Example">YAGEO PHYCOMP</field>
+        <field name="Manufacturer1 Part Number">232270671203L</field>
+        <field name="Manufacturer1 ComponentHeight">0.4mm</field>
+        <field name="HelpURL">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
+        <field name="Author">CERN DEM JLC</field>
+        <field name="CreateDate">12/03/07 00:00:00</field>
+        <field name="LatestRevisionDate">10/17/12 00:00:00</field>
+        <field name="Database Table Name">Resistors</field>
+        <field name="Library Name">Resistors SMD</field>
+        <field name="Footprint Library">Resistors SMD</field>
+        <field name="License">CC-BY-SA 4.0</field>
+        <field name="Footprint">Resistors SMD:RESC1005X40N</field>
+        <field name="Datasheet">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
+        <field name="Description">General Purpose Thick Film Chip Resistor</field>
+      </fields>
+      <libsource lib="Resistors SMD" part="R0402_12K_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
+      <property name="Tolerance" value="±1%"/>
+      <property name="Val" value="12k"/>
+      <property name="Part Number" value="R0402_12K_1%_0.0625W_100PPM"/>
+      <property name="Library Ref" value="Resistor - 1%"/>
+      <property name="Library Path" value="SchLib\Resistors.SchLib"/>
+      <property name="Comment" value="12k"/>
+      <property name="Component Kind" value="Standard"/>
+      <property name="Component Type" value="Standard"/>
+      <property name="PackageDescription" value=" "/>
+      <property name="Pin Count" value="2"/>
+      <property name="Footprint Path" value="PcbLib\Resistors SMD.PcbLib"/>
+      <property name="Footprint Ref" value="RESC1005X40N"/>
+      <property name="Status" value="Not Recommended"/>
+      <property name="Power" value="0.0625W"/>
+      <property name="TC" value="±100ppm/°C"/>
+      <property name="Voltage" value=" "/>
+      <property name="Part Description" value="General Purpose Thick Film Chip Resistor"/>
+      <property name="Manufacturer" value="GENERIC"/>
+      <property name="Manufacturer Part Number" value="R0402_12K_1%_0.0625W_100PPM"/>
+      <property name="Case" value="0402"/>
+      <property name="PressFit" value="No"/>
+      <property name="Mounted" value="Yes"/>
+      <property name="Sense Comment" value=" "/>
+      <property name="Sense" value="No"/>
+      <property name="Status Comment" value=" "/>
+      <property name="Socket" value="No"/>
+      <property name="SMD" value="Yes"/>
+      <property name="ComponentHeight" value=" "/>
+      <property name="Manufacturer1 Example" value="YAGEO PHYCOMP"/>
+      <property name="Manufacturer1 Part Number" value="232270671203L"/>
+      <property name="Manufacturer1 ComponentHeight" value="0.4mm"/>
+      <property name="HelpURL" value="\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf"/>
+      <property name="Author" value="CERN DEM JLC"/>
+      <property name="CreateDate" value="12/03/07 00:00:00"/>
+      <property name="LatestRevisionDate" value="10/17/12 00:00:00"/>
+      <property name="Database Table Name" value="Resistors"/>
+      <property name="Library Name" value="Resistors SMD"/>
+      <property name="Footprint Library" value="Resistors SMD"/>
+      <property name="License" value="CC-BY-SA 4.0"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/1f98e56a-3346-4f12-a356-5cd64c4ccde0/"/>
+      <tstamps>0329ead9-fe94-4149-9dbb-a50b5b9749b3</tstamps>
+    </comp>
+    <comp ref="R178">
+      <value>R0402_12K_1%_0.0625W_100PPM</value>
+      <footprint>Resistors SMD:RESC1005X40N</footprint>
+      <datasheet>\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</datasheet>
+      <description>General Purpose Thick Film Chip Resistor</description>
+      <fields>
+        <field name="Tolerance">±1%</field>
+        <field name="Val">12k</field>
+        <field name="Part Number">R0402_12K_1%_0.0625W_100PPM</field>
+        <field name="Library Ref">Resistor - 1%</field>
+        <field name="Library Path">SchLib\Resistors.SchLib</field>
+        <field name="Comment">12k</field>
+        <field name="Component Kind">Standard</field>
+        <field name="Component Type">Standard</field>
+        <field name="PackageDescription"> </field>
+        <field name="Pin Count">2</field>
+        <field name="Footprint Path">PcbLib\Resistors SMD.PcbLib</field>
+        <field name="Footprint Ref">RESC1005X40N</field>
+        <field name="Status">Not Recommended</field>
+        <field name="Power">0.0625W</field>
+        <field name="TC">±100ppm/°C</field>
+        <field name="Voltage"> </field>
+        <field name="Part Description">General Purpose Thick Film Chip Resistor</field>
+        <field name="Manufacturer">GENERIC</field>
+        <field name="Manufacturer Part Number">R0402_12K_1%_0.0625W_100PPM</field>
+        <field name="Case">0402</field>
+        <field name="PressFit">No</field>
+        <field name="Mounted">Yes</field>
+        <field name="Sense Comment"> </field>
+        <field name="Sense">No</field>
+        <field name="Status Comment"> </field>
+        <field name="Socket">No</field>
+        <field name="SMD">Yes</field>
+        <field name="ComponentHeight"> </field>
+        <field name="Manufacturer1 Example">YAGEO PHYCOMP</field>
+        <field name="Manufacturer1 Part Number">232270671203L</field>
+        <field name="Manufacturer1 ComponentHeight">0.4mm</field>
+        <field name="HelpURL">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
+        <field name="Author">CERN DEM JLC</field>
+        <field name="CreateDate">12/03/07 00:00:00</field>
+        <field name="LatestRevisionDate">10/17/12 00:00:00</field>
+        <field name="Database Table Name">Resistors</field>
+        <field name="Library Name">Resistors SMD</field>
+        <field name="Footprint Library">Resistors SMD</field>
+        <field name="License">CC-BY-SA 4.0</field>
+        <field name="Footprint">Resistors SMD:RESC1005X40N</field>
+        <field name="Datasheet">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
+        <field name="Description">General Purpose Thick Film Chip Resistor</field>
+      </fields>
+      <libsource lib="Resistors SMD" part="R0402_12K_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
+      <property name="Tolerance" value="±1%"/>
+      <property name="Val" value="12k"/>
+      <property name="Part Number" value="R0402_12K_1%_0.0625W_100PPM"/>
+      <property name="Library Ref" value="Resistor - 1%"/>
+      <property name="Library Path" value="SchLib\Resistors.SchLib"/>
+      <property name="Comment" value="12k"/>
+      <property name="Component Kind" value="Standard"/>
+      <property name="Component Type" value="Standard"/>
+      <property name="PackageDescription" value=" "/>
+      <property name="Pin Count" value="2"/>
+      <property name="Footprint Path" value="PcbLib\Resistors SMD.PcbLib"/>
+      <property name="Footprint Ref" value="RESC1005X40N"/>
+      <property name="Status" value="Not Recommended"/>
+      <property name="Power" value="0.0625W"/>
+      <property name="TC" value="±100ppm/°C"/>
+      <property name="Voltage" value=" "/>
+      <property name="Part Description" value="General Purpose Thick Film Chip Resistor"/>
+      <property name="Manufacturer" value="GENERIC"/>
+      <property name="Manufacturer Part Number" value="R0402_12K_1%_0.0625W_100PPM"/>
+      <property name="Case" value="0402"/>
+      <property name="PressFit" value="No"/>
+      <property name="Mounted" value="Yes"/>
+      <property name="Sense Comment" value=" "/>
+      <property name="Sense" value="No"/>
+      <property name="Status Comment" value=" "/>
+      <property name="Socket" value="No"/>
+      <property name="SMD" value="Yes"/>
+      <property name="ComponentHeight" value=" "/>
+      <property name="Manufacturer1 Example" value="YAGEO PHYCOMP"/>
+      <property name="Manufacturer1 Part Number" value="232270671203L"/>
+      <property name="Manufacturer1 ComponentHeight" value="0.4mm"/>
+      <property name="HelpURL" value="\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf"/>
+      <property name="Author" value="CERN DEM JLC"/>
+      <property name="CreateDate" value="12/03/07 00:00:00"/>
+      <property name="LatestRevisionDate" value="10/17/12 00:00:00"/>
+      <property name="Database Table Name" value="Resistors"/>
+      <property name="Library Name" value="Resistors SMD"/>
+      <property name="Footprint Library" value="Resistors SMD"/>
+      <property name="License" value="CC-BY-SA 4.0"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/1f98e56a-3346-4f12-a356-5cd64c4ccde0/"/>
+      <tstamps>ec4a7085-ec79-4fb2-8e2a-eed96ef7667c</tstamps>
+    </comp>
+    <comp ref="R179">
+      <value>R0402_12K_1%_0.0625W_100PPM</value>
+      <footprint>Resistors SMD:RESC1005X40N</footprint>
+      <datasheet>\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</datasheet>
+      <description>General Purpose Thick Film Chip Resistor</description>
+      <fields>
+        <field name="Tolerance">±1%</field>
+        <field name="Val">12k</field>
+        <field name="Part Number">R0402_12K_1%_0.0625W_100PPM</field>
+        <field name="Library Ref">Resistor - 1%</field>
+        <field name="Library Path">SchLib\Resistors.SchLib</field>
+        <field name="Comment">12k</field>
+        <field name="Component Kind">Standard</field>
+        <field name="Component Type">Standard</field>
+        <field name="PackageDescription"> </field>
+        <field name="Pin Count">2</field>
+        <field name="Footprint Path">PcbLib\Resistors SMD.PcbLib</field>
+        <field name="Footprint Ref">RESC1005X40N</field>
+        <field name="Status">Not Recommended</field>
+        <field name="Power">0.0625W</field>
+        <field name="TC">±100ppm/°C</field>
+        <field name="Voltage"> </field>
+        <field name="Part Description">General Purpose Thick Film Chip Resistor</field>
+        <field name="Manufacturer">GENERIC</field>
+        <field name="Manufacturer Part Number">R0402_12K_1%_0.0625W_100PPM</field>
+        <field name="Case">0402</field>
+        <field name="PressFit">No</field>
+        <field name="Mounted">Yes</field>
+        <field name="Sense Comment"> </field>
+        <field name="Sense">No</field>
+        <field name="Status Comment"> </field>
+        <field name="Socket">No</field>
+        <field name="SMD">Yes</field>
+        <field name="ComponentHeight"> </field>
+        <field name="Manufacturer1 Example">YAGEO PHYCOMP</field>
+        <field name="Manufacturer1 Part Number">232270671203L</field>
+        <field name="Manufacturer1 ComponentHeight">0.4mm</field>
+        <field name="HelpURL">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
+        <field name="Author">CERN DEM JLC</field>
+        <field name="CreateDate">12/03/07 00:00:00</field>
+        <field name="LatestRevisionDate">10/17/12 00:00:00</field>
+        <field name="Database Table Name">Resistors</field>
+        <field name="Library Name">Resistors SMD</field>
+        <field name="Footprint Library">Resistors SMD</field>
+        <field name="License">CC-BY-SA 4.0</field>
+        <field name="Footprint">Resistors SMD:RESC1005X40N</field>
+        <field name="Datasheet">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
+        <field name="Description">General Purpose Thick Film Chip Resistor</field>
+      </fields>
+      <libsource lib="Resistors SMD" part="R0402_12K_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
+      <property name="Tolerance" value="±1%"/>
+      <property name="Val" value="12k"/>
+      <property name="Part Number" value="R0402_12K_1%_0.0625W_100PPM"/>
+      <property name="Library Ref" value="Resistor - 1%"/>
+      <property name="Library Path" value="SchLib\Resistors.SchLib"/>
+      <property name="Comment" value="12k"/>
+      <property name="Component Kind" value="Standard"/>
+      <property name="Component Type" value="Standard"/>
+      <property name="PackageDescription" value=" "/>
+      <property name="Pin Count" value="2"/>
+      <property name="Footprint Path" value="PcbLib\Resistors SMD.PcbLib"/>
+      <property name="Footprint Ref" value="RESC1005X40N"/>
+      <property name="Status" value="Not Recommended"/>
+      <property name="Power" value="0.0625W"/>
+      <property name="TC" value="±100ppm/°C"/>
+      <property name="Voltage" value=" "/>
+      <property name="Part Description" value="General Purpose Thick Film Chip Resistor"/>
+      <property name="Manufacturer" value="GENERIC"/>
+      <property name="Manufacturer Part Number" value="R0402_12K_1%_0.0625W_100PPM"/>
+      <property name="Case" value="0402"/>
+      <property name="PressFit" value="No"/>
+      <property name="Mounted" value="Yes"/>
+      <property name="Sense Comment" value=" "/>
+      <property name="Sense" value="No"/>
+      <property name="Status Comment" value=" "/>
+      <property name="Socket" value="No"/>
+      <property name="SMD" value="Yes"/>
+      <property name="ComponentHeight" value=" "/>
+      <property name="Manufacturer1 Example" value="YAGEO PHYCOMP"/>
+      <property name="Manufacturer1 Part Number" value="232270671203L"/>
+      <property name="Manufacturer1 ComponentHeight" value="0.4mm"/>
+      <property name="HelpURL" value="\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf"/>
+      <property name="Author" value="CERN DEM JLC"/>
+      <property name="CreateDate" value="12/03/07 00:00:00"/>
+      <property name="LatestRevisionDate" value="10/17/12 00:00:00"/>
+      <property name="Database Table Name" value="Resistors"/>
+      <property name="Library Name" value="Resistors SMD"/>
+      <property name="Footprint Library" value="Resistors SMD"/>
+      <property name="License" value="CC-BY-SA 4.0"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/1f98e56a-3346-4f12-a356-5cd64c4ccde0/"/>
+      <tstamps>f646698e-9e82-4707-9d86-ec08f907acf8</tstamps>
+    </comp>
+    <comp ref="R180">
+      <value>R0402_12K_1%_0.0625W_100PPM</value>
+      <footprint>Resistors SMD:RESC1005X40N</footprint>
+      <datasheet>\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</datasheet>
+      <description>General Purpose Thick Film Chip Resistor</description>
+      <fields>
+        <field name="Tolerance">±1%</field>
+        <field name="Val">12k</field>
+        <field name="Part Number">R0402_12K_1%_0.0625W_100PPM</field>
+        <field name="Library Ref">Resistor - 1%</field>
+        <field name="Library Path">SchLib\Resistors.SchLib</field>
+        <field name="Comment">12k</field>
+        <field name="Component Kind">Standard</field>
+        <field name="Component Type">Standard</field>
+        <field name="PackageDescription"> </field>
+        <field name="Pin Count">2</field>
+        <field name="Footprint Path">PcbLib\Resistors SMD.PcbLib</field>
+        <field name="Footprint Ref">RESC1005X40N</field>
+        <field name="Status">Not Recommended</field>
+        <field name="Power">0.0625W</field>
+        <field name="TC">±100ppm/°C</field>
+        <field name="Voltage"> </field>
+        <field name="Part Description">General Purpose Thick Film Chip Resistor</field>
+        <field name="Manufacturer">GENERIC</field>
+        <field name="Manufacturer Part Number">R0402_12K_1%_0.0625W_100PPM</field>
+        <field name="Case">0402</field>
+        <field name="PressFit">No</field>
+        <field name="Mounted">Yes</field>
+        <field name="Sense Comment"> </field>
+        <field name="Sense">No</field>
+        <field name="Status Comment"> </field>
+        <field name="Socket">No</field>
+        <field name="SMD">Yes</field>
+        <field name="ComponentHeight"> </field>
+        <field name="Manufacturer1 Example">YAGEO PHYCOMP</field>
+        <field name="Manufacturer1 Part Number">232270671203L</field>
+        <field name="Manufacturer1 ComponentHeight">0.4mm</field>
+        <field name="HelpURL">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
+        <field name="Author">CERN DEM JLC</field>
+        <field name="CreateDate">12/03/07 00:00:00</field>
+        <field name="LatestRevisionDate">10/17/12 00:00:00</field>
+        <field name="Database Table Name">Resistors</field>
+        <field name="Library Name">Resistors SMD</field>
+        <field name="Footprint Library">Resistors SMD</field>
+        <field name="License">CC-BY-SA 4.0</field>
+        <field name="Footprint">Resistors SMD:RESC1005X40N</field>
+        <field name="Datasheet">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
+        <field name="Description">General Purpose Thick Film Chip Resistor</field>
+      </fields>
+      <libsource lib="Resistors SMD" part="R0402_12K_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
+      <property name="Tolerance" value="±1%"/>
+      <property name="Val" value="12k"/>
+      <property name="Part Number" value="R0402_12K_1%_0.0625W_100PPM"/>
+      <property name="Library Ref" value="Resistor - 1%"/>
+      <property name="Library Path" value="SchLib\Resistors.SchLib"/>
+      <property name="Comment" value="12k"/>
+      <property name="Component Kind" value="Standard"/>
+      <property name="Component Type" value="Standard"/>
+      <property name="PackageDescription" value=" "/>
+      <property name="Pin Count" value="2"/>
+      <property name="Footprint Path" value="PcbLib\Resistors SMD.PcbLib"/>
+      <property name="Footprint Ref" value="RESC1005X40N"/>
+      <property name="Status" value="Not Recommended"/>
+      <property name="Power" value="0.0625W"/>
+      <property name="TC" value="±100ppm/°C"/>
+      <property name="Voltage" value=" "/>
+      <property name="Part Description" value="General Purpose Thick Film Chip Resistor"/>
+      <property name="Manufacturer" value="GENERIC"/>
+      <property name="Manufacturer Part Number" value="R0402_12K_1%_0.0625W_100PPM"/>
+      <property name="Case" value="0402"/>
+      <property name="PressFit" value="No"/>
+      <property name="Mounted" value="Yes"/>
+      <property name="Sense Comment" value=" "/>
+      <property name="Sense" value="No"/>
+      <property name="Status Comment" value=" "/>
+      <property name="Socket" value="No"/>
+      <property name="SMD" value="Yes"/>
+      <property name="ComponentHeight" value=" "/>
+      <property name="Manufacturer1 Example" value="YAGEO PHYCOMP"/>
+      <property name="Manufacturer1 Part Number" value="232270671203L"/>
+      <property name="Manufacturer1 ComponentHeight" value="0.4mm"/>
+      <property name="HelpURL" value="\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf"/>
+      <property name="Author" value="CERN DEM JLC"/>
+      <property name="CreateDate" value="12/03/07 00:00:00"/>
+      <property name="LatestRevisionDate" value="10/17/12 00:00:00"/>
+      <property name="Database Table Name" value="Resistors"/>
+      <property name="Library Name" value="Resistors SMD"/>
+      <property name="Footprint Library" value="Resistors SMD"/>
+      <property name="License" value="CC-BY-SA 4.0"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/1f98e56a-3346-4f12-a356-5cd64c4ccde0/"/>
+      <tstamps>ac081a79-2b30-40dd-b5bc-cec7ce907dcd</tstamps>
+    </comp>
+    <comp ref="R181">
+      <value>R0402_12K_1%_0.0625W_100PPM</value>
+      <footprint>Resistors SMD:RESC1005X40N</footprint>
+      <datasheet>\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</datasheet>
+      <description>General Purpose Thick Film Chip Resistor</description>
+      <fields>
+        <field name="Tolerance">±1%</field>
+        <field name="Val">12k</field>
+        <field name="Part Number">R0402_12K_1%_0.0625W_100PPM</field>
+        <field name="Library Ref">Resistor - 1%</field>
+        <field name="Library Path">SchLib\Resistors.SchLib</field>
+        <field name="Comment">12k</field>
+        <field name="Component Kind">Standard</field>
+        <field name="Component Type">Standard</field>
+        <field name="PackageDescription"> </field>
+        <field name="Pin Count">2</field>
+        <field name="Footprint Path">PcbLib\Resistors SMD.PcbLib</field>
+        <field name="Footprint Ref">RESC1005X40N</field>
+        <field name="Status">Not Recommended</field>
+        <field name="Power">0.0625W</field>
+        <field name="TC">±100ppm/°C</field>
+        <field name="Voltage"> </field>
+        <field name="Part Description">General Purpose Thick Film Chip Resistor</field>
+        <field name="Manufacturer">GENERIC</field>
+        <field name="Manufacturer Part Number">R0402_12K_1%_0.0625W_100PPM</field>
+        <field name="Case">0402</field>
+        <field name="PressFit">No</field>
+        <field name="Mounted">Yes</field>
+        <field name="Sense Comment"> </field>
+        <field name="Sense">No</field>
+        <field name="Status Comment"> </field>
+        <field name="Socket">No</field>
+        <field name="SMD">Yes</field>
+        <field name="ComponentHeight"> </field>
+        <field name="Manufacturer1 Example">YAGEO PHYCOMP</field>
+        <field name="Manufacturer1 Part Number">232270671203L</field>
+        <field name="Manufacturer1 ComponentHeight">0.4mm</field>
+        <field name="HelpURL">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
+        <field name="Author">CERN DEM JLC</field>
+        <field name="CreateDate">12/03/07 00:00:00</field>
+        <field name="LatestRevisionDate">10/17/12 00:00:00</field>
+        <field name="Database Table Name">Resistors</field>
+        <field name="Library Name">Resistors SMD</field>
+        <field name="Footprint Library">Resistors SMD</field>
+        <field name="License">CC-BY-SA 4.0</field>
+        <field name="Footprint">Resistors SMD:RESC1005X40N</field>
+        <field name="Datasheet">\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf</field>
+        <field name="Description">General Purpose Thick Film Chip Resistor</field>
+      </fields>
+      <libsource lib="Resistors SMD" part="R0402_12K_1%_0.0625W_100PPM" description="General Purpose Thick Film Chip Resistor"/>
+      <property name="Tolerance" value="±1%"/>
+      <property name="Val" value="12k"/>
+      <property name="Part Number" value="R0402_12K_1%_0.0625W_100PPM"/>
+      <property name="Library Ref" value="Resistor - 1%"/>
+      <property name="Library Path" value="SchLib\Resistors.SchLib"/>
+      <property name="Comment" value="12k"/>
+      <property name="Component Kind" value="Standard"/>
+      <property name="Component Type" value="Standard"/>
+      <property name="PackageDescription" value=" "/>
+      <property name="Pin Count" value="2"/>
+      <property name="Footprint Path" value="PcbLib\Resistors SMD.PcbLib"/>
+      <property name="Footprint Ref" value="RESC1005X40N"/>
+      <property name="Status" value="Not Recommended"/>
+      <property name="Power" value="0.0625W"/>
+      <property name="TC" value="±100ppm/°C"/>
+      <property name="Voltage" value=" "/>
+      <property name="Part Description" value="General Purpose Thick Film Chip Resistor"/>
+      <property name="Manufacturer" value="GENERIC"/>
+      <property name="Manufacturer Part Number" value="R0402_12K_1%_0.0625W_100PPM"/>
+      <property name="Case" value="0402"/>
+      <property name="PressFit" value="No"/>
+      <property name="Mounted" value="Yes"/>
+      <property name="Sense Comment" value=" "/>
+      <property name="Sense" value="No"/>
+      <property name="Status Comment" value=" "/>
+      <property name="Socket" value="No"/>
+      <property name="SMD" value="Yes"/>
+      <property name="ComponentHeight" value=" "/>
+      <property name="Manufacturer1 Example" value="YAGEO PHYCOMP"/>
+      <property name="Manufacturer1 Part Number" value="232270671203L"/>
+      <property name="Manufacturer1 ComponentHeight" value="0.4mm"/>
+      <property name="HelpURL" value="\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf"/>
+      <property name="Author" value="CERN DEM JLC"/>
+      <property name="CreateDate" value="12/03/07 00:00:00"/>
+      <property name="LatestRevisionDate" value="10/17/12 00:00:00"/>
+      <property name="Database Table Name" value="Resistors"/>
+      <property name="Library Name" value="Resistors SMD"/>
+      <property name="Footprint Library" value="Resistors SMD"/>
+      <property name="License" value="CC-BY-SA 4.0"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/1f98e56a-3346-4f12-a356-5cd64c4ccde0/"/>
+      <tstamps>4df720b4-e142-4e1d-89b6-b9f87c37e693</tstamps>
     </comp>
     <comp ref="TP5">
       <value>TestPoint</value>
@@ -48366,6 +48947,7 @@
       <node ref="R155" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R157" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R161" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R182" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R21" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R23" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R24" pin="2" pinfunction="2" pintype="passive"/>
@@ -48466,6 +49048,7 @@
       <node ref="Y3" pin="6" pinfunction="+VS" pintype="power_in"/>
     </net>
     <net code="7" name="+3V3_P" class="Default">
+      <node ref="A1" pin="2" pinfunction="IOREF" pintype="output"/>
       <node ref="A1" pin="4" pinfunction="3V3" pintype="power_in"/>
       <node ref="C170" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C171" pin="2" pinfunction="2" pintype="passive"/>
@@ -48845,6 +49428,7 @@
     </net>
     <net code="75" name="AD9_P" class="Default">
       <node ref="R137" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pintype="passive"/>
       <node ref="U1" pin="B10" pinfunction="IO_L5P_T0_AD9P_15" pintype="bidirectional"/>
     </net>
     <net code="76" name="ARDUINO_D0" class="Default">
@@ -49635,7 +50219,12 @@
       <node ref="R173" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R174" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R175" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R177" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R178" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R179" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R180" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R181" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R22" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R29" pin="1" pinfunction="1" pintype="passive"/>
@@ -49877,6 +50466,7 @@
       <node ref="U7" pin="13" pinfunction="MDC" pintype="input"/>
     </net>
     <net code="161" name="MDIO_PHY" class="Default">
+      <node ref="R182" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="E18" pinfunction="IO_L24N_T3_RS0_15" pintype="bidirectional"/>
       <node ref="U7" pin="14" pinfunction="MDIO" pintype="bidirectional"/>
     </net>
@@ -50173,6 +50763,7 @@
     </net>
     <net code="225" name="Net-(U4-EN)" class="Default">
       <node ref="R142" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R177" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U4" pin="6" pinfunction="EN" pintype="input"/>
     </net>
     <net code="226" name="Net-(U4-FB)" class="Default">
@@ -50181,7 +50772,8 @@
       <node ref="U4" pin="7" pinfunction="FB" pintype="input"/>
     </net>
     <net code="227" name="Net-(U4-PG)" class="Default">
-      <node ref="R144" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R143" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R178" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U4" pin="5" pinfunction="PG" pintype="open_collector"/>
       <node ref="U5" pin="6" pinfunction="EN" pintype="input"/>
     </net>
@@ -50243,8 +50835,10 @@
       <node ref="U9" pin="1" pinfunction="IN" pintype="power_in"/>
     </net>
     <net code="239" name="Net-(U10-EN)" class="Default">
-      <node ref="R143" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R144" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R145" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R179" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R180" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U10" pin="6" pinfunction="EN" pintype="input"/>
       <node ref="U11" pin="6" pinfunction="EN" pintype="input"/>
       <node ref="U5" pin="5" pinfunction="PG" pintype="open_collector"/>
@@ -50257,6 +50851,7 @@
     </net>
     <net code="241" name="Net-(U10-PG)" class="Default">
       <node ref="R146" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R181" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U10" pin="5" pinfunction="PG" pintype="open_collector"/>
       <node ref="U6" pin="6" pinfunction="EN" pintype="input"/>
     </net>
@@ -50731,20 +51326,24 @@
       <node ref="U24" pin="4" pinfunction="OUT" pintype="open_collector"/>
       <node ref="U26" pin="1" pinfunction="~{RESET}" pintype="input"/>
     </net>
-    <net code="349" name="RX" class="Default">
+    <net code="349" name="RTS" class="Default">
+      <node ref="SW2" pin="2" pintype="passive"/>
+      <node ref="U21" pin="40" pinfunction="BDBUS2" pintype="bidirectional"/>
+    </net>
+    <net code="350" name="RX" class="Default">
       <node ref="U1" pin="F17" pinfunction="IO_L24P_T3_RS1_15" pintype="bidirectional"/>
       <node ref="U21" pin="39" pinfunction="BDBUS1" pintype="bidirectional"/>
     </net>
-    <net code="350" name="TX" class="Default">
+    <net code="351" name="TX" class="Default">
       <node ref="U1" pin="H18" pinfunction="IO_L23N_T3_FWE_B_15" pintype="bidirectional"/>
       <node ref="U21" pin="38" pinfunction="BDBUS0" pintype="bidirectional"/>
     </net>
-    <net code="351" name="VCXO_EN" class="Default">
+    <net code="352" name="VCXO_EN" class="Default">
       <node ref="R176" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U17" pin="15" pinfunction="P15" pintype="bidirectional"/>
       <node ref="Y3" pin="2" pinfunction="E/D" pintype="input"/>
     </net>
-    <net code="352" name="VUSB" class="Default">
+    <net code="353" name="VUSB" class="Default">
       <node ref="D1" pin="4" pinfunction="VCC" pintype="power_in"/>
       <node ref="J2" pin="A4" pinfunction="VBUS" pintype="power_out"/>
       <node ref="J2" pin="A9" pinfunction="VBUS" pintype="passive"/>
@@ -50752,33 +51351,33 @@
       <node ref="J2" pin="B9" pinfunction="VBUS" pintype="passive"/>
       <node ref="L12" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="353" name="WR_CLK0_N" class="Default">
+    <net code="354" name="WR_CLK0_N" class="Default">
       <node ref="C213" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="D5" pinfunction="MGTREFCLK0N_216" pintype="bidirectional"/>
     </net>
-    <net code="354" name="WR_CLK0_P" class="Default">
+    <net code="355" name="WR_CLK0_P" class="Default">
       <node ref="C205" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="D6" pinfunction="MGTREFCLK0P_216" pintype="bidirectional"/>
     </net>
-    <net code="355" name="WR_DAC1_SYNC" class="Default">
+    <net code="356" name="WR_DAC1_SYNC" class="Default">
       <node ref="U1" pin="D11" pinfunction="IO_L6P_T0_15" pintype="bidirectional"/>
       <node ref="U15" pin="5" pinfunction="~{SYNC}" pintype="input"/>
     </net>
-    <net code="356" name="WR_DAC2_SYNC" class="Default">
+    <net code="357" name="WR_DAC2_SYNC" class="Default">
       <node ref="U1" pin="D10" pinfunction="IO_0_15" pintype="bidirectional"/>
       <node ref="U14" pin="5" pinfunction="~{SYNC}" pintype="input"/>
     </net>
-    <net code="357" name="WR_DAC_DIN" class="Default">
+    <net code="358" name="WR_DAC_DIN" class="Default">
       <node ref="U1" pin="B11" pinfunction="IO_L4N_T0_15" pintype="bidirectional"/>
       <node ref="U14" pin="7" pinfunction="DIN" pintype="input"/>
       <node ref="U15" pin="7" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="358" name="WR_DAC_SCLK" class="Default">
+    <net code="359" name="WR_DAC_SCLK" class="Default">
       <node ref="U1" pin="C11" pinfunction="IO_L4P_T0_15" pintype="bidirectional"/>
       <node ref="U14" pin="6" pinfunction="SCLK" pintype="input"/>
       <node ref="U15" pin="6" pinfunction="SCLK" pintype="input"/>
     </net>
-    <net code="359" name="XADCGND" class="Default">
+    <net code="360" name="XADCGND" class="Default">
       <node ref="C151" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C154" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="L11" pin="2" pinfunction="2" pintype="passive"/>
@@ -50788,14 +51387,11 @@
       <node ref="U1" pin="L9" pinfunction="VN_0" pintype="bidirectional"/>
       <node ref="U9" pin="3" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="360" name="unconnected-(A1-+5V-Pad5)" class="Default">
+    <net code="361" name="unconnected-(A1-+5V-Pad5)" class="Default">
       <node ref="A1" pin="5" pinfunction="+5V" pintype="power_out+no_connect"/>
     </net>
-    <net code="361" name="unconnected-(A1-AREF-Pad30)" class="Default">
+    <net code="362" name="unconnected-(A1-AREF-Pad30)" class="Default">
       <node ref="A1" pin="30" pinfunction="AREF" pintype="input+no_connect"/>
-    </net>
-    <net code="362" name="unconnected-(A1-IOREF-Pad2)" class="Default">
-      <node ref="A1" pin="2" pinfunction="IOREF" pintype="output+no_connect"/>
     </net>
     <net code="363" name="unconnected-(A1-NC-Pad1)" class="Default">
       <node ref="A1" pin="1" pinfunction="NC" pintype="no_connect"/>
@@ -50950,55 +51546,52 @@
     <net code="413" name="unconnected-(U21-BCBUS7-Pad59)" class="Default">
       <node ref="U21" pin="59" pinfunction="BCBUS7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="414" name="unconnected-(U21-BDBUS2-Pad40)" class="Default">
-      <node ref="U21" pin="40" pinfunction="BDBUS2" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="415" name="unconnected-(U21-BDBUS3-Pad41)" class="Default">
+    <net code="414" name="unconnected-(U21-BDBUS3-Pad41)" class="Default">
       <node ref="U21" pin="41" pinfunction="BDBUS3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="416" name="unconnected-(U21-BDBUS4-Pad43)" class="Default">
+    <net code="415" name="unconnected-(U21-BDBUS4-Pad43)" class="Default">
       <node ref="U21" pin="43" pinfunction="BDBUS4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="417" name="unconnected-(U21-BDBUS5-Pad44)" class="Default">
+    <net code="416" name="unconnected-(U21-BDBUS5-Pad44)" class="Default">
       <node ref="U21" pin="44" pinfunction="BDBUS5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="418" name="unconnected-(U21-BDBUS6-Pad45)" class="Default">
+    <net code="417" name="unconnected-(U21-BDBUS6-Pad45)" class="Default">
       <node ref="U21" pin="45" pinfunction="BDBUS6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="419" name="unconnected-(U21-BDBUS7-Pad46)" class="Default">
+    <net code="418" name="unconnected-(U21-BDBUS7-Pad46)" class="Default">
       <node ref="U21" pin="46" pinfunction="BDBUS7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="420" name="unconnected-(U21-PWREN#-Pad60)" class="Default">
+    <net code="419" name="unconnected-(U21-PWREN#-Pad60)" class="Default">
       <node ref="U21" pin="60" pinfunction="PWREN#" pintype="output+no_connect"/>
     </net>
-    <net code="421" name="unconnected-(U21-SUSPEND#-Pad36)" class="Default">
+    <net code="420" name="unconnected-(U21-SUSPEND#-Pad36)" class="Default">
       <node ref="U21" pin="36" pinfunction="SUSPEND#" pintype="output+no_connect"/>
     </net>
-    <net code="422" name="unconnected-(U22-NC-Pad6)" class="Default">
+    <net code="421" name="unconnected-(U22-NC-Pad6)" class="Default">
       <node ref="U22" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="423" name="unconnected-(U22-NC-Pad7)" class="Default">
+    <net code="422" name="unconnected-(U22-NC-Pad7)" class="Default">
       <node ref="U22" pin="7" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="424" name="unconnected-(U26-EP-Pad17)" class="Default">
+    <net code="423" name="unconnected-(U26-EP-Pad17)" class="Default">
       <node ref="U26" pin="17" pinfunction="EP" pintype="passive+no_connect"/>
     </net>
-    <net code="425" name="unconnected-(U27-NC-Pad13)" class="Default">
+    <net code="424" name="unconnected-(U27-NC-Pad13)" class="Default">
       <node ref="U27" pin="13" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="426" name="unconnected-(U27-RFU-Pad6)" class="Default">
+    <net code="425" name="unconnected-(U27-RFU-Pad6)" class="Default">
       <node ref="U27" pin="6" pinfunction="RFU" pintype="passive+no_connect"/>
     </net>
-    <net code="427" name="unconnected-(U27-~{HOLD/}IO3-Pad1)" class="Default">
+    <net code="426" name="unconnected-(U27-~{HOLD/}IO3-Pad1)" class="Default">
       <node ref="U27" pin="1" pinfunction="~{HOLD/}IO3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="428" name="unconnected-(U27-~{RESET/}RFU-Pad3)" class="Default">
+    <net code="427" name="unconnected-(U27-~{RESET/}RFU-Pad3)" class="Default">
       <node ref="U27" pin="3" pinfunction="~{RESET/}RFU" pintype="input+no_connect"/>
     </net>
-    <net code="429" name="unconnected-(U28-NC-Pad7)" class="Default">
+    <net code="428" name="unconnected-(U28-NC-Pad7)" class="Default">
       <node ref="U28" pin="7" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="430" name="unconnected-(Y3-N/C-Pad5)" class="Default">
+    <net code="429" name="unconnected-(Y3-N/C-Pad5)" class="Default">
       <node ref="Y3" pin="5" pinfunction="N/C" pintype="passive+no_connect"/>
     </net>
   </nets>
