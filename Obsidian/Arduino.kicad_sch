@@ -11,6 +11,113 @@
 		(comment 1 "${author}")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library_Symbol:+12V"
 			(power)
 			(pin_numbers
@@ -3613,6 +3720,16 @@
 		)
 		(uuid "1f1f4167-7155-457a-a1c1-4d468827b0f0")
 	)
+	(wire
+		(pts
+			(xy 44.45 127) (xy 50.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f22eb83-7686-4ec5-b620-8e66ef3ac752")
+	)
 	(bus
 		(pts
 			(xy 97.79 97.79) (xy 97.79 100.33)
@@ -3725,6 +3842,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 146.05) (xy 50.8 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7b0cf9-dbb2-4390-a13a-364da475bad0")
+	)
+	(wire
+		(pts
 			(xy 100.33 82.55) (xy 125.73 82.55)
 		)
 		(stroke
@@ -3755,6 +3882,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 127) (xy 69.85 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fa3d12-a737-4048-b12f-18b02794677f")
+	)
+	(wire
+		(pts
 			(xy 236.22 81.28) (xy 251.46 81.28)
 		)
 		(stroke
@@ -3772,6 +3909,16 @@
 			(type default)
 		)
 		(uuid "4b5da0b6-1085-4da3-8524-c6e9b0642182")
+	)
+	(wire
+		(pts
+			(xy 44.45 137.16) (xy 50.8 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0e0fd5-2219-45f9-8af6-f5bad6babd70")
 	)
 	(bus
 		(pts
@@ -3832,6 +3979,16 @@
 			(type default)
 		)
 		(uuid "69e3d2c9-98e4-4d1a-92fb-8c8db5441aad")
+	)
+	(wire
+		(pts
+			(xy 63.5 137.16) (xy 69.85 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab59c08-c836-4758-99ba-3e964ede7dd4")
 	)
 	(wire
 		(pts
@@ -3965,6 +4122,26 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 153.67) (xy 71.12 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bce4832-7d2b-468d-aa60-705e74587ed2")
+	)
+	(wire
+		(pts
+			(xy 44.45 153.67) (xy 50.8 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c116502-0d4d-4299-acf2-4198cae824fc")
+	)
+	(wire
+		(pts
 			(xy 100.33 102.87) (xy 125.73 102.87)
 		)
 		(stroke
@@ -4072,6 +4249,16 @@
 			(type default)
 		)
 		(uuid "c766d7ce-7ec5-4ea6-9649-63e261698575")
+	)
+	(wire
+		(pts
+			(xy 63.5 146.05) (xy 69.85 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb38e41c-da0e-4c6d-ad92-21ab8dd6cd9a")
 	)
 	(wire
 		(pts
@@ -4203,6 +4390,16 @@
 		)
 		(uuid "0e597605-aab7-4aab-8d83-718a3cb5646a")
 	)
+	(label "GND"
+		(at 44.45 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14ca2819-33c5-4753-a52c-9932af823416")
+	)
 	(label "ARDUINO_D13"
 		(at 105.41 102.87 0)
 		(effects
@@ -4243,6 +4440,16 @@
 		)
 		(uuid "21adf6b7-b1ce-4d67-a02e-afb83fba438c")
 	)
+	(label "A5"
+		(at 63.5 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "242262c6-824b-468d-b95e-5849970e8bd2")
+	)
 	(label "AD0_N"
 		(at 246.38 66.04 180)
 		(effects
@@ -4252,6 +4459,16 @@
 			(justify right bottom)
 		)
 		(uuid "29f2c718-e1a7-4d06-9c03-05dac0e526e7")
+	)
+	(label "A4"
+		(at 63.5 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c0cb013-f559-44cc-b864-4c9bf2f2a73a")
 	)
 	(label "A1"
 		(at 200.66 81.28 0)
@@ -4282,6 +4499,16 @@
 			(justify left bottom)
 		)
 		(uuid "3f438f63-750d-46d1-bf83-2d749ebfb625")
+	)
+	(label "A7"
+		(at 44.45 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49bef381-6131-4dea-a6f1-454679fff6b7")
 	)
 	(label "ARDUINO_D2"
 		(at 105.41 74.93 0)
@@ -4343,6 +4570,16 @@
 		)
 		(uuid "78a52da8-1a6a-4f9e-91d3-b4e0060c5200")
 	)
+	(label "B4"
+		(at 44.45 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a8bf328-f54c-4272-90b9-86a78e89e059")
+	)
 	(label "AD8_P"
 		(at 246.38 81.28 180)
 		(effects
@@ -4352,6 +4589,16 @@
 			(justify right bottom)
 		)
 		(uuid "81925afb-2284-4c35-bfe5-bc7f38a6e4cf")
+	)
+	(label "B2"
+		(at 44.45 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82dd4e85-7e60-446f-a198-f1053f5ec0cc")
 	)
 	(label "AD8_N"
 		(at 246.38 86.36 180)
@@ -4382,6 +4629,26 @@
 			(justify left bottom)
 		)
 		(uuid "9aa9e34a-12ae-4bc1-88ff-1b682ae4c184")
+	)
+	(label "GND"
+		(at 64.77 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3f0c91c-4409-4222-af57-65aabea2dc1e")
+	)
+	(label "GND"
+		(at 63.5 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8de3074-6787-4a1e-9ec3-1eb75596f567")
 	)
 	(label "ARDUINO_D6"
 		(at 105.41 85.09 0)
@@ -5014,6 +5281,73 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
 					(reference "R134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b38cc3f-49dd-4a3b-b6a1-1fe0d88e13c4")
+		(property "Reference" "TP15"
+			(at 53.34 122.4279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 53.34 124.9679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 55.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "327ca31c-a0ab-4f1e-afdb-c2c8d3773be4")
+		)
+		(instances
+			(project ""
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -6439,6 +6773,73 @@
 			(project ""
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
 					(reference "R125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "450905eb-9d93-4845-a1f7-e507a1c394f7")
+		(property "Reference" "TP20"
+			(at 72.39 141.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 72.39 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 74.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84998275-f8a8-481e-b1a8-ac30a774d56e")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -8317,6 +8718,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "750516eb-bd26-491f-8995-49e19ecd6a5c")
+		(property "Reference" "TP16"
+			(at 53.34 132.5879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 53.34 135.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 55.88 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "634c9e1b-4efe-4abb-89ce-d4d38e6e79f8")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library_Symbol:GND")
 		(at 218.44 88.9 0)
 		(unit 1)
@@ -9872,6 +10340,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a12c1ba5-238e-4647-b026-b8e2ab4ad560")
+		(property "Reference" "TP19"
+			(at 53.34 141.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 53.34 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 55.88 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7774b6e8-ae6d-4373-ad29-91a6e240d936")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library_Symbol:GND")
 		(at 228.6 66.04 0)
 		(unit 1)
@@ -10471,6 +11006,73 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
 					(reference "#PWR0290")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acdefb19-c0e4-4933-a45c-7e7a14707a27")
+		(property "Reference" "TP17"
+			(at 72.39 132.5879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 72.39 135.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 74.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b097d8f-6718-43e6-8164-2f67a2a13a31")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -11492,6 +12094,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.12 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baef3e6f-400c-44b3-8168-c04d24a5f06e")
+		(property "Reference" "TP22"
+			(at 73.66 149.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 73.66 151.6379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 76.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 71.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e98549ba-7438-479e-9aee-d1e16fa667d0")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library_Symbol:GND")
 		(at 218.44 105.41 0)
 		(unit 1)
@@ -11551,6 +12220,73 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
 					(reference "#PWR0289")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6d310f5-5aca-4e78-96af-e86eb74db5d7")
+		(property "Reference" "TP21"
+			(at 53.34 149.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 53.34 151.6379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c835e2e7-966c-416f-8d4b-d5e805de421d")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -13106,6 +13842,73 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
 					(reference "#PWR0284")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcf9fe33-c4c2-455d-83e0-984e76477c9b")
+		(property "Reference" "TP18"
+			(at 72.39 122.4279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 72.39 124.9679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 74.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09adc289-1de3-4f4a-acc4-f134b15100b6")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
+					(reference "TP18")
 					(unit 1)
 				)
 			)

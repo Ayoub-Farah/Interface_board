@@ -123,6 +123,28 @@
 		(uuid "e62e5d32-c598-46be-bc24-8de5d37e3ae1")
 	)
 	(fp_circle
+		(center 70.9 19.3)
+		(end 71.9 19.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "fb432f02-ffc7-4486-8f6e-1a304ae87142")
+	)
+	(fp_circle
+		(center 70.9 44.7)
+		(end 71.9 44.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "7b2044ea-067b-4a35-a9cf-9133296ca818")
+	)
+	(fp_circle
 		(center 73.41 11.7)
 		(end 74.41 11.7)
 		(stroke
@@ -177,11 +199,48 @@
 		(layer "User.4")
 		(uuid "be140758-6f97-48fc-8045-21cf1fcbc771")
 	)
+	(fp_circle
+		(center 88.7 19.3)
+		(end 89.7 19.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "7155708c-cf46-4828-9f54-e1a2414f7cf7")
+	)
 	(fp_text user "B2"
 		(at 72.9 12 0)
 		(unlocked yes)
 		(layer "User.4")
 		(uuid "0acd4cff-b6d4-4fcc-ae1e-00fd5badc49d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 70.1 19.6 0)
+		(unlocked yes)
+		(layer "User.4")
+		(uuid "12a24f0f-42d8-410d-8a80-d03cfd0caed3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 70.1 45 0)
+		(unlocked yes)
+		(layer "User.4")
+		(uuid "20479169-1ece-4bb8-a1bf-eebd6825ca11")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -242,6 +301,19 @@
 			(justify left bottom)
 		)
 	)
+	(fp_text user "GND"
+		(at 87.9 19.7 0)
+		(unlocked yes)
+		(layer "User.4")
+		(uuid "d51d28e0-fee6-441a-b738-f9afa0f3063e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(fp_text user "A5"
 		(at 88.2 22.2 0)
 		(unlocked yes)
@@ -258,13 +330,112 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/3D_folder/TWIST.step"
 		(offset
-			(xyz 0 0 -31.5)
+			(xyz 0 0 -17.8)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/libs/3D_folder/owntech_SPIN.step"
+		(offset
+			(xyz 70.9 -1.5 -16.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/libs/3D_folder/pogo_pin_16mm_free.step"
+		(offset
+			(xyz 73.5 -19.3 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 180 -0)
+		)
+	)
+	(model "${KIPRJMOD}/libs/3D_folder/pogo_pin_16mm_free.step"
+		(offset
+			(xyz 73.5 -16.7 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+	(model "${KIPRJMOD}/libs/3D_folder/pogo_pin_16mm_free.step"
+		(offset
+			(xyz 73.5 -11.7 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/libs/3D_folder/pogo_pin_16mm_free.step"
+		(offset
+			(xyz 88.7 -21.9 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/libs/3D_folder/pogo_pin_16mm_free.step"
+		(offset
+			(xyz 71 -49.7 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/libs/3D_folder/pogo_pin_16mm_free.step"
+		(offset
+			(xyz 70.9 -19.3 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/libs/3D_folder/pogo_pin_16mm_free.step"
+		(offset
+			(xyz 71 -44.5 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/libs/3D_folder/pogo_pin_16mm_free.step"
+		(offset
+			(xyz 88.7 -19.3 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
 		)
 	)
 )
