@@ -5242,7 +5242,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "B.Cu")
+		(layer "F.Cu")
 		(uuid "6646ffc2-8b38-443a-947a-6504d977c174")
 		(hatch edge 0.5)
 		(connect_pads
@@ -5275,7 +5275,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "B.Cu")
+		(layer "F.Cu")
 		(uuid "7955b69a-6667-4d07-a838-cf97b1f67f88")
 		(hatch edge 0.5)
 		(connect_pads
@@ -5308,40 +5308,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "B.Cu")
-		(uuid "9d0bea02-dd7e-413d-b398-b0ec1cf80fc5")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy -10.332257 -6.271708) (xy -13.207257 -6.271708) (xy -13.207257 8.228292) (xy -15.207257 8.228292)
-				(xy -15.207257 -7.271708) (xy -10.332257 -7.271708)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layers "F.Cu" "B.Cu")
+		(layer "F.Cu")
 		(uuid "94e7f180-e575-4dd7-a2c4-f013886c1880")
 		(hatch edge 0.5)
 		(connect_pads
@@ -5374,7 +5341,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "B.Cu")
+		(layer "F.Cu")
 		(uuid "dea7187f-f72b-4369-9bf2-41e7b151c290")
 		(hatch edge 0.5)
 		(connect_pads
@@ -5386,39 +5353,6 @@
 			(tracks not_allowed)
 			(vias not_allowed)
 			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 3.917743 -6.271708) (xy 1.042743 -6.271708) (xy 1.042743 8.228292) (xy -0.957257 8.228292) (xy -0.957257 -6.271708)
-				(xy -3.832257 -6.271708) (xy -3.832257 -7.271708) (xy 3.917743 -7.271708)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layers "F.Cu" "B.Cu")
-		(uuid "e1686e53-7f40-4dd7-8d2e-0464f4dcde0b")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
 		)

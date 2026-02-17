@@ -1,4 +1,4 @@
-26530246886455603
+26532019098817386
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60381,6 +60381,13 @@ Chip Capacitor, Body 2.0x1.45mm, IPC Medium Density
 0
 2
 2
+Footprint
+CONN-SMD_YXT-BB10-40S-02
+
+
+0
+44
+44
 Footprint
 CONN-TH_2604-1104
 

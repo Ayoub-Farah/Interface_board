@@ -200,6 +200,8 @@
       "track_widths": [
         0.0,
         0.127,
+        0.13,
+        0.14,
         0.2,
         0.3,
         0.4,
@@ -1870,6 +1872,12 @@
           "label": "JLC_3DModel_Q",
           "name": "JLC_3DModel_Q",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Component Class",
+          "name": "Component Class",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1970,7 +1978,7 @@
     ],
     [
       "37c76a7d-e360-409e-9f8e-819f870af943",
-      "Arduino"
+      "External_Connexion"
     ]
   ],
   "text_variables": {

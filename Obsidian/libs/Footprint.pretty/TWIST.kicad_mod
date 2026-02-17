@@ -111,6 +111,17 @@
 		(layer "Dwgs.User")
 		(uuid "b3e47cab-d2b1-4aa0-86ee-e87440ceab3f")
 	)
+	(fp_rect
+		(start 79.425 16.25)
+		(end 80.875 24.49)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.4")
+		(uuid "ebf887a6-b5fa-4053-8621-d86ff2d81346")
+	)
 	(fp_circle
 		(center 70.87 49.8)
 		(end 71.87 49.8)
