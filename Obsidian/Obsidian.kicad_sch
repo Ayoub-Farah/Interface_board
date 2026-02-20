@@ -1410,7 +1410,7 @@
 				)
 			)
 		)
-		(property "Value" "PLATED_HOLE3.2_PAD5.5"
+		(property "Value" "MountingHole:MountingHole_3.2mm_M3_Pad_TopOnly"
 			(at 59.69 176.403 0)
 			(effects
 				(font
@@ -1420,7 +1420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:MTG320_550"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_TopOnly"
 			(at 59.69 174.498 0)
 			(effects
 				(font
@@ -2362,7 +2362,7 @@
 				)
 			)
 		)
-		(property "Value" "PLATED_HOLE3.2_PAD5.5"
+		(property "Value" "MountingHole:MountingHole_3.2mm_M3_Pad_TopOnly"
 			(at 46.99 176.403 0)
 			(effects
 				(font
@@ -2902,7 +2902,7 @@
 				)
 			)
 		)
-		(property "Value" "PLATED_HOLE3.2_PAD5.5"
+		(property "Value" "MountingHole:MountingHole_3.2mm_M3_Pad_TopOnly"
 			(at 53.34 176.403 0)
 			(effects
 				(font
