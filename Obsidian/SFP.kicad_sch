@@ -7339,6 +7339,16 @@
 		)
 		(uuid "a584e3bd-740a-4696-a690-715d663f456d")
 	)
+	(bus
+		(pts
+			(xy 246.38 27.94) (xy 262.89 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f5b582-bd73-4b57-8f9d-0685d685d8db")
+	)
 	(wire
 		(pts
 			(xy 64.77 78.74) (xy 64.77 81.28)
@@ -8262,6 +8272,16 @@
 		)
 		(uuid "64099146-861d-4f3d-83ac-3ebfe54dacfa")
 	)
+	(label "{MGT}"
+		(at 246.38 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "669358c4-2ea3-4232-a3b4-6f8e3c49599b")
+	)
 	(label "MGT_TX1_P"
 		(at 243.84 95.25 180)
 		(effects
@@ -8650,6 +8670,17 @@
 			(justify right)
 		)
 		(uuid "4d6594b8-d1ee-4168-8641-4768b45058bd")
+	)
+	(hierarchical_label "{MGT}"
+		(shape bidirectional)
+		(at 262.89 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92c851f0-f020-466e-bfa2-ea7bc79c8d63")
 	)
 	(hierarchical_label "{I2C}"
 		(shape bidirectional)
