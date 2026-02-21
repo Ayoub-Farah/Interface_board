@@ -23275,7 +23275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "XTAL_12MHZ_TXC_7A-12.000MAAJ-T"
+		(property "Value" "X503212MSB2GI"
 			(at 174.625 66.04 0)
 			(effects
 				(font
@@ -23323,7 +23323,7 @@
 				(justify left)
 			)
 		)
-		(property "Part Number" "XTAL_12MHZ_TXC_7A-12.000MAAJ-T"
+		(property "Part Number" "X503212MSB2GI"
 			(at 168.91 66.04 0)
 			(effects
 				(font
@@ -26290,7 +26290,7 @@
 				)
 			)
 		)
-		(property "Value" "93C46B-I_SN"
+		(property "Value" "93LC46B_SN"
 			(at 141.732 91.44 0)
 			(effects
 				(font

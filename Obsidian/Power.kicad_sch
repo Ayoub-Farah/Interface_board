@@ -23095,7 +23095,7 @@
 				)
 			)
 		)
-		(property "Value" "R0805_135K_0.1%_0.1W_25PPM_KOA_RN73R2ATTD1353B25"
+		(property "Value" "R0603_135K_0.1%_0.1W_25PPM_KOA_RN73R2ATTD1353B25"
 			(at 147.32 156.337 0)
 			(effects
 				(font
@@ -23105,7 +23105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:RESC2012X60N"
+		(property "Footprint" "Footprint:RESC1608X55N"
 			(at 147.32 154.432 0)
 			(effects
 				(font
@@ -30925,7 +30925,7 @@
 				)
 			)
 		)
-		(property "Value" "R0603_6K65_0.1%_0.060W_10PPM"
+		(property "Value" "R0402_6K65_0.1%_0.060W_10PPM"
 			(at 142.24 27.813 0)
 			(effects
 				(font
@@ -43002,7 +43002,7 @@
 				)
 			)
 		)
-		(property "Value" "R0805_135K_0.1%_0.1W_25PPM_KOA_RN73R2ATTD1353B25"
+		(property "Value" "R0603_135K_0.1%_0.1W_25PPM_KOA_RN73R2ATTD1353B25"
 			(at 147.32 122.047 0)
 			(effects
 				(font

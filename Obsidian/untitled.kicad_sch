@@ -23461,7 +23461,7 @@
 				)
 			)
 		)
-		(property "Value" "XTAL_25MHZ_TXC_8Y-25.000MAAJ-T"
+		(property "Value" "ABM8W-25.0000MHZ-8-D1X-T3"
 			(at 177.8 147.955 0)
 			(effects
 				(font
@@ -23471,7 +23471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:XTAL_TXC_8Y"
+		(property "Footprint" "Footprint:XTAL_ABM8W-25.0000MHZ-8-D1X-T3"
 			(at 177.8 149.86 0)
 			(effects
 				(font
@@ -23508,7 +23508,7 @@
 				)
 			)
 		)
-		(property "Part Number" "XTAL_25MHZ_TXC_8Y-25.000MAAJ-T"
+		(property "Part Number" "ABM8W-25.0000MHZ-8-D1X-T3"
 			(at 177.8 153.67 0)
 			(effects
 				(font
@@ -25890,7 +25890,7 @@
 				)
 			)
 		)
-		(property "Value" "OSC_25MHZ_RAKON_IVT3205CR"
+		(property "Value" "9132S-Y25.000N33DT1J"
 			(at 105.41 37.846 0)
 			(effects
 				(font
