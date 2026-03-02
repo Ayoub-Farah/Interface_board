@@ -3649,7 +3649,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Arduino.kicad_sch"
+		(property "Sheetfile" "Ext_Connexion.kicad_sch"
 			(at 251.968 94.488 0)
 			(effects
 				(font
@@ -3905,7 +3905,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "Clock_WR.kicad_sch"
 			(at 55.372 93.218 0)
 			(effects
 				(font
@@ -4053,7 +4053,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "FPGA_MISC.kicad_sch"
+		(property "Sheetfile" "FPGA_DBG.kicad_sch"
 			(at 149.86 17.018 0)
 			(effects
 				(font

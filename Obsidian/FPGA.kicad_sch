@@ -18826,6 +18826,16 @@
 		)
 		(uuid "bebbe01b-d1a2-4d8d-b50b-a45d5670d4be")
 	)
+	(label "{PMOD}"
+		(at 36.83 189.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf39c8f3-ca79-4125-b2ec-c89975b50567")
+	)
 	(label "ARDUINO_D2"
 		(at 195.58 123.19 0)
 		(effects
@@ -18895,6 +18905,16 @@
 			(justify left bottom)
 		)
 		(uuid "c5517447-7538-4b4c-aa6c-ce70d812475b")
+	)
+	(label "{PMOD}"
+		(at 36.83 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c83f812d-0dbd-4fc8-83f1-52d5a1f50c02")
 	)
 	(label "DDR3_DQS0_N"
 		(at 354.33 102.87 0)
