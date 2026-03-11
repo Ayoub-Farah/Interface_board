@@ -513,7 +513,7 @@
         "clearance": 0.127,
         "name": "ARDUINO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.4,
@@ -522,43 +522,43 @@
       {
         "name": "CLK",
         "pcb_color": "rgb(108, 255, 0)",
-        "priority": 3,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDRA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDRLD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDRUD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR_CLEAN",
         "pcb_color": "rgb(0, 179, 175)",
-        "priority": 0,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR_FAST",
         "pcb_color": "rgb(230, 0, 255)",
-        "priority": 2,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR_MID",
         "pcb_color": "rgb(91, 92, 255)",
-        "priority": 1,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -567,10 +567,20 @@
         "diff_pair_width": 0.12,
         "name": "DRAM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 15,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.4,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.127,
+        "name": "I2C",
+        "pcb_color": "rgb(198, 250, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "via_diameter": 0.127,
         "via_drill": 0.2
       },
       {
@@ -579,7 +589,7 @@
         "diff_pair_width": 0.14,
         "name": "MGT",
         "pcb_color": "rgb(0, 229, 255)",
-        "priority": 8,
+        "priority": 12,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.4,
@@ -589,7 +599,7 @@
         "clearance": 0.127,
         "name": "PMOD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 14,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.14,
         "via_diameter": 0.4,
@@ -599,7 +609,37 @@
         "clearance": 0.127,
         "name": "RGMII",
         "pcb_color": "rgb(255, 248, 0)",
-        "priority": 9,
+        "priority": 13,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "via_diameter": 0.4,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.127,
+        "name": "SPI",
+        "pcb_color": "rgb(221, 255, 136)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "via_diameter": 0.4,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.127,
+        "name": "USB_DBG",
+        "pcb_color": "rgb(161, 145, 255)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "via_diameter": 0.4,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.127,
+        "name": "USB_SERIAL",
+        "pcb_color": "rgb(205, 135, 255)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.4,
@@ -785,6 +825,27 @@
       "/DDR/DDR3_WE": [
         "DDR_MID"
       ],
+      "/FPGA/RTS": [
+        "USB_SERIAL"
+      ],
+      "/FPGA/USB_RX_FPGA_TX": [
+        "USB_SERIAL"
+      ],
+      "/FPGA/USB_TX_FPGA_RX": [
+        "USB_SERIAL"
+      ],
+      "/FPGA_DBG/DBG_TCK": [
+        "USB_DBG"
+      ],
+      "/FPGA_DBG/DBG_TDI": [
+        "USB_DBG"
+      ],
+      "/FPGA_DBG/DBG_TDO": [
+        "USB_DBG"
+      ],
+      "/FPGA_DBG/DBG_TMS": [
+        "USB_DBG"
+      ],
       "DDR3_A0": [
         "DDRA"
       ],
@@ -956,6 +1017,10 @@
       {
         "netclass": "DRAM",
         "pattern": "/DDR/*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*SPI*"
       }
     ]
   },

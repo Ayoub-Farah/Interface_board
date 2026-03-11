@@ -11308,7 +11308,7 @@
 		(uuid "4a2b8232-46bb-4fd5-a59c-4fc3d3e78093")
 	)
 	(junction
-		(at 252.73 35.56)
+		(at 255.27 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4acc72bb-13c9-4621-bd75-f403ec47566c")
@@ -11702,7 +11702,7 @@
 		(uuid "f18aedb1-de2e-42bc-a7b0-ad6c16245b7f")
 	)
 	(bus_entry
-		(at 252.73 39.37)
+		(at 255.27 39.37)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -11711,7 +11711,7 @@
 		(uuid "42a853a9-027d-4fea-889a-9577026a47a6")
 	)
 	(bus_entry
-		(at 252.73 36.83)
+		(at 255.27 36.83)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -11720,7 +11720,7 @@
 		(uuid "59a1d7f3-94e4-4461-91b4-f0578fc87b03")
 	)
 	(bus_entry
-		(at 250.19 80.01)
+		(at 252.73 80.01)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -11729,7 +11729,7 @@
 		(uuid "684a63af-3c82-4f6f-9be9-8ee963ed5062")
 	)
 	(bus_entry
-		(at 250.19 77.47)
+		(at 252.73 77.47)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -11738,7 +11738,7 @@
 		(uuid "8170e911-66cd-4145-b322-a1a806c9f0b0")
 	)
 	(bus_entry
-		(at 250.19 74.93)
+		(at 252.73 74.93)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -11747,7 +11747,7 @@
 		(uuid "ad7d4f71-ff83-4c9a-8948-2fc1d9caa8b9")
 	)
 	(bus_entry
-		(at 252.73 31.75)
+		(at 255.27 31.75)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -11756,7 +11756,7 @@
 		(uuid "c4579cc7-c085-47db-95a3-cc03c57c1556")
 	)
 	(bus_entry
-		(at 252.73 34.29)
+		(at 255.27 34.29)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -11946,7 +11946,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 29.21) (xy 250.19 29.21)
+			(xy 222.25 29.21) (xy 252.73 29.21)
 		)
 		(stroke
 			(width 0)
@@ -12066,7 +12066,7 @@
 	)
 	(bus
 		(pts
-			(xy 252.73 36.83) (xy 252.73 39.37)
+			(xy 255.27 36.83) (xy 255.27 39.37)
 		)
 		(stroke
 			(width 0)
@@ -12106,7 +12106,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 34.29) (xy 250.19 34.29)
+			(xy 222.25 34.29) (xy 252.73 34.29)
 		)
 		(stroke
 			(width 0)
@@ -12326,7 +12326,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 31.75) (xy 250.19 31.75)
+			(xy 222.25 31.75) (xy 252.73 31.75)
 		)
 		(stroke
 			(width 0)
@@ -12446,7 +12446,7 @@
 	)
 	(bus
 		(pts
-			(xy 252.73 77.47) (xy 252.73 80.01)
+			(xy 255.27 77.47) (xy 255.27 80.01)
 		)
 		(stroke
 			(width 0)
@@ -12504,9 +12504,19 @@
 		)
 		(uuid "9356d676-334c-480a-b10b-08784dc299a0")
 	)
+	(wire
+		(pts
+			(xy 222.25 80.01) (xy 252.73 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96756cd5-5317-4b4e-9b85-640f1d75e35d")
+	)
 	(bus
 		(pts
-			(xy 252.73 80.01) (xy 252.73 82.55)
+			(xy 255.27 80.01) (xy 255.27 82.55)
 		)
 		(stroke
 			(width 0)
@@ -12526,7 +12536,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 36.83) (xy 250.19 36.83)
+			(xy 222.25 36.83) (xy 252.73 36.83)
 		)
 		(stroke
 			(width 0)
@@ -12586,7 +12596,7 @@
 	)
 	(bus
 		(pts
-			(xy 252.73 80.01) (xy 270.51 80.01)
+			(xy 255.27 80.01) (xy 270.51 80.01)
 		)
 		(stroke
 			(width 0)
@@ -12633,16 +12643,6 @@
 			(type default)
 		)
 		(uuid "b27fd5bc-5d74-4667-8b82-dd23d02014e3")
-	)
-	(wire
-		(pts
-			(xy 222.25 80.01) (xy 250.19 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b738a05e-fe4a-4401-b976-c7ae98470970")
 	)
 	(wire
 		(pts
@@ -12746,16 +12746,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 77.47) (xy 250.19 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c320b9d3-ba4e-48fb-9287-34a9b69c91f6")
-	)
-	(wire
-		(pts
 			(xy 101.6 109.22) (xy 107.95 109.22)
 		)
 		(stroke
@@ -12763,6 +12753,16 @@
 			(type default)
 		)
 		(uuid "c4c14f81-1b74-4ce1-acc9-f2be52d5438c")
+	)
+	(wire
+		(pts
+			(xy 222.25 77.47) (xy 252.73 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6060ebd-f22f-47ad-b522-3f1b975cb5bc")
 	)
 	(wire
 		(pts
@@ -12806,7 +12806,7 @@
 	)
 	(bus
 		(pts
-			(xy 252.73 35.56) (xy 252.73 34.29)
+			(xy 255.27 35.56) (xy 255.27 34.29)
 		)
 		(stroke
 			(width 0)
@@ -12896,7 +12896,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 74.93) (xy 250.19 74.93)
+			(xy 222.25 74.93) (xy 252.73 74.93)
 		)
 		(stroke
 			(width 0)
@@ -12976,7 +12976,7 @@
 	)
 	(bus
 		(pts
-			(xy 252.73 35.56) (xy 252.73 36.83)
+			(xy 255.27 35.56) (xy 255.27 36.83)
 		)
 		(stroke
 			(width 0)
@@ -12996,7 +12996,7 @@
 	)
 	(bus
 		(pts
-			(xy 252.73 35.56) (xy 267.97 35.56)
+			(xy 255.27 35.56) (xy 270.51 35.56)
 		)
 		(stroke
 			(width 0)
@@ -13016,7 +13016,7 @@
 	)
 	(bus
 		(pts
-			(xy 252.73 34.29) (xy 252.73 31.75)
+			(xy 255.27 34.29) (xy 255.27 31.75)
 		)
 		(stroke
 			(width 0)
@@ -13085,7 +13085,7 @@
 		(uuid "fd58e4dd-7ae2-452d-b396-26ecb6ad8132")
 	)
 	(label "USB_RX_FPGA_TX"
-		(at 226.06 77.47 0)
+		(at 222.25 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13125,7 +13125,7 @@
 		(uuid "6dd88f18-c053-40a8-9f08-ff697759808f")
 	)
 	(label "{USB_DBG}"
-		(at 255.27 35.56 0)
+		(at 257.81 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13145,7 +13145,7 @@
 		(uuid "747940ee-3827-44dd-9fbe-93fd5fa65f3d")
 	)
 	(label "RTS"
-		(at 226.06 80.01 0)
+		(at 222.25 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13165,7 +13165,7 @@
 		(uuid "ad42d596-06fa-4a5f-8358-db4597cc2531")
 	)
 	(label "USB_TX_FPGA_RX"
-		(at 226.06 74.93 0)
+		(at 222.25 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13207,7 +13207,7 @@
 	)
 	(hierarchical_label "{USB_DBG}"
 		(shape bidirectional)
-		(at 267.97 35.56 0)
+		(at 270.51 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13215,6 +13215,221 @@
 			(justify left)
 		)
 		(uuid "e0d5019e-2582-4789-ab9e-991c88a69ed3")
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 241.3 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fcb6c52-ea56-45aa-831c-c96bfbb58794")
+		(property "Netclass" "USB_DBG"
+			(at 241.9985 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -2.54 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 241.3 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23d73418-2eb6-4dc9-8c8e-e7d044c5b99c")
+		(property "Netclass" "USB_DBG"
+			(at 241.9985 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -2.54 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 241.3 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d5dcc30-358f-4a28-987b-5b2e560fc491")
+		(property "Netclass" "USB_SERIAL"
+			(at 242.316 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -2.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 241.3 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9c2ba4e-cae9-4209-8ff9-9b2b453d6f07")
+		(property "Netclass" "USB_SERIAL"
+			(at 242.316 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -2.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 241.3 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba7c7a73-1601-4f23-8672-5e1e5a82edb5")
+		(property "Netclass" "USB_DBG"
+			(at 241.9985 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -2.54 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 241.3 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9798061-a05a-4a2f-a97b-de607483354a")
+		(property "Netclass" "USB_SERIAL"
+			(at 241.9985 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -2.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 241.3 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebacecd4-9a4c-4b3e-8bf3-9d8f6eba08ba")
+		(property "Netclass" "USB_DBG"
+			(at 241.9985 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -2.54 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Library_Symbol:CC0402_100NF_50V_10%_X7R")
