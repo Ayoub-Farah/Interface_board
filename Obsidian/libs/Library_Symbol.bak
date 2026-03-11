@@ -23844,8 +23844,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 8.128 0)
+		(property "Reference" "U23"
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23853,7 +23853,7 @@
 			)
 		)
 		(property "Value" "LD39100PU12RY"
-			(at -0.254 6.096 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23880,6 +23880,15 @@
 		)
 		(property "Description" "300mA low dropout linear regulator, low quiescent current very, low noise, shutdown pin, fixed 1.0V positive output, DFN-6"
 			(at 2.794 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2970914"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

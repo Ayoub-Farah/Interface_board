@@ -10871,24 +10871,23 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library_Symbol:SN74LVC1G07DBV"
+		(symbol "Library_Symbol:SN74LVC1G07DBV_1"
 			(pin_names
 				(offset 1.27)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 5.08 -1.27 0)
+			(property "Reference" "U24"
+				(at 6.604 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "SN74LVC1G07DBV"
-				(at 0 -11.049 0)
+				(at 31.496 0.127 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10898,7 +10897,7 @@
 				)
 			)
 			(property "Footprint" "ICs And Semiconductors SMD:SOT95P280X145-5N"
-				(at 0 -12.954 0)
+				(at 31.496 -1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10908,7 +10907,7 @@
 				)
 			)
 			(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74LVC1G07DBV.pdf"
-				(at 0 -14.859 0)
+				(at 31.496 -3.683 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10918,7 +10917,7 @@
 				)
 			)
 			(property "Description" "Single Buffer/Driver with Open-Drain Output"
-				(at 0 0 0)
+				(at 31.496 11.176 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10927,7 +10926,7 @@
 				)
 			)
 			(property "Part Number" "SN74LVC1G07DBV"
-				(at 0 -16.764 0)
+				(at 31.496 -5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10937,7 +10936,7 @@
 				)
 			)
 			(property "Library Ref" "741G07"
-				(at 0 -18.669 0)
+				(at 31.496 -7.493 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10947,7 +10946,7 @@
 				)
 			)
 			(property "Library Path" "SchLib\\Standard Logic.SchLib"
-				(at 0 -20.574 0)
+				(at 31.496 -9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10957,7 +10956,7 @@
 				)
 			)
 			(property "Comment" "SN74LVC1G07DBV"
-				(at 0 -22.479 0)
+				(at 31.496 -11.303 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10967,7 +10966,7 @@
 				)
 			)
 			(property "Component Kind" "Standard"
-				(at 0 -24.384 0)
+				(at 31.496 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10977,7 +10976,7 @@
 				)
 			)
 			(property "Component Type" "Standard"
-				(at 0 -26.289 0)
+				(at 31.496 -15.113 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10987,7 +10986,7 @@
 				)
 			)
 			(property "Device" "SN74LVC1G07DBV"
-				(at 0 -28.194 0)
+				(at 31.496 -17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10997,7 +10996,7 @@
 				)
 			)
 			(property "PackageDescription" "SOT, 0.95mm Pitch; 5 Pin, 1.60mm W X 2.90mm L X 1.45mm H body, IPC Medium Density"
-				(at 0 -30.099 0)
+				(at 31.496 -18.923 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11007,7 +11006,7 @@
 				)
 			)
 			(property "Status" " "
-				(at 0 -32.004 0)
+				(at 31.496 -20.828 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11017,7 +11016,7 @@
 				)
 			)
 			(property "Part Description" "Single Buffer/Driver with Open-Drain Output"
-				(at 0 -33.909 0)
+				(at 31.496 -22.733 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11027,7 +11026,7 @@
 				)
 			)
 			(property "Manufacturer" "TEXAS INSTRUMENTS"
-				(at 0 -35.814 0)
+				(at 31.496 -24.638 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11037,7 +11036,7 @@
 				)
 			)
 			(property "Manufacturer Part Number" "SN74LVC1G07DBV"
-				(at 0 -37.719 0)
+				(at 31.496 -26.543 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11047,7 +11046,7 @@
 				)
 			)
 			(property "Pin Count" "5"
-				(at 0 -39.624 0)
+				(at 31.496 -28.448 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11057,7 +11056,7 @@
 				)
 			)
 			(property "Case" "SOT23-5"
-				(at 0 -41.529 0)
+				(at 31.496 -30.353 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11067,7 +11066,7 @@
 				)
 			)
 			(property "Mounted" "Yes"
-				(at 0 -43.434 0)
+				(at 31.496 -32.258 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11077,7 +11076,7 @@
 				)
 			)
 			(property "Socket" "No"
-				(at 0 -45.339 0)
+				(at 31.496 -34.163 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11087,7 +11086,7 @@
 				)
 			)
 			(property "SMD" "Yes"
-				(at 0 -47.244 0)
+				(at 31.496 -36.068 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11097,7 +11096,7 @@
 				)
 			)
 			(property "PressFit" "No"
-				(at 0 -49.149 0)
+				(at 31.496 -37.973 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11107,7 +11106,7 @@
 				)
 			)
 			(property "Sense" "No"
-				(at 0 -51.054 0)
+				(at 31.496 -39.878 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11117,7 +11116,7 @@
 				)
 			)
 			(property "Sense Comment" " "
-				(at 0 -52.959 0)
+				(at 31.496 -41.783 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11127,7 +11126,7 @@
 				)
 			)
 			(property "Bonding" "No"
-				(at 0 -54.864 0)
+				(at 31.496 -43.688 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11137,7 +11136,7 @@
 				)
 			)
 			(property "Status Comment" " "
-				(at 0 -56.769 0)
+				(at 31.496 -45.593 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11147,7 +11146,7 @@
 				)
 			)
 			(property "ComponentHeight" "1.45mm"
-				(at 0 -58.674 0)
+				(at 31.496 -47.498 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11157,7 +11156,7 @@
 				)
 			)
 			(property "Footprint Path" "PcbLib\\ICs And Semiconductors SMD.PcbLib"
-				(at 0 -60.579 0)
+				(at 31.496 -49.403 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11167,7 +11166,7 @@
 				)
 			)
 			(property "Footprint Ref" "SOT95P280X145-5N"
-				(at 0 -62.484 0)
+				(at 31.496 -51.308 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11177,7 +11176,7 @@
 				)
 			)
 			(property "Author" "CERN DEM BC"
-				(at 0 -64.389 0)
+				(at 31.496 -53.213 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11187,7 +11186,7 @@
 				)
 			)
 			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74LVC1G07DBV.pdf"
-				(at 0 -66.294 0)
+				(at 31.496 -55.118 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11197,7 +11196,7 @@
 				)
 			)
 			(property "ComponentLink1URL" " "
-				(at 0 -68.199 0)
+				(at 31.496 -57.023 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11207,7 +11206,7 @@
 				)
 			)
 			(property "ComponentLink1Description" " "
-				(at 0 -70.104 0)
+				(at 31.496 -58.928 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11217,7 +11216,7 @@
 				)
 			)
 			(property "ComponentLink2URL" " "
-				(at 0 -72.009 0)
+				(at 31.496 -60.833 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11227,7 +11226,7 @@
 				)
 			)
 			(property "ComponentLink2Description" " "
-				(at 0 -73.914 0)
+				(at 31.496 -62.738 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11237,7 +11236,7 @@
 				)
 			)
 			(property "CreateDate" "02/19/20 00:00:00"
-				(at 0 -75.819 0)
+				(at 31.496 -64.643 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11247,7 +11246,7 @@
 				)
 			)
 			(property "LatestRevisionDate" "02/19/20 00:00:00"
-				(at 0 -77.724 0)
+				(at 31.496 -66.548 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11257,7 +11256,7 @@
 				)
 			)
 			(property "SCEM" " "
-				(at 0 -79.629 0)
+				(at 31.496 -68.453 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11267,7 +11266,7 @@
 				)
 			)
 			(property "Database Table Name" "ICs And Semiconductors"
-				(at 0 -81.534 0)
+				(at 31.496 -70.358 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11277,7 +11276,7 @@
 				)
 			)
 			(property "Library Name" "Standard Logic"
-				(at 0 -83.439 0)
+				(at 31.496 -72.263 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11287,7 +11286,7 @@
 				)
 			)
 			(property "Footprint Library" "ICs And Semiconductors SMD"
-				(at 0 -85.344 0)
+				(at 31.496 -74.168 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11297,12 +11296,30 @@
 				)
 			)
 			(property "License" "CC-BY-SA 4.0"
-				(at 0 -87.249 0)
+				(at 31.496 -76.073 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
+				)
+			)
+			(property "FT Rotation Offset" "180"
+				(at 31.496 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C7829"
+				(at 31.496 11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -11314,10 +11331,10 @@
 					)
 				)
 			)
-			(symbol "SN74LVC1G07DBV_0_1"
+			(symbol "SN74LVC1G07DBV_1_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 7.62 -5.08)
+						(xy 0 -1.27) (xy 8.89 -6.35)
 					)
 					(stroke
 						(width 0.254)
@@ -11329,7 +11346,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -8.89) (xy 0 -1.27)
+						(xy 0 -11.43) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -11341,7 +11358,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -8.89) (xy 7.62 -5.08)
+						(xy 0 -11.43) (xy 8.89 -6.35)
 					)
 					(stroke
 						(width 0.254)
@@ -11352,7 +11369,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 -5.08 0)
+					(at -5.08 -6.35 0)
 					(length 5.08)
 					(name "IN"
 						(effects
@@ -11369,27 +11386,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -5.08 -10.16 0)
-					(length 5.08)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
 				(pin open_collector line
-					(at 12.7 -5.08 180)
+					(at 13.97 -6.35 180)
 					(length 5.08)
 					(name "OUT"
 						(effects
@@ -11406,14 +11404,51 @@
 						)
 					)
 				)
+			)
+			(symbol "SN74LVC1G07DBV_1_1_1"
+				(text "VCC"
+					(at 2.54 -4.064 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+							(color 0 100 100 1)
+						)
+					)
+				)
+				(text "GND"
+					(at 2.54 -8.636 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+							(color 0 100 100 1)
+						)
+					)
+				)
 				(pin power_in line
-					(at 12.7 -12.7 180)
+					(at 2.54 2.54 270)
 					(length 5.08)
-					(hide yes)
-					(name "GND"
+					(name "VCC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -15.24 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
 							)
 						)
 					)
@@ -12339,580 +12374,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SN74LVC1G07DBV_1"
-			(pin_names
-				(offset 1.27)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U24"
-				(at 6.604 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SN74LVC1G07DBV"
-				(at 31.496 0.127 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "ICs And Semiconductors SMD:SOT95P280X145-5N"
-				(at 31.496 -1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74LVC1G07DBV.pdf"
-				(at 31.496 -3.683 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Buffer/Driver with Open-Drain Output"
-				(at 31.496 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "SN74LVC1G07DBV"
-				(at 31.496 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Library Ref" "741G07"
-				(at 31.496 -7.493 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Library Path" "SchLib\\Standard Logic.SchLib"
-				(at 31.496 -9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Comment" "SN74LVC1G07DBV"
-				(at 31.496 -11.303 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Component Kind" "Standard"
-				(at 31.496 -13.208 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Component Type" "Standard"
-				(at 31.496 -15.113 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Device" "SN74LVC1G07DBV"
-				(at 31.496 -17.018 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "PackageDescription" "SOT, 0.95mm Pitch; 5 Pin, 1.60mm W X 2.90mm L X 1.45mm H body, IPC Medium Density"
-				(at 31.496 -18.923 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Status" " "
-				(at 31.496 -20.828 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Description" "Single Buffer/Driver with Open-Drain Output"
-				(at 31.496 -22.733 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TEXAS INSTRUMENTS"
-				(at 31.496 -24.638 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "SN74LVC1G07DBV"
-				(at 31.496 -26.543 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Pin Count" "5"
-				(at 31.496 -28.448 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Case" "SOT23-5"
-				(at 31.496 -30.353 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mounted" "Yes"
-				(at 31.496 -32.258 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Socket" "No"
-				(at 31.496 -34.163 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "SMD" "Yes"
-				(at 31.496 -36.068 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "PressFit" "No"
-				(at 31.496 -37.973 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Sense" "No"
-				(at 31.496 -39.878 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Sense Comment" " "
-				(at 31.496 -41.783 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Bonding" "No"
-				(at 31.496 -43.688 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Status Comment" " "
-				(at 31.496 -45.593 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ComponentHeight" "1.45mm"
-				(at 31.496 -47.498 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint Path" "PcbLib\\ICs And Semiconductors SMD.PcbLib"
-				(at 31.496 -49.403 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint Ref" "SOT95P280X145-5N"
-				(at 31.496 -51.308 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Author" "CERN DEM BC"
-				(at 31.496 -53.213 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74LVC1G07DBV.pdf"
-				(at 31.496 -55.118 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ComponentLink1URL" " "
-				(at 31.496 -57.023 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ComponentLink1Description" " "
-				(at 31.496 -58.928 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ComponentLink2URL" " "
-				(at 31.496 -60.833 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ComponentLink2Description" " "
-				(at 31.496 -62.738 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "CreateDate" "02/19/20 00:00:00"
-				(at 31.496 -64.643 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "LatestRevisionDate" "02/19/20 00:00:00"
-				(at 31.496 -66.548 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "SCEM" " "
-				(at 31.496 -68.453 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Database Table Name" "ICs And Semiconductors"
-				(at 31.496 -70.358 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Library Name" "Standard Logic"
-				(at 31.496 -72.263 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint Library" "ICs And Semiconductors SMD"
-				(at 31.496 -74.168 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "License" "CC-BY-SA 4.0"
-				(at 31.496 -76.073 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "FT Rotation Offset" "180"
-				(at 31.496 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C7829"
-				(at 31.496 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SN74LVC1G07DBV_1_0_1"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -8.89) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -8.89) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 -5.08 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -10.16 0)
-					(length 5.08)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 -12.7 180)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
 							)
 						)
 					)
@@ -13976,7 +13437,7 @@
 	)
 	(text "POWER OK"
 		(exclude_from_sim no)
-		(at 239.776 54.356 0)
+		(at 239.776 48.006 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14087,7 +13548,7 @@
 		(uuid "2f0f8191-56a4-4d07-a36f-0be031fac048")
 	)
 	(junction
-		(at 195.58 53.34)
+		(at 195.58 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34885d16-ef86-4624-9c83-31375eec8cb1")
@@ -14151,12 +13612,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dc8a73c-5658-4d13-a5cb-3823ca21faa8")
-	)
-	(junction
-		(at 234.95 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f226bd2-4ff8-412a-85d8-49b51bbef6a4")
 	)
 	(junction
 		(at 157.48 54.61)
@@ -14291,12 +13746,6 @@
 		(uuid "9f89a747-2f0a-43bb-8de0-a14dd56e845f")
 	)
 	(junction
-		(at 229.87 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a19a9551-ff1d-4c3e-aa7b-a153119781bb")
-	)
-	(junction
 		(at 83.82 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14313,6 +13762,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af22965c-9dbc-44ce-8670-ff89bd595e42")
+	)
+	(junction
+		(at 234.95 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b14e50a3-95e3-483d-b2f4-795698f03789")
 	)
 	(junction
 		(at 156.21 90.17)
@@ -14457,6 +13912,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6d08a1c-124e-4f9c-9c14-8e70898dd1fb")
+	)
+	(junction
+		(at 248.92 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e86c2cef-5acb-4a45-a6e2-082b6051c369")
 	)
 	(junction
 		(at 73.66 17.78)
@@ -14664,7 +14125,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 53.34) (xy 201.93 53.34)
+			(xy 195.58 57.15) (xy 220.98 57.15)
 		)
 		(stroke
 			(width 0)
@@ -14891,6 +14352,16 @@
 			(type default)
 		)
 		(uuid "3ab61452-a5dd-4f25-b988-86aafbaddb82")
+	)
+	(wire
+		(pts
+			(xy 248.92 55.88) (xy 248.92 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b4861b6-00a6-4150-b55b-efe7091dd6ba")
 	)
 	(wire
 		(pts
@@ -15144,6 +14615,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 57.15) (xy 248.92 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab9e5b3-04c6-4128-98ed-5667ce4125b4")
+	)
+	(wire
+		(pts
 			(xy 231.14 118.11) (xy 248.92 118.11)
 		)
 		(stroke
@@ -15151,6 +14632,16 @@
 			(type default)
 		)
 		(uuid "6bd35d7f-a01d-4f42-924a-025d8a88116d")
+	)
+	(wire
+		(pts
+			(xy 220.98 36.83) (xy 234.95 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3b1561-7f45-42c0-ab92-7d7d80432485")
 	)
 	(wire
 		(pts
@@ -15624,16 +15115,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 53.34) (xy 229.87 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0f1810d-a030-499d-b936-dfba354bc4d4")
-	)
-	(wire
-		(pts
 			(xy 208.28 83.82) (xy 209.55 83.82)
 		)
 		(stroke
@@ -15934,7 +15415,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 36.83) (xy 195.58 53.34)
+			(xy 195.58 36.83) (xy 195.58 57.15)
 		)
 		(stroke
 			(width 0)
@@ -16134,6 +15615,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 48.26) (xy 248.92 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0975149-3ef1-43dc-ae4b-4c13d6995ae5")
+	)
+	(wire
+		(pts
 			(xy 245.11 83.82) (xy 245.11 86.36)
 		)
 		(stroke
@@ -16151,16 +15642,6 @@
 			(type default)
 		)
 		(uuid "f7aca365-c7e3-4003-8a30-d9247bd37485")
-	)
-	(wire
-		(pts
-			(xy 219.71 36.83) (xy 234.95 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbf6dd00-1baf-414a-b164-0b49d3f51905")
 	)
 	(wire
 		(pts
@@ -19805,7 +19286,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:R0402_10K_1%_0.0625W_100PPM")
-		(at 229.87 53.34 90)
+		(at 248.92 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19813,7 +19294,7 @@
 		(dnp no)
 		(uuid "17763d8b-b25f-4f66-a06b-852daf2bfc4f")
 		(property "Reference" "R148"
-			(at 228.092 49.784 0)
+			(at 247.142 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19821,7 +19302,7 @@
 			)
 		)
 		(property "Value" "R0402_10K_1%_0.0625W_100PPM"
-			(at 234.823 53.34 0)
+			(at 253.873 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19831,7 +19312,7 @@
 			)
 		)
 		(property "Footprint" "Footprint:RESC1005X40N"
-			(at 236.728 53.34 0)
+			(at 255.778 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19841,7 +19322,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 238.633 53.34 0)
+			(at 257.683 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19851,7 +19332,7 @@
 			)
 		)
 		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 229.87 53.34 0)
+			(at 248.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19860,7 +19341,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 229.87 49.53 0)
+			(at 248.92 52.07 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -19868,7 +19349,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 231.902 49.53 0)
+			(at 250.952 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19876,7 +19357,7 @@
 			)
 		)
 		(property "Part Number" "R0402_10K_1%_0.0625W_100PPM"
-			(at 240.538 53.34 0)
+			(at 259.588 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19886,7 +19367,7 @@
 			)
 		)
 		(property "Library Ref" "Resistor - 1%"
-			(at 242.443 53.34 0)
+			(at 261.493 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19896,7 +19377,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Resistors.SchLib"
-			(at 244.348 53.34 0)
+			(at 263.398 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19906,7 +19387,7 @@
 			)
 		)
 		(property "Comment" "10k"
-			(at 246.253 53.34 0)
+			(at 265.303 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19916,7 +19397,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 248.158 53.34 0)
+			(at 267.208 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19926,7 +19407,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 250.063 53.34 0)
+			(at 269.113 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19936,7 +19417,7 @@
 			)
 		)
 		(property "PackageDescription" " "
-			(at 251.968 53.34 0)
+			(at 271.018 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19946,7 +19427,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 253.873 53.34 0)
+			(at 272.923 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19956,7 +19437,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
-			(at 255.778 53.34 0)
+			(at 274.828 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19966,7 +19447,7 @@
 			)
 		)
 		(property "Footprint Ref" "RESC1005X40N"
-			(at 257.683 53.34 0)
+			(at 276.733 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19976,7 +19457,7 @@
 			)
 		)
 		(property "Status" "Not Recommended"
-			(at 259.588 53.34 0)
+			(at 278.638 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19986,7 +19467,7 @@
 			)
 		)
 		(property "Power" "0.0625W"
-			(at 261.493 53.34 0)
+			(at 280.543 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19996,7 +19477,7 @@
 			)
 		)
 		(property "TC" "±100ppm/°C"
-			(at 263.398 53.34 0)
+			(at 282.448 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20006,7 +19487,7 @@
 			)
 		)
 		(property "Voltage" " "
-			(at 265.303 53.34 0)
+			(at 284.353 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20016,7 +19497,7 @@
 			)
 		)
 		(property "Part Description" "General Purpose Thick Film Chip Resistor"
-			(at 267.208 53.34 0)
+			(at 286.258 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20026,7 +19507,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 269.113 53.34 0)
+			(at 288.163 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20036,7 +19517,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "R0402_10K_1%_0.0625W_100PPM"
-			(at 271.018 53.34 0)
+			(at 290.068 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20046,7 +19527,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 272.923 53.34 0)
+			(at 291.973 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20056,7 +19537,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 274.828 53.34 0)
+			(at 293.878 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20066,7 +19547,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 276.733 53.34 0)
+			(at 295.783 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20076,7 +19557,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 278.638 53.34 0)
+			(at 297.688 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20086,7 +19567,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 280.543 53.34 0)
+			(at 299.593 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20096,7 +19577,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 282.448 53.34 0)
+			(at 301.498 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20106,7 +19587,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 284.353 53.34 0)
+			(at 303.403 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20116,7 +19597,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 286.258 53.34 0)
+			(at 305.308 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20126,7 +19607,7 @@
 			)
 		)
 		(property "ComponentHeight" " "
-			(at 288.163 53.34 0)
+			(at 307.213 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20136,7 +19617,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 290.068 53.34 0)
+			(at 309.118 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20146,7 +19627,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" "232270671003L"
-			(at 291.973 53.34 0)
+			(at 311.023 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20156,7 +19637,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 293.878 53.34 0)
+			(at 312.928 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20166,7 +19647,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 295.783 53.34 0)
+			(at 314.833 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20176,7 +19657,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 297.688 53.34 0)
+			(at 316.738 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20186,7 +19667,7 @@
 			)
 		)
 		(property "CreateDate" "12/03/07 00:00:00"
-			(at 299.593 53.34 0)
+			(at 318.643 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20196,7 +19677,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "10/17/12 00:00:00"
-			(at 301.498 53.34 0)
+			(at 320.548 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20206,7 +19687,7 @@
 			)
 		)
 		(property "Database Table Name" "Resistors"
-			(at 303.403 53.34 0)
+			(at 322.453 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20216,7 +19697,7 @@
 			)
 		)
 		(property "Library Name" "Resistors SMD"
-			(at 305.308 53.34 0)
+			(at 324.358 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20226,7 +19707,7 @@
 			)
 		)
 		(property "Footprint Library" "Resistors SMD"
-			(at 307.213 53.34 0)
+			(at 326.263 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20236,7 +19717,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 309.118 53.34 0)
+			(at 328.168 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20246,7 +19727,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 229.87 53.34 0)
+			(at 248.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20255,7 +19736,7 @@
 			)
 		)
 		(property "LCSC" "C60490"
-			(at 229.87 53.34 0)
+			(at 248.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28748,16 +28229,15 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:GND")
-		(at 219.71 60.96 0)
+		(at 228.6 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "425ef080-b6be-4256-9191-a6d23b914c1b")
 		(property "Reference" "#PWR0318"
-			(at 219.71 67.31 0)
+			(at 228.6 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28766,7 +28246,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 66.04 0)
+			(at 231.902 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28774,7 +28254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 60.96 0)
+			(at 228.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28783,7 +28263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 60.96 0)
+			(at 228.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28792,7 +28272,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 60.96 0)
+			(at 228.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37498,7 +36978,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:LED_KINGBRIGHT_KPH-1608CGCK")
-		(at 229.87 57.15 270)
+		(at 248.92 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37507,7 +36987,7 @@
 		(fields_autoplaced yes)
 		(uuid "97d967b0-8631-4ca1-9666-ebd6fb2b00d6")
 		(property "Reference" "LD2"
-			(at 234.95 56.8959 90)
+			(at 254 60.7059 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37516,7 +36996,7 @@
 			)
 		)
 		(property "Value" "LED_KINGBRIGHT_KPH-1608CGCK"
-			(at 224.409 57.15 0)
+			(at 243.459 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37526,7 +37006,7 @@
 			)
 		)
 		(property "Footprint" "Footprint:LED_KINGBRIGHT_KPH-1608CGCK"
-			(at 222.504 57.15 0)
+			(at 241.554 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37536,7 +37016,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_KINGBRIGHT_KPH-1608CGCK.pdf"
-			(at 220.599 57.15 0)
+			(at 239.649 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37546,7 +37026,7 @@
 			)
 		)
 		(property "Description" "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness"
-			(at 229.87 57.15 0)
+			(at 248.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37555,7 +37035,7 @@
 			)
 		)
 		(property "Color" "Green"
-			(at 234.95 59.4359 90)
+			(at 254 63.2459 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -37564,7 +37044,7 @@
 			)
 		)
 		(property "Part Number" "LED_KINGBRIGHT_KPH-1608CGCK"
-			(at 218.694 57.15 0)
+			(at 237.744 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37574,7 +37054,7 @@
 			)
 		)
 		(property "Library Ref" "LED Green 1C 2A"
-			(at 216.789 57.15 0)
+			(at 235.839 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37584,7 +37064,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\LEDs & Displays.SchLib"
-			(at 214.884 57.15 0)
+			(at 233.934 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37594,7 +37074,7 @@
 			)
 		)
 		(property "Comment" " "
-			(at 212.979 57.15 0)
+			(at 232.029 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37604,7 +37084,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 211.074 57.15 0)
+			(at 230.124 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37614,7 +37094,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 209.169 57.15 0)
+			(at 228.219 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37624,7 +37104,7 @@
 			)
 		)
 		(property "Device" " "
-			(at 207.264 57.15 0)
+			(at 226.314 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37634,7 +37114,7 @@
 			)
 		)
 		(property "PackageDescription" "SMT Green LED, Case 0603, Body L 1.6 x W 0.8mm H 0.65mm"
-			(at 205.359 57.15 0)
+			(at 224.409 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37644,7 +37124,7 @@
 			)
 		)
 		(property "Status" " "
-			(at 203.454 57.15 0)
+			(at 222.504 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37654,7 +37134,7 @@
 			)
 		)
 		(property "Part Description" "SMD Green LED, Case 1.6mmX0.8mm(0603), 0.65mm Thickness"
-			(at 201.549 57.15 0)
+			(at 220.599 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37664,7 +37144,7 @@
 			)
 		)
 		(property "Manufacturer" "KINGBRIGHT"
-			(at 199.644 57.15 0)
+			(at 218.694 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37674,7 +37154,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "KPH-1608CGCK"
-			(at 197.739 57.15 0)
+			(at 216.789 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37684,7 +37164,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 195.834 57.15 0)
+			(at 214.884 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37694,7 +37174,7 @@
 			)
 		)
 		(property "Case" "0603"
-			(at 193.929 57.15 0)
+			(at 212.979 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37704,7 +37184,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 192.024 57.15 0)
+			(at 211.074 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37714,7 +37194,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 190.119 57.15 0)
+			(at 209.169 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37724,7 +37204,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 188.214 57.15 0)
+			(at 207.264 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37734,7 +37214,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 186.309 57.15 0)
+			(at 205.359 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37744,7 +37224,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 184.404 57.15 0)
+			(at 203.454 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37754,7 +37234,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 182.499 57.15 0)
+			(at 201.549 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37764,7 +37244,7 @@
 			)
 		)
 		(property "Bonding" "No"
-			(at 180.594 57.15 0)
+			(at 199.644 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37774,7 +37254,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 178.689 57.15 0)
+			(at 197.739 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37784,7 +37264,7 @@
 			)
 		)
 		(property "ComponentHeight" "0.65mm"
-			(at 176.784 57.15 0)
+			(at 195.834 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37794,7 +37274,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\ICs And Semiconductors SMD.PcbLib"
-			(at 174.879 57.15 0)
+			(at 193.929 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37804,7 +37284,7 @@
 			)
 		)
 		(property "Footprint Ref" "LED_KINGBRIGHT_KPH-1608CGCK"
-			(at 172.974 57.15 0)
+			(at 192.024 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37814,7 +37294,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\LED_KINGBRIGHT_KPH-1608CGCK.pdf"
-			(at 171.069 57.15 0)
+			(at 190.119 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37824,7 +37304,7 @@
 			)
 		)
 		(property "ComponentLink1URL" " "
-			(at 169.164 57.15 0)
+			(at 188.214 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37834,7 +37314,7 @@
 			)
 		)
 		(property "ComponentLink1Description" " "
-			(at 167.259 57.15 0)
+			(at 186.309 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37844,7 +37324,7 @@
 			)
 		)
 		(property "ComponentLink2URL" " "
-			(at 165.354 57.15 0)
+			(at 184.404 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37854,7 +37334,7 @@
 			)
 		)
 		(property "ComponentLink2Description" " "
-			(at 163.449 57.15 0)
+			(at 182.499 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37864,7 +37344,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 161.544 57.15 0)
+			(at 180.594 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37874,7 +37354,7 @@
 			)
 		)
 		(property "CreateDate" "07/03/17 00:00:00"
-			(at 159.639 57.15 0)
+			(at 178.689 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37884,7 +37364,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "07/03/17 00:00:00"
-			(at 157.734 57.15 0)
+			(at 176.784 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37894,7 +37374,7 @@
 			)
 		)
 		(property "Database Table Name" "ICs And Semiconductors"
-			(at 155.829 57.15 0)
+			(at 174.879 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37904,7 +37384,7 @@
 			)
 		)
 		(property "Library Name" "LEDs & Displays"
-			(at 153.924 57.15 0)
+			(at 172.974 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37914,7 +37394,7 @@
 			)
 		)
 		(property "Footprint Library" "ICs And Semiconductors SMD"
-			(at 152.019 57.15 0)
+			(at 171.069 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37924,7 +37404,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 150.114 57.15 0)
+			(at 169.164 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37934,7 +37414,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 229.87 57.15 90)
+			(at 248.92 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37943,7 +37423,7 @@
 			)
 		)
 		(property "LCSC" "C5879295"
-			(at 229.87 57.15 90)
+			(at 248.92 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39428,7 +38908,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:+1V0")
-		(at 201.93 58.42 0)
+		(at 228.6 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39436,7 +38916,7 @@
 		(dnp no)
 		(uuid "a564b649-33f6-4ea6-b46a-145d986c461c")
 		(property "Reference" "#PWR0317"
-			(at 201.93 62.23 0)
+			(at 228.6 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39445,7 +38925,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 201.93 54.864 0)
+			(at 228.6 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39453,7 +38933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 58.42 0)
+			(at 228.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39462,7 +38942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 58.42 0)
+			(at 228.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39471,7 +38951,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 201.93 58.42 0)
+			(at 228.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40658,7 +40138,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:TestPoint")
-		(at 195.58 53.34 90)
+		(at 195.58 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40666,7 +40146,7 @@
 		(dnp no)
 		(uuid "aee75a4b-c5be-4625-b970-8aaf48c5ed9f")
 		(property "Reference" "TP14"
-			(at 189.23 53.34 90)
+			(at 189.23 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40674,7 +40154,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 191.008 55.118 90)
+			(at 191.008 58.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40682,7 +40162,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 195.58 48.26 0)
+			(at 195.58 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40691,7 +40171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 48.26 0)
+			(at 195.58 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40700,7 +40180,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 195.58 53.34 0)
+			(at 195.58 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40709,7 +40189,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 195.58 53.34 90)
+			(at 195.58 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40718,7 +40198,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 195.58 53.34 90)
+			(at 195.58 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41371,7 +40851,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:+1V0")
-		(at 229.87 45.72 0)
+		(at 248.92 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41379,7 +40859,7 @@
 		(dnp no)
 		(uuid "b5622122-267e-4838-a41b-7ca0f7a8bbe3")
 		(property "Reference" "#PWR0299"
-			(at 229.87 49.53 0)
+			(at 248.92 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41388,7 +40868,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 229.87 42.164 0)
+			(at 248.92 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41396,7 +40876,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 45.72 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41405,7 +40885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 45.72 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41414,7 +40894,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 229.87 45.72 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43462,16 +42942,15 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:GND")
-		(at 219.71 44.45 0)
+		(at 209.55 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c20eb736-4157-499c-817d-559b32a04538")
 		(property "Reference" "#PWR0296"
-			(at 219.71 50.8 0)
+			(at 209.55 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43480,7 +42959,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 49.53 0)
+			(at 209.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43488,7 +42967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 44.45 0)
+			(at 209.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43497,7 +42976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 44.45 0)
+			(at 209.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43506,7 +42985,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 44.45 0)
+			(at 209.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43527,17 +43006,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_Symbol:SN74LVC1G07DBV")
-		(at 207.01 48.26 0)
+		(lib_id "Library_Symbol:SN74LVC1G07DBV_1")
+		(at 226.06 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c32b9c2f-2755-4a0c-8e1b-ea90ae657863")
 		(property "Reference" "U25"
-			(at 210.82 46.99 0)
+			(at 221.488 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43545,7 +43023,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G07DBV"
-			(at 207.01 59.309 0)
+			(at 226.06 61.849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43554,8 +43032,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:SOT95P280X145-5N"
-			(at 207.01 61.214 0)
+		(property "Footprint" "ICs And Semiconductors SMD:SOT95P280X145-5N"
+			(at 257.556 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43565,7 +43043,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74LVC1G07DBV.pdf"
-			(at 207.01 63.119 0)
+			(at 257.556 54.483 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43575,7 +43053,7 @@
 			)
 		)
 		(property "Description" "Single Buffer/Driver with Open-Drain Output"
-			(at 207.01 48.26 0)
+			(at 257.556 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43584,7 +43062,7 @@
 			)
 		)
 		(property "Part Number" "SN74LVC1G07DBV"
-			(at 207.01 65.024 0)
+			(at 257.556 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43594,7 +43072,7 @@
 			)
 		)
 		(property "Library Ref" "741G07"
-			(at 207.01 66.929 0)
+			(at 257.556 58.293 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43604,7 +43082,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Standard Logic.SchLib"
-			(at 207.01 68.834 0)
+			(at 257.556 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43614,7 +43092,7 @@
 			)
 		)
 		(property "Comment" "SN74LVC1G07DBV"
-			(at 207.01 70.739 0)
+			(at 257.556 62.103 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43624,7 +43102,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 207.01 72.644 0)
+			(at 257.556 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43634,7 +43112,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 207.01 74.549 0)
+			(at 257.556 65.913 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43644,7 +43122,7 @@
 			)
 		)
 		(property "Device" "SN74LVC1G07DBV"
-			(at 207.01 76.454 0)
+			(at 257.556 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43654,7 +43132,7 @@
 			)
 		)
 		(property "PackageDescription" "SOT, 0.95mm Pitch; 5 Pin, 1.60mm W X 2.90mm L X 1.45mm H body, IPC Medium Density"
-			(at 207.01 78.359 0)
+			(at 257.556 69.723 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43664,7 +43142,7 @@
 			)
 		)
 		(property "Status" " "
-			(at 207.01 80.264 0)
+			(at 257.556 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43674,7 +43152,7 @@
 			)
 		)
 		(property "Part Description" "Single Buffer/Driver with Open-Drain Output"
-			(at 207.01 82.169 0)
+			(at 257.556 73.533 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43684,7 +43162,7 @@
 			)
 		)
 		(property "Manufacturer" "TEXAS INSTRUMENTS"
-			(at 207.01 84.074 0)
+			(at 257.556 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43694,7 +43172,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SN74LVC1G07DBV"
-			(at 207.01 85.979 0)
+			(at 257.556 77.343 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43704,7 +43182,7 @@
 			)
 		)
 		(property "Pin Count" "5"
-			(at 207.01 87.884 0)
+			(at 257.556 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43714,7 +43192,7 @@
 			)
 		)
 		(property "Case" "SOT23-5"
-			(at 207.01 89.789 0)
+			(at 257.556 81.153 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43724,7 +43202,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 207.01 91.694 0)
+			(at 257.556 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43734,7 +43212,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 207.01 93.599 0)
+			(at 257.556 84.963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43744,7 +43222,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 207.01 95.504 0)
+			(at 257.556 86.868 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43754,7 +43232,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 207.01 97.409 0)
+			(at 257.556 88.773 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43764,7 +43242,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 207.01 99.314 0)
+			(at 257.556 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43774,7 +43252,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 207.01 101.219 0)
+			(at 257.556 92.583 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43784,7 +43262,7 @@
 			)
 		)
 		(property "Bonding" "No"
-			(at 207.01 103.124 0)
+			(at 257.556 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43794,7 +43272,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 207.01 105.029 0)
+			(at 257.556 96.393 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43804,7 +43282,7 @@
 			)
 		)
 		(property "ComponentHeight" "1.45mm"
-			(at 207.01 106.934 0)
+			(at 257.556 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43814,7 +43292,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\ICs And Semiconductors SMD.PcbLib"
-			(at 207.01 108.839 0)
+			(at 257.556 100.203 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43824,7 +43302,7 @@
 			)
 		)
 		(property "Footprint Ref" "SOT95P280X145-5N"
-			(at 207.01 110.744 0)
+			(at 257.556 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43834,7 +43312,7 @@
 			)
 		)
 		(property "Author" "CERN DEM BC"
-			(at 207.01 112.649 0)
+			(at 257.556 104.013 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43844,7 +43322,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74LVC1G07DBV.pdf"
-			(at 207.01 114.554 0)
+			(at 257.556 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43854,7 +43332,7 @@
 			)
 		)
 		(property "ComponentLink1URL" " "
-			(at 207.01 116.459 0)
+			(at 257.556 107.823 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43864,7 +43342,7 @@
 			)
 		)
 		(property "ComponentLink1Description" " "
-			(at 207.01 118.364 0)
+			(at 257.556 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43874,7 +43352,7 @@
 			)
 		)
 		(property "ComponentLink2URL" " "
-			(at 207.01 120.269 0)
+			(at 257.556 111.633 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43884,7 +43362,7 @@
 			)
 		)
 		(property "ComponentLink2Description" " "
-			(at 207.01 122.174 0)
+			(at 257.556 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43894,7 +43372,7 @@
 			)
 		)
 		(property "CreateDate" "02/19/20 00:00:00"
-			(at 207.01 124.079 0)
+			(at 257.556 115.443 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43904,7 +43382,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "02/19/20 00:00:00"
-			(at 207.01 125.984 0)
+			(at 257.556 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43914,7 +43392,7 @@
 			)
 		)
 		(property "SCEM" " "
-			(at 207.01 127.889 0)
+			(at 257.556 119.253 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43924,7 +43402,7 @@
 			)
 		)
 		(property "Database Table Name" "ICs And Semiconductors"
-			(at 207.01 129.794 0)
+			(at 257.556 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43934,7 +43412,7 @@
 			)
 		)
 		(property "Library Name" "Standard Logic"
-			(at 207.01 131.699 0)
+			(at 257.556 123.063 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43944,7 +43422,7 @@
 			)
 		)
 		(property "Footprint Library" "ICs And Semiconductors SMD"
-			(at 207.01 133.604 0)
+			(at 257.556 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43954,7 +43432,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 207.01 135.509 0)
+			(at 257.556 126.873 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43964,7 +43442,7 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
-			(at 207.01 48.26 0)
+			(at 257.556 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43973,7 +43451,7 @@
 			)
 		)
 		(property "LCSC" "C7829"
-			(at 207.01 48.26 0)
+			(at 257.556 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44136,7 +43614,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:GND")
-		(at 229.87 60.96 0)
+		(at 248.92 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44145,7 +43623,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9fb32e4-9053-46d6-a2b3-8529d1f4f5a9")
 		(property "Reference" "#PWR0300"
-			(at 229.87 67.31 0)
+			(at 248.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44154,7 +43632,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 66.04 0)
+			(at 248.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44162,7 +43640,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 60.96 0)
+			(at 248.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44171,7 +43649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 60.96 0)
+			(at 248.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44180,7 +43658,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 60.96 0)
+			(at 248.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46824,7 +46302,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:+1V0")
-		(at 201.93 41.91 0)
+		(at 209.55 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46832,7 +46310,7 @@
 		(dnp no)
 		(uuid "e2b8f3e8-be00-42da-8c83-3d564179eba4")
 		(property "Reference" "#PWR0298"
-			(at 201.93 45.72 0)
+			(at 209.55 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46841,7 +46319,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 201.93 38.354 0)
+			(at 209.55 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46849,7 +46327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 41.91 0)
+			(at 209.55 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46858,7 +46336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 41.91 0)
+			(at 209.55 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46867,7 +46345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 201.93 41.91 0)
+			(at 209.55 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49522,9 +49000,8 @@
 		)
 	)
 	(symbol
-		(lib_name "SN74LVC1G07DBV_1")
 		(lib_id "Library_Symbol:SN74LVC1G07DBV_1")
-		(at 207.01 31.75 0)
+		(at 207.01 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49532,7 +49009,7 @@
 		(dnp no)
 		(uuid "f82668c8-0a90-4cb4-aa2a-1b5eeb7b8586")
 		(property "Reference" "U24"
-			(at 213.614 32.766 0)
+			(at 213.614 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49540,7 +49017,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G07DBV"
-			(at 238.506 31.623 0)
+			(at 238.506 30.353 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49549,8 +49026,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:SOT95P280X145-5N"
-			(at 238.506 33.528 0)
+		(property "Footprint" "ICs And Semiconductors SMD:SOT95P280X145-5N"
+			(at 238.506 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49560,7 +49037,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74LVC1G07DBV.pdf"
-			(at 238.506 35.433 0)
+			(at 238.506 34.163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49570,7 +49047,7 @@
 			)
 		)
 		(property "Description" "Single Buffer/Driver with Open-Drain Output"
-			(at 238.506 20.574 0)
+			(at 238.506 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49579,7 +49056,7 @@
 			)
 		)
 		(property "Part Number" "SN74LVC1G07DBV"
-			(at 238.506 37.338 0)
+			(at 238.506 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49589,7 +49066,7 @@
 			)
 		)
 		(property "Library Ref" "741G07"
-			(at 238.506 39.243 0)
+			(at 238.506 37.973 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49599,7 +49076,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Standard Logic.SchLib"
-			(at 238.506 41.148 0)
+			(at 238.506 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49609,7 +49086,7 @@
 			)
 		)
 		(property "Comment" "SN74LVC1G07DBV"
-			(at 238.506 43.053 0)
+			(at 238.506 41.783 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49619,7 +49096,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 238.506 44.958 0)
+			(at 238.506 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49629,7 +49106,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 238.506 46.863 0)
+			(at 238.506 45.593 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49639,7 +49116,7 @@
 			)
 		)
 		(property "Device" "SN74LVC1G07DBV"
-			(at 238.506 48.768 0)
+			(at 238.506 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49649,7 +49126,7 @@
 			)
 		)
 		(property "PackageDescription" "SOT, 0.95mm Pitch; 5 Pin, 1.60mm W X 2.90mm L X 1.45mm H body, IPC Medium Density"
-			(at 238.506 50.673 0)
+			(at 238.506 49.403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49659,7 +49136,7 @@
 			)
 		)
 		(property "Status" " "
-			(at 238.506 52.578 0)
+			(at 238.506 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49669,7 +49146,7 @@
 			)
 		)
 		(property "Part Description" "Single Buffer/Driver with Open-Drain Output"
-			(at 238.506 54.483 0)
+			(at 238.506 53.213 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49679,7 +49156,7 @@
 			)
 		)
 		(property "Manufacturer" "TEXAS INSTRUMENTS"
-			(at 238.506 56.388 0)
+			(at 238.506 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49689,7 +49166,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SN74LVC1G07DBV"
-			(at 238.506 58.293 0)
+			(at 238.506 57.023 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49699,7 +49176,7 @@
 			)
 		)
 		(property "Pin Count" "5"
-			(at 238.506 60.198 0)
+			(at 238.506 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49709,7 +49186,7 @@
 			)
 		)
 		(property "Case" "SOT23-5"
-			(at 238.506 62.103 0)
+			(at 238.506 60.833 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49719,7 +49196,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 238.506 64.008 0)
+			(at 238.506 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49729,7 +49206,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 238.506 65.913 0)
+			(at 238.506 64.643 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49739,7 +49216,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 238.506 67.818 0)
+			(at 238.506 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49749,7 +49226,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 238.506 69.723 0)
+			(at 238.506 68.453 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49759,7 +49236,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 238.506 71.628 0)
+			(at 238.506 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49769,7 +49246,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 238.506 73.533 0)
+			(at 238.506 72.263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49779,7 +49256,7 @@
 			)
 		)
 		(property "Bonding" "No"
-			(at 238.506 75.438 0)
+			(at 238.506 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49789,7 +49266,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 238.506 77.343 0)
+			(at 238.506 76.073 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49799,7 +49276,7 @@
 			)
 		)
 		(property "ComponentHeight" "1.45mm"
-			(at 238.506 79.248 0)
+			(at 238.506 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49809,7 +49286,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\ICs And Semiconductors SMD.PcbLib"
-			(at 238.506 81.153 0)
+			(at 238.506 79.883 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49819,7 +49296,7 @@
 			)
 		)
 		(property "Footprint Ref" "SOT95P280X145-5N"
-			(at 238.506 83.058 0)
+			(at 238.506 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49829,7 +49306,7 @@
 			)
 		)
 		(property "Author" "CERN DEM BC"
-			(at 238.506 84.963 0)
+			(at 238.506 83.693 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49839,7 +49316,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\SN74LVC1G07DBV.pdf"
-			(at 238.506 86.868 0)
+			(at 238.506 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49849,7 +49326,7 @@
 			)
 		)
 		(property "ComponentLink1URL" " "
-			(at 238.506 88.773 0)
+			(at 238.506 87.503 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49859,7 +49336,7 @@
 			)
 		)
 		(property "ComponentLink1Description" " "
-			(at 238.506 90.678 0)
+			(at 238.506 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49869,7 +49346,7 @@
 			)
 		)
 		(property "ComponentLink2URL" " "
-			(at 238.506 92.583 0)
+			(at 238.506 91.313 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49879,7 +49356,7 @@
 			)
 		)
 		(property "ComponentLink2Description" " "
-			(at 238.506 94.488 0)
+			(at 238.506 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49889,7 +49366,7 @@
 			)
 		)
 		(property "CreateDate" "02/19/20 00:00:00"
-			(at 238.506 96.393 0)
+			(at 238.506 95.123 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49899,7 +49376,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "02/19/20 00:00:00"
-			(at 238.506 98.298 0)
+			(at 238.506 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49909,7 +49386,7 @@
 			)
 		)
 		(property "SCEM" " "
-			(at 238.506 100.203 0)
+			(at 238.506 98.933 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49919,7 +49396,7 @@
 			)
 		)
 		(property "Database Table Name" "ICs And Semiconductors"
-			(at 238.506 102.108 0)
+			(at 238.506 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49929,7 +49406,7 @@
 			)
 		)
 		(property "Library Name" "Standard Logic"
-			(at 238.506 104.013 0)
+			(at 238.506 102.743 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49939,7 +49416,7 @@
 			)
 		)
 		(property "Footprint Library" "ICs And Semiconductors SMD"
-			(at 238.506 105.918 0)
+			(at 238.506 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49949,7 +49426,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 238.506 107.823 0)
+			(at 238.506 106.553 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49959,7 +49436,7 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
-			(at 238.506 20.574 0)
+			(at 238.506 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49968,7 +49445,7 @@
 			)
 		)
 		(property "LCSC" "C7829"
-			(at 238.506 20.574 0)
+			(at 238.506 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
