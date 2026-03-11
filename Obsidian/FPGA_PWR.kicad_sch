@@ -13093,7 +13093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCCINT"
+		(property "Value" "VCCINT_1V"
 			(at 175.006 96.52 0)
 			(effects
 				(font
@@ -17089,7 +17089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCCINT"
+		(property "Value" "VCCINT_1V"
 			(at 191.516 27.94 0)
 			(effects
 				(font
@@ -33709,7 +33709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCCINT"
+		(property "Value" "VCCINT_1V"
 			(at 49.276 63.5 0)
 			(effects
 				(font

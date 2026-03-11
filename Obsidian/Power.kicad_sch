@@ -13620,12 +13620,6 @@
 		(uuid "5ff60808-e5cd-4c75-8249-beaadbc2df9f")
 	)
 	(junction
-		(at 151.13 17.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60dda44c-3db4-4c96-9467-b4a41a24c717")
-	)
-	(junction
 		(at 90.17 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14015,7 +14009,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 17.78) (xy 168.91 17.78)
+			(xy 154.94 17.78) (xy 163.83 17.78)
 		)
 		(stroke
 			(width 0)
@@ -14552,16 +14546,6 @@
 			(type default)
 		)
 		(uuid "5ba2d5ea-92a9-45be-8000-52404d093d47")
-	)
-	(wire
-		(pts
-			(xy 151.13 17.78) (xy 154.94 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c3fa798-c16b-4146-a0f2-efb618312170")
 	)
 	(wire
 		(pts
@@ -15185,7 +15169,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 17.78) (xy 151.13 17.78)
+			(xy 125.73 17.78) (xy 154.94 17.78)
 		)
 		(stroke
 			(width 0)
@@ -24641,7 +24625,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:+1V0")
-		(at 168.91 17.78 0)
+		(at 163.83 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24649,7 +24633,7 @@
 		(dnp no)
 		(uuid "33fba27c-d92d-4590-9b5b-504ae87c7971")
 		(property "Reference" "#PWR0184"
-			(at 168.91 21.59 0)
+			(at 163.83 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24657,8 +24641,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCCINT"
-			(at 168.656 13.97 0)
+		(property "Value" "VCCINT_1V"
+			(at 163.576 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24666,7 +24650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 17.78 0)
+			(at 163.83 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24675,7 +24659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 17.78 0)
+			(at 163.83 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24684,7 +24668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 168.91 17.78 0)
+			(at 163.83 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43673,71 +43657,6 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
 					(reference "#PWR0300")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library_Symbol:+1V0")
-		(at 151.13 17.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cab5b788-39c9-46a4-a667-2c0a5470dd8f")
-		(property "Reference" "#PWR02"
-			(at 151.13 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V0"
-			(at 150.876 13.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 151.13 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be286296-2550-4f56-867e-ca109e1dc162")
-		)
-		(instances
-			(project ""
-				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
