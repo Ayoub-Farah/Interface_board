@@ -4,7 +4,7 @@
 	(layer outer)
 	(constraint track_width (min 0.14mm) (max 0.18mm) (opt 0.14mm) )
 	(constraint diff_pair_gap (min 0.16mm) ( max 1.5mm) (opt 0.26mm) )
-	(constraint diff_pair_uncoupled (max 23mm) )
+	(constraint diff_pair_uncoupled (max 11mm) )
 	(condition "A.inDiffPair('*')" )
 )
 
@@ -12,7 +12,7 @@
 	(layer inner)
 	(constraint track_width (min 0.12mm) (max 0.13mm) (opt 0.12mm) )
 	(constraint diff_pair_gap (min 0.11mm) ( max 1.5mm) (opt 0.22mm) )
-	(constraint diff_pair_uncoupled (max 23mm) )
+	(constraint diff_pair_uncoupled (max 11mm) )
 	(condition  "A.inDiffPair('*')")
 )
 

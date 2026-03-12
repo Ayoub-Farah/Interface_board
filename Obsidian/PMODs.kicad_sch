@@ -11,6 +11,356 @@
 		(comment 1 "${author}")
 	)
 	(lib_symbols
+		(symbol "Connector:Micro_SD_Card"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -16.51 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Micro_SD_Card"
+				(at 16.51 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Micro SD Card Socket"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector SD microsd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "microSD*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Micro_SD_Card_0_1"
+				(polyline
+					(pts
+						(xy -8.89 -11.43) (xy -8.89 8.89) (xy -1.27 8.89) (xy 2.54 12.7) (xy 3.81 12.7) (xy 3.81 11.43)
+						(xy 6.35 11.43) (xy 7.62 12.7) (xy 20.32 12.7) (xy 20.32 -11.43) (xy -8.89 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -7.62 8.255)
+					(end -5.08 6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 5.715)
+					(end -5.08 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 3.175)
+					(end -5.08 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 0.635)
+					(end -5.08 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -1.905)
+					(end -5.08 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -4.445)
+					(end -5.08 -5.715)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -6.985)
+					(end -5.08 -8.255)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -9.525)
+					(end -5.08 -10.795)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 12.7) (xy 16.51 13.97) (xy -19.05 13.97) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Micro_SD_Card_1_1"
+				(pin bidirectional line
+					(at -22.86 7.62 0)
+					(length 3.81)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 5.08 0)
+					(length 3.81)
+					(name "DAT3/CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 2.54 0)
+					(length 3.81)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 0 0)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -2.54 0)
+					(length 3.81)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -5.08 0)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -7.62 0)
+					(length 3.81)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -10.16 0)
+					(length 3.81)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -15.24 180)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x06_Top_Bottom"
 			(pin_names
 				(offset 1.016)
@@ -443,6 +793,542 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Resistors SMD:R0402_10K_1%_0.0625W_100PPM"
+			(pin_names
+				(offset 1.27)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 3.81 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R0402_10K_1%_0.0625W_100PPM"
+				(at 0 -4.953 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Resistors SMD:RESC1005X40N"
+				(at 0 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+				(at 0 -8.763 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "General Purpose Thick Film Chip Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Val" "10k"
+				(at 3.81 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "R0402_10K_1%_0.0625W_100PPM"
+				(at 0 -10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Library Ref" "Resistor - 1%"
+				(at 0 -12.573 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Library Path" "SchLib\\Resistors.SchLib"
+				(at 0 -14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Comment" "10k"
+				(at 0 -16.383 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Component Kind" "Standard"
+				(at 0 -18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Component Type" "Standard"
+				(at 0 -20.193 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "PackageDescription" " "
+				(at 0 -22.098 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "2"
+				(at 0 -24.003 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
+				(at 0 -25.908 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint Ref" "RESC1005X40N"
+				(at 0 -27.813 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Status" "Not Recommended"
+				(at 0 -29.718 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Power" "0.0625W"
+				(at 0 -31.623 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "TC" "±100ppm/°C"
+				(at 0 -33.528 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage" " "
+				(at 0 -35.433 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Description" "General Purpose Thick Film Chip Resistor"
+				(at 0 -37.338 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "GENERIC"
+				(at 0 -39.243 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "R0402_10K_1%_0.0625W_100PPM"
+				(at 0 -41.148 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Case" "0402"
+				(at 0 -43.053 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "PressFit" "No"
+				(at 0 -44.958 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounted" "Yes"
+				(at 0 -46.863 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sense Comment" " "
+				(at 0 -48.768 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sense" "No"
+				(at 0 -50.673 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Status Comment" " "
+				(at 0 -52.578 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Socket" "No"
+				(at 0 -54.483 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "SMD" "Yes"
+				(at 0 -56.388 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ComponentHeight" " "
+				(at 0 -58.293 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 Example" "YAGEO PHYCOMP"
+				(at 0 -60.198 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 Part Number" "232270671003L"
+				(at 0 -62.103 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 ComponentHeight" "0.4mm"
+				(at 0 -64.008 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+				(at 0 -65.913 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Author" "CERN DEM JLC"
+				(at 0 -67.818 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "CreateDate" "12/03/07 00:00:00"
+				(at 0 -69.723 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "LatestRevisionDate" "10/17/12 00:00:00"
+				(at 0 -71.628 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Database Table Name" "Resistors"
+				(at 0 -73.533 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Library Name" "Resistors SMD"
+				(at 0 -75.438 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint Library" "Resistors SMD"
+				(at 0 -77.343 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "License" "CC-BY-SA 4.0"
+				(at 0 -79.248 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R0402_10K_1%_0.0625W_100PPM_0_1"
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.762) (xy 6.096 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 0.762) (xy 1.524 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 -0.762) (xy 6.096 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.524)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.524)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V0"
 			(power)
 			(pin_numbers
@@ -670,9 +1556,111 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 139.7 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "273138c9-7045-4bf8-8981-356e19a85348")
+	)
+	(junction
+		(at 161.29 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30731328-5e26-4cdf-9d71-ee597b75dc95")
+	)
+	(junction
+		(at 161.29 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39f34c55-1168-4f75-b0c9-15a5910cc8a7")
+	)
+	(junction
+		(at 166.37 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "409f6a19-73af-417c-aa63-f2af6e27552c")
+	)
+	(junction
+		(at 204.47 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b71c687-d5da-4083-afdb-ef3b96d3b7fb")
+	)
+	(junction
+		(at 207.01 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "519c2c5f-81e2-42fb-8434-49703c444f2b")
+	)
+	(junction
+		(at 139.7 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b809aac-c6d2-4ad4-a420-4c65fed7f531")
+	)
+	(junction
+		(at 139.7 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5df37252-225c-40a2-894e-ff522266507a")
+	)
+	(junction
+		(at 139.7 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65d81073-6d89-4396-aed7-12479f8ec74c")
+	)
+	(junction
+		(at 166.37 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8582bc17-fbe9-4c7e-8a35-e7ff61b21cb0")
+	)
+	(junction
+		(at 204.47 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88b4e476-753e-4384-80ff-2528a3e06926")
+	)
+	(junction
+		(at 163.83 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e54f145-03c2-495a-b2f0-7b0b5f10b54a")
+	)
+	(junction
+		(at 158.75 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a68eec1b-14ff-4bc9-a1c4-4f34a6e63e08")
+	)
+	(junction
+		(at 139.7 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd164035-b814-4462-b7fd-28cec62aee86")
+	)
+	(junction
+		(at 207.01 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb25b645-140d-41d9-90dd-f2c210370587")
+	)
+	(junction
+		(at 163.83 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc6f9f0d-53a0-4fdd-9912-3d4d6533884b")
+	)
+	(junction
+		(at 158.75 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddd67027-4cb3-455a-8214-df23816e2f15")
+	)
 	(wire
 		(pts
-			(xy 217.17 118.11) (xy 228.6 118.11)
+			(xy 190.5 111.76) (xy 215.9 111.76)
 		)
 		(stroke
 			(width 0)
@@ -682,7 +1670,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 53.34) (xy 114.3 53.34)
+			(xy 76.2 46.99) (xy 87.63 46.99)
 		)
 		(stroke
 			(width 0)
@@ -692,7 +1680,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 82.55) (xy 114.3 82.55)
+			(xy 139.7 135.89) (xy 146.05 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0614f94c-ec51-4b32-b82d-a40e4b14b236")
+	)
+	(wire
+		(pts
+			(xy 76.2 76.2) (xy 87.63 76.2)
 		)
 		(stroke
 			(width 0)
@@ -702,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 90.17) (xy 205.74 90.17)
+			(xy 167.64 83.82) (xy 179.07 83.82)
 		)
 		(stroke
 			(width 0)
@@ -712,7 +1710,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 85.09) (xy 229.87 85.09)
+			(xy 191.77 78.74) (xy 203.2 78.74)
 		)
 		(stroke
 			(width 0)
@@ -722,7 +1720,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 90.17) (xy 138.43 90.17)
+			(xy 163.83 109.22) (xy 177.8 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abc9be2-0e55-49e6-a4d3-f5c67a714647")
+	)
+	(wire
+		(pts
+			(xy 100.33 83.82) (xy 111.76 83.82)
 		)
 		(stroke
 			(width 0)
@@ -732,7 +1740,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 120.65) (xy 113.03 120.65)
+			(xy 74.93 114.3) (xy 86.36 114.3)
 		)
 		(stroke
 			(width 0)
@@ -742,7 +1750,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 50.8) (xy 138.43 50.8)
+			(xy 153.67 148.59) (xy 204.47 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b35635-a89a-4553-9a11-0f5064bf17a0")
+	)
+	(wire
+		(pts
+			(xy 100.33 44.45) (xy 111.76 44.45)
 		)
 		(stroke
 			(width 0)
@@ -752,7 +1770,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 58.42) (xy 229.87 58.42)
+			(xy 191.77 52.07) (xy 203.2 52.07)
 		)
 		(stroke
 			(width 0)
@@ -762,7 +1780,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 120.65) (xy 137.16 120.65)
+			(xy 99.06 114.3) (xy 110.49 114.3)
 		)
 		(stroke
 			(width 0)
@@ -772,7 +1790,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 90.17) (xy 114.3 90.17)
+			(xy 76.2 83.82) (xy 87.63 83.82)
 		)
 		(stroke
 			(width 0)
@@ -782,7 +1800,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 58.42) (xy 138.43 58.42)
+			(xy 100.33 52.07) (xy 111.76 52.07)
 		)
 		(stroke
 			(width 0)
@@ -792,7 +1810,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 85.09) (xy 114.3 85.09)
+			(xy 153.67 135.89) (xy 163.83 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263ee493-b216-4415-99e0-e219e48c1c0a")
+	)
+	(wire
+		(pts
+			(xy 76.2 78.74) (xy 87.63 78.74)
 		)
 		(stroke
 			(width 0)
@@ -802,7 +1830,27 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 113.03) (xy 113.03 113.03)
+			(xy 139.7 146.05) (xy 139.7 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1aa5f0-78bc-4d0a-b910-10b0e1ec0031")
+	)
+	(wire
+		(pts
+			(xy 207.01 130.81) (xy 207.01 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aaefa70-b330-410a-bc76-41856c4573e3")
+	)
+	(wire
+		(pts
+			(xy 74.93 106.68) (xy 86.36 106.68)
 		)
 		(stroke
 			(width 0)
@@ -812,7 +1860,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 113.03) (xy 137.16 113.03)
+			(xy 139.7 133.35) (xy 139.7 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f96894d-c4fd-4a00-8ef5-dbecb6e8493f")
+	)
+	(wire
+		(pts
+			(xy 99.06 106.68) (xy 110.49 106.68)
 		)
 		(stroke
 			(width 0)
@@ -822,7 +1880,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 118.11) (xy 204.47 118.11)
+			(xy 157.48 111.76) (xy 161.29 111.76)
 		)
 		(stroke
 			(width 0)
@@ -832,7 +1890,47 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 115.57) (xy 204.47 115.57)
+			(xy 139.7 130.81) (xy 139.7 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e3f391-da96-4499-ad67-11fa9d607896")
+	)
+	(wire
+		(pts
+			(xy 204.47 106.68) (xy 215.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db01f46-5051-418b-a258-850959fce6e0")
+	)
+	(wire
+		(pts
+			(xy 158.75 140.97) (xy 158.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f89d478-87d9-4b63-9f7c-9d233460d0ac")
+	)
+	(wire
+		(pts
+			(xy 218.44 130.81) (xy 207.01 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4007729f-d97f-40ff-b802-feb6f0612f56")
+	)
+	(wire
+		(pts
+			(xy 157.48 109.22) (xy 163.83 109.22)
 		)
 		(stroke
 			(width 0)
@@ -842,7 +1940,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 50.8) (xy 205.74 50.8)
+			(xy 167.64 44.45) (xy 179.07 44.45)
 		)
 		(stroke
 			(width 0)
@@ -852,7 +1950,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 53.34) (xy 138.43 53.34)
+			(xy 146.05 130.81) (xy 139.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e62435-eea7-49c9-9044-3a52addf5414")
+	)
+	(wire
+		(pts
+			(xy 100.33 46.99) (xy 111.76 46.99)
 		)
 		(stroke
 			(width 0)
@@ -862,7 +1970,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 113.03) (xy 228.6 113.03)
+			(xy 190.5 106.68) (xy 204.47 106.68)
 		)
 		(stroke
 			(width 0)
@@ -872,7 +1980,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 55.88) (xy 138.43 55.88)
+			(xy 100.33 49.53) (xy 111.76 49.53)
 		)
 		(stroke
 			(width 0)
@@ -882,7 +1990,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 118.11) (xy 137.16 118.11)
+			(xy 99.06 111.76) (xy 110.49 111.76)
 		)
 		(stroke
 			(width 0)
@@ -892,7 +2000,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 87.63) (xy 229.87 87.63)
+			(xy 191.77 81.28) (xy 203.2 81.28)
 		)
 		(stroke
 			(width 0)
@@ -902,7 +2010,57 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 58.42) (xy 205.74 58.42)
+			(xy 166.37 133.35) (xy 166.37 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a53eeb9-ae2b-4d6f-b1d9-3897ace325b2")
+	)
+	(wire
+		(pts
+			(xy 218.44 146.05) (xy 161.29 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae8c5c4-4be5-4e72-aa31-1870dc8a680f")
+	)
+	(wire
+		(pts
+			(xy 218.44 148.59) (xy 204.47 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e43749c-6c41-4293-9b09-0327a527d6ae")
+	)
+	(wire
+		(pts
+			(xy 139.7 135.89) (xy 139.7 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f3e2e58-09cb-477c-abe4-ca1c37ec73c4")
+	)
+	(wire
+		(pts
+			(xy 153.67 146.05) (xy 161.29 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659bd129-dff1-411a-bb6d-1761a31fc505")
+	)
+	(wire
+		(pts
+			(xy 167.64 52.07) (xy 179.07 52.07)
 		)
 		(stroke
 			(width 0)
@@ -912,7 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 85.09) (xy 205.74 85.09)
+			(xy 167.64 78.74) (xy 179.07 78.74)
 		)
 		(stroke
 			(width 0)
@@ -922,7 +2080,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 87.63) (xy 138.43 87.63)
+			(xy 100.33 81.28) (xy 111.76 81.28)
 		)
 		(stroke
 			(width 0)
@@ -932,7 +2090,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 82.55) (xy 205.74 82.55)
+			(xy 153.67 130.81) (xy 207.01 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de43c52-895a-4b34-af76-1f61e39ffc4d")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.2) (xy 179.07 76.2)
 		)
 		(stroke
 			(width 0)
@@ -942,7 +2110,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 50.8) (xy 114.3 50.8)
+			(xy 76.2 44.45) (xy 87.63 44.45)
 		)
 		(stroke
 			(width 0)
@@ -952,7 +2120,37 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 120.65) (xy 228.6 120.65)
+			(xy 218.44 133.35) (xy 166.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f0f197-a4ef-4296-8ec1-ab1d58e4b4fa")
+	)
+	(wire
+		(pts
+			(xy 139.7 133.35) (xy 146.05 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d189750-0553-4366-be85-adbf6db45589")
+	)
+	(wire
+		(pts
+			(xy 139.7 140.97) (xy 146.05 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861d78e2-e28b-4dd1-93da-5f2ad11081ed")
+	)
+	(wire
+		(pts
+			(xy 190.5 114.3) (xy 215.9 114.3)
 		)
 		(stroke
 			(width 0)
@@ -962,7 +2160,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 87.63) (xy 205.74 87.63)
+			(xy 167.64 81.28) (xy 179.07 81.28)
 		)
 		(stroke
 			(width 0)
@@ -972,7 +2170,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 115.57) (xy 137.16 115.57)
+			(xy 99.06 109.22) (xy 110.49 109.22)
 		)
 		(stroke
 			(width 0)
@@ -982,7 +2180,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 115.57) (xy 113.03 115.57)
+			(xy 166.37 106.68) (xy 177.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d1a2ce-5933-431c-8759-80ef74b2f3bd")
+	)
+	(wire
+		(pts
+			(xy 74.93 109.22) (xy 86.36 109.22)
 		)
 		(stroke
 			(width 0)
@@ -992,7 +2200,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 87.63) (xy 114.3 87.63)
+			(xy 76.2 81.28) (xy 87.63 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1002,7 +2210,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 120.65) (xy 204.47 120.65)
+			(xy 157.48 114.3) (xy 158.75 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1012,7 +2220,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 85.09) (xy 138.43 85.09)
+			(xy 100.33 78.74) (xy 111.76 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1022,7 +2230,27 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 55.88) (xy 229.87 55.88)
+			(xy 139.7 146.05) (xy 146.05 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b1aeb3-96af-47f7-a400-9917c3c15110")
+	)
+	(wire
+		(pts
+			(xy 139.7 140.97) (xy 139.7 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64796c8-6014-4ab2-bc3c-b5c019a194d8")
+	)
+	(wire
+		(pts
+			(xy 191.77 49.53) (xy 203.2 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1032,7 +2260,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 55.88) (xy 205.74 55.88)
+			(xy 139.7 148.59) (xy 146.05 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0e526d-4271-4601-b494-3af67f1f262d")
+	)
+	(wire
+		(pts
+			(xy 167.64 49.53) (xy 179.07 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1042,7 +2280,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 113.03) (xy 204.47 113.03)
+			(xy 157.48 106.68) (xy 166.37 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1052,7 +2290,37 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 90.17) (xy 229.87 90.17)
+			(xy 161.29 111.76) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0bc3cf9-0575-404d-8535-e1829ecf877b")
+	)
+	(wire
+		(pts
+			(xy 163.83 135.89) (xy 163.83 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ff575d-e95d-4612-a8ab-a8908db74ecb")
+	)
+	(wire
+		(pts
+			(xy 161.29 146.05) (xy 161.29 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8eb67bc-70fa-44a9-8ab6-798252121daf")
+	)
+	(wire
+		(pts
+			(xy 191.77 83.82) (xy 203.2 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1062,7 +2330,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 58.42) (xy 114.3 58.42)
+			(xy 76.2 52.07) (xy 87.63 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1072,7 +2340,27 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 53.34) (xy 229.87 53.34)
+			(xy 207.01 109.22) (xy 215.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05345c7-1529-4849-9d25-febcd06728f3")
+	)
+	(wire
+		(pts
+			(xy 218.44 135.89) (xy 163.83 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45390e6-1912-4cbd-8d5e-9892061e4746")
+	)
+	(wire
+		(pts
+			(xy 191.77 46.99) (xy 203.2 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1082,7 +2370,17 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 82.55) (xy 229.87 82.55)
+			(xy 218.44 140.97) (xy 158.75 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2671f8-941a-451f-aa3d-53ddac10f776")
+	)
+	(wire
+		(pts
+			(xy 191.77 76.2) (xy 203.2 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1092,7 +2390,27 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 118.11) (xy 113.03 118.11)
+			(xy 153.67 133.35) (xy 166.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e783ed5f-7163-4744-b578-e1f9c4993d49")
+	)
+	(wire
+		(pts
+			(xy 153.67 140.97) (xy 158.75 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea584a99-0434-45c3-9b4b-7a26a6161630")
+	)
+	(wire
+		(pts
+			(xy 74.93 111.76) (xy 86.36 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1102,7 +2420,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 82.55) (xy 138.43 82.55)
+			(xy 100.33 76.2) (xy 111.76 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1112,7 +2430,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 53.34) (xy 205.74 53.34)
+			(xy 167.64 46.99) (xy 179.07 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1122,7 +2440,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 115.57) (xy 228.6 115.57)
+			(xy 204.47 148.59) (xy 204.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8aeb0c-2a4c-469c-b370-534f08dd1e4a")
+	)
+	(wire
+		(pts
+			(xy 190.5 109.22) (xy 207.01 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1132,7 +2460,17 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 50.8) (xy 229.87 50.8)
+			(xy 158.75 114.3) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56f6587-8645-431e-bf68-7d032725136e")
+	)
+	(wire
+		(pts
+			(xy 191.77 44.45) (xy 203.2 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1142,7 +2480,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 55.88) (xy 114.3 55.88)
+			(xy 76.2 49.53) (xy 87.63 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1152,7 +2490,7 @@
 	)
 	(global_label "PMOD5_5"
 		(shape bidirectional)
-		(at 137.16 115.57 0)
+		(at 110.49 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1162,7 +2500,7 @@
 		)
 		(uuid "009ffeff-e5a6-4581-a048-9d5f40e0e2f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8537 115.57 0)
+			(at 122.1837 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1174,7 +2512,7 @@
 	)
 	(global_label "PMOD6_3"
 		(shape bidirectional)
-		(at 193.04 120.65 180)
+		(at 157.48 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1184,7 +2522,7 @@
 		)
 		(uuid "022ee321-621d-4134-9352-7400b1865d73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.3463 120.65 0)
+			(at 145.7863 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1196,7 +2534,7 @@
 	)
 	(global_label "PMOD5_3"
 		(shape bidirectional)
-		(at 101.6 120.65 180)
+		(at 74.93 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1206,7 +2544,7 @@
 		)
 		(uuid "07b1abe3-65dc-45b3-abca-a18a267d233e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.9063 120.65 0)
+			(at 63.2363 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,7 +2556,7 @@
 	)
 	(global_label "PMOD2_1_N"
 		(shape bidirectional)
-		(at 102.87 85.09 180)
+		(at 76.2 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1228,7 +2566,7 @@
 		)
 		(uuid "0ad3e1f9-500a-4a20-a87f-34c23d207e41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.7669 85.09 0)
+			(at 61.0969 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,7 +2578,7 @@
 	)
 	(global_label "PMOD5_0"
 		(shape bidirectional)
-		(at 101.6 113.03 180)
+		(at 74.93 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1250,7 +2588,7 @@
 		)
 		(uuid "14661549-6b60-40bd-abea-8395721f2f04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.9063 113.03 0)
+			(at 63.2363 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +2600,7 @@
 	)
 	(global_label "PMOD1_1_N"
 		(shape bidirectional)
-		(at 102.87 53.34 180)
+		(at 76.2 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1272,7 +2610,7 @@
 		)
 		(uuid "154d44ea-410b-4b48-85c9-3fbc6d891a1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.7669 53.34 0)
+			(at 61.0969 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,7 +2622,7 @@
 	)
 	(global_label "PMOD6_7"
 		(shape bidirectional)
-		(at 228.6 120.65 0)
+		(at 215.9 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1294,7 +2632,7 @@
 		)
 		(uuid "1797ff7d-d504-4f13-abd1-79d5ad5d5d1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.2937 120.65 0)
+			(at 227.5937 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +2644,7 @@
 	)
 	(global_label "PMOD5_7"
 		(shape bidirectional)
-		(at 137.16 120.65 0)
+		(at 110.49 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1316,7 +2654,7 @@
 		)
 		(uuid "1a20674c-f78d-488b-b0d6-667760f78303")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8537 120.65 0)
+			(at 122.1837 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +2666,7 @@
 	)
 	(global_label "PMOD3_3_N"
 		(shape bidirectional)
-		(at 229.87 53.34 0)
+		(at 203.2 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1338,7 +2676,7 @@
 		)
 		(uuid "1b6d314c-b5dd-40ac-b05c-ebf31fb38569")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.9731 53.34 0)
+			(at 218.3031 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,7 +2688,7 @@
 	)
 	(global_label "PMOD2_3_P"
 		(shape bidirectional)
-		(at 138.43 82.55 0)
+		(at 111.76 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1360,7 +2698,7 @@
 		)
 		(uuid "238ef17a-7306-4542-96b9-2ddfe45decc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.4726 82.55 0)
+			(at 126.8026 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,7 +2710,7 @@
 	)
 	(global_label "PMOD3_2_P"
 		(shape bidirectional)
-		(at 194.31 55.88 180)
+		(at 167.64 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1382,7 +2720,7 @@
 		)
 		(uuid "2c0225b9-13ad-43f9-ad49-e5ca41604c4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2674 55.88 0)
+			(at 152.5974 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +2732,7 @@
 	)
 	(global_label "PMOD1_3_N"
 		(shape bidirectional)
-		(at 138.43 53.34 0)
+		(at 111.76 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1404,7 +2742,7 @@
 		)
 		(uuid "32aba528-2176-4820-bf03-aab3e11771a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.5331 53.34 0)
+			(at 126.8631 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +2754,7 @@
 	)
 	(global_label "PMOD6_4"
 		(shape bidirectional)
-		(at 228.6 113.03 0)
+		(at 215.9 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1426,7 +2764,7 @@
 		)
 		(uuid "341898cf-7139-4748-b538-7103df04febf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.2937 113.03 0)
+			(at 227.5937 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1438,7 +2776,7 @@
 	)
 	(global_label "PMOD6_6"
 		(shape bidirectional)
-		(at 228.6 118.11 0)
+		(at 215.9 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1448,7 +2786,7 @@
 		)
 		(uuid "38593f40-10c5-4d8b-90e2-20e8cc1fad6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.2937 118.11 0)
+			(at 227.5937 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,7 +2798,7 @@
 	)
 	(global_label "PMOD4_2_P"
 		(shape bidirectional)
-		(at 194.31 87.63 180)
+		(at 167.64 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1470,7 +2808,7 @@
 		)
 		(uuid "3b0d18b0-d7c8-4cf7-bb2e-2454e7255edb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2674 87.63 0)
+			(at 152.5974 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +2820,7 @@
 	)
 	(global_label "PMOD6_2"
 		(shape bidirectional)
-		(at 193.04 118.11 180)
+		(at 157.48 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1492,7 +2830,7 @@
 		)
 		(uuid "46935ba8-f7b1-422a-a8e6-f66b6583c017")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.3463 118.11 0)
+			(at 145.7863 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +2842,7 @@
 	)
 	(global_label "PMOD1_3_P"
 		(shape bidirectional)
-		(at 138.43 50.8 0)
+		(at 111.76 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1514,7 +2852,7 @@
 		)
 		(uuid "4cfde759-dd7d-43c8-88e3-f990a0cec8d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.4726 50.8 0)
+			(at 126.8026 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1526,7 +2864,7 @@
 	)
 	(global_label "PMOD4_1_N"
 		(shape bidirectional)
-		(at 194.31 85.09 180)
+		(at 167.64 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1536,7 +2874,7 @@
 		)
 		(uuid "51e5dfb0-c640-4607-9a1c-45e683045789")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2069 85.09 0)
+			(at 152.5369 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +2886,7 @@
 	)
 	(global_label "PMOD6_5"
 		(shape bidirectional)
-		(at 228.6 115.57 0)
+		(at 215.9 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1558,7 +2896,7 @@
 		)
 		(uuid "520f8a66-425c-40c9-a932-c6b5739425a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.2937 115.57 0)
+			(at 227.5937 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +2908,7 @@
 	)
 	(global_label "PMOD2_3_N"
 		(shape bidirectional)
-		(at 138.43 85.09 0)
+		(at 111.76 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1580,7 +2918,7 @@
 		)
 		(uuid "6034fa84-640f-4cd8-8e98-0186ebcf9af4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.5331 85.09 0)
+			(at 126.8631 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,7 +2930,7 @@
 	)
 	(global_label "PMOD4_3_P"
 		(shape bidirectional)
-		(at 229.87 82.55 0)
+		(at 203.2 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1602,7 +2940,7 @@
 		)
 		(uuid "603a7774-3c30-4157-a354-8c702cec20c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.9126 82.55 0)
+			(at 218.2426 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +2952,7 @@
 	)
 	(global_label "PMOD1_2_N"
 		(shape bidirectional)
-		(at 102.87 58.42 180)
+		(at 76.2 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1624,7 +2962,7 @@
 		)
 		(uuid "60403cbe-18a0-408f-8a3a-6370854eaebd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.7669 58.42 0)
+			(at 61.0969 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,7 +2974,7 @@
 	)
 	(global_label "PMOD1_1_P"
 		(shape bidirectional)
-		(at 102.87 50.8 180)
+		(at 76.2 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1646,7 +2984,7 @@
 		)
 		(uuid "6167ef2c-e5f3-44f1-a930-328056fe277e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.8274 50.8 0)
+			(at 61.1574 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,7 +2996,7 @@
 	)
 	(global_label "PMOD2_2_N"
 		(shape bidirectional)
-		(at 102.87 90.17 180)
+		(at 76.2 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1668,7 +3006,7 @@
 		)
 		(uuid "651510a2-2918-4624-bac6-9297069a51af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.7669 90.17 0)
+			(at 61.0969 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +3018,7 @@
 	)
 	(global_label "PMOD3_4_N"
 		(shape bidirectional)
-		(at 229.87 58.42 0)
+		(at 203.2 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1690,7 +3028,7 @@
 		)
 		(uuid "7178253d-77d8-4487-a512-1c48ede5e609")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.9731 58.42 0)
+			(at 218.3031 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,7 +3040,7 @@
 	)
 	(global_label "PMOD2_2_P"
 		(shape bidirectional)
-		(at 102.87 87.63 180)
+		(at 76.2 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1712,7 +3050,7 @@
 		)
 		(uuid "7726ee7e-6aa2-46c7-9ff8-8da6dabc330a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.8274 87.63 0)
+			(at 61.1574 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +3062,7 @@
 	)
 	(global_label "PMOD1_4_N"
 		(shape bidirectional)
-		(at 138.43 58.42 0)
+		(at 111.76 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1734,7 +3072,7 @@
 		)
 		(uuid "85c59934-25f3-484d-bdcd-7546aa941e4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.5331 58.42 0)
+			(at 126.8631 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1746,7 +3084,7 @@
 	)
 	(global_label "PMOD5_4"
 		(shape bidirectional)
-		(at 137.16 113.03 0)
+		(at 110.49 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1756,7 +3094,7 @@
 		)
 		(uuid "8943aa3b-af5c-4681-abc4-4631bfba5480")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8537 113.03 0)
+			(at 122.1837 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +3106,7 @@
 	)
 	(global_label "PMOD4_4_P"
 		(shape bidirectional)
-		(at 229.87 87.63 0)
+		(at 203.2 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1778,7 +3116,7 @@
 		)
 		(uuid "89440a2e-41dd-471a-93c1-14ab95cc5c92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.9126 87.63 0)
+			(at 218.2426 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +3128,7 @@
 	)
 	(global_label "PMOD5_1"
 		(shape bidirectional)
-		(at 101.6 115.57 180)
+		(at 74.93 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1800,7 +3138,7 @@
 		)
 		(uuid "8a5e10eb-e81b-4617-9891-a8c84e88b0e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.9063 115.57 0)
+			(at 63.2363 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,7 +3150,7 @@
 	)
 	(global_label "PMOD1_2_P"
 		(shape bidirectional)
-		(at 102.87 55.88 180)
+		(at 76.2 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1822,7 +3160,7 @@
 		)
 		(uuid "8bda4720-3843-4f27-8bfe-1100badda37b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.8274 55.88 0)
+			(at 61.1574 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +3172,7 @@
 	)
 	(global_label "PMOD2_4_P"
 		(shape bidirectional)
-		(at 138.43 87.63 0)
+		(at 111.76 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1844,7 +3182,7 @@
 		)
 		(uuid "8d6cf496-f8bb-4e56-8acb-1b862a9ecd4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.4726 87.63 0)
+			(at 126.8026 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +3194,7 @@
 	)
 	(global_label "PMOD3_1_P"
 		(shape bidirectional)
-		(at 194.31 50.8 180)
+		(at 167.64 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1866,7 +3204,7 @@
 		)
 		(uuid "a4ae19a4-0eef-4475-80cf-305ce0c12e99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2674 50.8 0)
+			(at 152.5974 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +3216,7 @@
 	)
 	(global_label "PMOD3_4_P"
 		(shape bidirectional)
-		(at 229.87 55.88 0)
+		(at 203.2 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1888,7 +3226,7 @@
 		)
 		(uuid "a7643160-b4e3-4296-ba92-53a543426632")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.9126 55.88 0)
+			(at 218.2426 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +3238,7 @@
 	)
 	(global_label "PMOD2_4_N"
 		(shape bidirectional)
-		(at 138.43 90.17 0)
+		(at 111.76 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1910,7 +3248,7 @@
 		)
 		(uuid "b1989138-d7e2-46ea-8b67-169d6f79284f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.5331 90.17 0)
+			(at 126.8631 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +3260,7 @@
 	)
 	(global_label "PMOD5_6"
 		(shape bidirectional)
-		(at 137.16 118.11 0)
+		(at 110.49 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1932,7 +3270,7 @@
 		)
 		(uuid "b2e6f48b-71c3-42ab-a88e-ab320cb8bcfd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8537 118.11 0)
+			(at 122.1837 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +3282,7 @@
 	)
 	(global_label "PMOD1_4_P"
 		(shape bidirectional)
-		(at 138.43 55.88 0)
+		(at 111.76 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1954,7 +3292,7 @@
 		)
 		(uuid "b5f10213-4165-4b92-9537-aaa789a7cf2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.4726 55.88 0)
+			(at 126.8026 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +3304,7 @@
 	)
 	(global_label "PMOD3_2_N"
 		(shape bidirectional)
-		(at 194.31 58.42 180)
+		(at 167.64 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1976,7 +3314,7 @@
 		)
 		(uuid "b7aed2c7-de83-4881-ab57-9f7d2873e114")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2069 58.42 0)
+			(at 152.5369 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +3326,7 @@
 	)
 	(global_label "PMOD3_3_P"
 		(shape bidirectional)
-		(at 229.87 50.8 0)
+		(at 203.2 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1998,7 +3336,7 @@
 		)
 		(uuid "b90d3b97-aaa5-450e-9e15-85d092078ce1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.9126 50.8 0)
+			(at 218.2426 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2010,7 +3348,7 @@
 	)
 	(global_label "PMOD6_1"
 		(shape bidirectional)
-		(at 193.04 115.57 180)
+		(at 157.48 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2020,7 +3358,7 @@
 		)
 		(uuid "babbf8f5-e812-4476-afcf-155902372829")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.3463 115.57 0)
+			(at 145.7863 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +3370,7 @@
 	)
 	(global_label "PMOD6_0"
 		(shape bidirectional)
-		(at 193.04 113.03 180)
+		(at 157.48 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2042,7 +3380,7 @@
 		)
 		(uuid "c3fa4fb6-02af-4363-ba84-d92de090cd6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.3463 113.03 0)
+			(at 145.7863 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2054,7 +3392,7 @@
 	)
 	(global_label "PMOD4_2_N"
 		(shape bidirectional)
-		(at 194.31 90.17 180)
+		(at 167.64 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2064,7 +3402,7 @@
 		)
 		(uuid "c9d4bd5b-7997-4095-b40c-f216e153e8f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2069 90.17 0)
+			(at 152.5369 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +3414,7 @@
 	)
 	(global_label "PMOD2_1_P"
 		(shape bidirectional)
-		(at 102.87 82.55 180)
+		(at 76.2 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2086,7 +3424,7 @@
 		)
 		(uuid "cd72e27c-f7d3-4424-96ca-3880caa94845")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.8274 82.55 0)
+			(at 61.1574 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,7 +3436,7 @@
 	)
 	(global_label "PMOD3_1_N"
 		(shape bidirectional)
-		(at 194.31 53.34 180)
+		(at 167.64 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2108,7 +3446,7 @@
 		)
 		(uuid "ce1a33a8-f9c9-4ea4-96be-9a5a7cbc5d6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2069 53.34 0)
+			(at 152.5369 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +3458,7 @@
 	)
 	(global_label "PMOD4_3_N"
 		(shape bidirectional)
-		(at 229.87 85.09 0)
+		(at 203.2 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2130,7 +3468,7 @@
 		)
 		(uuid "dd8f35fd-0927-482b-97f8-fa7e974fc74f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.9731 85.09 0)
+			(at 218.3031 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +3480,7 @@
 	)
 	(global_label "PMOD4_4_N"
 		(shape bidirectional)
-		(at 229.87 90.17 0)
+		(at 203.2 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2152,7 +3490,7 @@
 		)
 		(uuid "e2c552e7-bcb5-4d61-a1d3-eccb31e5f1ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.9731 90.17 0)
+			(at 218.3031 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,7 +3502,7 @@
 	)
 	(global_label "PMOD4_1_P"
 		(shape bidirectional)
-		(at 194.31 82.55 180)
+		(at 167.64 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2174,7 +3512,7 @@
 		)
 		(uuid "ee647892-1ab7-4096-a50a-54edd9455659")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2674 82.55 0)
+			(at 152.5974 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +3524,7 @@
 	)
 	(global_label "PMOD5_2"
 		(shape bidirectional)
-		(at 101.6 118.11 180)
+		(at 74.93 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2196,7 +3534,7 @@
 		)
 		(uuid "f9467889-35e7-432c-8cca-39583b979a36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.9063 118.11 0)
+			(at 63.2363 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +3546,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
-		(at 119.38 55.88 0)
+		(at 92.71 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2217,7 +3555,7 @@
 		(fields_autoplaced yes)
 		(uuid "052c0d96-0766-497e-b531-31f863d74d5d")
 		(property "Reference" "J4"
-			(at 120.65 44.45 0)
+			(at 93.98 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,7 +3563,7 @@
 			)
 		)
 		(property "Value" "Conn_02x06_Top_Bottom"
-			(at 120.65 46.99 0)
+			(at 93.98 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +3571,7 @@
 			)
 		)
 		(property "Footprint" "Miscellaneous THD:PinSocket_2x06_P2.54mm_Horizontal_PMOD"
-			(at 119.38 55.88 0)
+			(at 92.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +3580,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 55.88 0)
+			(at 92.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +3589,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 119.38 55.88 0)
+			(at 92.71 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +3644,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 114.3 63.5 90)
+		(at 87.63 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2314,7 +3652,7 @@
 		(dnp no)
 		(uuid "096f99ab-9c03-4dcc-a392-c2ca9b96fe67")
 		(property "Reference" "#PWR0165"
-			(at 118.11 63.5 0)
+			(at 91.44 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,7 +3661,7 @@
 			)
 		)
 		(property "Value" "+3V3_P"
-			(at 106.68 63.5 90)
+			(at 80.01 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +3669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 63.5 0)
+			(at 87.63 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +3678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 63.5 0)
+			(at 87.63 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2349,7 +3687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 114.3 63.5 0)
+			(at 87.63 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +3709,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
-		(at 210.82 55.88 0)
+		(at 184.15 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2380,7 +3718,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ccba9c1-f66c-48d6-8624-27092ebfb13c")
 		(property "Reference" "J6"
-			(at 212.09 44.45 0)
+			(at 185.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +3726,7 @@
 			)
 		)
 		(property "Value" "Conn_02x06_Top_Bottom"
-			(at 212.09 46.99 0)
+			(at 185.42 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +3734,7 @@
 			)
 		)
 		(property "Footprint" "Miscellaneous THD:PinSocket_2x06_P2.54mm_Horizontal_PMOD"
-			(at 210.82 55.88 0)
+			(at 184.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +3743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 55.88 0)
+			(at 184.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +3752,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 210.82 55.88 0)
+			(at 184.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,7 +3807,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
-		(at 210.82 87.63 0)
+		(at 184.15 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2478,7 +3816,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d9b98d9-cf79-479c-9dae-8039fe38f963")
 		(property "Reference" "J7"
-			(at 212.09 76.2 0)
+			(at 185.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +3824,7 @@
 			)
 		)
 		(property "Value" "Conn_02x06_Top_Bottom"
-			(at 212.09 78.74 0)
+			(at 185.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +3832,7 @@
 			)
 		)
 		(property "Footprint" "Miscellaneous THD:PinSocket_2x06_P2.54mm_Horizontal_PMOD"
-			(at 210.82 87.63 0)
+			(at 184.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +3841,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 87.63 0)
+			(at 184.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +3850,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 210.82 87.63 0)
+			(at 184.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +3905,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 204.47 125.73 90)
+		(at 177.8 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2575,7 +3913,7 @@
 		(dnp no)
 		(uuid "1c6781d8-e41e-419e-b40a-27e18cda22a0")
 		(property "Reference" "#PWR0331"
-			(at 208.28 125.73 0)
+			(at 181.61 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +3922,7 @@
 			)
 		)
 		(property "Value" "+3V3_P"
-			(at 196.85 125.73 90)
+			(at 170.18 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,7 +3930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 125.73 0)
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +3939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 125.73 0)
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +3948,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 204.47 125.73 0)
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +3970,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 114.3 95.25 90)
+		(at 87.63 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2640,7 +3978,7 @@
 		(dnp no)
 		(uuid "22384608-4ea1-47de-861a-c292fb9b5587")
 		(property "Reference" "#PWR0159"
-			(at 118.11 95.25 0)
+			(at 91.44 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +3987,7 @@
 			)
 		)
 		(property "Value" "+3V3_P"
-			(at 106.68 95.25 90)
+			(at 80.01 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +3995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 95.25 0)
+			(at 87.63 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +4004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 95.25 0)
+			(at 87.63 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +4013,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 114.3 95.25 0)
+			(at 87.63 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +4035,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 217.17 125.73 270)
+		(at 190.5 119.38 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2706,7 +4044,7 @@
 		(dnp no)
 		(uuid "2b49746e-2f1a-49b0-b03c-e2c2d8609165")
 		(property "Reference" "#PWR0333"
-			(at 213.36 125.73 0)
+			(at 186.69 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +4053,7 @@
 			)
 		)
 		(property "Value" "+3V3_P"
-			(at 224.79 125.73 90)
+			(at 198.12 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,7 +4061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 125.73 0)
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +4070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 125.73 0)
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +4079,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 217.17 125.73 0)
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +4101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 60.96 90)
+		(at 100.33 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2771,7 +4109,7 @@
 		(dnp no)
 		(uuid "35b374cf-56ef-416b-99d5-34afe700591b")
 		(property "Reference" "#PWR0152"
-			(at 133.35 60.96 0)
+			(at 106.68 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +4118,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.556 60.96 0)
+			(at 103.886 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,7 +4126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 60.96 0)
+			(at 100.33 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,7 +4135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 60.96 0)
+			(at 100.33 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,7 +4144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 60.96 0)
+			(at 100.33 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2828,7 +4166,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 60.96 90)
+		(at 191.77 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2836,7 +4174,7 @@
 		(dnp no)
 		(uuid "36d56e16-25ce-402d-ab7e-6e3deee0a483")
 		(property "Reference" "#PWR0154"
-			(at 224.79 60.96 0)
+			(at 198.12 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +4183,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 221.996 60.96 0)
+			(at 195.326 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +4191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 60.96 0)
+			(at 191.77 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +4200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 60.96 0)
+			(at 191.77 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2871,7 +4209,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 60.96 0)
+			(at 191.77 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,17 +4230,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V0")
-		(at 218.44 95.25 270)
-		(mirror x)
+		(lib_id "power:GND")
+		(at 218.44 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "505bfdf4-049e-437d-b826-93a88ed8ffe5")
-		(property "Reference" "#PWR0162"
-			(at 214.63 95.25 0)
+		(uuid "4d8451e5-2700-4110-bb18-abb5a4770690")
+		(property "Reference" "#PWR0224"
+			(at 212.09 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,8 +4247,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_P"
-			(at 226.06 95.25 90)
+		(property "Value" "GND"
+			(at 213.36 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +4256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 95.25 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,7 +4265,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 95.25 0)
+			(at 218.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b31b1e8-3bf8-48aa-8aef-0b2cb78452dc")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "#PWR0224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 191.77 88.9 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "505bfdf4-049e-437d-b826-93a88ed8ffe5")
+		(property "Reference" "#PWR0162"
+			(at 187.96 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_P"
+			(at 199.39 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,7 +4340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 218.44 95.25 0)
+			(at 191.77 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +4362,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 123.19 90)
+		(at 190.5 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2967,7 +4370,7 @@
 		(dnp no)
 		(uuid "590f9d86-9f8d-4253-ba49-a255ecf77f07")
 		(property "Reference" "#PWR0332"
-			(at 223.52 123.19 0)
+			(at 196.85 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +4379,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.726 123.19 0)
+			(at 194.056 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +4387,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 123.19 0)
+			(at 190.5 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +4396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 123.19 0)
+			(at 190.5 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,7 +4405,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 123.19 0)
+			(at 190.5 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,8 +4426,465 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistors SMD:R0402_10K_1%_0.0625W_100PPM")
+		(at 146.05 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e004d88-2db3-4716-b7bd-319b2953a6d8")
+		(property "Reference" "R108"
+			(at 144.78 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 145.923 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
+			(at 146.05 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 146.05 149.733 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 146.05 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 149.86 140.97 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Val" "10k"
+			(at 154.178 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Ref" "Resistor - 1%"
+			(at 146.05 153.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Path" "SchLib\\Resistors.SchLib"
+			(at 146.05 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Comment" "10k"
+			(at 146.05 157.353 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 146.05 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 146.05 161.163 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" " "
+			(at 146.05 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 146.05 164.973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
+			(at 146.05 166.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Ref" "RESC1005X40N"
+			(at 146.05 168.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Not Recommended"
+			(at 146.05 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.0625W"
+			(at 146.05 172.593 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 146.05 174.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" " "
+			(at 146.05 176.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 146.05 178.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 146.05 180.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 182.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 146.05 184.023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 146.05 185.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 146.05 187.833 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" " "
+			(at 146.05 189.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 146.05 191.643 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" " "
+			(at 146.05 193.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 146.05 195.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 146.05 197.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" " "
+			(at 146.05 199.263 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
+			(at 146.05 201.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "232270671003L"
+			(at 146.05 203.073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
+			(at 146.05 204.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 146.05 206.883 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM JLC"
+			(at 146.05 208.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "12/03/07 00:00:00"
+			(at 146.05 210.693 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
+			(at 146.05 212.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors"
+			(at 146.05 214.503 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Name" "Resistors SMD"
+			(at 146.05 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 146.05 218.313 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "License" "CC-BY-SA 4.0"
+			(at 146.05 220.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14145c1a-7c41-4531-8642-6c50caae554f")
+		)
+		(pin "2"
+			(uuid "2971294b-ea98-4442-85fc-1d58f1a88cd6")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "R108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 205.74 92.71 270)
+		(at 179.07 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3032,7 +4892,7 @@
 		(dnp no)
 		(uuid "6360ad7e-4081-4c1e-bad7-e0d6e171517c")
 		(property "Reference" "#PWR0157"
-			(at 199.39 92.71 0)
+			(at 172.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,7 +4901,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 202.184 92.71 0)
+			(at 175.514 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +4909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 92.71 0)
+			(at 179.07 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,7 +4918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 92.71 0)
+			(at 179.07 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +4927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 92.71 0)
+			(at 179.07 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,7 +4949,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
-		(at 118.11 118.11 0)
+		(at 91.44 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3098,7 +4958,7 @@
 		(fields_autoplaced yes)
 		(uuid "645d5e1c-6216-46af-8f71-d94425b5c8a3")
 		(property "Reference" "J14"
-			(at 119.38 106.68 0)
+			(at 92.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +4966,7 @@
 			)
 		)
 		(property "Value" "Conn_02x06_Top_Bottom"
-			(at 119.38 109.22 0)
+			(at 92.71 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,7 +4974,7 @@
 			)
 		)
 		(property "Footprint" "Miscellaneous THD:PinSocket_2x06_P2.54mm_Vertical_PMOD"
-			(at 118.11 118.11 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,7 +4983,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 118.11 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +4992,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 118.11 118.11 0)
+			(at 91.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,7 +5047,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
-		(at 209.55 118.11 0)
+		(at 182.88 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3196,7 +5056,7 @@
 		(fields_autoplaced yes)
 		(uuid "645d5e1c-6216-46af-8f71-d94425b5c8a4")
 		(property "Reference" "J15"
-			(at 210.82 106.68 0)
+			(at 184.15 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,7 +5064,7 @@
 			)
 		)
 		(property "Value" "Conn_02x06_Top_Bottom"
-			(at 210.82 109.22 0)
+			(at 184.15 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3212,7 +5072,7 @@
 			)
 		)
 		(property "Footprint" "Miscellaneous THD:PinSocket_2x06_P2.54mm_Vertical_PMOD"
-			(at 209.55 118.11 0)
+			(at 182.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3221,7 +5081,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 118.11 0)
+			(at 182.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3230,7 +5090,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 209.55 118.11 0)
+			(at 182.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +5145,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 205.74 95.25 90)
+		(at 179.07 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3293,7 +5153,7 @@
 		(dnp no)
 		(uuid "6a988271-5fa0-4446-b74d-218decaae70a")
 		(property "Reference" "#PWR0161"
-			(at 209.55 95.25 0)
+			(at 182.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,7 +5162,7 @@
 			)
 		)
 		(property "Value" "+3V3_P"
-			(at 198.12 95.25 90)
+			(at 171.45 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3310,7 +5170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 95.25 0)
+			(at 179.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +5179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 95.25 0)
+			(at 179.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +5188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 205.74 95.25 0)
+			(at 179.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,7 +5210,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 92.71 90)
+		(at 100.33 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3358,7 +5218,7 @@
 		(dnp no)
 		(uuid "6e9cb995-29ea-4ea8-8d7e-ed1135e826a6")
 		(property "Reference" "#PWR0156"
-			(at 133.35 92.71 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +5227,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.556 92.71 0)
+			(at 103.886 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +5235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 92.71 0)
+			(at 100.33 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +5244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 92.71 0)
+			(at 100.33 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,7 +5253,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 92.71 0)
+			(at 100.33 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +5275,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 92.71 270)
+		(at 87.63 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3423,7 +5283,7 @@
 		(dnp no)
 		(uuid "72eb642a-f229-4668-b9de-13fadc39ecf8")
 		(property "Reference" "#PWR0155"
-			(at 107.95 92.71 0)
+			(at 81.28 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3432,7 +5292,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.744 92.71 0)
+			(at 84.074 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +5300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 92.71 0)
+			(at 87.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +5309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 92.71 0)
+			(at 87.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +5318,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 92.71 0)
+			(at 87.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +5340,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 218.44 63.5 270)
+		(at 191.77 57.15 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3489,7 +5349,7 @@
 		(dnp no)
 		(uuid "74a3b0c9-d7aa-4762-ae8b-c46928d41abd")
 		(property "Reference" "#PWR0164"
-			(at 214.63 63.5 0)
+			(at 187.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +5358,7 @@
 			)
 		)
 		(property "Value" "+3V3_P"
-			(at 226.06 63.5 90)
+			(at 199.39 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +5366,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 63.5 0)
+			(at 191.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,7 +5375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 63.5 0)
+			(at 191.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +5384,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 218.44 63.5 0)
+			(at 191.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,8 +5405,465 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistors SMD:R0402_10K_1%_0.0625W_100PPM")
+		(at 146.05 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "807a7cc3-74d0-4a67-ae58-1d885df16696")
+		(property "Reference" "R106"
+			(at 144.78 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 138.303 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
+			(at 146.05 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 146.05 142.113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 146.05 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 149.86 133.35 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Val" "10k"
+			(at 154.178 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Ref" "Resistor - 1%"
+			(at 146.05 145.923 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Path" "SchLib\\Resistors.SchLib"
+			(at 146.05 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Comment" "10k"
+			(at 146.05 149.733 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 146.05 151.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 146.05 153.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" " "
+			(at 146.05 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 146.05 157.353 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
+			(at 146.05 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Ref" "RESC1005X40N"
+			(at 146.05 161.163 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Not Recommended"
+			(at 146.05 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.0625W"
+			(at 146.05 164.973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 146.05 166.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" " "
+			(at 146.05 168.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 146.05 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 146.05 172.593 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 174.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 146.05 176.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 146.05 178.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 146.05 180.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" " "
+			(at 146.05 182.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 146.05 184.023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" " "
+			(at 146.05 185.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 146.05 187.833 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 146.05 189.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" " "
+			(at 146.05 191.643 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
+			(at 146.05 193.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "232270671003L"
+			(at 146.05 195.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
+			(at 146.05 197.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 146.05 199.263 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM JLC"
+			(at 146.05 201.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "12/03/07 00:00:00"
+			(at 146.05 203.073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
+			(at 146.05 204.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors"
+			(at 146.05 206.883 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Name" "Resistors SMD"
+			(at 146.05 208.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 146.05 210.693 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "License" "CC-BY-SA 4.0"
+			(at 146.05 212.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cf9764f-9045-47a9-b552-9a79c9c3aac4")
+		)
+		(pin "2"
+			(uuid "02b1a813-e9ba-4093-b745-e21549c02891")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "R106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 125.73 123.19 90)
+		(at 99.06 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3554,7 +5871,7 @@
 		(dnp no)
 		(uuid "8d070c3b-bb66-4d30-8e75-d5109888c03a")
 		(property "Reference" "#PWR0328"
-			(at 132.08 123.19 0)
+			(at 105.41 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,7 +5880,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.286 123.19 0)
+			(at 102.616 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +5888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 123.19 0)
+			(at 99.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,7 +5897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 123.19 0)
+			(at 99.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,7 +5906,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 123.19 0)
+			(at 99.06 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +5928,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 92.71 90)
+		(at 191.77 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3619,7 +5936,7 @@
 		(dnp no)
 		(uuid "911fb3a4-9f45-4b08-945c-68986e339336")
 		(property "Reference" "#PWR0158"
-			(at 224.79 92.71 0)
+			(at 198.12 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,7 +5945,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 221.996 92.71 0)
+			(at 195.326 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3636,7 +5953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 92.71 0)
+			(at 191.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +5962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 92.71 0)
+			(at 191.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +5971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 92.71 0)
+			(at 191.77 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +5993,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Top_Bottom")
-		(at 119.38 87.63 0)
+		(at 92.71 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3685,7 +6002,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d34f787-e16a-4b0b-86f8-bf6126abecbe")
 		(property "Reference" "J5"
-			(at 120.65 76.2 0)
+			(at 93.98 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,7 +6010,7 @@
 			)
 		)
 		(property "Value" "Conn_02x06_Top_Bottom"
-			(at 120.65 78.74 0)
+			(at 93.98 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +6018,7 @@
 			)
 		)
 		(property "Footprint" "Miscellaneous THD:PinSocket_2x06_P2.54mm_Horizontal_PMOD"
-			(at 119.38 87.63 0)
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +6027,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 87.63 0)
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,7 +6036,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 119.38 87.63 0)
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,8 +6090,554 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Micro_SD_Card")
+		(at 241.3 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5071252-58bf-4a57-871c-1a9d59ced628")
+		(property "Reference" "J17"
+			(at 241.935 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Micro_SD_Card"
+			(at 241.935 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Card:microSD_HC_Molex_47219-2001"
+			(at 270.51 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/693072010801.pdf"
+			(at 241.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micro SD Card Socket"
+			(at 241.3 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a788c83-9d1c-41dc-8c7b-3f32bb198aa7")
+		)
+		(pin "7"
+			(uuid "58d3855a-6b67-42f2-9a5f-03278a12d271")
+		)
+		(pin "8"
+			(uuid "38e9d681-fdbf-4d35-8c50-2051c7a64cfa")
+		)
+		(pin "6"
+			(uuid "4e292bec-5432-4af5-a547-83d99a5b5c37")
+		)
+		(pin "9"
+			(uuid "1e12800f-cfb0-450e-8cc1-fa5cd4ac5577")
+		)
+		(pin "2"
+			(uuid "1d3728fb-b956-4a23-81d8-e67aa248c5b2")
+		)
+		(pin "3"
+			(uuid "e27c44c4-f94f-487a-9545-b900ed22954c")
+		)
+		(pin "4"
+			(uuid "c416fa38-c5f8-4413-bb87-20389ba50da1")
+		)
+		(pin "5"
+			(uuid "1bf734dd-bd64-46e4-b978-b3dc1f8bed06")
+		)
+		(instances
+			(project ""
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors SMD:R0402_10K_1%_0.0625W_100PPM")
+		(at 146.05 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a874195a-3fa9-4dea-8905-a87f0cca8e90")
+		(property "Reference" "R110"
+			(at 144.78 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 153.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
+			(at 146.05 155.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 146.05 157.353 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 146.05 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 149.86 148.59 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Val" "10k"
+			(at 154.178 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Ref" "Resistor - 1%"
+			(at 146.05 161.163 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Path" "SchLib\\Resistors.SchLib"
+			(at 146.05 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Comment" "10k"
+			(at 146.05 164.973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 146.05 166.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 146.05 168.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" " "
+			(at 146.05 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 146.05 172.593 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
+			(at 146.05 174.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Ref" "RESC1005X40N"
+			(at 146.05 176.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Not Recommended"
+			(at 146.05 178.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.0625W"
+			(at 146.05 180.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 146.05 182.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" " "
+			(at 146.05 184.023 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 146.05 185.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 146.05 187.833 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 189.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 146.05 191.643 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 146.05 193.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 146.05 195.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" " "
+			(at 146.05 197.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 146.05 199.263 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" " "
+			(at 146.05 201.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 146.05 203.073 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 146.05 204.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" " "
+			(at 146.05 206.883 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
+			(at 146.05 208.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "232270671003L"
+			(at 146.05 210.693 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
+			(at 146.05 212.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 146.05 214.503 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM JLC"
+			(at 146.05 216.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "12/03/07 00:00:00"
+			(at 146.05 218.313 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
+			(at 146.05 220.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors"
+			(at 146.05 222.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Name" "Resistors SMD"
+			(at 146.05 224.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 146.05 225.933 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "License" "CC-BY-SA 4.0"
+			(at 146.05 227.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dbc23f4-4e84-483d-8cd3-a41e3038e83a")
+		)
+		(pin "2"
+			(uuid "edc6b95c-4eae-4c3e-b602-1c4b0fc18da1")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "R110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V0")
-		(at 113.03 125.73 90)
+		(at 86.36 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3782,7 +6645,7 @@
 		(dnp no)
 		(uuid "ab7a8aac-a2a1-4b0b-858e-abecb05ed19b")
 		(property "Reference" "#PWR0327"
-			(at 116.84 125.73 0)
+			(at 90.17 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,7 +6654,7 @@
 			)
 		)
 		(property "Value" "+3V3_P"
-			(at 105.41 125.73 90)
+			(at 78.74 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3799,7 +6662,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 125.73 0)
+			(at 86.36 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,7 +6671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 125.73 0)
+			(at 86.36 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +6680,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 113.03 125.73 0)
+			(at 86.36 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3839,7 +6702,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 127 63.5 270)
+		(at 100.33 57.15 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3848,7 +6711,7 @@
 		(dnp no)
 		(uuid "adf858dc-b68b-41bb-a356-2f571c6bc870")
 		(property "Reference" "#PWR0166"
-			(at 123.19 63.5 0)
+			(at 96.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +6720,7 @@
 			)
 		)
 		(property "Value" "+3V3_P"
-			(at 134.62 63.5 90)
+			(at 107.95 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +6728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 63.5 0)
+			(at 100.33 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +6737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 63.5 0)
+			(at 100.33 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +6746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 127 63.5 0)
+			(at 100.33 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,8 +6767,465 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistors SMD:R0402_10K_1%_0.0625W_100PPM")
+		(at 146.05 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c81ee5a9-1dc5-435a-b02d-452f857333a7")
+		(property "Reference" "R107"
+			(at 144.78 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 140.843 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
+			(at 146.05 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 146.05 144.653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 146.05 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 149.86 135.89 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Val" "10k"
+			(at 154.178 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Ref" "Resistor - 1%"
+			(at 146.05 148.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Path" "SchLib\\Resistors.SchLib"
+			(at 146.05 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Comment" "10k"
+			(at 146.05 152.273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 146.05 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 146.05 156.083 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" " "
+			(at 146.05 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 146.05 159.893 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
+			(at 146.05 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Ref" "RESC1005X40N"
+			(at 146.05 163.703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Not Recommended"
+			(at 146.05 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.0625W"
+			(at 146.05 167.513 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 146.05 169.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" " "
+			(at 146.05 171.323 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 146.05 173.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 146.05 175.133 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 177.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 146.05 178.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 146.05 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 146.05 182.753 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" " "
+			(at 146.05 184.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 146.05 186.563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" " "
+			(at 146.05 188.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 146.05 190.373 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 146.05 192.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" " "
+			(at 146.05 194.183 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
+			(at 146.05 196.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "232270671003L"
+			(at 146.05 197.993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
+			(at 146.05 199.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 146.05 201.803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM JLC"
+			(at 146.05 203.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "12/03/07 00:00:00"
+			(at 146.05 205.613 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
+			(at 146.05 207.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors"
+			(at 146.05 209.423 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Name" "Resistors SMD"
+			(at 146.05 211.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 146.05 213.233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "License" "CC-BY-SA 4.0"
+			(at 146.05 215.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b8fd10f-6707-425d-a098-5d53a62b62ae")
+		)
+		(pin "2"
+			(uuid "cc27c393-4b50-42d4-8ad7-6c10e3b57649")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "R107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V0")
-		(at 125.73 125.73 270)
+		(at 99.06 119.38 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3914,7 +7234,7 @@
 		(dnp no)
 		(uuid "cdd07f7b-69a9-42dc-83a5-d044fd54120b")
 		(property "Reference" "#PWR0329"
-			(at 121.92 125.73 0)
+			(at 95.25 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3923,7 +7243,7 @@
 			)
 		)
 		(property "Value" "+3V3_P"
-			(at 133.35 125.73 90)
+			(at 106.68 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +7251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 125.73 0)
+			(at 99.06 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +7260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 125.73 0)
+			(at 99.06 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,7 +7269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 125.73 125.73 0)
+			(at 99.06 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +7291,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 60.96 270)
+		(at 87.63 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3979,7 +7299,7 @@
 		(dnp no)
 		(uuid "ce4b1bf8-eaac-4e74-bf99-6e24c471eb7d")
 		(property "Reference" "#PWR0151"
-			(at 107.95 60.96 0)
+			(at 81.28 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,7 +7308,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.744 60.96 0)
+			(at 84.074 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +7316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 60.96 0)
+			(at 87.63 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +7325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 60.96 0)
+			(at 87.63 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +7334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 60.96 0)
+			(at 87.63 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +7356,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 123.19 270)
+		(at 86.36 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4044,7 +7364,7 @@
 		(dnp no)
 		(uuid "d0dae056-c2f2-4e03-bdc5-7bdeb4007350")
 		(property "Reference" "#PWR0326"
-			(at 106.68 123.19 0)
+			(at 80.01 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,7 +7373,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.474 123.19 0)
+			(at 82.804 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4061,7 +7381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 123.19 0)
+			(at 86.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4070,7 +7390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 123.19 0)
+			(at 86.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,7 +7399,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 123.19 0)
+			(at 86.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,7 +7421,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 204.47 123.19 270)
+		(at 177.8 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4109,7 +7429,7 @@
 		(dnp no)
 		(uuid "d32c4ab0-b443-41c1-b47d-300432b9a8f5")
 		(property "Reference" "#PWR0330"
-			(at 198.12 123.19 0)
+			(at 171.45 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +7438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.914 123.19 0)
+			(at 174.244 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +7446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 123.19 0)
+			(at 177.8 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +7455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 123.19 0)
+			(at 177.8 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +7464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 123.19 0)
+			(at 177.8 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,17 +7485,54 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V0")
-		(at 127 95.25 270)
-		(mirror x)
+		(lib_id "Resistors SMD:R0402_10K_1%_0.0625W_100PPM")
+		(at 146.05 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "eac6c8f0-9605-473d-91b1-de64a807462f")
-		(property "Reference" "#PWR0160"
-			(at 123.19 95.25 0)
+		(uuid "d6f6312f-80a4-4839-bc03-d652fba9a563")
+		(property "Reference" "R109"
+			(at 144.78 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 151.003 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
+			(at 146.05 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 146.05 154.813 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 146.05 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,8 +7540,427 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_P"
-			(at 134.62 95.25 90)
+		(property "Tolerance" "±1%"
+			(at 149.86 146.05 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Val" "10k"
+			(at 154.178 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Ref" "Resistor - 1%"
+			(at 146.05 158.623 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Path" "SchLib\\Resistors.SchLib"
+			(at 146.05 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Comment" "10k"
+			(at 146.05 162.433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 146.05 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 146.05 166.243 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" " "
+			(at 146.05 168.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 146.05 170.053 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
+			(at 146.05 171.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Ref" "RESC1005X40N"
+			(at 146.05 173.863 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Not Recommended"
+			(at 146.05 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.0625W"
+			(at 146.05 177.673 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 146.05 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" " "
+			(at 146.05 181.483 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 146.05 183.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 146.05 185.293 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 187.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 146.05 189.103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 146.05 191.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 146.05 192.913 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" " "
+			(at 146.05 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 146.05 196.723 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" " "
+			(at 146.05 198.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 146.05 200.533 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 146.05 202.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" " "
+			(at 146.05 204.343 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
+			(at 146.05 206.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "232270671003L"
+			(at 146.05 208.153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
+			(at 146.05 210.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 146.05 211.963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM JLC"
+			(at 146.05 213.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "12/03/07 00:00:00"
+			(at 146.05 215.773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
+			(at 146.05 217.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors"
+			(at 146.05 219.583 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Name" "Resistors SMD"
+			(at 146.05 221.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 146.05 223.393 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "License" "CC-BY-SA 4.0"
+			(at 146.05 225.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04e192d0-07a7-4025-8a6f-b35723ee84f7")
+		)
+		(pin "2"
+			(uuid "c437f95b-b478-4c45-b616-3e389aecd791")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "R109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 218.44 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df4904ba-f024-4b07-9096-60073b3b1deb")
+		(property "Reference" "#PWR0227"
+			(at 222.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 212.852 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +7968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 95.25 0)
+			(at 218.44 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +7977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 95.25 0)
+			(at 218.44 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +7986,595 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 127 95.25 0)
+			(at 218.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e4e92cd-e912-42cc-8b14-8ddf0641d04a")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "#PWR0227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 139.7 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dffa1b0e-9e66-4997-a907-8b5f5f2f4693")
+		(property "Reference" "#PWR0230"
+			(at 139.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 139.192 127.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 139.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0566c203-9ed1-434c-976f-01b45275c707")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "#PWR0230")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors SMD:R0402_10K_1%_0.0625W_100PPM")
+		(at 146.05 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e107585b-d2e3-4b77-92e7-c984ac35e414")
+		(property "Reference" "R105"
+			(at 144.78 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 135.763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC1005X40N"
+			(at 146.05 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 146.05 139.573 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 146.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 149.86 130.81 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Val" "10k"
+			(at 154.178 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Ref" "Resistor - 1%"
+			(at 146.05 143.383 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Path" "SchLib\\Resistors.SchLib"
+			(at 146.05 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Comment" "10k"
+			(at 146.05 147.193 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 146.05 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 146.05 151.003 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" " "
+			(at 146.05 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 146.05 154.813 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
+			(at 146.05 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Ref" "RESC1005X40N"
+			(at 146.05 158.623 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Not Recommended"
+			(at 146.05 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.0625W"
+			(at 146.05 162.433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 146.05 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" " "
+			(at 146.05 166.243 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 146.05 168.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 146.05 170.053 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 146.05 171.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 146.05 173.863 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 146.05 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 146.05 177.673 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" " "
+			(at 146.05 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 146.05 181.483 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" " "
+			(at 146.05 183.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 146.05 185.293 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 146.05 187.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" " "
+			(at 146.05 189.103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
+			(at 146.05 191.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "232270671003L"
+			(at 146.05 192.913 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
+			(at 146.05 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 146.05 196.723 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM JLC"
+			(at 146.05 198.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "12/03/07 00:00:00"
+			(at 146.05 200.533 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
+			(at 146.05 202.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors"
+			(at 146.05 204.343 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Name" "Resistors SMD"
+			(at 146.05 206.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 146.05 208.153 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "License" "CC-BY-SA 4.0"
+			(at 146.05 210.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24a651a3-ee79-4ec6-98bf-c2f892fc88f7")
+		)
+		(pin "2"
+			(uuid "08d3a8d8-e7d8-4824-84e2-9d6426be715b")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "R105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 100.33 88.9 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eac6c8f0-9605-473d-91b1-de64a807462f")
+		(property "Reference" "#PWR0160"
+			(at 96.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_P"
+			(at 107.95 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 100.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,16 +8595,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V0")
-		(at 205.74 63.5 90)
+		(lib_id "power:GND")
+		(at 261.62 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f6d3e1ee-5184-4181-90ba-6bca87b4d204")
-		(property "Reference" "#PWR0163"
-			(at 209.55 63.5 0)
+		(uuid "ed9833d7-10f4-4012-9b6e-2071a3908b61")
+		(property "Reference" "#PWR0229"
+			(at 261.62 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,8 +8612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_P"
-			(at 198.12 63.5 90)
+		(property "Value" "GND"
+			(at 261.62 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4257,7 +8621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 63.5 0)
+			(at 261.62 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,7 +8630,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 63.5 0)
+			(at 261.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f76896ef-c2f5-4d80-a0c9-b9f4e6b2f213")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/0d80ae2f-eff5-4775-9ddb-b1b867bbf039"
+					(reference "#PWR0229")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 179.07 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6d3e1ee-5184-4181-90ba-6bca87b4d204")
+		(property "Reference" "#PWR0163"
+			(at 182.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_P"
+			(at 171.45 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +8704,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 205.74 63.5 0)
+			(at 179.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +8726,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 60.96 270)
+		(at 179.07 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4305,7 +8734,7 @@
 		(dnp no)
 		(uuid "ff675528-7cc7-46cd-88d7-72a803785152")
 		(property "Reference" "#PWR0153"
-			(at 199.39 60.96 0)
+			(at 172.72 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,7 +8743,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 202.184 60.96 0)
+			(at 175.514 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4322,7 +8751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 60.96 0)
+			(at 179.07 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +8760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 60.96 0)
+			(at 179.07 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +8769,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 60.96 0)
+			(at 179.07 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
