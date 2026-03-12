@@ -681,7 +681,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/3D_folder/SCTF SX7V20.000B20100F30TNNS.step"
 		(offset
-			(xyz 8 4 -2)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

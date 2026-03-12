@@ -839,7 +839,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/3D_folder/BOURNS_SRP3212.step"
 		(offset
-			(xyz -2.7 6.5 -2)
+			(xyz -0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

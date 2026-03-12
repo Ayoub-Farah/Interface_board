@@ -628,7 +628,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/3D_folder/2604-1104.step"
 		(offset
-			(xyz -11.919 11.9 -2)
+			(xyz -0.419 -0.6 0)
 		)
 		(scale
 			(xyz 1 1 1)
