@@ -46096,7 +46096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/29/10/f7/87/2f/66/47/f4/DM00076097.pdf/files/DM00076097.pdf/jcr:content/translations/en.DM00076097.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ld39100.pdf"
 			(at 231.394 85.598 0)
 			(effects
 				(font
