@@ -433423,7 +433423,7 @@
 		(uuid "bbea0680-ac75-4ecb-992b-154aa6f2e834")
 	)
 	(via
-		(at 77.764285 98.458)
+		(at 77.764285 98.718)
 		(size 0.4)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")

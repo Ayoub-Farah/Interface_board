@@ -1023,6 +1023,10 @@
       {
         "netclass": "SPI",
         "pattern": "*SPI*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*I2C*"
       }
     ]
   },

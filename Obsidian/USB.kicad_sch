@@ -16143,7 +16143,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CC0402_27PF_50V_5%_C0G"
+		(property "Value" "CC0402_33PF_50V_5%_C0G"
 			(at 180.34 50.927 0)
 			(effects
 				(font
@@ -16182,7 +16182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "27pF"
+		(property "Val" "33pF"
 			(at 177.546 55.88 0)
 			(effects
 				(font
@@ -16361,7 +16361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0402_27PF_50V_5%_C0G"
+		(property "Manufacturer Part Number" "CC0402_33PF_50V_5%_C0G"
 			(at 180.34 12.827 0)
 			(effects
 				(font
@@ -16451,7 +16451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Example" "KEMET"
+		(property "Manufacturer1 Example" "Samsung Electro-Mechanics"
 			(at 180.34 -4.318 0)
 			(effects
 				(font
@@ -16461,7 +16461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer1 Part Number" "C0402C270J5GACTU"
+		(property "Manufacturer1 Part Number" "CL05C330JB5NNNC"
 			(at 180.34 -6.223 0)
 			(effects
 				(font
@@ -16570,7 +16570,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1557"
+		(property "LCSC" "C70465"
 			(at 180.34 57.15 0)
 			(effects
 				(font
