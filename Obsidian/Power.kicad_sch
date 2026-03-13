@@ -15657,27 +15657,16 @@
 		)
 		(uuid "f1fcf939-76cc-4ace-8668-40e8e8673310")
 	)
-	(global_label "RST"
-		(shape output)
+	(hierarchical_label "Reset"
+		(shape input)
 		(at 254 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b8bb0383-ff47-4305-a29c-889ecfada3aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.4323 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "10af3824-161f-43cb-bea8-ee17267f2650")
 	)
 	(symbol
 		(lib_id "Library_Symbol:GND")

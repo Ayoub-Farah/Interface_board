@@ -14514,27 +14514,16 @@
 		)
 		(uuid "ea62fd3a-83b2-45b6-94e0-9081a43f373d")
 	)
-	(global_label "RST"
+	(hierarchical_label "Reset"
 		(shape input)
 		(at 195.58 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b7a7d30e-e2e9-4609-9901-8a02c9544126")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.0123 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "47edcc5c-7ab1-479c-b1c1-2c66738c9b6a")
 	)
 	(hierarchical_label "{USB_DBG}"
 		(shape bidirectional)

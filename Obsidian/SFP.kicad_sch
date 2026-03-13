@@ -8618,27 +8618,16 @@
 		)
 		(uuid "fdb93397-89a9-44be-ab62-83e1c25f6dee")
 	)
-	(global_label "RST"
+	(hierarchical_label "Reset"
 		(shape input)
 		(at 378.46 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e4041e4c-b197-4c2e-9838-cccac4eb68ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 384.8923 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "2e5b1aa7-3a22-4c6b-8d81-0dfd68818f96")
 	)
 	(hierarchical_label "{SFP_CTRL}"
 		(shape bidirectional)
