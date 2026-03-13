@@ -102,9 +102,9 @@
 		(uuid "fbf5e405-f8ee-434c-8c62-7b8030193fcc")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/afarahhass/Documents/Repo/Interface/Kicad_files/Interface_Board_Github/Obsidian/libs/3D_folder/m3-6mm.STEP"
+	(model "${KIPRJMOD}/libs/3D_folder/m3-5mm.STEP"
 		(offset
-			(xyz 0 0 1.5)
+			(xyz 0 0 1)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -113,7 +113,7 @@
 			(xyz -0 -90 -0)
 		)
 	)
-	(model "C:/Users/afarahhass/Documents/Repo/Interface/Kicad_files/Interface_Board_Github/Obsidian/libs/3D_folder/M3 standoff/M3_F_TO_F_15MM_STANDOFF.STEP"
+	(model "${KIPRJMOD}/libs/3D_folder/M3 standoff/M3_F_TO_F_15MM_STANDOFF.STEP"
 		(offset
 			(xyz 0 0 -9)
 		)
@@ -122,6 +122,17 @@
 		)
 		(rotate
 			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/libs/3D_folder/m3-5mm.STEP"
+		(offset
+			(xyz 0 0 -18.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -0)
 		)
 	)
 )
