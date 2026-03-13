@@ -827,6 +827,15 @@
       "/DDR/DDR3_WE": [
         "DDR_MID"
       ],
+      "/FPGA/CFG_DIN": [
+        "SPI"
+      ],
+      "/FPGA/CFG_FCS": [
+        "SPI"
+      ],
+      "/FPGA/CFG_MOSI": [
+        "SPI"
+      ],
       "/FPGA/RTS": [
         "USB_SERIAL"
       ],
@@ -835,6 +844,9 @@
       ],
       "/FPGA/USB_TX_FPGA_RX": [
         "USB_SERIAL"
+      ],
+      "/FPGA_DBG/CCLK": [
+        "SPI"
       ],
       "/FPGA_DBG/DBG_TCK": [
         "USB_DBG"
