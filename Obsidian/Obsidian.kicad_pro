@@ -620,7 +620,7 @@
       {
         "clearance": 0.127,
         "name": "SPI",
-        "pcb_color": "rgb(221, 255, 136)",
+        "pcb_color": "rgb(159, 183, 98)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,

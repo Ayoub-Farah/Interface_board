@@ -4836,8 +4836,8 @@
 		(uuid "52bb0c6a-6b4f-4dd4-92de-b94913cdcbde")
 	)
 	(no_connect
-		(at 58.42 153.67)
-		(uuid "5e656778-12c4-41bc-9a67-a0e1cf6cb3bd")
+		(at 58.42 168.91)
+		(uuid "55799257-e24f-403c-8371-35e7009c2b2d")
 	)
 	(no_connect
 		(at 71.12 171.45)
@@ -4884,10 +4884,6 @@
 		(uuid "d055a1c6-45f1-44b5-bfbd-f7bade7343ad")
 	)
 	(no_connect
-		(at 58.42 156.21)
-		(uuid "d89ba840-c550-4db3-8a33-aa6c1905cb27")
-	)
-	(no_connect
 		(at 71.12 146.05)
 		(uuid "dc46df5c-3e66-40bf-a85f-5ea38d108a63")
 	)
@@ -4906,6 +4902,10 @@
 	(no_connect
 		(at 71.12 130.81)
 		(uuid "f698e86d-b09d-44e7-a975-b822d343db8b")
+	)
+	(no_connect
+		(at 58.42 171.45)
+		(uuid "f8602a37-e5a9-4636-a6b1-0cfd8b7f919f")
 	)
 	(no_connect
 		(at 58.42 138.43)
@@ -5508,16 +5508,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 168.91) (xy 58.42 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3751a3e6-011e-4938-91ca-8c4687303309")
-	)
-	(wire
-		(pts
 			(xy 33.02 63.5) (xy 54.61 63.5)
 		)
 		(stroke
@@ -5608,6 +5598,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 153.67) (xy 58.42 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49371ed9-746a-4c04-9cbd-d6d30667c7d9")
+	)
+	(wire
+		(pts
 			(xy 142.24 44.45) (xy 160.02 44.45)
 		)
 		(stroke
@@ -5665,16 +5665,6 @@
 			(type default)
 		)
 		(uuid "5b6051be-f615-4386-ab31-b10361249bc6")
-	)
-	(wire
-		(pts
-			(xy 38.1 171.45) (xy 58.42 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c9520cd-8ac1-4af3-bbab-29f9e7c87797")
 	)
 	(wire
 		(pts
@@ -6248,6 +6238,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 156.21) (xy 58.42 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c210fb-4f40-412e-9b01-48c7f2931d13")
+	)
+	(wire
+		(pts
 			(xy 185.42 44.45) (xy 191.77 44.45)
 		)
 		(stroke
@@ -6425,6 +6425,16 @@
 			(justify left bottom)
 		)
 		(uuid "0e597605-aab7-4aab-8d83-718a3cb5646a")
+	)
+	(label "A5_SPIN_SPI_SCK"
+		(at 38.1 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1382b96d-0c09-4d49-abb8-6400c7b5ae6e")
 	)
 	(label "ARDUINO_D13"
 		(at 146.05 72.39 0)
@@ -6616,6 +6626,16 @@
 		)
 		(uuid "6e6dfc85-4b71-427b-88b9-77d596eb0ae0")
 	)
+	(label "B2_SPIN_SYNC"
+		(at 38.1 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7319e3eb-6156-4922-8de9-40ea34d7ae6c")
+	)
 	(label "{SPIN}"
 		(at 109.22 41.91 180)
 		(effects
@@ -6715,16 +6735,6 @@
 			(justify left bottom)
 		)
 		(uuid "aac4b8f5-2ebc-446b-a7e1-f246101812df")
-	)
-	(label "B2_SPIN_SYNC"
-		(at 38.1 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab6bdbc8-9b16-42fb-89cc-542db1b4c5e7")
 	)
 	(label "ARDUINO_D5"
 		(at 146.05 52.07 0)
@@ -6845,16 +6855,6 @@
 			(justify right bottom)
 		)
 		(uuid "d3e73f8d-c088-4e7f-b60e-fecd076c59f6")
-	)
-	(label "A5_SPIN_SPI_SCK"
-		(at 38.1 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d448669a-8d75-4ebd-add7-8c8320e02cb9")
 	)
 	(label "A2"
 		(at 191.77 59.69 180)
