@@ -2672,7 +2672,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "clocks.kicad_sch"
 			(at 66.04 191.0846 0)
 			(effects
 				(font
