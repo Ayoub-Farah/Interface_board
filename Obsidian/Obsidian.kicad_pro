@@ -829,6 +829,30 @@
       "/DDR/DDR3_WE": [
         "DDR_MID"
       ],
+      "/Ethernet/MDI0_N": [
+        "RGMII"
+      ],
+      "/Ethernet/MDI0_P": [
+        "RGMII"
+      ],
+      "/Ethernet/MDI1_N": [
+        "RGMII"
+      ],
+      "/Ethernet/MDI1_P": [
+        "RGMII"
+      ],
+      "/Ethernet/MDI2_N": [
+        "RGMII"
+      ],
+      "/Ethernet/MDI2_P": [
+        "RGMII"
+      ],
+      "/Ethernet/MDI3_N": [
+        "RGMII"
+      ],
+      "/Ethernet/MDI3_P": [
+        "RGMII"
+      ],
       "/FPGA/CFG_DIN": [
         "SPI"
       ],
