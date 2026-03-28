@@ -12967,6 +12967,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 100.33) (xy 175.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef62b499-4f95-480a-ad15-77187888b110")
+	)
+	(wire
+		(pts
 			(xy 66.04 67.31) (xy 76.2 67.31)
 		)
 		(stroke
@@ -13077,7 +13087,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:+1V0")
-		(at 175.26 100.33 0)
+		(at 167.64 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13085,7 +13095,7 @@
 		(dnp no)
 		(uuid "02f03d2d-8d29-40d0-9190-21a9ce6b009d")
 		(property "Reference" "#PWR0261"
-			(at 175.26 104.14 0)
+			(at 167.64 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13093,8 +13103,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCCINT_1V"
-			(at 175.006 96.52 0)
+		(property "Value" "MGT_1V"
+			(at 167.132 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13102,7 +13112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 100.33 0)
+			(at 167.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13111,7 +13121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 100.33 0)
+			(at 167.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13120,7 +13130,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 175.26 100.33 0)
+			(at 167.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
