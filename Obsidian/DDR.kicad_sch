@@ -47240,7 +47240,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25094"
+		(property "LCSC" "C114755"
 			(at 185.42 120.65 0)
 			(effects
 				(font
@@ -58766,7 +58766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 88.392 133.35 0)
 			(effects
 				(font

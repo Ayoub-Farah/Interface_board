@@ -36335,7 +36335,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C861113"
 			(at 147.32 161.29 0)
 			(effects
 				(font
@@ -43607,7 +43607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 70.358 25.4 0)
 			(effects
 				(font
@@ -49433,7 +49433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 211.328 109.22 0)
 			(effects
 				(font
@@ -51846,7 +51846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 208.788 91.44 0)
 			(effects
 				(font
@@ -53017,7 +53017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 257.048 113.03 0)
 			(effects
 				(font
@@ -74100,7 +74100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 274.828 157.48 0)
 			(effects
 				(font
@@ -75689,7 +75689,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5879295"
+		(property "LCSC" "C598257"
 			(at 248.92 60.96 90)
 			(effects
 				(font
@@ -78609,7 +78609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 272.288 81.28 0)
 			(effects
 				(font
@@ -91011,7 +91011,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C861113"
 			(at 147.32 127 0)
 			(effects
 				(font
@@ -93139,7 +93139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 211.328 157.48 0)
 			(effects
 				(font

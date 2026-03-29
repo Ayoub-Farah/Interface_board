@@ -2170,7 +2170,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "270"
 			(at 210.82 55.88 0)
 			(effects
 				(font
@@ -2988,7 +2988,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "270"
 			(at 210.82 87.63 0)
 			(effects
 				(font
@@ -4198,7 +4198,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "270"
 			(at 118.11 118.11 0)
 			(effects
 				(font
@@ -5016,7 +5016,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "270"
 			(at 209.55 118.11 0)
 			(effects
 				(font

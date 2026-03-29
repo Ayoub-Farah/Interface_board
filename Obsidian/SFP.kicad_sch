@@ -8721,7 +8721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 145.288 120.65 0)
 			(effects
 				(font
@@ -12484,7 +12484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 145.288 95.25 0)
 			(effects
 				(font
@@ -17195,7 +17195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 121.158 95.25 0)
 			(effects
 				(font
@@ -18366,7 +18366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 145.288 58.42 0)
 			(effects
 				(font
@@ -22501,7 +22501,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "270"
 			(at 152.4 85.09 0)
 			(effects
 				(font
@@ -23318,7 +23318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 145.288 33.02 0)
 			(effects
 				(font
@@ -24594,7 +24594,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C42931391"
+		(property "LCSC" " C19267508"
 			(at 49.53 35.56 0)
 			(effects
 				(font
@@ -26597,7 +26597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 363.728 137.16 0)
 			(effects
 				(font
@@ -31512,7 +31512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 121.158 33.02 0)
 			(effects
 				(font
@@ -45648,7 +45648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 362.712 114.3 0)
 			(effects
 				(font
@@ -48057,7 +48057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 121.158 58.42 0)
 			(effects
 				(font
@@ -52913,7 +52913,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "270"
 			(at 152.4 22.86 0)
 			(effects
 				(font
@@ -53862,7 +53862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 121.158 120.65 0)
 			(effects
 				(font
@@ -55164,7 +55164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Footprint:CAPC1005X55N"
 			(at 361.188 85.09 0)
 			(effects
 				(font
