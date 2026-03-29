@@ -5198,7 +5198,7 @@
 					)
 				)
 			)
-			(property "Value" "LD39100PU12RY"
+			(property "Value" "LD39100PUR"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -5321,25 +5321,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14784,6 +14765,16 @@
 		)
 		(uuid "45378c20-8c5b-4e3c-bac6-22beebc20a3f")
 	)
+	(wire
+		(pts
+			(xy 176.53 17.78) (xy 176.53 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47211c8d-1150-41ae-b5b7-13b1ee9ad169")
+	)
 	(polyline
 		(pts
 			(xy 167.64 113.03) (xy 167.64 105.41)
@@ -23098,9 +23089,6 @@
 		)
 		(pin "7"
 			(uuid "c14d9c02-9308-4a31-924a-8ecdac4ca4c4")
-		)
-		(pin "5"
-			(uuid "6240c277-ab1e-42ba-ac47-d553014e2226")
 		)
 		(instances
 			(project "Obsidian"
@@ -39222,6 +39210,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Library_Symbol:+1V0")
+		(at 176.53 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9894fa66-ef49-464f-84bf-cda653a1ac76")
+		(property "Reference" "#PWR062"
+			(at 176.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 176.53 14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 176.53 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90801fcb-7b84-40d5-8844-cc0a7ff8487d")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library_Symbol:GND")
 		(at 139.7 97.79 0)
 		(unit 1)
@@ -41988,71 +42041,6 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
 					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library_Symbol:+12V")
-		(at 176.53 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af0855a1-c4fd-48bf-8cb1-2fcabfbc44e2")
-		(property "Reference" "#PWR0297"
-			(at 176.53 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 176.53 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 176.53 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10015194-9af1-40bc-88e5-4903ffd895a8")
-		)
-		(instances
-			(project "Marble_Tiny"
-				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
-					(reference "#PWR0297")
 					(unit 1)
 				)
 			)

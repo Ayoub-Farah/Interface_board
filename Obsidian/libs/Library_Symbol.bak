@@ -24073,7 +24073,7 @@
 				)
 			)
 		)
-		(property "Value" "LD39100PU12RY"
+		(property "Value" "LD39100PUR"
 			(at 0 6.35 0)
 			(effects
 				(font
