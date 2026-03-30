@@ -43442,7 +43442,7 @@
 			)
 		)
 		(property "Value" "SIT5001AC-GE-33VQ-25.000000X"
-			(at -3.556 -10.414 0)
+			(at -13.462 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)

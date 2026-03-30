@@ -521,7 +521,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -13.97 -2.54 0)
 					(length 2.54)
 					(name "GND"
@@ -575,7 +575,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 13.97 2.54 180)
 					(length 2.54)
 					(name "VDD"
@@ -2087,504 +2087,6 @@
 				)
 			)
 			(symbol "CC0402_1UF_16V_10%_X5R_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.302 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -2.032) (xy 3.302 2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 2.032) (xy 4.318 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 4.318 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Library_Symbol:CC0402_2.2NF_50V_10%_X7R"
-			(pin_names
-				(offset 1.27)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 3.81 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CC0402_2.2NF_50V_10%_X7R"
-				(at 0 -6.223 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Capacitors SMD:CAPC1005X55N"
-				(at 0 -8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -10.033 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Val" "2.2nF"
-				(at 3.81 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "CC0402_2.2NF_50V_10%_X7R"
-				(at 0 -11.938 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Library Ref" "Capacitor - non polarized"
-				(at 0 -13.843 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Library Path" "SchLib\\Capacitors.SchLib"
-				(at 0 -15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Comment" "2.2nF"
-				(at 0 -17.653 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Component Kind" "Standard"
-				(at 0 -19.558 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Component Type" "Standard"
-				(at 0 -21.463 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Pin Count" "2"
-				(at 0 -23.368 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint Path" "PcbLib\\Capacitors SMD.PcbLib"
-				(at 0 -25.273 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint Ref" "CAPC1005X55N"
-				(at 0 -27.178 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "PackageDescription" " "
-				(at 0 -29.083 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Status" "Not Recommended"
-				(at 0 -30.988 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Status Comment" " "
-				(at 0 -32.893 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 0 -34.798 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "TC" "X7R"
-				(at 0 -36.703 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "±10%"
-				(at 0 -38.608 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-				(at 0 -40.513 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "GENERIC"
-				(at 0 -42.418 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "CC0402_2.2NF_50V_10%_X7R"
-				(at 0 -44.323 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Case" "0402"
-				(at 0 -46.228 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mounted" "Yes"
-				(at 0 -48.133 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Socket" "No"
-				(at 0 -50.038 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "SMD" "Yes"
-				(at 0 -51.943 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "PressFit" " "
-				(at 0 -53.848 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Sense" "No"
-				(at 0 -55.753 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Sense Comment" " "
-				(at 0 -57.658 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ComponentHeight" " "
-				(at 0 -59.563 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer1 Example" "PHYCOMP"
-				(at 0 -61.468 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer1 Part Number" "223858715627"
-				(at 0 -63.373 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer1 ComponentHeight" "0.55mm"
-				(at 0 -65.278 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Author" "CERN DEM JLC"
-				(at 0 -67.183 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "CreateDate" "12/03/07 00:00:00"
-				(at 0 -69.088 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "LatestRevisionDate" "12/03/07 00:00:00"
-				(at 0 -70.993 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Library Name" "Capacitors.DbLib"
-				(at 0 -74.803 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "License" "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics."
-				(at 0 -78.613 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CC0402_2.2NF_50V_10%_X7R_0_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 3.302 0)
@@ -11770,17 +11272,6 @@
 		)
 		(uuid "4347b69e-9ffa-43c4-9da8-c0395c68c8a9")
 	)
-	(text "2022-08-23:  Change DAC from AD5662 to DAC8550 due to\ncomponent availability.  Electrically compatible, but uses\ntwos-complement instead of offset-binary for its 16-bit data word.\nTested in hardware, works."
-		(exclude_from_sim no)
-		(at 44.45 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b94e628-da6b-4f0b-beab-78e7639d0b25")
-	)
 	(text "LVPECL, OSC_OUT On:\nOS1 = 1\nOS0 = 1"
 		(exclude_from_sim no)
 		(at 190.5 97.79 0)
@@ -12645,6 +12136,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 25.4) (xy 191.77 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2174f9b0-1016-4661-84d2-b2402f1edf69")
+	)
+	(wire
+		(pts
 			(xy 110.49 101.6) (xy 113.03 101.6)
 		)
 		(stroke
@@ -13162,16 +12663,6 @@
 			(type default)
 		)
 		(uuid "525954aa-6400-4886-8942-136424a0b4bb")
-	)
-	(wire
-		(pts
-			(xy 149.86 25.4) (xy 191.77 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5459bf0c-f882-4acf-b43d-9060c28ed0bf")
 	)
 	(wire
 		(pts
@@ -14125,7 +13616,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 25.4) (xy 142.24 25.4)
+			(xy 135.89 25.4) (xy 158.75 25.4)
 		)
 		(stroke
 			(width 0)
@@ -16691,9 +16182,9 @@
 		(at 176.53 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "085ffe8d-7400-43ec-9581-ae0db1b5cebb")
 		(property "Reference" "R108"
 			(at 175.26 44.45 0)
@@ -33569,7 +33060,7 @@
 				)
 			)
 		)
-		(property "Value" "DAC8550IDGK"
+		(property "Value" "DAC8551IADGKR"
 			(at 76.2 122.5804 0)
 			(effects
 				(font
@@ -35937,7 +35428,7 @@
 				)
 			)
 		)
-		(property "Value" "R0402_200R_1%_0.0625W_100PPM"
+		(property "Value" "R0402_150R_1%_0.0625W_100PPM"
 			(at 245.237 30.48 0)
 			(effects
 				(font
@@ -35984,7 +35475,7 @@
 				)
 			)
 		)
-		(property "Val" "200"
+		(property "Val" "150"
 			(at 251.968 34.29 0)
 			(effects
 				(font
@@ -36022,7 +35513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "200"
+		(property "Comment" "150"
 			(at 233.807 30.48 0)
 			(effects
 				(font
@@ -36152,7 +35643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "R0402_200R_1%_0.0625W_100PPM"
+		(property "Manufacturer Part Number" "R0402_150R_1%_0.0625W_100PPM"
 			(at 209.042 30.48 0)
 			(effects
 				(font
@@ -36371,7 +35862,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C114764"
+		(property "LCSC" "C138054"
 			(at 250.19 30.48 0)
 			(effects
 				(font
@@ -39519,1172 +39010,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_Symbol:CC0402_2.2NF_50V_10%_X7R")
-		(at 142.24 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38cfbf80-c45b-40f0-b699-1794a4c14927")
-		(property "Reference" "C193"
-			(at 146.05 19.1262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CC0402_2.2NF_50V_10%_X7R"
-			(at 142.24 31.623 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 142.24 33.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 35.433 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Val" "2.2nF"
-			(at 146.05 21.4376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "CC0402_2.2NF_50V_10%_X7R"
-			(at 142.24 37.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Library Ref" "Capacitor - non polarized"
-			(at 142.24 39.243 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Library Path" "SchLib\\Capacitors.SchLib"
-			(at 142.24 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Comment" "2.2nF"
-			(at 142.24 43.053 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Kind" "Standard"
-			(at 142.24 44.958 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Component Type" "Standard"
-			(at 142.24 46.863 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Pin Count" "2"
-			(at 142.24 48.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint Path" "PcbLib\\Capacitors SMD.PcbLib"
-			(at 142.24 50.673 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint Ref" "CAPC1005X55N"
-			(at 142.24 52.578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PackageDescription" " "
-			(at 142.24 54.483 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Not Recommended"
-			(at 142.24 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status Comment" " "
-			(at 142.24 58.293 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 142.24 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "TC" "X7R"
-			(at 142.24 62.103 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 142.24 64.008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 142.24 65.913 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GENERIC"
-			(at 142.24 67.818 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0402_2.2NF_50V_10%_X7R"
-			(at 142.24 69.723 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Case" "0402"
-			(at 142.24 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mounted" "Yes"
-			(at 142.24 73.533 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Socket" "No"
-			(at 142.24 75.438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SMD" "Yes"
-			(at 142.24 77.343 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PressFit" " "
-			(at 142.24 79.248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sense" "No"
-			(at 142.24 81.153 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sense Comment" " "
-			(at 142.24 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "ComponentHeight" " "
-			(at 142.24 84.963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Example" "PHYCOMP"
-			(at 142.24 86.868 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 Part Number" "223858715627"
-			(at 142.24 88.773 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer1 ComponentHeight" "0.55mm"
-			(at 142.24 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Author" ""
-			(at 142.24 92.583 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "CreateDate" "12/03/07 00:00:00"
-			(at 142.24 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "LatestRevisionDate" "12/03/07 00:00:00"
-			(at 142.24 96.393 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Library Name" "Capacitors.DbLib"
-			(at 142.24 100.203 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "License" "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics."
-			(at 142.24 104.013 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "FT Rotation Offset" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1531"
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Database Table Name" "Capacitors"
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint Library" "Capacitors SMD"
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALTERNATE_EMS" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AUTHOR" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AUTOMOTIVE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "BMS_PART_NUMBER" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CASE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CATEGORY" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT KIND" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT TYPE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COMPONENT_COUNTRY_OF_ORIGIN" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONN ORIENTATION" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTACT MATERIAL" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONTINUOUS DRAIN CURRENT" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CREATEDATE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CURRENT RATING" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEPLETION MODE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE CLASS L1" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE CLASS L2" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DEVICE CLASS L3" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY DESCRIPTION" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DRAIN TO SOURCE BREAKDOWN VOLTAGE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DRAIN TO SOURCE RESISTANCE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DRAIN TO SOURCE VOLTAGE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT URL" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FULL_ALTERNATE_INTERNAL_PART_NUMBER" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GATE CHARGE AT VGS" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "GATE TO SOURCE VOLTAGE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ID" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INPUT CAPACITACE AT VDS" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "INTERNAL_PART_NUMBER" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "IS FEMALE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LATESTREVISIONDATE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LEAD FREE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER1 COMPONENTHEIGHT" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER1 EXAMPLE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER1 PART NUMBER" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_HQ_COO" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAX FORWARD DIODE VOLTAGE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAX JUNCTION TEMP" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MOUNTED" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF CHANNELS" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF CONTACTS" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NUMBER OF P CHANNELS" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OCTOPART" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_DIGIKEY" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_FARNELL" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ORDER_CODE_RS" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART DESCRIPTION" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART NUMBER" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTIAL_ALTERNATE_INTERNAL_PART_NUMBER" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_PREFERENCE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_TYPE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PIN COUNT" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "POWER" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "POWER DISSIPATION" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRESSFIT" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PULSE DRAIN CURRENT" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVERSE RECOVERY CHARGE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REVERSE RECOVERY TIME" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RTHJA MAX" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SENSE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SHOWFIELDS" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOCKET" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDOFF HEIGHT" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STATUS" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE RANGE HIGH" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TEMPERATURE RANGE LOW" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "THRESHOLD VGS MAX" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "THRESHOLD VGS MIN" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TOLERANCE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TURN OFF DELAY TIME" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TURN ON DELAY TIME" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "TYP FORWARD DIODE VOLTAGE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "USB STANDARD" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" ""
-			(at 142.24 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf515a92-a5f4-48a3-b391-c2df292aaf19")
-		)
-		(pin "2"
-			(uuid "e6f536e5-e259-4c1e-a403-e2dbcc55de85")
-		)
-		(instances
-			(project "Obsidian"
-				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/5616fdd5-5e68-4790-9d2c-4053b9f7c732"
-					(reference "C193")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Library_Symbol:9875HA-25.000N33FT1JL")
 		(at 114.3 25.4 0)
 		(mirror y)
@@ -40711,7 +39036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprint:OSC-SMD_10P-L7.0-W5.0-BL_OHXXXXXXX"
+		(property "Footprint" "ProLib_pcs_2026-03-30:OSC-SMD_10P-L7.0-W5.0-BL_OHXXXXXXX"
 			(at 114.3 25.4 0)
 			(effects
 				(font
@@ -48138,7 +46463,7 @@
 				)
 			)
 		)
-		(property "Value" "CDCM61004RHB"
+		(property "Value" "CDCM61002RHBR"
 			(at 209.55 20.9804 0)
 			(effects
 				(font
@@ -49488,7 +47813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.snapeda.com/parts/SIT5001AC-GE-33VQ-25.000000X/SiTime/datasheet/"
 			(at 115.57 53.34 0)
 			(effects
 				(font
@@ -49515,7 +47840,7 @@
 				(hide yes)
 			)
 		)
-		(property "config" "dnf"
+		(property "config" ""
 			(at 123.19 64.77 0)
 			(effects
 				(font
@@ -49533,7 +47858,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1988162"
 			(at 115.57 53.34 0)
 			(effects
 				(font
@@ -50520,9 +48845,9 @@
 		(at 176.53 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4aec6cbe-1678-4265-b405-6df8c23f5f8c")
 		(property "Reference" "R109"
 			(at 175.26 46.99 0)
@@ -52734,7 +51059,7 @@
 				)
 			)
 		)
-		(property "Value" "R0402_200R_1%_0.0625W_100PPM"
+		(property "Value" "R0402_150R_1%_0.0625W_100PPM"
 			(at 238.887 30.48 0)
 			(effects
 				(font
@@ -52781,7 +51106,7 @@
 				)
 			)
 		)
-		(property "Val" "200"
+		(property "Val" "150"
 			(at 245.618 34.29 0)
 			(effects
 				(font
@@ -52819,7 +51144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Comment" "200"
+		(property "Comment" "150"
 			(at 227.457 30.48 0)
 			(effects
 				(font
@@ -52949,7 +51274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "R0402_200R_1%_0.0625W_100PPM"
+		(property "Manufacturer Part Number" "R0402_150R_1%_0.0625W_100PPM"
 			(at 202.692 30.48 0)
 			(effects
 				(font
@@ -53168,7 +51493,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C114764"
+		(property "LCSC" "C138054"
 			(at 243.84 30.48 0)
 			(effects
 				(font
@@ -55271,9 +53596,9 @@
 		(at 176.53 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6c9d8e45-d769-4813-9ab9-c072de0d969d")
 		(property "Reference" "R111"
 			(at 175.26 54.61 0)
@@ -60214,7 +58539,7 @@
 				)
 			)
 		)
-		(property "Value" "DAC8550IDGK"
+		(property "Value" "DAC8551IADGKR"
 			(at 76.2 97.1804 0)
 			(effects
 				(font
@@ -61667,7 +59992,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CC0603_22UF_6.3V_20%_X5R"
+		(property "Value" "CC0603_10UF_6.3V_20%_Y5V"
 			(at 166.116 66.04 0)
 			(effects
 				(font
@@ -61706,7 +60031,7 @@
 				(hide yes)
 			)
 		)
-		(property "~" "22uF"
+		(property "~" "10uF"
 			(at 172.72 72.39 90)
 			(effects
 				(font
@@ -61815,7 +60140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "22uF"
+		(property "Val" "10uF"
 			(at 134.112 66.04 0)
 			(effects
 				(font
@@ -62074,7 +60399,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C138601"
 			(at 172.72 66.04 90)
 			(effects
 				(font
@@ -85642,9 +83967,9 @@
 		(at 176.53 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c6c6d92e-f44b-4961-9455-152281e62f96")
 		(property "Reference" "R107"
 			(at 175.26 39.37 0)
@@ -87021,6 +85346,1177 @@
 			(project "Obsidian"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/5616fdd5-5e68-4790-9d2c-4053b9f7c732"
 					(reference "#PWR0250")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library_Symbol:CC0402_100NF_50V_10%_X7R")
+		(at 166.37 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ced15b58-288f-4908-86a3-6bd64e341463")
+		(property "Reference" "C37"
+			(at 156.464 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CC0402_100NF_50V_10%_X7R"
+			(at 166.37 19.177 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprint:CAPC1005X55N"
+			(at 166.37 17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 15.367 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "100nF"
+			(at 163.83 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 166.37 13.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Ref" "Capacitor - non polarized"
+			(at 166.37 11.557 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Path" "SchLib\\Capacitors.SchLib"
+			(at 166.37 9.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100nF"
+			(at 166.37 7.747 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 166.37 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 166.37 3.937 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 166.37 2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Path" "PcbLib\\Capacitors SMD.PcbLib"
+			(at 166.37 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Ref" "CAPC1005X55N"
+			(at 166.37 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" " "
+			(at 166.37 -3.683 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 166.37 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" " "
+			(at 166.37 -7.493 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 166.37 -9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "TC" "X7R"
+			(at 166.37 -11.303 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 166.37 -13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 166.37 -15.113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 166.37 -17.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 166.37 -18.923 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 166.37 -20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 166.37 -22.733 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 166.37 -24.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 166.37 -26.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PressFit" " "
+			(at 166.37 -28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 166.37 -30.353 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" " "
+			(at 166.37 -32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" " "
+			(at 166.37 -34.163 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "MURATA"
+			(at 166.37 -36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "GRM155R71H104KE14D"
+			(at 166.37 -37.973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.55mm"
+			(at 166.37 -39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 166.37 -41.783 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM MR"
+			(at 166.37 -43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "06/30/17 00:00:00"
+			(at 166.37 -45.593 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "06/30/17 00:00:00"
+			(at 166.37 -47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 166.37 -49.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Name" "Capacitors SMD"
+			(at 166.37 -51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 166.37 -53.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "License" "CC-BY-SA 4.0"
+			(at 166.37 -55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C110251"
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTERNATE_EMS" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BMS_PART_NUMBER" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CASE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CATEGORY" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENT KIND" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENT TYPE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENT_COUNTRY_OF_ORIGIN" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONN ORIENTATION" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONTACT MATERIAL" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONTINUOUS DRAIN CURRENT" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CREATEDATE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CURRENT RATING" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEPLETION MODE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEVICE CLASS L1" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEVICE CLASS L2" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEVICE CLASS L3" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY DESCRIPTION" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DRAIN TO SOURCE BREAKDOWN VOLTAGE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DRAIN TO SOURCE RESISTANCE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DRAIN TO SOURCE VOLTAGE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT URL" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FULL_ALTERNATE_INTERNAL_PART_NUMBER" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GATE CHARGE AT VGS" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GATE TO SOURCE VOLTAGE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ID" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INPUT CAPACITACE AT VDS" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERNAL_PART_NUMBER" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IS FEMALE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LATESTREVISIONDATE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LEAD FREE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER1 COMPONENTHEIGHT" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER1 EXAMPLE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER1 PART NUMBER" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_HQ_COO" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX FORWARD DIODE VOLTAGE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX JUNCTION TEMP" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUNTED" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF CHANNELS" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF CONTACTS" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF P CHANNELS" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OCTOPART" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ORDER_CODE_DIGIKEY" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ORDER_CODE_FARNELL" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ORDER_CODE_RS" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART DESCRIPTION" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTIAL_ALTERNATE_INTERNAL_PART_NUMBER" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_PREFERENCE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN COUNT" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POWER" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POWER DISSIPATION" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRESSFIT" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PULSE DRAIN CURRENT" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVERSE RECOVERY CHARGE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVERSE RECOVERY TIME" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RTHJA MAX" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SENSE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SHOWFIELDS" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOCKET" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDOFF HEIGHT" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STATUS" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE RANGE HIGH" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE RANGE LOW" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THRESHOLD VGS MAX" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THRESHOLD VGS MIN" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TURN OFF DELAY TIME" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TURN ON DELAY TIME" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYP FORWARD DIODE VOLTAGE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "USB STANDARD" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING" ""
+			(at 166.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0803ca53-c1fa-4387-b45c-598d53a7e8fe")
+		)
+		(pin "2"
+			(uuid "435c870e-76f1-4ca4-bdd4-f15a32ecc417")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/5616fdd5-5e68-4790-9d2c-4053b9f7c732"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -90709,7 +90205,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CC0603_22UF_6.3V_20%_X5R"
+		(property "Value" "CC0603_10UF_6.3V_20%_Y5V"
 			(at 172.466 66.04 0)
 			(effects
 				(font
@@ -90748,7 +90244,7 @@
 				(hide yes)
 			)
 		)
-		(property "~" "22uF"
+		(property "~" "10uF"
 			(at 179.07 72.39 90)
 			(effects
 				(font
@@ -90857,7 +90353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "22uF"
+		(property "Val" "10uF"
 			(at 140.462 66.04 0)
 			(effects
 				(font
@@ -91116,7 +90612,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C138601"
 			(at 179.07 66.04 90)
 			(effects
 				(font
@@ -91847,9 +91343,9 @@
 		(at 176.53 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d8a7989a-bce5-4d01-a4e6-5772336fb93c")
 		(property "Reference" "R106"
 			(at 175.26 36.83 0)
@@ -99288,9 +98784,9 @@
 		(at 176.53 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f04a2cb4-9501-4502-8548-81beb8828cc1")
 		(property "Reference" "R112"
 			(at 175.26 57.15 0)
