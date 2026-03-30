@@ -486,8 +486,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Footprint"
+    ],
+    "pinned_symbol_libs": [
+      "Library_Symbol"
+    ]
   },
   "meta": {
     "filename": "Obsidian.kicad_pro",

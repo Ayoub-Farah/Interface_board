@@ -362,6 +362,294 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Library_Symbol:9875HA-25.000N33FT1JL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "25MHz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "ProLib_pcs_2026-03-30:OSC-SMD_10P-L7.0-W5.0-BL_OHXXXXXXX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/9875HA-25.000N33FT1JL/22167909.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Frequency:25MHz Frequency Stability:±1ppm Frequency Stability:±1ppm Output Type:CMOS Voltage - Supply:3.3V Voltage - Supply:3.3V Operating Temperature:-30°C~+85°C Operating Temperature:-30°C~+85°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "9875HA-25.000N33FT1JL"
+				(at 0.254 -0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HCI(杭晶)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C20754707"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "25MHz ±1ppm 3.3V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "9875HA-25.000N33FT1JL_1_0"
+				(rectangle
+					(start -11.43 7.62)
+					(end 11.43 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 5.08 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 2.54 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 0 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -13.97 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -13.97 -5.08 0)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 5.08 180)
+					(length 2.54)
+					(name "VC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 13.97 2.54 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 0 180)
+					(length 2.54)
+					(name "TRI-STATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -5.08 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library_Symbol:CC0201_100NF_6.3V_10%_X5R"
 			(pin_names
 				(offset 1.27)
@@ -5974,716 +6262,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Library_Symbol:OSC_25MHZ_RAKON_IVT3205CR"
-			(pin_names
-				(offset 1.27)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "OSC"
-				(at 7.62 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "OSC_25MHZ_RAKON_IVT3205CR"
-				(at 0 -14.605 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "ICs And Semiconductors SMD:OSC_RAKON_IVT3200C"
-				(at 0 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -18.415 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Val" "25MHz"
-				(at 7.62 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "OSC_25MHZ_RAKON_IVT3205CR"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Library Ref" "Oscillator 1VCO 3GND 4OUT 6VCC"
-				(at 0 -22.225 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Library Path" "SchLib\\Crystals & Oscillators.SchLib"
-				(at 0 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Comment" "25MHz"
-				(at 0 -26.035 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Component Kind" "Standard"
-				(at 0 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Component Type" "Standard"
-				(at 0 -29.845 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Device" " "
-				(at 0 -31.75 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "PackageDescription" "Oscillator IVT3200C Serie, corner concave; 4 pin, 2.50mm L X 3.2mm W X 1.1mm H"
-				(at 0 -33.655 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Status" " "
-				(at 0 -35.56 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Description" "11pF 3.3V ±1ppm Surface Mount TCXO Voltage Controlled Oscillator (IT3200C Series)"
-				(at 0 -37.465 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TAITIEN"
-				(at 0 -39.37 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number" "TXEAADSANF-25.000000"
-				(at 0 -41.275 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Pin Count" "4"
-				(at 0 -43.18 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Case" " "
-				(at 0 -45.085 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mounted" "Yes"
-				(at 0 -46.99 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Socket" "No"
-				(at 0 -48.895 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "SMD" "Yes"
-				(at 0 -50.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "PressFit" "No"
-				(at 0 -52.705 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Sense" "No"
-				(at 0 -54.61 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Bonding" "No"
-				(at 0 -56.515 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Sense Comment" " "
-				(at 0 -58.42 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Status Comment" " "
-				(at 0 -60.325 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ComponentHeight" "1.1mm"
-				(at 0 -62.23 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint Path" "PcbLib\\ICs And Semiconductors SMD.PcbLib"
-				(at 0 -64.135 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint Ref" "OSC_RAKON_IVT3200C"
-				(at 0 -66.04 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ComponentLink1Description" " "
-				(at 0 -67.945 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ComponentLink2Description" " "
-				(at 0 -69.85 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Author" "CERN DEM JLC"
-				(at 0 -71.755 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "CreateDate" "02/08/10 00:00:00"
-				(at 0 -73.66 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "LatestRevisionDate" "02/08/10 00:00:00"
-				(at 0 -75.565 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Library Name" "ICs And Semiconductors.DbLib"
-				(at 0 -79.375 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "License" "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics."
-				(at 0 -83.185 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "OSC_25MHZ_RAKON_IVT3205CR_0_1"
-				(rectangle
-					(start 0 -10.16)
-					(end 15.24 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -4.064) (xy 6.35 -6.096)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.858 -3.302) (xy 8.382 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.382 -3.302) (xy 8.382 -6.858) (xy 6.858 -6.858) (xy 6.858 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -4.064) (xy 8.89 -6.096)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -2.54 0)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -7.62 0)
-					(length 5.08)
-					(name "VCO"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -7.62 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Library_Symbol:Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "OSC"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache"
-				(at 7.62 -11.43 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache_0_1"
-				(rectangle
-					(start 0 -10.16)
-					(end 15.24 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -4.064) (xy 6.35 -6.096)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.858 -3.302) (xy 8.382 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.382 -3.302) (xy 8.382 -6.858) (xy 6.858 -6.858) (xy 6.858 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -4.064) (xy 8.89 -6.096)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -2.54 0)
-					(length 5.08)
-					(name "+Vs"
-						(effects
-							(font
-								(size 1.778 1.778)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.778 1.778)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -7.62 0)
-					(length 5.08)
-					(name "VC"
-						(effects
-							(font
-								(size 1.778 1.778)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.778 1.778)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.778 1.778)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.778 1.778)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -7.62 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.778 1.778)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.778 1.778)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Library_Symbol:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -11005,6 +10583,266 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Library_Symbol:SIT5001AC-GE-33VQ-25.000000X"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -9.906 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SIT5001AC-GE-33VQ-25.000000X"
+				(at -13.462 -9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SIT5001AC-GE-33VQ-25.000000X:OSC_SIT5001AC-GE-33VQ-25.000000X"
+				(at 5.588 28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "SiTime"
+				(at 5.588 28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+				(at 5.588 28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "NON STANDARD-4 Rochester Electronics"
+				(at 5.588 28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 5.588 28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SIT5001AC-GE-33VQ-25.000000X/SiTime/view-part/?ref=eda"
+				(at 5.588 28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 5.588 28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "NA"
+				(at 5.588 28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SIT5001AC-GE-33VQ-25.000000X/SiTime/view-part/?ref=snap"
+				(at 5.588 28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "SIT5001AC-GE-33VQ-25.000000X"
+				(at 5.588 28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "25 MHz VCTCXO LVCMOS Oscillator 3.3V 4-SMD, No Lead"
+				(at 5.588 28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 5.588 28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "SITIME"
+				(at 5.588 28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SIT5001AC-GE-33VQ-25.000000X_0_0"
+				(rectangle
+					(start -10.16 -7.62)
+					(end 10.16 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -15.24 3.81 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "VC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 3.81 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library_Symbol:Si5351A-B-GT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -12059,16 +11897,16 @@
 		(uuid "10d6680d-a391-4c1c-b647-d24a1fa1b626")
 	)
 	(junction
-		(at 135.89 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13b2aed1-8a9f-4292-a31f-bb9ae4387c62")
-	)
-	(junction
 		(at 147.32 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "198e14b3-4d66-4582-8bb5-523cd7da2537")
+	)
+	(junction
+		(at 92.71 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f541aea-9248-44e6-8de1-82bf5d7d49c4")
 	)
 	(junction
 		(at 60.96 158.75)
@@ -12111,12 +11949,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c39fea9-c980-4e7c-aeca-6f42601bbd65")
-	)
-	(junction
-		(at 96.52 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "347e70f5-2ca5-4695-bf54-676286486f7e")
 	)
 	(junction
 		(at 30.48 59.69)
@@ -12191,6 +12023,12 @@
 		(uuid "667a2fbc-c3f0-46f7-9371-639467e046af")
 	)
 	(junction
+		(at 135.89 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67c56477-ef25-4485-90db-e1dfdd0f8fde")
+	)
+	(junction
 		(at 250.19 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12237,6 +12075,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e778d14-73f3-490e-92e2-a8aa3147c0e3")
+	)
+	(junction
+		(at 95.25 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81289b40-a425-4af4-826a-6349e5cc1efa")
 	)
 	(junction
 		(at 185.42 135.89)
@@ -12287,16 +12131,16 @@
 		(uuid "bbd19b6b-9a98-4710-92ea-900fbb406769")
 	)
 	(junction
-		(at 92.71 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9f3ef1f-1194-4c68-9f14-e99f127b0ad7")
-	)
-	(junction
 		(at 49.53 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd2bb085-217c-4a30-8447-68e3cf86fafc")
+	)
+	(junction
+		(at 95.25 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3c1e970-9dc7-41cb-a8eb-517e4d8b1b17")
 	)
 	(junction
 		(at 82.55 59.69)
@@ -12353,6 +12197,10 @@
 		(uuid "ff7b326d-75c8-4b66-b683-0e8fd24456ee")
 	)
 	(no_connect
+		(at 128.27 22.86)
+		(uuid "00dead9d-3de3-4cad-a671-3023d12a66c6")
+	)
+	(no_connect
 		(at 191.77 71.12)
 		(uuid "02fe581e-dcf5-4f8e-a1cf-0a8bb3171d87")
 	)
@@ -12361,16 +12209,32 @@
 		(uuid "203aaec8-3262-4cc5-9a55-b1fa34aaf121")
 	)
 	(no_connect
+		(at 100.33 27.94)
+		(uuid "4aab76e5-2c80-4980-99cb-6d08a2f729f1")
+	)
+	(no_connect
 		(at 191.77 73.66)
 		(uuid "5d5145ae-e07b-432f-8b93-37794232f472")
+	)
+	(no_connect
+		(at 100.33 30.48)
+		(uuid "624d6ebe-09ba-4f07-b268-b55144a60abf")
 	)
 	(no_connect
 		(at 66.04 64.77)
 		(uuid "90490680-df41-432b-9db9-a17422723ecb")
 	)
 	(no_connect
+		(at 128.27 25.4)
+		(uuid "9116b600-fba2-4a34-9b19-52ca01854898")
+	)
+	(no_connect
 		(at 214.63 114.3)
 		(uuid "91297695-1c0c-41f9-8a48-023e060f6f3e")
+	)
+	(no_connect
+		(at 128.27 20.32)
+		(uuid "93178ed6-110f-44a4-8808-ccc670f161be")
 	)
 	(no_connect
 		(at 227.33 33.02)
@@ -12621,16 +12485,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 30.48) (xy 92.71 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f11076d-0d12-4ce5-b1b3-29986b5ac96c")
-	)
-	(wire
-		(pts
 			(xy 176.53 148.59) (xy 189.23 148.59)
 		)
 		(stroke
@@ -12658,6 +12512,16 @@
 			(type default)
 		)
 		(uuid "13a5837c-04d3-42c0-acd0-0bedc5a97cc1")
+	)
+	(wire
+		(pts
+			(xy 95.25 49.53) (xy 100.33 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1430a7f1-30a4-4d13-b704-2096fd54115a")
 	)
 	(wire
 		(pts
@@ -12691,6 +12555,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 25.4) (xy 97.79 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a74a109-bc9f-4245-b8a7-f27bdac0946b")
+	)
+	(wire
+		(pts
 			(xy 227.33 63.5) (xy 229.87 63.5)
 		)
 		(stroke
@@ -12701,7 +12575,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 54.61) (xy 100.33 54.61)
+			(xy 92.71 58.42) (xy 100.33 58.42)
 		)
 		(stroke
 			(width 0)
@@ -12738,6 +12612,16 @@
 			(type default)
 		)
 		(uuid "1e183c04-7405-4148-ac39-a28d9320eff5")
+	)
+	(wire
+		(pts
+			(xy 133.35 25.4) (xy 133.35 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb22b5a-27ed-47e9-95d1-6383f1eb4b15")
 	)
 	(wire
 		(pts
@@ -12798,6 +12682,16 @@
 			(type default)
 		)
 		(uuid "26df7069-e645-46f8-a923-ea8bb44978e8")
+	)
+	(wire
+		(pts
+			(xy 97.79 34.29) (xy 105.41 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27befcdb-b0ca-4dc3-8fc6-833d843a5e57")
 	)
 	(wire
 		(pts
@@ -12881,16 +12775,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 54.61) (xy 125.73 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eb07354-d74a-4593-a946-61b01bbdfb0f")
-	)
-	(wire
-		(pts
 			(xy 92.71 127) (xy 102.87 127)
 		)
 		(stroke
@@ -12908,6 +12792,16 @@
 			(type default)
 		)
 		(uuid "2f6c7bfd-b502-4de9-8656-a44e0fc572e0")
+	)
+	(wire
+		(pts
+			(xy 95.25 39.37) (xy 96.52 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30272fa4-5804-44fa-8715-2cf6450eee1a")
 	)
 	(wire
 		(pts
@@ -13051,6 +12945,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 58.42) (xy 134.62 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d885be6-3ff1-4a23-99dc-e222e753a76e")
+	)
+	(wire
+		(pts
 			(xy 229.87 68.58) (xy 227.33 68.58)
 		)
 		(stroke
@@ -13108,6 +13012,16 @@
 			(type default)
 		)
 		(uuid "42d38e9a-c9cf-48e1-84ff-c1afa5ca6585")
+	)
+	(wire
+		(pts
+			(xy 135.89 25.4) (xy 133.35 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4395e83a-3757-4dbd-83ef-3c18b14728b7")
 	)
 	(wire
 		(pts
@@ -13191,16 +13105,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 25.4) (xy 135.89 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d067dce-33a1-4ff2-93dd-37e14950c513")
-	)
-	(wire
-		(pts
 			(xy 92.71 158.75) (xy 97.79 158.75)
 		)
 		(stroke
@@ -13268,6 +13172,16 @@
 			(type default)
 		)
 		(uuid "5459bf0c-f882-4acf-b43d-9060c28ed0bf")
+	)
+	(wire
+		(pts
+			(xy 134.62 58.42) (xy 130.81 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558e5672-cd7d-4355-b924-3cb7a441883e")
 	)
 	(wire
 		(pts
@@ -13361,16 +13275,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 30.48) (xy 125.73 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe55730-b97e-48c9-abf5-62c59b396e30")
-	)
-	(wire
-		(pts
 			(xy 243.84 38.1) (xy 250.19 38.1)
 		)
 		(stroke
@@ -13451,6 +13355,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 17.78) (xy 130.81 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a68e146-8d76-4752-8b4a-9ccac20ddb18")
+	)
+	(wire
+		(pts
 			(xy 120.65 157.48) (xy 120.65 158.75)
 		)
 		(stroke
@@ -13501,7 +13415,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 30.48) (xy 92.71 54.61)
+			(xy 92.71 20.32) (xy 92.71 58.42)
 		)
 		(stroke
 			(width 0)
@@ -13558,6 +13472,16 @@
 			(type default)
 		)
 		(uuid "78183260-02a3-41db-99d5-2087a833fa94")
+	)
+	(wire
+		(pts
+			(xy 105.41 39.37) (xy 104.14 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79467643-35bc-4cf4-9c7f-7806dd59e13a")
 	)
 	(wire
 		(pts
@@ -13631,6 +13555,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 25.4) (xy 97.79 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864268d3-5974-41b1-83e7-d454b6629d7f")
+	)
+	(wire
+		(pts
 			(xy 133.35 124.46) (xy 144.78 124.46)
 		)
 		(stroke
@@ -13691,6 +13625,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 34.29) (xy 105.41 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae90003-e620-434b-a213-2e942ddaceb5")
+	)
+	(wire
+		(pts
 			(xy 93.98 59.69) (xy 82.55 59.69)
 		)
 		(stroke
@@ -13741,13 +13685,23 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 49.53) (xy 125.73 49.53)
+			(xy 135.89 49.53) (xy 130.81 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8c6fa787-e509-4628-87bd-c779bcef27e0")
+	)
+	(wire
+		(pts
+			(xy 130.81 27.94) (xy 128.27 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d68a3cd-a30e-4ee3-be01-884b868cc8bf")
 	)
 	(wire
 		(pts
@@ -13891,13 +13845,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 25.4) (xy 96.52 25.4)
+			(xy 133.35 30.48) (xy 128.27 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97173a15-801a-4a7c-a484-e69f818138a2")
+		(uuid "967a5d63-9340-4036-b70b-23e4d2f04871")
 	)
 	(wire
 		(pts
@@ -14061,6 +14015,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 22.86) (xy 95.25 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf0fdc3-0695-440f-9faa-818aade1c686")
+	)
+	(wire
+		(pts
 			(xy 191.77 33.02) (xy 187.96 33.02)
 		)
 		(stroke
@@ -14188,6 +14152,16 @@
 			(type default)
 		)
 		(uuid "bb57de07-ac4d-4ed3-abdc-16d9b2eb8e82")
+	)
+	(wire
+		(pts
+			(xy 95.25 39.37) (xy 95.25 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf1b4d1-369e-448e-ac02-6a33b4250986")
 	)
 	(wire
 		(pts
@@ -14321,17 +14295,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 25.4) (xy 96.52 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9bcd8a3-9147-4a6d-aac1-af85f876db3b")
-	)
-	(wire
-		(pts
-			(xy 96.52 59.69) (xy 93.98 59.69)
+			(xy 95.25 59.69) (xy 93.98 59.69)
 		)
 		(stroke
 			(width 0)
@@ -14411,16 +14375,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 49.53) (xy 96.52 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd5a6984-749e-4b90-9a13-9764735b5db7")
-	)
-	(wire
-		(pts
 			(xy 127 149.86) (xy 133.35 149.86)
 		)
 		(stroke
@@ -14471,6 +14425,26 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 20.32) (xy 100.33 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ff94e9-d651-4a99-9fee-8a6c7c0ba046")
+	)
+	(wire
+		(pts
+			(xy 95.25 22.86) (xy 100.33 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6dcc271-9f69-4b90-a4ec-722035a91576")
+	)
+	(wire
+		(pts
 			(xy 172.72 34.29) (xy 172.72 33.02)
 		)
 		(stroke
@@ -14511,7 +14485,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 49.53) (xy 96.52 59.69)
+			(xy 95.25 49.53) (xy 95.25 59.69)
 		)
 		(stroke
 			(width 0)
@@ -14631,7 +14605,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 30.48) (xy 92.71 30.48)
+			(xy 130.81 17.78) (xy 130.81 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72cc011-3dee-43d0-8f1a-0a3b8ceae578")
+	)
+	(wire
+		(pts
+			(xy 77.47 20.32) (xy 92.71 20.32)
 		)
 		(stroke
 			(width 0)
@@ -14944,7 +14928,7 @@
 		(uuid "90f9e0cb-3843-4a6e-8bce-8cd3558139d5")
 	)
 	(label "WR_DAC_OUT1"
-		(at 82.55 30.48 0)
+		(at 77.47 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40701,16 +40685,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_Symbol:OSC_25MHZ_RAKON_IVT3205CR")
-		(at 105.41 22.86 0)
+		(lib_id "Library_Symbol:9875HA-25.000N33FT1JL")
+		(at 114.3 25.4 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "38ee4060-d01e-4281-b237-9beb9a17d44b")
 		(property "Reference" "Y1"
-			(at 113.03 18.669 0)
+			(at 124.46 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40718,37 +40703,34 @@
 			)
 		)
 		(property "Value" "9132S-Y25.000N33DT1J"
-			(at 105.41 37.846 0)
+			(at 121.92 16.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Footprint:OSC_ABRACON_ASEMPC"
-			(at 105.41 60.706 0)
+		(property "Footprint" "Footprint:OSC-SMD_10P-L7.0-W5.0-BL_OHXXXXXXX"
+			(at 114.3 25.4 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 105.41 42.418 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/9875HA-25.000N33FT1JL/22167909.html"
+			(at 114.3 25.4 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 105.41 22.86 0)
+		(property "Description" "Frequency:25MHz Frequency Stability:±1ppm Frequency Stability:±1ppm Output Type:CMOS Voltage - Supply:3.3V Voltage - Supply:3.3V Operating Temperature:-30°C~+85°C Operating Temperature:-30°C~+85°C"
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40757,15 +40739,16 @@
 			)
 		)
 		(property "~" "25MHz"
-			(at 113.03 20.9804 0)
+			(at 110.49 16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Part Number" "OSC_25MHZ_RAKON_IVT3205CR or TXEAADSANF-25.000000"
-			(at 105.41 44.704 0)
+			(at 114.3 47.244 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40775,7 +40758,7 @@
 			)
 		)
 		(property "Library Ref" "Oscillator 1VCO 3GND 4OUT 6VCC"
-			(at 105.41 46.99 0)
+			(at 114.3 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40785,7 +40768,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Crystals & Oscillators.SchLib"
-			(at 105.41 49.276 0)
+			(at 114.3 51.816 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40795,7 +40778,7 @@
 			)
 		)
 		(property "Comment" "=Value"
-			(at 105.41 51.562 0)
+			(at 114.3 54.102 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40805,7 +40788,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 105.41 53.848 0)
+			(at 114.3 56.388 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40815,7 +40798,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 105.41 56.134 0)
+			(at 114.3 58.674 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40825,7 +40808,7 @@
 			)
 		)
 		(property "Device" " "
-			(at 105.41 58.42 0)
+			(at 114.3 60.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40835,7 +40818,7 @@
 			)
 		)
 		(property "PackageDescription" "Oscillator IVT3200C Serie, corner concave; 4 pin, 2.50mm L X 3.2mm W X 1.1mm H"
-			(at 105.41 62.992 0)
+			(at 114.3 65.532 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40845,7 +40828,7 @@
 			)
 		)
 		(property "Val" "25MHz"
-			(at 105.41 65.278 0)
+			(at 114.3 67.818 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40855,7 +40838,7 @@
 			)
 		)
 		(property "Status" " "
-			(at 105.41 67.564 0)
+			(at 114.3 70.104 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40865,7 +40848,7 @@
 			)
 		)
 		(property "Part Description" "11pF 3.3V ±1ppm Surface Mount TCXO Voltage Controlled Oscillator (IT3200C Series)"
-			(at 105.41 69.85 0)
+			(at 114.3 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40874,26 +40857,27 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TAITIEN"
-			(at 105.41 34.29 0)
+		(property "Manufacturer" "HCI(杭晶)"
+			(at 114.3 25.4 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer Part Number" "TXEAADSANF-25.000000"
-			(at 105.41 36.576 0)
+			(at 114.3 39.116 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Pin Count" "4"
-			(at 105.41 76.708 0)
+			(at 114.3 79.248 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40903,7 +40887,7 @@
 			)
 		)
 		(property "Case" " "
-			(at 105.41 78.994 0)
+			(at 114.3 81.534 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40913,7 +40897,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 105.41 81.28 0)
+			(at 114.3 83.82 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40923,7 +40907,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 105.41 83.566 0)
+			(at 114.3 86.106 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40933,7 +40917,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 105.41 85.852 0)
+			(at 114.3 88.392 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40943,7 +40927,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 105.41 88.138 0)
+			(at 114.3 90.678 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40953,7 +40937,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 105.41 90.424 0)
+			(at 114.3 92.964 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40963,7 +40947,7 @@
 			)
 		)
 		(property "Bonding" ""
-			(at 105.41 92.71 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40973,7 +40957,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 105.41 94.996 0)
+			(at 114.3 97.536 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40983,7 +40967,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 105.41 97.282 0)
+			(at 114.3 99.822 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -40993,7 +40977,7 @@
 			)
 		)
 		(property "ComponentHeight" "1.1mm"
-			(at 105.41 101.854 0)
+			(at 114.3 104.394 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -41003,7 +40987,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\ICs And Semiconductors SMD.PcbLib"
-			(at 105.41 104.14 0)
+			(at 114.3 106.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -41013,7 +40997,7 @@
 			)
 		)
 		(property "Footprint Ref" "OSC_RAKON_IVT3200C"
-			(at 105.41 106.426 0)
+			(at 114.3 108.966 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -41023,7 +41007,7 @@
 			)
 		)
 		(property "ComponentLink1Description" " "
-			(at 105.41 113.284 0)
+			(at 114.3 115.824 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -41033,7 +41017,7 @@
 			)
 		)
 		(property "ComponentLink2Description" " "
-			(at 105.41 117.856 0)
+			(at 114.3 120.396 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -41043,7 +41027,7 @@
 			)
 		)
 		(property "Author" ""
-			(at 105.41 120.142 0)
+			(at 114.3 122.682 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -41053,7 +41037,7 @@
 			)
 		)
 		(property "CreateDate" "02/08/10 00:00:00"
-			(at 105.41 122.428 0)
+			(at 114.3 124.968 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -41063,7 +41047,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "02/08/10 00:00:00"
-			(at 105.41 124.714 0)
+			(at 114.3 127.254 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -41073,7 +41057,7 @@
 			)
 		)
 		(property "Library Name" "ICs And Semiconductors SMD"
-			(at 105.41 127 0)
+			(at 114.3 129.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -41083,7 +41067,7 @@
 			)
 		)
 		(property "License" "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics."
-			(at 105.41 129.286 0)
+			(at 114.3 131.826 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -41093,7 +41077,7 @@
 			)
 		)
 		(property "FT Rotation Offset" "270"
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41101,8 +41085,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52954962"
-			(at 105.41 22.86 0)
+		(property "LCSC" "C20754707"
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41111,7 +41095,7 @@
 			)
 		)
 		(property "ALTERNATE_EMS" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41120,7 +41104,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41129,7 +41113,7 @@
 			)
 		)
 		(property "AUTOMOTIVE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41138,7 +41122,7 @@
 			)
 		)
 		(property "BMS_PART_NUMBER" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41147,7 +41131,7 @@
 			)
 		)
 		(property "CASE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41156,7 +41140,7 @@
 			)
 		)
 		(property "CATEGORY" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41165,7 +41149,7 @@
 			)
 		)
 		(property "COMPONENT KIND" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41174,7 +41158,7 @@
 			)
 		)
 		(property "COMPONENT TYPE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41183,7 +41167,7 @@
 			)
 		)
 		(property "COMPONENT_COUNTRY_OF_ORIGIN" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41192,7 +41176,7 @@
 			)
 		)
 		(property "CONN ORIENTATION" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41201,7 +41185,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41210,7 +41194,7 @@
 			)
 		)
 		(property "CONTINUOUS DRAIN CURRENT" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41219,7 +41203,7 @@
 			)
 		)
 		(property "CREATEDATE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41228,7 +41212,7 @@
 			)
 		)
 		(property "CURRENT RATING" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41237,7 +41221,7 @@
 			)
 		)
 		(property "DEPLETION MODE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41246,7 +41230,7 @@
 			)
 		)
 		(property "DEVICE CLASS L1" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41255,7 +41239,7 @@
 			)
 		)
 		(property "DEVICE CLASS L2" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41264,7 +41248,7 @@
 			)
 		)
 		(property "DEVICE CLASS L3" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41273,7 +41257,7 @@
 			)
 		)
 		(property "DIGIKEY DESCRIPTION" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41282,7 +41266,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE BREAKDOWN VOLTAGE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41291,7 +41275,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE RESISTANCE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41300,7 +41284,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41309,7 +41293,7 @@
 			)
 		)
 		(property "FOOTPRINT" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41318,7 +41302,7 @@
 			)
 		)
 		(property "FOOTPRINT URL" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41327,7 +41311,7 @@
 			)
 		)
 		(property "FULL_ALTERNATE_INTERNAL_PART_NUMBER" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41336,7 +41320,7 @@
 			)
 		)
 		(property "GATE CHARGE AT VGS" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41345,7 +41329,7 @@
 			)
 		)
 		(property "GATE TO SOURCE VOLTAGE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41354,7 +41338,7 @@
 			)
 		)
 		(property "ID" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41363,7 +41347,7 @@
 			)
 		)
 		(property "INPUT CAPACITACE AT VDS" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41372,7 +41356,7 @@
 			)
 		)
 		(property "INTERNAL_PART_NUMBER" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41381,7 +41365,7 @@
 			)
 		)
 		(property "IS FEMALE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41390,7 +41374,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41399,7 +41383,7 @@
 			)
 		)
 		(property "LEAD FREE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41408,7 +41392,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41417,7 +41401,7 @@
 			)
 		)
 		(property "MANUFACTURER1 COMPONENTHEIGHT" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41426,7 +41410,7 @@
 			)
 		)
 		(property "MANUFACTURER1 EXAMPLE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41435,7 +41419,7 @@
 			)
 		)
 		(property "MANUFACTURER1 PART NUMBER" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41444,7 +41428,7 @@
 			)
 		)
 		(property "MANUFACTURER_HQ_COO" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41453,7 +41437,7 @@
 			)
 		)
 		(property "MAX FORWARD DIODE VOLTAGE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41462,7 +41446,7 @@
 			)
 		)
 		(property "MAX JUNCTION TEMP" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41471,7 +41455,7 @@
 			)
 		)
 		(property "MOUNTED" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41480,7 +41464,7 @@
 			)
 		)
 		(property "NUMBER OF CHANNELS" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41489,7 +41473,7 @@
 			)
 		)
 		(property "NUMBER OF CONTACTS" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41498,7 +41482,7 @@
 			)
 		)
 		(property "NUMBER OF P CHANNELS" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41507,7 +41491,7 @@
 			)
 		)
 		(property "OCTOPART" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41516,7 +41500,7 @@
 			)
 		)
 		(property "ORDER_CODE_DIGIKEY" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41525,7 +41509,7 @@
 			)
 		)
 		(property "ORDER_CODE_FARNELL" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41534,7 +41518,7 @@
 			)
 		)
 		(property "ORDER_CODE_RS" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41543,7 +41527,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41552,7 +41536,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41561,7 +41545,7 @@
 			)
 		)
 		(property "PARTIAL_ALTERNATE_INTERNAL_PART_NUMBER" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41570,7 +41554,7 @@
 			)
 		)
 		(property "PART_PREFERENCE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41579,7 +41563,7 @@
 			)
 		)
 		(property "PART_TYPE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41588,7 +41572,7 @@
 			)
 		)
 		(property "PIN COUNT" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41597,7 +41581,7 @@
 			)
 		)
 		(property "POWER" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41606,7 +41590,7 @@
 			)
 		)
 		(property "POWER DISSIPATION" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41615,7 +41599,7 @@
 			)
 		)
 		(property "PRESSFIT" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41624,7 +41608,7 @@
 			)
 		)
 		(property "PULSE DRAIN CURRENT" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41633,7 +41617,7 @@
 			)
 		)
 		(property "REVERSE RECOVERY CHARGE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41642,7 +41626,7 @@
 			)
 		)
 		(property "REVERSE RECOVERY TIME" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41651,7 +41635,7 @@
 			)
 		)
 		(property "RTHJA MAX" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41660,7 +41644,7 @@
 			)
 		)
 		(property "SENSE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41669,7 +41653,7 @@
 			)
 		)
 		(property "SHOWFIELDS" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41678,7 +41662,7 @@
 			)
 		)
 		(property "SOCKET" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41687,7 +41671,7 @@
 			)
 		)
 		(property "STANDOFF HEIGHT" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41696,7 +41680,7 @@
 			)
 		)
 		(property "STATUS" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41705,7 +41689,7 @@
 			)
 		)
 		(property "TEMPERATURE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41714,7 +41698,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE HIGH" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41723,7 +41707,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE LOW" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41732,7 +41716,7 @@
 			)
 		)
 		(property "THRESHOLD VGS MAX" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41741,7 +41725,7 @@
 			)
 		)
 		(property "THRESHOLD VGS MIN" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41750,7 +41734,7 @@
 			)
 		)
 		(property "TOLERANCE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41759,7 +41743,7 @@
 			)
 		)
 		(property "TURN OFF DELAY TIME" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41768,7 +41752,7 @@
 			)
 		)
 		(property "TURN ON DELAY TIME" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41777,7 +41761,7 @@
 			)
 		)
 		(property "TYP FORWARD DIODE VOLTAGE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41786,7 +41770,7 @@
 			)
 		)
 		(property "USB STANDARD" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41795,7 +41779,7 @@
 			)
 		)
 		(property "VOLTAGE" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41804,7 +41788,34 @@
 			)
 		)
 		(property "VOLTAGE RATING" ""
-			(at 105.41 22.86 0)
+			(at 114.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "9875HA-25.000N33FT1JL"
+			(at 114.046 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 114.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "25MHz ±1ppm 3.3V"
+			(at 114.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41823,6 +41834,24 @@
 		)
 		(pin "6"
 			(uuid "2e7780c0-32c4-4c65-b806-55d196c06b39")
+		)
+		(pin "2"
+			(uuid "a0ebd840-a979-4f71-9323-d8eac05fce53")
+		)
+		(pin "7"
+			(uuid "9a65d3ae-55ad-49f7-8fa0-296e26d0d6d7")
+		)
+		(pin "8"
+			(uuid "b0413f19-e0de-4343-a455-adbe6367b725")
+		)
+		(pin "10"
+			(uuid "776a11cb-ce48-4e95-9e68-9370db8fd88c")
+		)
+		(pin "5"
+			(uuid "10311a93-c1b1-4213-9097-d1075a829618")
+		)
+		(pin "9"
+			(uuid "6d80ff8e-faa2-499d-9555-69228577e66a")
 		)
 		(instances
 			(project "Obsidian"
@@ -49296,7 +49325,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:GND")
-		(at 130.81 30.48 0)
+		(at 135.89 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49304,7 +49333,7 @@
 		(dnp no)
 		(uuid "463cd152-847e-4d1d-9b58-4315f0bbdb05")
 		(property "Reference" "#PWR0216"
-			(at 130.81 36.83 0)
+			(at 135.89 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49313,7 +49342,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.937 34.8742 0)
+			(at 136.017 22.1742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49321,7 +49350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 30.48 0)
+			(at 135.89 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49330,7 +49359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 30.48 0)
+			(at 135.89 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49339,7 +49368,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 30.48 0)
+			(at 135.89 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49425,16 +49454,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_Symbol:Oscillator_1VC_2GND_3OUT_4+Vs-clocks-SchDoc-cache")
-		(at 105.41 46.99 0)
+		(lib_id "Library_Symbol:SIT5001AC-GE-33VQ-25.000000X")
+		(at 115.57 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "47e6501f-c941-4f91-8db1-9e3101042bfe")
 		(property "Reference" "Y2"
-			(at 113.03 42.1894 0)
+			(at 124.206 43.942 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -49442,32 +49471,34 @@
 			)
 		)
 		(property "Value" "VM53S3-25.000-2.5/-30+75"
-			(at 113.03 44.8818 0)
+			(at 116.332 62.992 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Footprint:OSCCC320X500X160-4N"
-			(at 113.03 44.8818 0)
+		(property "Footprint" "Footprint:OSC_SIT5001AC-GE-33VQ-25.000000X"
+			(at 121.158 24.384 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49476,7 +49507,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "VM53S3-25.000-2.5/-30+75"
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49485,15 +49516,16 @@
 			)
 		)
 		(property "config" "dnf"
-			(at 113.03 58.42 0)
+			(at 123.19 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49502,7 +49534,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49511,7 +49543,7 @@
 			)
 		)
 		(property "ALTERNATE_EMS" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49520,7 +49552,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49529,7 +49561,7 @@
 			)
 		)
 		(property "AUTOMOTIVE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49538,7 +49570,7 @@
 			)
 		)
 		(property "BMS_PART_NUMBER" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49547,7 +49579,7 @@
 			)
 		)
 		(property "CASE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49556,7 +49588,7 @@
 			)
 		)
 		(property "CATEGORY" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49565,7 +49597,7 @@
 			)
 		)
 		(property "COMPONENT KIND" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49574,7 +49606,7 @@
 			)
 		)
 		(property "COMPONENT TYPE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49583,7 +49615,7 @@
 			)
 		)
 		(property "COMPONENT_COUNTRY_OF_ORIGIN" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49592,7 +49624,7 @@
 			)
 		)
 		(property "CONN ORIENTATION" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49601,7 +49633,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49610,7 +49642,7 @@
 			)
 		)
 		(property "CONTINUOUS DRAIN CURRENT" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49619,7 +49651,7 @@
 			)
 		)
 		(property "CREATEDATE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49628,7 +49660,7 @@
 			)
 		)
 		(property "CURRENT RATING" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49637,7 +49669,7 @@
 			)
 		)
 		(property "DEPLETION MODE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49646,7 +49678,7 @@
 			)
 		)
 		(property "DEVICE CLASS L1" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49655,7 +49687,7 @@
 			)
 		)
 		(property "DEVICE CLASS L2" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49664,7 +49696,7 @@
 			)
 		)
 		(property "DEVICE CLASS L3" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49673,7 +49705,7 @@
 			)
 		)
 		(property "DIGIKEY DESCRIPTION" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49682,7 +49714,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE BREAKDOWN VOLTAGE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49691,7 +49723,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE RESISTANCE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49700,7 +49732,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49709,7 +49741,7 @@
 			)
 		)
 		(property "FOOTPRINT" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49718,7 +49750,7 @@
 			)
 		)
 		(property "FOOTPRINT URL" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49727,7 +49759,7 @@
 			)
 		)
 		(property "FULL_ALTERNATE_INTERNAL_PART_NUMBER" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49736,7 +49768,7 @@
 			)
 		)
 		(property "GATE CHARGE AT VGS" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49745,7 +49777,7 @@
 			)
 		)
 		(property "GATE TO SOURCE VOLTAGE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49754,7 +49786,7 @@
 			)
 		)
 		(property "ID" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49763,7 +49795,7 @@
 			)
 		)
 		(property "INPUT CAPACITACE AT VDS" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49772,7 +49804,7 @@
 			)
 		)
 		(property "INTERNAL_PART_NUMBER" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49781,7 +49813,7 @@
 			)
 		)
 		(property "IS FEMALE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49790,7 +49822,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49799,7 +49831,7 @@
 			)
 		)
 		(property "LEAD FREE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49808,7 +49840,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49817,7 +49849,7 @@
 			)
 		)
 		(property "MANUFACTURER1 COMPONENTHEIGHT" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49826,7 +49858,7 @@
 			)
 		)
 		(property "MANUFACTURER1 EXAMPLE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49835,7 +49867,7 @@
 			)
 		)
 		(property "MANUFACTURER1 PART NUMBER" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49844,7 +49876,7 @@
 			)
 		)
 		(property "MANUFACTURER_HQ_COO" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49853,7 +49885,7 @@
 			)
 		)
 		(property "MAX FORWARD DIODE VOLTAGE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49862,7 +49894,7 @@
 			)
 		)
 		(property "MAX JUNCTION TEMP" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49871,7 +49903,7 @@
 			)
 		)
 		(property "MOUNTED" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49880,7 +49912,7 @@
 			)
 		)
 		(property "NUMBER OF CHANNELS" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49889,7 +49921,7 @@
 			)
 		)
 		(property "NUMBER OF CONTACTS" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49898,7 +49930,7 @@
 			)
 		)
 		(property "NUMBER OF P CHANNELS" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49907,7 +49939,7 @@
 			)
 		)
 		(property "OCTOPART" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49916,7 +49948,7 @@
 			)
 		)
 		(property "ORDER_CODE_DIGIKEY" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49925,7 +49957,7 @@
 			)
 		)
 		(property "ORDER_CODE_FARNELL" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49934,7 +49966,7 @@
 			)
 		)
 		(property "ORDER_CODE_RS" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49943,7 +49975,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49952,7 +49984,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49961,7 +49993,7 @@
 			)
 		)
 		(property "PARTIAL_ALTERNATE_INTERNAL_PART_NUMBER" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49970,7 +50002,7 @@
 			)
 		)
 		(property "PART_PREFERENCE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49979,7 +50011,7 @@
 			)
 		)
 		(property "PART_TYPE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49988,7 +50020,7 @@
 			)
 		)
 		(property "PIN COUNT" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49997,7 +50029,7 @@
 			)
 		)
 		(property "POWER" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50006,7 +50038,7 @@
 			)
 		)
 		(property "POWER DISSIPATION" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50015,7 +50047,7 @@
 			)
 		)
 		(property "PRESSFIT" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50024,7 +50056,7 @@
 			)
 		)
 		(property "PULSE DRAIN CURRENT" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50033,7 +50065,7 @@
 			)
 		)
 		(property "REVERSE RECOVERY CHARGE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50042,7 +50074,7 @@
 			)
 		)
 		(property "REVERSE RECOVERY TIME" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50051,7 +50083,7 @@
 			)
 		)
 		(property "RTHJA MAX" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50060,7 +50092,7 @@
 			)
 		)
 		(property "SENSE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50069,7 +50101,7 @@
 			)
 		)
 		(property "SHOWFIELDS" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50078,7 +50110,7 @@
 			)
 		)
 		(property "SOCKET" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50087,7 +50119,7 @@
 			)
 		)
 		(property "STANDOFF HEIGHT" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50096,7 +50128,7 @@
 			)
 		)
 		(property "STATUS" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50105,7 +50137,7 @@
 			)
 		)
 		(property "TEMPERATURE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50114,7 +50146,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE HIGH" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50123,7 +50155,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE LOW" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50132,7 +50164,7 @@
 			)
 		)
 		(property "THRESHOLD VGS MAX" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50141,7 +50173,7 @@
 			)
 		)
 		(property "THRESHOLD VGS MIN" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50150,7 +50182,7 @@
 			)
 		)
 		(property "TOLERANCE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50159,7 +50191,7 @@
 			)
 		)
 		(property "TURN OFF DELAY TIME" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50168,7 +50200,7 @@
 			)
 		)
 		(property "TURN ON DELAY TIME" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50177,7 +50209,7 @@
 			)
 		)
 		(property "TYP FORWARD DIODE VOLTAGE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50186,7 +50218,7 @@
 			)
 		)
 		(property "USB STANDARD" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50195,7 +50227,7 @@
 			)
 		)
 		(property "VOLTAGE" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50204,11 +50236,131 @@
 			)
 		)
 		(property "VOLTAGE RATING" ""
-			(at 105.41 46.99 0)
+			(at 115.57 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MF" "SiTime"
+			(at 121.158 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+			(at 121.158 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "NON STANDARD-4 Rochester Electronics"
+			(at 121.158 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 121.158 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SIT5001AC-GE-33VQ-25.000000X/SiTime/view-part/?ref=eda"
+			(at 121.158 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 121.158 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "NA"
+			(at 121.158 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SIT5001AC-GE-33VQ-25.000000X/SiTime/view-part/?ref=snap"
+			(at 121.158 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SIT5001AC-GE-33VQ-25.000000X"
+			(at 121.158 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "25 MHz VCTCXO LVCMOS Oscillator 3.3V 4-SMD, No Lead"
+			(at 121.158 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 121.158 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SITIME"
+			(at 121.158 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -83001,6 +83153,1183 @@
 		)
 	)
 	(symbol
+		(lib_id "Library_Symbol:R0402_10K_1%_0.0625W_100PPM")
+		(at 104.14 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "bb8e5454-ba8d-4c8a-b166-be3b87086800")
+		(property "Reference" "R40"
+			(at 100.076 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0402_10K_1%_0.0625W_100PPM"
+			(at 104.14 34.417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Footprint:RESC1005X40N"
+			(at 104.14 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 104.14 30.607 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "General Purpose Thick Film Chip Resistor"
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 100.33 39.37 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Val" "10k"
+			(at 100.076 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 104.14 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Ref" "Resistor - 1%"
+			(at 104.14 26.797 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Path" "SchLib\\Resistors.SchLib"
+			(at 104.14 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Comment" "10k"
+			(at 104.14 22.987 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 104.14 21.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 104.14 19.177 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" " "
+			(at 104.14 17.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 104.14 15.367 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
+			(at 104.14 13.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Ref" "RESC1005X40N"
+			(at 104.14 11.557 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Not Recommended"
+			(at 104.14 9.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Power" "0.0625W"
+			(at 104.14 7.747 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 104.14 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" " "
+			(at 104.14 3.937 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "General Purpose Thick Film Chip Resistor"
+			(at 104.14 2.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 104.14 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R0402_10K_1%_0.0625W_100PPM"
+			(at 104.14 -1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 104.14 -3.683 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 104.14 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 104.14 -7.493 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" " "
+			(at 104.14 -9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 104.14 -11.303 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" " "
+			(at 104.14 -13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 104.14 -15.113 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 104.14 -17.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" " "
+			(at 104.14 -18.923 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
+			(at 104.14 -20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "232270671003L"
+			(at 104.14 -22.733 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.4mm"
+			(at 104.14 -24.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+			(at 104.14 -26.543 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM JLC"
+			(at 104.14 -28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "12/03/07 00:00:00"
+			(at 104.14 -30.353 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "10/17/12 00:00:00"
+			(at 104.14 -32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors"
+			(at 104.14 -34.163 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Name" "Resistors SMD"
+			(at 104.14 -36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Resistors SMD"
+			(at 104.14 -37.973 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "License" "CC-BY-SA 4.0"
+			(at 104.14 -39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60490"
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTERNATE_EMS" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BMS_PART_NUMBER" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CASE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CATEGORY" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENT KIND" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENT TYPE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENT_COUNTRY_OF_ORIGIN" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONN ORIENTATION" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONTACT MATERIAL" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONTINUOUS DRAIN CURRENT" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CREATEDATE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CURRENT RATING" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEPLETION MODE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEVICE CLASS L1" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEVICE CLASS L2" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEVICE CLASS L3" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY DESCRIPTION" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DRAIN TO SOURCE BREAKDOWN VOLTAGE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DRAIN TO SOURCE RESISTANCE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DRAIN TO SOURCE VOLTAGE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT URL" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FULL_ALTERNATE_INTERNAL_PART_NUMBER" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GATE CHARGE AT VGS" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GATE TO SOURCE VOLTAGE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ID" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INPUT CAPACITACE AT VDS" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERNAL_PART_NUMBER" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IS FEMALE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LATESTREVISIONDATE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LEAD FREE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER1 COMPONENTHEIGHT" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER1 EXAMPLE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER1 PART NUMBER" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_HQ_COO" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX FORWARD DIODE VOLTAGE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX JUNCTION TEMP" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUNTED" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF CHANNELS" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF CONTACTS" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF P CHANNELS" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OCTOPART" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ORDER_CODE_DIGIKEY" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ORDER_CODE_FARNELL" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ORDER_CODE_RS" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART DESCRIPTION" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTIAL_ALTERNATE_INTERNAL_PART_NUMBER" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_PREFERENCE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN COUNT" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POWER" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POWER DISSIPATION" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRESSFIT" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PULSE DRAIN CURRENT" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVERSE RECOVERY CHARGE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVERSE RECOVERY TIME" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RTHJA MAX" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SENSE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SHOWFIELDS" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOCKET" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDOFF HEIGHT" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STATUS" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE RANGE HIGH" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE RANGE LOW" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THRESHOLD VGS MAX" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THRESHOLD VGS MIN" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TURN OFF DELAY TIME" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TURN ON DELAY TIME" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYP FORWARD DIODE VOLTAGE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "USB STANDARD" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING" ""
+			(at 104.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60103c5e-db11-4065-a8ef-9a9e4546b5e8")
+		)
+		(pin "2"
+			(uuid "ba1aafd5-e97b-4e24-ae84-3cb4e0f3421e")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/5616fdd5-5e68-4790-9d2c-4053b9f7c732"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library_Symbol:GND")
 		(at 238.76 90.17 0)
 		(unit 1)
@@ -97826,7 +99155,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:GND")
-		(at 125.73 55.88 0)
+		(at 134.62 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -97834,7 +99163,7 @@
 		(dnp no)
 		(uuid "eceebc27-e950-4738-8318-d99d8bdf7025")
 		(property "Reference" "#PWR0215"
-			(at 125.73 62.23 0)
+			(at 134.62 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97843,7 +99172,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.857 60.2742 0)
+			(at 137.668 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97851,7 +99180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 55.88 0)
+			(at 134.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97860,7 +99189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 55.88 0)
+			(at 134.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97869,7 +99198,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 55.88 0)
+			(at 134.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)

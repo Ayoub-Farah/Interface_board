@@ -1,4 +1,4 @@
-26537444668488501
+26540997614657375
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60501,6 +60501,13 @@ mountinghole M3
 2
 1
 Footprint
+OSC-SMD_10P-L7.0-W5.0-BL_OHXXXXXXX
+
+
+0
+10
+10
+Footprint
 OSCCC320X500X160-4N
 SMD Oscillator, Corner Convave, 4 pins, 5x3.2mm
 
@@ -60521,6 +60528,13 @@ Oscillator, Side Concave, 2.54mm Pitch, 6 Pins, 5.00mm L X 7.00mm W X 1.70mm H, 
 0
 6
 6
+Footprint
+OSC_SIT5001AC-GE-33VQ-25.000000X
+
+
+0
+4
+4
 Footprint
 PinSocket_2x06_P2.54mm_Horizontal_PMOD
 Through hole angled socket strip, 2x06, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated
