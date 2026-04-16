@@ -4665,6 +4665,17 @@
 		)
 		(uuid "3521af5f-af17-4c64-a406-7a086a8c8ea0")
 	)
+	(text "Test pins for SPI communication"
+		(exclude_from_sim no)
+		(at 135.89 151.892 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35f6f33d-f451-4ee7-86d4-3e2e6025c0b2")
+	)
 	(text "POGO pins\n"
 		(exclude_from_sim no)
 		(at 66.294 92.964 0)

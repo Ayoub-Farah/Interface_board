@@ -7046,7 +7046,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Reset" input
+		(pin "Reset" output
 			(at 217.17 148.59 180)
 			(uuid "c3646967-0a79-4af1-a03c-d833a3cb98fb")
 			(effects

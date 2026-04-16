@@ -13655,6 +13655,17 @@
 		)
 		(uuid "1180d76a-f89f-459e-a298-ecf2e97a5097")
 	)
+	(text "Normal operation (all bucks OK):\n- PG lines pulled high by R154\n- LD1 (red LED)and D3 OFF\n- U24 / U25 outputs Hi-Z\n- LD2 (green LED) ON\n\nFault condition (any buck NOT OK):\n- PG line pulled low\n- LD1 and D3 ON\n- U24 / U25 outputs LOW -> Enable Reset\n- LD2 OFF"
+		(exclude_from_sim no)
+		(at 267.462 50.292 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "12f64d36-e5c0-412c-aef0-ff53eae1945f")
+	)
 	(text "POWER OK"
 		(exclude_from_sim no)
 		(at 239.776 48.006 0)
@@ -13664,6 +13675,27 @@
 			)
 		)
 		(uuid "1ec409b4-5c09-4292-b719-4b550e8265e4")
+	)
+	(text "Power Good (PG) behavior:\n\n- Buck OK (correct Vout)    : open-drain output (line pulled high)\n- Buck NOT OK               : line pulled low\n\nU24 / U25 behavior:\n- Input high                : high impedance output\n- Input low                 : output pulled low"
+		(exclude_from_sim no)
+		(at 214.376 21.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "246946cb-0949-42ed-b508-e2c58e15445a")
+	)
+	(text "Originally a barrel jack was supplying the input power\nfor the board, we have replaced it wago in order to\nsupply power to multiple board with a daisy chain structure "
+		(exclude_from_sim no)
+		(at 35.56 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b1609bbb-ebff-49a3-9796-842e61d4e133")
 	)
 	(junction
 		(at 139.7 22.86)
@@ -16136,7 +16168,7 @@
 		(uuid "f1fcf939-76cc-4ace-8668-40e8e8673310")
 	)
 	(hierarchical_label "Reset"
-		(shape input)
+		(shape output)
 		(at 254 36.83 0)
 		(effects
 			(font
@@ -75251,10 +75283,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "97d967b0-8631-4ca1-9666-ebd6fb2b00d6")
 		(property "Reference" "LD2"
-			(at 254 60.7059 90)
+			(at 254.508 65.786 90)
 			(effects
 				(font
 					(size 1.27 1.27)

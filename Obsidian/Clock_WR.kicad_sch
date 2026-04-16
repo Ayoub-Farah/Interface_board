@@ -11220,6 +11220,17 @@
 			"REF_CLK0_N" "CLK2"
 		)
 	)
+	(text "Y2 is the main 25 MHz WR VCTCXO on this sheet.\nWR_DAC_OUT1 tunes the VC pin. It output a CMOS\nclock compatible with U16 input XIN. "
+		(exclude_from_sim no)
+		(at 102.108 71.882 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0701d937-bd7e-47ce-9524-384c339760dc")
+	)
 	(text "1"
 		(exclude_from_sim no)
 		(at 189.23 55.88 0)
@@ -11246,18 +11257,16 @@
 		)
 		(uuid "1ba9a881-d28b-4dc3-a755-44d4deeb3cb9")
 	)
-	(text "PRESC DIV = 4\nFB DIV = 20\nOUT DIV = 4\n\nInput = 25 MHz\nOutput=125 MHz"
+	(text "U16 is pin-strapped for 25 MHz input and 125 MHz output.\nAll config have a pull resistor.\nPR[1:0] = 11 gives P = 4 and N = 20.\nOD[2:0] = 011 gives /4, so fOUT = 25 MHz x 20 / 4 / 4 = 125 MHz.\nOS[1:0] = 11 selects LVPECL and enables OSC_OUT.\nSee CDCM61002 datasheet"
 		(exclude_from_sim no)
-		(at 171.45 104.14 0)
+		(at 172.466 95.504 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "29a65f82-e7b5-428e-ad6b-4647c822e265")
+		(uuid "3bc7960d-1489-4272-9c65-8e4c8192f301")
 	)
 	(text "0"
 		(exclude_from_sim no)
@@ -11272,31 +11281,49 @@
 		)
 		(uuid "4347b69e-9ffa-43c4-9da8-c0395c68c8a9")
 	)
-	(text "LVPECL, OSC_OUT On:\nOS1 = 1\nOS0 = 1"
+	(text "U14 and U15 convert WR_DAC commands into analog control voltages for the VCXOs."
 		(exclude_from_sim no)
-		(at 190.5 97.79 0)
+		(at 45.974 89.408 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "66c2b8ce-5ce6-4ff4-91cb-6a8c0f8b609e")
+		(uuid "7cbf6d4c-2627-4a68-9c36-1e16fab4946c")
 	)
-	(text "All config inputs have internal pull-ups."
+	(text "U13 provides the precision 2.5 V reference \nused by both DACs (U14 and U15)."
 		(exclude_from_sim no)
-		(at 171.45 90.17 0)
+		(at 16.764 162.814 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "67896368-ec23-43cb-ab3f-3f5efeaef704")
+		(uuid "97037407-a07e-4f42-b267-be7f9b266b9f")
+	)
+	(text "Y1 is an additional footprint used in case \nwe want to change the VTCXO."
+		(exclude_from_sim no)
+		(at 139.192 14.986 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c26b019-fdf6-4988-8169-410f49d2424e")
+	)
+	(text "U3 is an I2C-programmable 3-output clock generator \nreferenced to the 25 MHz crystal Y6."
+		(exclude_from_sim no)
+		(at 209.804 163.068 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9dc3bc9c-b12f-402e-bcf4-c6a5890d74b4")
 	)
 	(text "1"
 		(exclude_from_sim no)

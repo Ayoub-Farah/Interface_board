@@ -13451,6 +13451,17 @@
 		)
 		(uuid "07ab58ea-5caa-484c-8af1-a76eeecce341")
 	)
+	(text "U9 provides the external 1.25 V reference for the FPGA XADC. (see DS180, p14)\n"
+		(exclude_from_sim no)
+		(at 176.022 155.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4102b735-0e51-4d6d-b02d-0c8cd37e3223")
+	)
 	(text "Replacing S25FL128SAGMFI001 \nwith Winbond W25Q128JVFIQ\nPIN 14 is unconnected"
 		(exclude_from_sim no)
 		(at 253.238 49.022 0)
@@ -13460,6 +13471,42 @@
 			)
 		)
 		(uuid "64b2942d-b25b-4bab-bab6-d1878b6c6c8e")
+	)
+	(text "- Configuration straps, according to AMD XAPP586 application note :\n CFGBVS_0 = 1 and M[2:0] = 001 (M2=0, M1=0, M0=1), selecting 3.3 V Master SPI boot mode.\n\n- PROGRAM_B_0 is pulled high. Driving this pin low asserts \nthe reset and restarts FPGA configuration. (see XAPP1313 application note p. 5)\n\n- A low level indicates initialization in progress, when initialization is complete it\nbecomes open-drain. This pin can be pulled high (see XAPP586, figure 4 p.7) "
+		(exclude_from_sim no)
+		(at 51.562 144.272 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7416b7ee-f698-4778-8590-9a13f0c86bbd")
+	)
+	(text "DONE_0 drives the FPGA_DONE indicator. \nDONE high indicates successful FPGA configuration."
+		(exclude_from_sim no)
+		(at 233.426 139.7 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86d10936-988d-48ff-b042-529fc0bc4829")
+	)
+	(text "SW1 can force WP#/IO2 low \nfor write-protect, this will \nallow to avoid writing new\nprogram in the flash memmory"
+		(exclude_from_sim no)
+		(at 188.468 84.328 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b228c104-8ff5-4281-8476-586107735c72")
 	)
 	(junction
 		(at 129.54 119.38)
