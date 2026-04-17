@@ -14,6 +14,16 @@ According to XAPP586, `M[2:0] = 001` selects Master SPI flash mode, so the requi
 
 This configuration must match the schematic implementation (`U1E` in `FPGA_DBG`). After FPGA self-initialization, the mode pins are sampled; once `001` is detected, the FPGA starts the Master SPI sequence by driving `CCLK`, asserting `FCS_B`, and sending the flash read command and address on `D[00]`.
 
+There is also the pins in the CFGBVS that needs to be set to a certain level depending on volatge level logic : 
+
+![](Images/flash_and_debug/FPGA_CFGBVS_config.png)
+
+- CFGBVS to 1 if the voltage logic is 3.3V 
+- CFGBVS to 0 if the voltage logic is 1.8V
+
+In our case it needs to be 3.3V, so set to 1.
+
+
 ## FPGA connection with flash
 
 The flash can communicate in SPI or QSPI mode, but in this project it is used in standard SPI mode. The [Xilinx application note XAPP586](Bibliography/Flash_and_debug/xapp586-spi-flash.pdf) shows both a simplified connection and the full schematic-level connection:
