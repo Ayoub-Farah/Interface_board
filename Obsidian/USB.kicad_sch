@@ -11218,7 +11218,7 @@
 	)
 	(text "The connection of 93LC46B is realized according \nto Figure 7.1 EEPROM Interface of FT2232H datasheet\n(P.74)"
 		(exclude_from_sim no)
-		(at 90.678 100.838 0)
+		(at 100.838 98.806 0)
 		(effects
 			(font
 				(face "Arial")

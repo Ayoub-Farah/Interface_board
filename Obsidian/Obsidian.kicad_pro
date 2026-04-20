@@ -528,6 +528,8 @@
         "via_drill": 0.2
       },
       {
+        "diff_pair_gap": 0.26,
+        "diff_pair_width": 0.12,
         "name": "CLK",
         "pcb_color": "rgb(108, 255, 0)",
         "priority": 7,
@@ -657,7 +659,11 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+1V2": "rgb(255, 208, 160)",
+      "+1V8": "rgb(207, 167, 255)",
+      "MGT_1V": "rgb(39, 130, 93)"
+    },
     "netclass_assignments": {
       "/Clock-WR/CLK2": [
         "CLK"

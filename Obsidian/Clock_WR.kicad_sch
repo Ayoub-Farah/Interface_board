@@ -10607,6 +10607,104 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Library_Symbol:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library_Symbol:XTAL_25MHZ_TXC_8Y-25.000MAAJ-T"
 			(pin_names
 				(offset 1.27)
@@ -11222,7 +11320,7 @@
 	)
 	(text "Y2 is the main 25 MHz WR VCTCXO on this sheet.\nWR_DAC_OUT1 tunes the VC pin. It output a CMOS\nclock compatible with U16 input XIN. "
 		(exclude_from_sim no)
-		(at 102.108 71.882 0)
+		(at 103.632 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11599,6 +11697,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81289b40-a425-4af4-826a-6349e5cc1efa")
+	)
+	(junction
+		(at 86.36 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90b8fc3d-6d28-4e71-8a23-fd2f329e58fe")
 	)
 	(junction
 		(at 185.42 135.89)
@@ -12603,6 +12707,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 59.69) (xy 82.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1f228c-8a4c-4bd5-a3d5-62afd60d3585")
+	)
+	(wire
+		(pts
 			(xy 60.96 173.99) (xy 68.58 173.99)
 		)
 		(stroke
@@ -13153,7 +13267,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 59.69) (xy 82.55 59.69)
+			(xy 93.98 59.69) (xy 86.36 59.69)
 		)
 		(stroke
 			(width 0)
@@ -47822,7 +47936,7 @@
 				)
 			)
 		)
-		(property "Value" "VM53S3-25.000-2.5/-30+75"
+		(property "Value" "SIT5001AC-GE-33VQ-25.000000X"
 			(at 116.332 62.992 0)
 			(effects
 				(font
@@ -54822,7 +54936,7 @@
 		(dnp no)
 		(uuid "710acec1-3c61-474f-9758-958732e1055e")
 		(property "Reference" "C188"
-			(at 96.774 63.6016 90)
+			(at 97.028 68.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -98801,6 +98915,791 @@
 			(project "Obsidian"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/5616fdd5-5e68-4790-9d2c-4053b9f7c732"
 					(reference "#PWR0211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library_Symbol:TestPoint")
+		(at 86.36 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eed3841d-cfc9-43b3-bdc8-094dbaae96ac")
+		(property "Reference" "TP34"
+			(at 86.106 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 87.884 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 81.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALTERNATE_EMS" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTHOR" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AUTOMOTIVE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BMS_PART_NUMBER" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CASE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CATEGORY" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENT KIND" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENT TYPE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMPONENT_COUNTRY_OF_ORIGIN" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONN ORIENTATION" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONTACT MATERIAL" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONTINUOUS DRAIN CURRENT" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CREATEDATE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CURRENT RATING" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEPLETION MODE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEVICE CLASS L1" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEVICE CLASS L2" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DEVICE CLASS L3" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY DESCRIPTION" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DRAIN TO SOURCE BREAKDOWN VOLTAGE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DRAIN TO SOURCE RESISTANCE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DRAIN TO SOURCE VOLTAGE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT URL" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FULL_ALTERNATE_INTERNAL_PART_NUMBER" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GATE CHARGE AT VGS" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GATE TO SOURCE VOLTAGE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ID" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INPUT CAPACITACE AT VDS" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "INTERNAL_PART_NUMBER" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IS FEMALE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LATESTREVISIONDATE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LEAD FREE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER1 COMPONENTHEIGHT" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER1 EXAMPLE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER1 PART NUMBER" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_HQ_COO" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX FORWARD DIODE VOLTAGE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAX JUNCTION TEMP" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MOUNTED" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF CHANNELS" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF CONTACTS" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF P CHANNELS" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OCTOPART" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ORDER_CODE_DIGIKEY" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ORDER_CODE_FARNELL" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ORDER_CODE_RS" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART DESCRIPTION" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTIAL_ALTERNATE_INTERNAL_PART_NUMBER" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_PREFERENCE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_TYPE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PIN COUNT" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POWER" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "POWER DISSIPATION" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRESSFIT" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PULSE DRAIN CURRENT" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVERSE RECOVERY CHARGE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REVERSE RECOVERY TIME" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RTHJA MAX" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SENSE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SHOWFIELDS" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SOCKET" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDOFF HEIGHT" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STATUS" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE RANGE HIGH" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE RANGE LOW" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THRESHOLD VGS MAX" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "THRESHOLD VGS MIN" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TURN OFF DELAY TIME" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TURN ON DELAY TIME" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TYP FORWARD DIODE VOLTAGE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "USB STANDARD" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING" ""
+			(at 86.36 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1f4a0f0-b347-43ab-ae46-16c457bcb47a")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/5616fdd5-5e68-4790-9d2c-4053b9f7c732"
+					(reference "TP34")
 					(unit 1)
 				)
 			)

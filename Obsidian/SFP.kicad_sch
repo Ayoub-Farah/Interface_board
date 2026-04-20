@@ -5651,6 +5651,17 @@
 		)
 		(uuid "dc3d9696-7424-42d1-a888-d4bf5e87d4f6")
 	)
+	(text "- RD± are serial outputs and TD± are serial inputs. Route as controlled-impedance 100 Ω differential pairs.\n- VccR and VccT are 3.3 V receiver and transmitter supplies.\n- VeeR and VeeT are module signal grounds.\n- TX_FAULT is an open-drain module status output. High indicates a transmitter fault and requires a pull-up.\n- TX_DISABLE is an input. High disables the transmitter; low enables normal operation.\n- RX_LOS is an open-drain status output. High indicates loss of received optical signal.\n- RS0 and RS1 are rate-select inputs for the receiver and transmitter, they are tied together to have the same rate for both of them."
+		(exclude_from_sim no)
+		(at 123.952 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5d7ada6-d409-4860-87d8-ba70a65627c7")
+	)
 	(junction
 		(at 67.31 153.67)
 		(diameter 0)

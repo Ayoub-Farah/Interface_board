@@ -13429,8 +13429,8 @@
 		(members "CFG_MOSI" "CFG_DIN" "CFG_FCS")
 	)
 	(rectangle
-		(start 231.14 43.18)
-		(end 275.59 54.61)
+		(start 238.76 44.45)
+		(end 267.335 53.34)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -13467,7 +13467,7 @@
 		(at 253.238 49.022 0)
 		(effects
 			(font
-				(size 2 2)
+				(size 1.27 1.27)
 			)
 		)
 		(uuid "64b2942d-b25b-4bab-bab6-d1878b6c6c8e")
