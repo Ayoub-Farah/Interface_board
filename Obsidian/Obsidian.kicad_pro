@@ -1119,7 +1119,7 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -2451,6 +2451,36 @@
           "group_by": false,
           "label": "Description_1",
           "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_FARNELL",
+          "name": "OC_FARNELL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER",
+          "name": "SUPPLIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Supplier Part",
+          "name": "Supplier Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_NEWARK",
+          "name": "OC_NEWARK",
           "show": false
         }
       ],
