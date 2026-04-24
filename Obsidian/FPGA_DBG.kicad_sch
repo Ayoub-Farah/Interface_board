@@ -13428,19 +13428,6 @@
 	(bus_alias "CFG_QSPI"
 		(members "CFG_MOSI" "CFG_DIN" "CFG_FCS")
 	)
-	(rectangle
-		(start 238.76 44.45)
-		(end 267.335 53.34)
-		(stroke
-			(width 0.5)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5eb4c11f-b894-436f-a0f2-cfad2373d485)
-	)
 	(text "FPGA DONE"
 		(exclude_from_sim no)
 		(at 263.906 111.506 0)
@@ -13461,16 +13448,6 @@
 			(justify left)
 		)
 		(uuid "4102b735-0e51-4d6d-b02d-0c8cd37e3223")
-	)
-	(text "Replacing S25FL128SAGMFI001 \nwith Winbond W25Q128JVFIQ\nPIN 14 is unconnected"
-		(exclude_from_sim no)
-		(at 253.238 49.022 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "64b2942d-b25b-4bab-bab6-d1878b6c6c8e")
 	)
 	(text "- Configuration straps, according to AMD XAPP586 application note :\n CFGBVS_0 = 1 and M[2:0] = 001 (M2=0, M1=0, M0=1), selecting 3.3 V Master SPI boot mode.\n\n- PROGRAM_B_0 is pulled high. Driving this pin low asserts \nthe reset and restarts FPGA configuration. (see XAPP1313 application note p. 5)\n\n- A low level indicates initialization in progress, when initialization is complete it\nbecomes open-drain. This pin can be pulled high (see XAPP586, figure 4 p.7) "
 		(exclude_from_sim no)
@@ -13537,6 +13514,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56aa3f3e-c56b-4608-a307-df9c73de56f5")
+	)
+	(junction
+		(at 248.92 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67e5c955-b451-4414-b406-e6644f4d518d")
 	)
 	(junction
 		(at 200.66 138.43)
@@ -13629,10 +13612,6 @@
 		(uuid "e5993afc-e565-45cb-8b06-9ea79784f3c5")
 	)
 	(no_connect
-		(at 246.38 64.77)
-		(uuid "23f1bc9f-737a-46bf-9c9a-c1d603597ba0")
-	)
-	(no_connect
 		(at 215.9 82.55)
 		(uuid "72a551c2-fa16-480c-bddf-247e45f642c8")
 	)
@@ -13719,16 +13698,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 82.55) (xy 246.38 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "031169bb-271f-40f9-821d-a25e4965ce73")
-	)
-	(wire
-		(pts
 			(xy 189.23 55.88) (xy 189.23 74.93)
 		)
 		(stroke
@@ -13796,6 +13765,16 @@
 			(type default)
 		)
 		(uuid "1dd3b8fe-b13a-45c0-9015-63f8730c7aab")
+	)
+	(wire
+		(pts
+			(xy 248.92 64.77) (xy 248.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8fe423-8480-4485-80de-a14169ed1c0b")
 	)
 	(wire
 		(pts
@@ -13896,6 +13875,16 @@
 			(type default)
 		)
 		(uuid "41195535-88f0-4626-862a-e0ec267fe227")
+	)
+	(wire
+		(pts
+			(xy 246.38 82.55) (xy 248.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41da2ce4-3703-44fc-bb5e-d4745f84afa3")
 	)
 	(wire
 		(pts
@@ -14199,6 +14188,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 64.77) (xy 248.92 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20cd0b6-b47b-4f6a-91ae-81cda284fc3c")
+	)
+	(wire
+		(pts
 			(xy 121.92 81.28) (xy 154.94 81.28)
 		)
 		(stroke
@@ -14449,7 +14448,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 80.01) (xy 247.65 82.55)
+			(xy 248.92 60.96) (xy 248.92 64.77)
 		)
 		(stroke
 			(width 0)
@@ -31775,7 +31774,7 @@
 				)
 			)
 		)
-		(property "Value" "W25Q128JVFIQ"
+		(property "Value" "S25FL128SAGMFI001"
 			(at 221.488 88.9 0)
 			(effects
 				(font
@@ -31794,7 +31793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C111478.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C466853.pdf?spm=wm.sxq.inf.ggs___wm.ssy.bg.0.xh&lcsc_vid=RANdUwBXRwRaAVMCFAdWVwFUTwJWV1dXRVZcX1JVQwMxVlNRQFFaVFdTR1lYXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1dfVlVVWQkaCgg%3D"
 			(at 220.98 95.885 0)
 			(effects
 				(font
@@ -31813,7 +31812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "W25Q128JVFIQ "
+		(property "Part Number" "S25FL128SAGMFI001"
 			(at 220.98 97.79 0)
 			(effects
 				(font
@@ -31823,7 +31822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Library Ref" "W25Q128JVFIQ "
+		(property "Library Ref" "S25FL128SAGMFI001"
 			(at 220.98 99.695 0)
 			(effects
 				(font
@@ -32202,7 +32201,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C111478"
+		(property "LCSC" "C466853"
 			(at 220.98 62.23 0)
 			(effects
 				(font
@@ -41735,7 +41734,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:+1V0")
-		(at 247.65 80.01 0)
+		(at 248.92 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41744,7 +41743,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6269db6-676d-49c5-bf82-2a845f85ba4b")
 		(property "Reference" "#PWR0130"
-			(at 247.65 83.82 0)
+			(at 248.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41753,7 +41752,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 247.65 74.93 0)
+			(at 248.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41761,7 +41760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 80.01 0)
+			(at 248.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41770,7 +41769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 80.01 0)
+			(at 248.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41779,7 +41778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 247.65 80.01 0)
+			(at 248.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

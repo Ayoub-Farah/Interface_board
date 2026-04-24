@@ -6113,7 +6113,7 @@
 		(uuid "ffd3185a-9e28-4911-a6b5-ef5ed8a129fa")
 	)
 	(no_connect
-		(at 303.53 182.88)
+		(at 317.5 182.88)
 		(uuid "4e1b466b-330c-4d14-b28e-330edc599e20")
 	)
 	(no_connect
@@ -6121,15 +6121,15 @@
 		(uuid "7c0cb37a-0799-491f-bbab-925f038ee896")
 	)
 	(no_connect
-		(at 303.53 175.26)
+		(at 317.5 175.26)
 		(uuid "8d8e1d4d-0580-42ef-b598-32f62bbcd6d0")
 	)
 	(no_connect
-		(at 303.53 180.34)
+		(at 317.5 180.34)
 		(uuid "d7a134f1-5cf5-46d1-8e8e-22d437626952")
 	)
 	(no_connect
-		(at 303.53 172.72)
+		(at 317.5 172.72)
 		(uuid "e6196ae6-e2dd-4675-8267-26c2dae09264")
 	)
 	(no_connect
@@ -6352,16 +6352,6 @@
 			(type default)
 		)
 		(uuid "085d9052-a33c-4d82-86b5-4aaed14ca62d")
-	)
-	(wire
-		(pts
-			(xy 303.53 180.34) (xy 317.5 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fd5109d-8a65-400a-bde8-7c3b97875eaf")
 	)
 	(wire
 		(pts
@@ -6672,16 +6662,6 @@
 			(type default)
 		)
 		(uuid "43b0e21e-53ed-497c-8e69-5e96f065d7fb")
-	)
-	(wire
-		(pts
-			(xy 303.53 172.72) (xy 317.5 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43b75850-4c00-43d1-95fb-ff547e2d9fde")
 	)
 	(wire
 		(pts
@@ -7083,16 +7063,6 @@
 		)
 		(uuid "77ada4ef-03b1-4439-8079-06057171305a")
 	)
-	(wire
-		(pts
-			(xy 303.53 175.26) (xy 317.5 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77fd0cd2-4453-4367-aa34-09bbfc17d4cf")
-	)
 	(polyline
 		(pts
 			(xy 274.32 101.6) (xy 274.32 107.95)
@@ -7242,16 +7212,6 @@
 			(type default)
 		)
 		(uuid "92a8c618-f98d-4aa9-a72c-d8578f704253")
-	)
-	(wire
-		(pts
-			(xy 303.53 182.88) (xy 317.5 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93f60707-6fdd-4383-b02e-9826ed4e77e8")
 	)
 	(wire
 		(pts
@@ -8073,17 +8033,6 @@
 		)
 		(uuid "fe30a64c-e4da-4c17-946d-43eba456f909")
 	)
-	(label "I2C_SFP2_SCL"
-		(at 303.53 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "0673fab0-2166-47ad-82c3-15adb5948d5d")
-	)
 	(label "SFP0_TX_FAULT"
 		(at 309.88 82.55 0)
 		(effects
@@ -8116,17 +8065,6 @@
 			(justify left bottom)
 		)
 		(uuid "0def49ed-23b4-48b7-89cd-b8297bcd14ed")
-	)
-	(label "I2C_SFP2_SDA"
-		(at 303.53 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "111f12e6-ee6f-46d5-add1-f26bcb4dc6bb")
 	)
 	(label "LED0"
 		(at 304.8 120.65 0)
@@ -8429,17 +8367,6 @@
 		)
 		(uuid "88f7dc4c-233d-417e-946a-1736a0ff00cb")
 	)
-	(label "I2C_SFP3_SDA"
-		(at 303.53 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "8c9516b1-5a54-4550-b4da-f732b7cf56cc")
-	)
 	(label "SFP1_LOS"
 		(at 186.69 184.15 0)
 		(effects
@@ -8586,17 +8513,6 @@
 			(justify left bottom)
 		)
 		(uuid "b6ff25e0-9976-4ec1-8253-f23403dddfac")
-	)
-	(label "I2C_SFP3_SCL"
-		(at 303.53 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2badb03-ca7b-4c67-97be-7285d2d0c707")
 	)
 	(label "MGT_TX1_N"
 		(at 245.11 151.13 180)
