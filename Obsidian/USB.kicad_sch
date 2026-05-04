@@ -35319,10 +35319,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bfce1994-37a0-4469-8969-f5932ee43a94")
 		(property "Reference" "D1"
-			(at 101.6 64.7699 90)
+			(at 92.71 58.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35331,13 +35330,12 @@
 			)
 		)
 		(property "Value" "PRTR5V0U2X"
-			(at 104.775 69.85 0)
+			(at 86.614 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ICs And Semiconductors SMD:SOT190P230X110-4N"

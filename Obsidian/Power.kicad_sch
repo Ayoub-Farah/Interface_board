@@ -11,6 +11,1866 @@
 		(comment 1 "${author}")
 	)
 	(lib_symbols
+		(symbol "CERN:Analog & Interface/INA219AID"
+			(pin_names
+				(offset 1.27)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 8.89 1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "${DEVICE}"
+				(at 8.89 -21.59 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "ICs And Semiconductors SMD:SOIC127P600X175-8N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${CERN_DATASHEET_DIR}\\INA219D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zero-Drift, Bi-Directional CURRENT/POWER MONITOR with I2C™ Interface"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TEXAS INSTRUMENTS"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "INA219AID"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Comment" "INA219AID"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Component Kind" "Standard"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Component Type" "Standard"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Device" "INA219AID"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PackageDescription" "SOIC 8, Pitch 1.27mm - Body 4x5mm, IPC Medium Density"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Description" "Zero-Drift, Bi-Directional CURRENT/POWER MONITOR with I2C™ Interface"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "INA219AID"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "8"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Case" "SOIC8"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounted" "Yes"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Socket" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SMD" "Yes"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PressFit" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sense" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sense Comment" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Bonding" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status Comment" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ComponentHeight" "1.75mm"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Author" "CERN DEM HF"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\INA219D.pdf"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink1URL" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink2URL" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink2Description" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink1Description" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CreateDate" "2023-07-06 00:00:00 +0100"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LatestRevisionDate" "2023-07-06 00:00:00 +0100"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SCEM" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LatestRevisionDate1" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field1" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LibSymbol" "Analog & Interface:INA219AID"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LibFootprint" "ICs And Semiconductors SMD:SOIC127P600X175-8N"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Database Name" "ICs And Semiconductors"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Database Table Name" "Analog & Interface"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number Nocolon" "INA219AID"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ICs{space}And{space}Semiconductors{space}SMD:SOIC127P600X175-8N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Analog & Interface/INA219AID_1_0"
+				(rectangle
+					(start 17.78 0)
+					(end 0 -20.32)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -17.78 0)
+					(length 5.08)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 -17.78 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CERN:Miscellaneous/WURTH_61300821121"
+			(pin_names
+				(offset 1.27)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "${FAMILY}"
+				(at 3.81 -0.762 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Miscellaneous THD:WURTH_61300821121"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${CERN_DATASHEET_DIR}\\WURTH_61300821121.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8 Contacts, Pitch 2.54mm, Dual Row, THT Male Header WR-PHD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "WURTH ELEKTRONIK"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "WURTH_61300821121"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Comment" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Component Kind" "Standard"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Component Type" "Standard"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Device" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PackageDescription" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "8"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Case" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Family" "Header 8"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounted" "Yes"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Socket" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PressFit" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SMD" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sense" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sense Comment" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status Comment" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "None"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SCEM" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Description" "8 Contacts, Pitch 2.54mm, Dual Row, THT Male Header WR-PHD"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "61300821121"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ComponentHeight" "8.54mm"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\WURTH_61300821121.pdf"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink1URL" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink1Description" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink2URL" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink2Description" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Author" "CERN DEM HF"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CreateDate" "2024-12-02 00:00:00 +0100"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LatestRevisionDate" "2024-12-02 00:00:00 +0100"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LibSymbol" "Connectors:Connector 8 Male"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LibFootprint" "Miscellaneous THD:WURTH_61300821121"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Database Name" "Connectors"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Database Table Name" "Miscellaneous"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number Nocolon" "WURTH_61300821121"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Miscellaneous{space}THD:WURTH_61300821121"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Miscellaneous/WURTH_61300821121_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 2.54 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -10.16) (xy 2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -12.7) (xy 2.54 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -15.24) (xy 2.54 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -17.78) (xy 2.54 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -20.32) (xy 2.54 -20.32)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -7.62) (xy 2.54 -7.62)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -10.16) (xy 2.54 -10.16)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -12.7) (xy 2.54 -12.7)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -15.24) (xy 2.54 -15.24)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -17.78) (xy 2.54 -17.78)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -20.32) (xy 2.54 -20.32)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 0)
+					(end 0 -22.86)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -17.78 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -20.32 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CERN:Resistors SMD/R1206_0R01_1%_1W_100PPM"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.27)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 3.81 1.778 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "0R01"
+				(at 3.81 -1.778 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Resistors SMD:RESC3216X65N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${CERN_DATASHEET_DIR}\\R1206_YAGEO_PA1206.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low Value Metal Alloy Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Manufacturer" "GENERIC"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "R1206_0R01_1%_1W_100PPM"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Comment" "0R01"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Component Kind" "Standard"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Component Type" "Standard"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PackageDescription" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "2"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status" "None"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "1W"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TC" "±100ppm/°C"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Description" "Low Value Metal Alloy Resistor"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "R1206_0R01_1%_1W_100PPM"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Case" "1206"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PressFit" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mounted" "Yes"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sense Comment" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sense" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Status Comment" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Socket" "No"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SMD" "Yes"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ComponentHeight" ""
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 Example" "YAGEO"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 Part Number" "PA1206FRF470R01L"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1 ComponentHeight" "0.65mm"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_YAGEO_PA1206.pdf"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Author" "CERN DEM HF"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CreateDate" "2025-10-20 00:00:00 +0100"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LatestRevisionDate" "2025-10-20 00:00:00 +0100"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LibSymbol" "Resistors:Resistor - 1%"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LibFootprint" "Resistors SMD:RESC3216X65N"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Database Name" "Resistors"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Database Table Name" "Resistors SMD"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number Nocolon" "R1206_0R01_1%_1W_100PPM"
+				(at 0 0 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0R01"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Resistors{space}SMD:RESC3216X65N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistors SMD/R1206_0R01_1%_1W_100PPM_1_0"
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.762) (xy 6.096 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 0.762) (xy 1.524 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 -0.762) (xy 6.096 0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.524)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 1.524)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Capacitors SMD:CC0402_100NF_50V_10%_X7R"
 			(pin_names
 				(offset 1.27)
@@ -14385,7 +16245,13 @@
 		(uuid "49b6bb46-41b6-4e6e-9ef7-bec955e2d3b9")
 	)
 	(junction
-		(at 49.53 30.48)
+		(at 31.75 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49e1f1cc-4c53-43ea-9422-5d7029b585c9")
+	)
+	(junction
+		(at 44.45 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d387b2a-5d31-4a47-b21a-4da7291b3211")
@@ -14395,6 +16261,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56e0232c-1752-4dfe-b829-e8827d19d73b")
+	)
+	(junction
+		(at 60.96 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56e102cb-6dd8-45ff-9e4a-462370c972d6")
 	)
 	(junction
 		(at 163.83 168.91)
@@ -14499,6 +16371,18 @@
 		(uuid "88590710-7c38-40ec-9cba-c67517d875ca")
 	)
 	(junction
+		(at 22.86 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c9e2d2d-1b73-44d2-9a35-964cd61c5c32")
+	)
+	(junction
+		(at 66.04 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f150975-2c6e-44d3-84c4-5005a7199dc8")
+	)
+	(junction
 		(at 85.09 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14523,6 +16407,12 @@
 		(uuid "97e3863e-ade7-48df-a5ae-ca66d8467bb1")
 	)
 	(junction
+		(at 50.8 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a45087f-b5d6-4c2a-9dcf-52ea33448f40")
+	)
+	(junction
 		(at 204.47 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14533,6 +16423,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a597799e-3bf7-4e3a-a6c2-160a3d1a2830")
+	)
+	(junction
+		(at 50.8 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a68328e1-4b95-46f5-9a99-508dabdbedcf")
 	)
 	(junction
 		(at 134.62 102.87)
@@ -14577,12 +16473,6 @@
 		(uuid "ba2aa127-bf18-4bf4-857a-2f3f43d35f9a")
 	)
 	(junction
-		(at 57.15 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bab76470-3880-4d5d-b273-7db9cb60f3e4")
-	)
-	(junction
 		(at 85.09 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14605,6 +16495,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcf7f68f-d709-4778-9a4a-104a0d5d594c")
+	)
+	(junction
+		(at 22.86 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdd5518e-9b2c-4056-bd01-45b6ebd0c648")
+	)
+	(junction
+		(at 48.26 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bff7220b-4229-4967-92d6-2c55b10b7674")
 	)
 	(junction
 		(at 163.83 134.62)
@@ -14655,7 +16557,7 @@
 		(uuid "cd02402a-1522-45e6-95f6-2dbcc71aca22")
 	)
 	(junction
-		(at 43.18 38.1)
+		(at 38.1 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d81ab25d-8e54-4366-a73c-1077fc411a7d")
@@ -14721,7 +16623,7 @@
 		(uuid "dd0c4db6-0547-44a3-a9f3-6e2e15b37303")
 	)
 	(no_connect
-		(at 34.29 33.02)
+		(at 29.21 33.02)
 		(uuid "ea50e357-aa1a-47a4-9c1b-82806dfdee1a")
 	)
 	(no_connect
@@ -14761,6 +16663,16 @@
 			(type default)
 		)
 		(uuid "05180660-0694-488f-95c9-368975fe0963")
+	)
+	(wire
+		(pts
+			(xy 31.75 111.76) (xy 40.64 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05365a5e-bc89-4ce0-9a7e-a4574e08c76f")
 	)
 	(wire
 		(pts
@@ -14834,6 +16746,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 69.85) (xy 22.86 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "113b220e-2977-4880-8a38-2031a99bd4b2")
+	)
+	(wire
+		(pts
 			(xy 93.98 173.99) (xy 93.98 176.53)
 		)
 		(stroke
@@ -14864,7 +16786,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 30.48) (xy 38.1 30.48)
+			(xy 29.21 30.48) (xy 33.02 30.48)
 		)
 		(stroke
 			(width 0)
@@ -14924,7 +16846,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 19.05) (xy 57.15 30.48)
+			(xy 44.45 19.05) (xy 44.45 30.48)
 		)
 		(stroke
 			(width 0)
@@ -14964,7 +16886,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 19.05) (xy 36.83 19.05)
+			(xy 21.59 19.05) (xy 31.75 19.05)
 		)
 		(stroke
 			(width 0)
@@ -15094,6 +17016,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 67.31) (xy 55.88 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c963233-f2c5-4c62-a058-5af9c3e891a9")
+	)
+	(wire
+		(pts
 			(xy 148.59 139.7) (xy 152.4 139.7)
 		)
 		(stroke
@@ -15144,7 +17076,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 30.48) (xy 57.15 30.48)
+			(xy 44.45 30.48) (xy 48.26 30.48)
 		)
 		(stroke
 			(width 0)
@@ -15214,6 +17146,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 109.22) (xy 40.64 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54727099-ed43-45c4-b6c1-046cc8e094ea")
+	)
+	(wire
+		(pts
 			(xy 144.78 102.87) (xy 144.78 105.41)
 		)
 		(stroke
@@ -15221,6 +17163,16 @@
 			(type default)
 		)
 		(uuid "558519d3-2b1e-41d1-8ea0-a6170dd36a4f")
+	)
+	(wire
+		(pts
+			(xy 60.96 36.83) (xy 60.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59258bba-9aa9-4284-9e05-df9d8be15556")
 	)
 	(wire
 		(pts
@@ -15271,6 +17223,16 @@
 			(type default)
 		)
 		(uuid "5ba2d5ea-92a9-45be-8000-52404d093d47")
+	)
+	(wire
+		(pts
+			(xy 50.8 30.48) (xy 52.07 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2d6773-6f99-4ee3-b82c-7f4826be60ed")
 	)
 	(wire
 		(pts
@@ -15384,6 +17346,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 72.39) (xy 22.86 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d96b1c5-d9ba-49e5-8e45-72509b93835b")
+	)
+	(wire
+		(pts
 			(xy 196.85 49.53) (xy 203.2 49.53)
 		)
 		(stroke
@@ -15484,6 +17456,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 30.48) (xy 66.04 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff79a88-92fc-4800-b171-af15986d0cba")
+	)
+	(wire
+		(pts
 			(xy 130.81 107.95) (xy 130.81 128.27)
 		)
 		(stroke
@@ -15491,6 +17473,16 @@
 			(type default)
 		)
 		(uuid "81b91667-b045-4289-a988-eb92ed56240e")
+	)
+	(wire
+		(pts
+			(xy 48.26 30.48) (xy 50.8 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e720e5-45d1-41ef-9c89-e6e044c8f33b")
 	)
 	(wire
 		(pts
@@ -15604,6 +17596,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 104.14) (xy 38.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9254459f-aba6-418d-97bc-7fdea6edc394")
+	)
+	(wire
+		(pts
 			(xy 138.43 165.1) (xy 138.43 173.99)
 		)
 		(stroke
@@ -15611,6 +17613,16 @@
 			(type default)
 		)
 		(uuid "9403aee0-9a30-4f92-8b24-c08175199057")
+	)
+	(wire
+		(pts
+			(xy 55.88 36.83) (xy 60.96 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c1d3dc-8806-4e19-8c2a-0869b06915c8")
 	)
 	(wire
 		(pts
@@ -15661,6 +17673,16 @@
 			(type default)
 		)
 		(uuid "9c91cabb-6a3d-41d6-ba6f-3458c235d251")
+	)
+	(wire
+		(pts
+			(xy 50.8 67.31) (xy 55.88 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb9c03a-6fa1-46ec-8865-b8c98c6da3c9")
 	)
 	(wire
 		(pts
@@ -15734,7 +17756,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 30.48) (xy 49.53 30.48)
+			(xy 43.18 30.48) (xy 44.45 30.48)
 		)
 		(stroke
 			(width 0)
@@ -15894,16 +17916,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 30.48) (xy 74.93 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf386d91-e6e2-48bc-8034-c9d0120f522a")
-	)
-	(wire
-		(pts
 			(xy 246.38 86.36) (xy 259.08 86.36)
 		)
 		(stroke
@@ -15974,6 +17986,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 104.14) (xy 46.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7930b1-cd8b-4845-b404-4289660ebc3a")
+	)
+	(wire
+		(pts
 			(xy 152.4 102.87) (xy 152.4 105.41)
 		)
 		(stroke
@@ -16014,7 +18036,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 38.1) (xy 49.53 38.1)
+			(xy 38.1 38.1) (xy 44.45 38.1)
 		)
 		(stroke
 			(width 0)
@@ -16094,7 +18116,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 19.05) (xy 57.15 19.05)
+			(xy 39.37 19.05) (xy 44.45 19.05)
 		)
 		(stroke
 			(width 0)
@@ -16134,6 +18156,26 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 30.48) (xy 60.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc769ad9-de2c-44a4-8d5b-32cd53711fa1")
+	)
+	(wire
+		(pts
+			(xy 66.04 30.48) (xy 74.93 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6ea942-07ac-4c56-92ab-081179623401")
+	)
+	(wire
+		(pts
 			(xy 173.99 128.27) (xy 173.99 133.35)
 		)
 		(stroke
@@ -16151,6 +18193,16 @@
 			(type default)
 		)
 		(uuid "e15a7add-dd1b-4736-bcc1-382ad23c32c1")
+	)
+	(wire
+		(pts
+			(xy 31.75 106.68) (xy 33.02 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e235e274-04b2-4189-8b10-057fcf299174")
 	)
 	(wire
 		(pts
@@ -16204,6 +18256,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 116.84) (xy 31.75 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ea6716-caaa-4de0-8730-b93b6704237e")
+	)
+	(wire
+		(pts
 			(xy 242.57 128.27) (xy 250.19 128.27)
 		)
 		(stroke
@@ -16244,6 +18306,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 114.3) (xy 40.64 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf892c3-16d0-4594-a8ab-cdb9b83defc6")
+	)
+	(wire
+		(pts
 			(xy 144.78 100.33) (xy 144.78 102.87)
 		)
 		(stroke
@@ -16251,6 +18323,16 @@
 			(type default)
 		)
 		(uuid "ef12fcd6-713f-49bb-809b-aeda62b21f49")
+	)
+	(wire
+		(pts
+			(xy 50.8 30.48) (xy 50.8 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1566b83-d918-4aa3-9e4a-4a5058fb4098")
 	)
 	(wire
 		(pts
@@ -16302,6 +18384,94 @@
 		)
 		(uuid "fbf6dd00-1baf-414a-b164-0b49d3f51905")
 	)
+	(global_label "I2C_SCL"
+		(shape output)
+		(at 22.86 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1cb04e93-2e61-4ddc-a53f-ca5b6ab80afe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.3153 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 40.64 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25dc5b7d-247b-4fc0-b788-62f657b03a3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.3565 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 22.86 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3156858b-d1e7-4763-8e9a-a8138d8a2534")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.1435 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FPGA_DONE"
+		(shape output)
+		(at 40.64 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a749626a-59b6-4a73-a625-263bde0a7224")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RST"
 		(shape output)
 		(at 255.27 49.53 0)
@@ -16315,6 +18485,50 @@
 		(uuid "b8bb0383-ff47-4305-a29c-889ecfada3aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 261.7023 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST"
+		(shape input)
+		(at 46.99 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8ad7466-287b-465c-aacd-8f2598a9c2b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.4223 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape output)
+		(at 40.64 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e80f2dbb-66f3-4732-95b7-a0114e6690bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.1847 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16848,16 +19062,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 45.72 0)
+		(at 38.1 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "027bab02-6f4f-4c48-bda4-7faa955c4f51")
 		(property "Reference" "#PWR0313"
-			(at 43.18 52.07 0)
+			(at 38.1 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16866,7 +19079,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 50.8 0)
+			(at 38.1 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16874,7 +19087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 45.72 0)
+			(at 38.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16883,7 +19096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 45.72 0)
+			(at 38.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16892,7 +19105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 45.72 0)
+			(at 38.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18543,6 +20756,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 48.26 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0816e346-0cc1-4e3f-b31b-398bd5fa4fba")
+		(property "Reference" "#PWR0234"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_IN"
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 48.26 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c07312c-c26d-4e2e-96ef-280620693ee3")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
+					(reference "#PWR0234")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 130.81 181.61 0)
 		(unit 1)
@@ -18609,8 +20888,459 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitors SMD:CC0402_100NF_50V_10%_X7R")
+		(at 50.8 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a58eedd-c199-470d-9780-0da7e1cfe36d")
+		(property "Reference" "C53"
+			(at 51.054 79.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CC0402_100NF_50V_10%_X7R"
+			(at 57.023 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
+			(at 58.928 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 60.833 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" "100nF"
+			(at 51.054 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 62.738 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Ref" "Capacitor - non polarized"
+			(at 64.643 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Path" "SchLib\\Capacitors.SchLib"
+			(at 66.548 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Comment" "100nF"
+			(at 68.453 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 70.358 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 72.263 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 74.168 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Path" "PcbLib\\Capacitors SMD.PcbLib"
+			(at 76.073 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Ref" "CAPC1005X55N"
+			(at 77.978 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" " "
+			(at 79.883 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 81.788 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" " "
+			(at 83.693 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 85.598 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "TC" "X7R"
+			(at 87.503 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 89.408 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
+			(at 91.313 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 93.218 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0402_100NF_50V_10%_X7R"
+			(at 95.123 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Case" "0402"
+			(at 97.028 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 98.933 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 100.838 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 102.743 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PressFit" " "
+			(at 104.648 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 106.553 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" " "
+			(at 108.458 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" " "
+			(at 110.363 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "MURATA"
+			(at 112.268 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "GRM155R71H104KE14D"
+			(at 114.173 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.55mm"
+			(at 116.078 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+			(at 117.983 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM MR"
+			(at 119.888 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "06/30/17 00:00:00"
+			(at 121.793 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "06/30/17 00:00:00"
+			(at 123.698 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Capacitors"
+			(at 125.603 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Library Name" "Capacitors SMD"
+			(at 127.508 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint Library" "Capacitors SMD"
+			(at 129.413 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "License" "CC-BY-SA 4.0"
+			(at 131.318 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e14b27a5-4e62-41ba-9125-a3ce8d9c218c")
+		)
+		(pin "2"
+			(uuid "ec9b75fa-35a6-47f8-b784-738f9538aaf3")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
+					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 57.15 38.1 0)
+		(at 66.04 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18619,7 +21349,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cdbb5a2-805d-4847-b3be-052f17d4fd15")
 		(property "Reference" "#PWR0315"
-			(at 57.15 44.45 0)
+			(at 66.04 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18628,7 +21358,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 43.18 0)
+			(at 66.04 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18636,7 +21366,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 38.1 0)
+			(at 66.04 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18645,7 +21375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 38.1 0)
+			(at 66.04 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18654,7 +21384,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 38.1 0)
+			(at 66.04 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18676,7 +21406,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS38")
-		(at 40.64 19.05 0)
+		(at 35.56 19.05 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18685,7 +21415,7 @@
 		(dnp no)
 		(uuid "0d3b0364-9dc1-44d8-9cab-00e14a1caaf1")
 		(property "Reference" "D4"
-			(at 40.64 16.764 0)
+			(at 35.56 16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18693,7 +21423,7 @@
 			)
 		)
 		(property "Value" "SS38"
-			(at 40.64 21.844 0)
+			(at 35.56 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18701,7 +21431,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 40.64 23.495 0)
+			(at 35.56 23.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18710,7 +21440,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.microdiode.com/uploadfiles//PDF/SS32-THRU-SS3200-SMA.pdf"
-			(at 40.64 19.05 0)
+			(at 35.56 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18719,7 +21449,7 @@
 			)
 		)
 		(property "Description" "80V 3A Schottky Diode, SMA"
-			(at 40.64 19.05 0)
+			(at 35.56 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19196,7 +21926,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 26.67 33.02 0)
+		(at 21.59 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19204,7 +21934,7 @@
 		(dnp no)
 		(uuid "10df889e-f637-47ba-807e-cb9ffeb8d796")
 		(property "Reference" "J10"
-			(at 26.67 24.13 0)
+			(at 21.59 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19212,7 +21942,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_Switch"
-			(at 26.67 26.67 0)
+			(at 21.59 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19220,7 +21950,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal"
-			(at 27.94 34.036 0)
+			(at 22.86 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19229,7 +21959,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 34.036 0)
+			(at 22.86 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19238,7 +21968,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 26.67 33.02 0)
+			(at 21.59 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23592,6 +26322,444 @@
 		)
 	)
 	(symbol
+		(lib_id "CERN:Miscellaneous/WURTH_61300821121")
+		(at 26.67 99.06 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31a157f2-3fcd-41eb-b536-6f54bba0980c")
+		(property "Reference" "J18"
+			(at 22.86 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "${FAMILY}"
+			(at 22.86 99.822 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Miscellaneous THD:WURTH_61300821121"
+			(at 26.67 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\WURTH_61300821121.pdf"
+			(at 26.67 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 Contacts, Pitch 2.54mm, Dual Row, THT Male Header WR-PHD"
+			(at 26.67 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WURTH ELEKTRONIK"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WURTH_61300821121"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device" ""
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "8"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" ""
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Family" "Header 8"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "No"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCEM" ""
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "8 Contacts, Pitch 2.54mm, Dual Row, THT Male Header WR-PHD"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "61300821121"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" "8.54mm"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\WURTH_61300821121.pdf"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" ""
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" ""
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" ""
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM HF"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2024-12-02 00:00:00 +0100"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2024-12-02 00:00:00 +0100"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Connectors:Connector 8 Male"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Miscellaneous THD:WURTH_61300821121"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Connectors"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Miscellaneous"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "WURTH_61300821121"
+			(at 26.67 99.06 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "dddc4600-5630-4ae5-9f62-32200da69cf6")
+		)
+		(pin "7"
+			(uuid "70248e9e-2f72-423d-8c4c-93e59124255e")
+		)
+		(pin "5"
+			(uuid "22a325a4-2c7e-45c9-9383-703f198d7113")
+		)
+		(pin "8"
+			(uuid "ef29ec14-6768-45e8-9241-3f3ab6cae8d4")
+		)
+		(pin "3"
+			(uuid "3381a4af-53d1-4b1e-a765-9af5a9c04f5c")
+		)
+		(pin "2"
+			(uuid "e891ccc7-f29f-4de6-8f4b-da967b67857c")
+		)
+		(pin "1"
+			(uuid "1c9fcade-93e8-4e70-ab5b-fcb4f332a042")
+		)
+		(pin "4"
+			(uuid "3190c0bd-58da-4fa7-9713-bc50dee723e0")
+		)
+		(instances
+			(project ""
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 259.08 93.98 0)
 		(unit 1)
@@ -25476,7 +28644,7 @@
 	)
 	(symbol
 		(lib_id "Capacitors SMD:CC0402_100NF_50V_10%_X7R")
-		(at 57.15 38.1 90)
+		(at 66.04 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25484,7 +28652,7 @@
 		(dnp no)
 		(uuid "4046e9f1-6be1-4985-93bf-7ed56c6d46b7")
 		(property "Reference" "C228"
-			(at 57.404 32.766 90)
+			(at 66.294 32.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25493,7 +28661,7 @@
 			)
 		)
 		(property "Value" "CC0402_100NF_50V_10%_X7R"
-			(at 63.373 38.1 0)
+			(at 72.263 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25503,7 +28671,7 @@
 			)
 		)
 		(property "Footprint" "Capacitors SMD:CAPC1005X55N"
-			(at 65.278 38.1 0)
+			(at 74.168 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25513,7 +28681,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
-			(at 67.183 38.1 0)
+			(at 76.073 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25523,7 +28691,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 57.15 38.1 0)
+			(at 66.04 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25532,7 +28700,7 @@
 			)
 		)
 		(property "Val" "100nF"
-			(at 57.404 36.068 90)
+			(at 66.294 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25541,7 +28709,7 @@
 			)
 		)
 		(property "Part Number" "CC0402_100NF_50V_10%_X7R"
-			(at 69.088 38.1 0)
+			(at 77.978 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25551,7 +28719,7 @@
 			)
 		)
 		(property "Library Ref" "Capacitor - non polarized"
-			(at 70.993 38.1 0)
+			(at 79.883 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25561,7 +28729,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Capacitors.SchLib"
-			(at 72.898 38.1 0)
+			(at 81.788 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25571,7 +28739,7 @@
 			)
 		)
 		(property "Comment" "100nF"
-			(at 74.803 38.1 0)
+			(at 83.693 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25581,7 +28749,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 76.708 38.1 0)
+			(at 85.598 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25591,7 +28759,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 78.613 38.1 0)
+			(at 87.503 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25601,7 +28769,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 80.518 38.1 0)
+			(at 89.408 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25611,7 +28779,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\Capacitors SMD.PcbLib"
-			(at 82.423 38.1 0)
+			(at 91.313 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25621,7 +28789,7 @@
 			)
 		)
 		(property "Footprint Ref" "CAPC1005X55N"
-			(at 84.328 38.1 0)
+			(at 93.218 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25631,7 +28799,7 @@
 			)
 		)
 		(property "PackageDescription" " "
-			(at 86.233 38.1 0)
+			(at 95.123 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25641,7 +28809,7 @@
 			)
 		)
 		(property "Status" "None"
-			(at 88.138 38.1 0)
+			(at 97.028 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25651,7 +28819,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 90.043 38.1 0)
+			(at 98.933 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25661,7 +28829,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 91.948 38.1 0)
+			(at 100.838 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25671,7 +28839,7 @@
 			)
 		)
 		(property "TC" "X7R"
-			(at 93.853 38.1 0)
+			(at 102.743 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25681,7 +28849,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 95.758 38.1 0)
+			(at 104.648 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25691,7 +28859,7 @@
 			)
 		)
 		(property "Part Description" "SMD Multilayer Chip Ceramic Capacitor"
-			(at 97.663 38.1 0)
+			(at 106.553 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25701,7 +28869,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 99.568 38.1 0)
+			(at 108.458 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25711,7 +28879,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CC0402_100NF_50V_10%_X7R"
-			(at 101.473 38.1 0)
+			(at 110.363 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25721,7 +28889,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 103.378 38.1 0)
+			(at 112.268 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25731,7 +28899,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 105.283 38.1 0)
+			(at 114.173 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25741,7 +28909,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 107.188 38.1 0)
+			(at 116.078 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25751,7 +28919,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 109.093 38.1 0)
+			(at 117.983 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25761,7 +28929,7 @@
 			)
 		)
 		(property "PressFit" " "
-			(at 110.998 38.1 0)
+			(at 119.888 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25771,7 +28939,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 112.903 38.1 0)
+			(at 121.793 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25781,7 +28949,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 114.808 38.1 0)
+			(at 123.698 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25791,7 +28959,7 @@
 			)
 		)
 		(property "ComponentHeight" " "
-			(at 116.713 38.1 0)
+			(at 125.603 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25801,7 +28969,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" "MURATA"
-			(at 118.618 38.1 0)
+			(at 127.508 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25811,7 +28979,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" "GRM155R71H104KE14D"
-			(at 120.523 38.1 0)
+			(at 129.413 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25821,7 +28989,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.55mm"
-			(at 122.428 38.1 0)
+			(at 131.318 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25831,7 +28999,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
-			(at 124.333 38.1 0)
+			(at 133.223 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25841,7 +29009,7 @@
 			)
 		)
 		(property "Author" "CERN DEM MR"
-			(at 126.238 38.1 0)
+			(at 135.128 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25851,7 +29019,7 @@
 			)
 		)
 		(property "CreateDate" "06/30/17 00:00:00"
-			(at 128.143 38.1 0)
+			(at 137.033 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25861,7 +29029,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "06/30/17 00:00:00"
-			(at 130.048 38.1 0)
+			(at 138.938 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25871,7 +29039,7 @@
 			)
 		)
 		(property "Database Table Name" "Capacitors"
-			(at 131.953 38.1 0)
+			(at 140.843 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25881,7 +29049,7 @@
 			)
 		)
 		(property "Library Name" "Capacitors SMD"
-			(at 133.858 38.1 0)
+			(at 142.748 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25891,7 +29059,7 @@
 			)
 		)
 		(property "Footprint Library" "Capacitors SMD"
-			(at 135.763 38.1 0)
+			(at 144.653 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25901,7 +29069,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 137.668 38.1 0)
+			(at 146.558 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25927,7 +29095,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:DMP3013SFV")
-		(at 43.18 33.02 90)
+		(at 38.1 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25936,7 +29104,7 @@
 		(fields_autoplaced yes)
 		(uuid "4054324c-4768-498d-8e19-39cca51487b0")
 		(property "Reference" "Q4"
-			(at 43.18 24.13 90)
+			(at 38.1 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25944,7 +29112,7 @@
 			)
 		)
 		(property "Value" "DMP3013SFV"
-			(at 43.18 26.67 90)
+			(at 38.1 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25952,7 +29120,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
-			(at 45.085 27.94 0)
+			(at 40.005 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25963,7 +29131,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf"
-			(at 46.99 27.94 0)
+			(at 41.91 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25973,7 +29141,7 @@
 			)
 		)
 		(property "Description" "-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"
-			(at 43.18 33.02 0)
+			(at 38.1 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26919,7 +30087,7 @@
 	)
 	(symbol
 		(lib_id "Resistors SMD:R0402_12K_1%_0.0625W_100PPM")
-		(at 43.18 45.72 90)
+		(at 38.1 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26927,7 +30095,7 @@
 		(dnp no)
 		(uuid "41484be9-a533-4063-b631-4a3aab7a5f26")
 		(property "Reference" "R152"
-			(at 41.402 41.656 0)
+			(at 36.322 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26935,7 +30103,7 @@
 			)
 		)
 		(property "Value" "R0402_12K_1%_0.0625W_100PPM"
-			(at 48.133 45.72 0)
+			(at 43.053 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26945,7 +30113,7 @@
 			)
 		)
 		(property "Footprint" "Resistors SMD:RESC1005X40N"
-			(at 50.038 45.72 0)
+			(at 44.958 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26955,7 +30123,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 51.943 45.72 0)
+			(at 46.863 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26965,7 +30133,7 @@
 			)
 		)
 		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 43.18 45.72 0)
+			(at 38.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26974,7 +30142,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 43.18 41.91 0)
+			(at 38.1 41.91 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -26982,7 +30150,7 @@
 			)
 		)
 		(property "Val" "12k"
-			(at 45.212 41.656 0)
+			(at 40.132 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26990,7 +30158,7 @@
 			)
 		)
 		(property "Part Number" "R0402_12K_1%_0.0625W_100PPM"
-			(at 53.848 45.72 0)
+			(at 48.768 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27000,7 +30168,7 @@
 			)
 		)
 		(property "Library Ref" "Resistor - 1%"
-			(at 55.753 45.72 0)
+			(at 50.673 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27010,7 +30178,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Resistors.SchLib"
-			(at 57.658 45.72 0)
+			(at 52.578 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27020,7 +30188,7 @@
 			)
 		)
 		(property "Comment" "12k"
-			(at 59.563 45.72 0)
+			(at 54.483 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27030,7 +30198,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 61.468 45.72 0)
+			(at 56.388 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27040,7 +30208,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 63.373 45.72 0)
+			(at 58.293 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27050,7 +30218,7 @@
 			)
 		)
 		(property "PackageDescription" " "
-			(at 65.278 45.72 0)
+			(at 60.198 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27060,7 +30228,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 67.183 45.72 0)
+			(at 62.103 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27070,7 +30238,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
-			(at 69.088 45.72 0)
+			(at 64.008 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27080,7 +30248,7 @@
 			)
 		)
 		(property "Footprint Ref" "RESC1005X40N"
-			(at 70.993 45.72 0)
+			(at 65.913 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27090,7 +30258,7 @@
 			)
 		)
 		(property "Status" "Not Recommended"
-			(at 72.898 45.72 0)
+			(at 67.818 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27100,7 +30268,7 @@
 			)
 		)
 		(property "Power" "0.0625W"
-			(at 74.803 45.72 0)
+			(at 69.723 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27110,7 +30278,7 @@
 			)
 		)
 		(property "TC" "±100ppm/°C"
-			(at 76.708 45.72 0)
+			(at 71.628 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27120,7 +30288,7 @@
 			)
 		)
 		(property "Voltage" " "
-			(at 78.613 45.72 0)
+			(at 73.533 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27130,7 +30298,7 @@
 			)
 		)
 		(property "Part Description" "General Purpose Thick Film Chip Resistor"
-			(at 80.518 45.72 0)
+			(at 75.438 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27140,7 +30308,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 82.423 45.72 0)
+			(at 77.343 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27150,7 +30318,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "R0402_12K_1%_0.0625W_100PPM"
-			(at 84.328 45.72 0)
+			(at 79.248 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27160,7 +30328,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 86.233 45.72 0)
+			(at 81.153 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27170,7 +30338,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 88.138 45.72 0)
+			(at 83.058 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27180,7 +30348,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 90.043 45.72 0)
+			(at 84.963 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27190,7 +30358,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 91.948 45.72 0)
+			(at 86.868 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27200,7 +30368,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 93.853 45.72 0)
+			(at 88.773 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27210,7 +30378,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 95.758 45.72 0)
+			(at 90.678 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27220,7 +30388,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 97.663 45.72 0)
+			(at 92.583 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27230,7 +30398,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 99.568 45.72 0)
+			(at 94.488 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27240,7 +30408,7 @@
 			)
 		)
 		(property "ComponentHeight" " "
-			(at 101.473 45.72 0)
+			(at 96.393 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27250,7 +30418,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 103.378 45.72 0)
+			(at 98.298 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27260,7 +30428,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" "232270671203L"
-			(at 105.283 45.72 0)
+			(at 100.203 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27270,7 +30438,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 107.188 45.72 0)
+			(at 102.108 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27280,7 +30448,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 109.093 45.72 0)
+			(at 104.013 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27290,7 +30458,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 110.998 45.72 0)
+			(at 105.918 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27300,7 +30468,7 @@
 			)
 		)
 		(property "CreateDate" "12/03/07 00:00:00"
-			(at 112.903 45.72 0)
+			(at 107.823 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27310,7 +30478,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "10/17/12 00:00:00"
-			(at 114.808 45.72 0)
+			(at 109.728 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27320,7 +30488,7 @@
 			)
 		)
 		(property "Database Table Name" "Resistors"
-			(at 116.713 45.72 0)
+			(at 111.633 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27330,7 +30498,7 @@
 			)
 		)
 		(property "Library Name" "Resistors SMD"
-			(at 118.618 45.72 0)
+			(at 113.538 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27340,7 +30508,7 @@
 			)
 		)
 		(property "Footprint Library" "Resistors SMD"
-			(at 120.523 45.72 0)
+			(at 115.443 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27350,7 +30518,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 122.428 45.72 0)
+			(at 117.348 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27573,7 +30741,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 35.56 0)
+		(at 29.21 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27582,7 +30750,7 @@
 		(fields_autoplaced yes)
 		(uuid "43db5ed9-dd52-416b-9b23-d5d4e5940970")
 		(property "Reference" "#PWR0314"
-			(at 34.29 41.91 0)
+			(at 29.21 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27591,7 +30759,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 40.64 0)
+			(at 29.21 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27599,7 +30767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 35.56 0)
+			(at 29.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27608,7 +30776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 35.56 0)
+			(at 29.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27617,7 +30785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 35.56 0)
+			(at 29.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30888,7 +34056,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 26.67 19.05 0)
+		(at 21.59 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30896,7 +34064,7 @@
 		(dnp no)
 		(uuid "53df9de9-cda1-432a-a1d2-cb22edd8cd3f")
 		(property "Reference" "#PWR0204"
-			(at 26.67 22.86 0)
+			(at 21.59 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30905,7 +34073,7 @@
 			)
 		)
 		(property "Value" "VCC_USB"
-			(at 26.162 15.24 0)
+			(at 21.082 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30913,7 +34081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 19.05 0)
+			(at 21.59 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30922,7 +34090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 19.05 0)
+			(at 21.59 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30931,7 +34099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 26.67 19.05 0)
+			(at 21.59 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33197,7 +36365,7 @@
 	)
 	(symbol
 		(lib_id "Diodes:MM3Z12VB")
-		(at 49.53 38.1 90)
+		(at 44.45 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33206,7 +36374,7 @@
 		(fields_autoplaced yes)
 		(uuid "618bf8a5-cd0b-4c32-b5a1-f77c46b816fb")
 		(property "Reference" "D2"
-			(at 52.07 34.2899 90)
+			(at 46.99 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33215,7 +36383,7 @@
 			)
 		)
 		(property "Value" "MM3Z12VB"
-			(at 55.245 38.1 0)
+			(at 50.165 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33225,7 +36393,7 @@
 			)
 		)
 		(property "Footprint" "ICs And Semiconductors SMD:SODFL2513X100N"
-			(at 57.15 38.1 0)
+			(at 52.07 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33235,7 +36403,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\MM3Z12VB.pdf"
-			(at 59.055 38.1 0)
+			(at 53.975 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33245,7 +36413,7 @@
 			)
 		)
 		(property "Description" "Zener Voltage Regulator"
-			(at 49.53 38.1 0)
+			(at 44.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33254,7 +36422,7 @@
 			)
 		)
 		(property "Part Number" "MM3Z12VB"
-			(at 60.96 38.1 0)
+			(at 55.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33264,7 +36432,7 @@
 			)
 		)
 		(property "Library Ref" "Diode Zener"
-			(at 62.865 38.1 0)
+			(at 57.785 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33274,7 +36442,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Diodes.SchLib"
-			(at 64.77 38.1 0)
+			(at 59.69 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33284,7 +36452,7 @@
 			)
 		)
 		(property "Comment" "MM3Z12VB"
-			(at 66.675 38.1 0)
+			(at 61.595 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33294,7 +36462,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 68.58 38.1 0)
+			(at 63.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33304,7 +36472,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 70.485 38.1 0)
+			(at 65.405 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33314,7 +36482,7 @@
 			)
 		)
 		(property "Device" "MM3Z12VB"
-			(at 72.39 38.1 0)
+			(at 67.31 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33324,7 +36492,7 @@
 			)
 		)
 		(property "PackageDescription" "SODFL Diode (SOD323F); 1.70mm W X 1.30mm L X 1.00mm H body, IPC Medium Density"
-			(at 74.295 38.1 0)
+			(at 69.215 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33334,7 +36502,7 @@
 			)
 		)
 		(property "Voltage" "12V"
-			(at 76.2 38.1 0)
+			(at 71.12 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33344,7 +36512,7 @@
 			)
 		)
 		(property "Power" "200mW"
-			(at 78.105 38.1 0)
+			(at 73.025 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33354,7 +36522,7 @@
 			)
 		)
 		(property "Status" " "
-			(at 80.01 38.1 0)
+			(at 74.93 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33364,7 +36532,7 @@
 			)
 		)
 		(property "Part Description" "Zener Voltage Regulator"
-			(at 81.915 38.1 0)
+			(at 76.835 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33374,7 +36542,7 @@
 			)
 		)
 		(property "Manufacturer" "ON SEMICONDUCTOR"
-			(at 83.82 38.1 0)
+			(at 78.74 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33384,7 +36552,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MM3Z12VB"
-			(at 85.725 38.1 0)
+			(at 80.645 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33394,7 +36562,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 87.63 38.1 0)
+			(at 82.55 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33404,7 +36572,7 @@
 			)
 		)
 		(property "Case" "SOD-323F"
-			(at 89.535 38.1 0)
+			(at 84.455 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33414,7 +36582,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 91.44 38.1 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33424,7 +36592,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 93.345 38.1 0)
+			(at 88.265 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33434,7 +36602,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 95.25 38.1 0)
+			(at 90.17 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33444,7 +36612,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 97.155 38.1 0)
+			(at 92.075 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33454,7 +36622,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 99.06 38.1 0)
+			(at 93.98 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33464,7 +36632,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 100.965 38.1 0)
+			(at 95.885 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33474,7 +36642,7 @@
 			)
 		)
 		(property "Bonding" "No"
-			(at 102.87 38.1 0)
+			(at 97.79 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33484,7 +36652,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 104.775 38.1 0)
+			(at 99.695 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33494,7 +36662,7 @@
 			)
 		)
 		(property "ComponentHeight" "1mm"
-			(at 106.68 38.1 0)
+			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33504,7 +36672,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\ICs And Semiconductors SMD.PcbLib"
-			(at 108.585 38.1 0)
+			(at 103.505 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33514,7 +36682,7 @@
 			)
 		)
 		(property "Footprint Ref" "SODFL2513X100N"
-			(at 110.49 38.1 0)
+			(at 105.41 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33524,7 +36692,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\MM3Z12VB.pdf"
-			(at 112.395 38.1 0)
+			(at 107.315 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33534,7 +36702,7 @@
 			)
 		)
 		(property "ComponentLink1URL" " "
-			(at 114.3 38.1 0)
+			(at 109.22 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33544,7 +36712,7 @@
 			)
 		)
 		(property "ComponentLink1Description" " "
-			(at 116.205 38.1 0)
+			(at 111.125 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33554,7 +36722,7 @@
 			)
 		)
 		(property "ComponentLink2URL" " "
-			(at 118.11 38.1 0)
+			(at 113.03 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33564,7 +36732,7 @@
 			)
 		)
 		(property "ComponentLink2Description" " "
-			(at 120.015 38.1 0)
+			(at 114.935 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33574,7 +36742,7 @@
 			)
 		)
 		(property "Author" "CERN DEM MR"
-			(at 121.92 38.1 0)
+			(at 116.84 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33584,7 +36752,7 @@
 			)
 		)
 		(property "CreateDate" "02/19/18 00:00:00"
-			(at 123.825 38.1 0)
+			(at 118.745 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33594,7 +36762,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "02/19/18 00:00:00"
-			(at 125.73 38.1 0)
+			(at 120.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33604,7 +36772,7 @@
 			)
 		)
 		(property "Field1" " "
-			(at 127.635 38.1 0)
+			(at 122.555 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33614,7 +36782,7 @@
 			)
 		)
 		(property "Database Table Name" "ICs And Semiconductors"
-			(at 129.54 38.1 0)
+			(at 124.46 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33624,7 +36792,7 @@
 			)
 		)
 		(property "Library Name" "Diodes"
-			(at 131.445 38.1 0)
+			(at 126.365 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33634,7 +36802,7 @@
 			)
 		)
 		(property "Footprint Library" "ICs And Semiconductors SMD"
-			(at 133.35 38.1 0)
+			(at 128.27 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33644,7 +36812,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 135.255 38.1 0)
+			(at 130.175 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33792,6 +36960,462 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
 					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CERN:Analog & Interface/INA219AID")
+		(at 45.72 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6813b4c8-6bd7-4ffa-ad8b-563ad8cb14bd")
+		(property "Reference" "U3"
+			(at 36.322 58.674 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "${DEVICE}"
+			(at 37.084 81.534 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ICs And Semiconductors SMD:SOIC127P600X175-8N"
+			(at 45.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\INA219D.pdf"
+			(at 45.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zero-Drift, Bi-Directional CURRENT/POWER MONITOR with I2C™ Interface"
+			(at 45.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TEXAS INSTRUMENTS"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "INA219AID"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "INA219AID"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device" "INA219AID"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" "SOIC 8, Pitch 1.27mm - Body 4x5mm, IPC Medium Density"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" ""
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Zero-Drift, Bi-Directional CURRENT/POWER MONITOR with I2C™ Interface"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "INA219AID"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "8"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "SOIC8"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Bonding" "No"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" "1.75mm"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM HF"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\INA219D.pdf"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" ""
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" ""
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" ""
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" ""
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2023-07-06 00:00:00 +0100"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2023-07-06 00:00:00 +0100"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCEM" ""
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate1" ""
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field1" ""
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Analog & Interface:INA219AID"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "ICs And Semiconductors SMD:SOIC127P600X175-8N"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "ICs And Semiconductors"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Analog & Interface"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "INA219AID"
+			(at 45.72 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "464e7866-c13a-4692-a10d-5e506f8feab2")
+		)
+		(pin "8"
+			(uuid "d5953315-a917-40f1-b431-a7c5d66d2df0")
+		)
+		(pin "7"
+			(uuid "fa21e81d-76c4-4072-b65b-398bdcb67014")
+		)
+		(pin "6"
+			(uuid "94222059-4c88-443d-9969-7bad0238340f")
+		)
+		(pin "3"
+			(uuid "a03b655c-7eb0-422b-8b36-949de4b19de7")
+		)
+		(pin "4"
+			(uuid "23802096-4385-452c-a0cd-b24fe9ece69e")
+		)
+		(pin "2"
+			(uuid "17e8331c-0f65-4365-8c81-30c79fb5e7e9")
+		)
+		(pin "1"
+			(uuid "20f7b744-639d-4539-b5dc-6cc6256b1a80")
+		)
+		(instances
+			(project ""
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -34057,6 +37681,421 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
 					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CERN:Resistors SMD/R1206_0R01_1%_1W_100PPM")
+		(at 52.07 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "704af3fb-de61-4b66-834c-67409bc03b04")
+		(property "Reference" "R113"
+			(at 55.626 28.448 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "0R01"
+			(at 56.134 32.766 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Resistors SMD:RESC3216X65N"
+			(at 52.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${CERN_DATASHEET_DIR}\\R1206_YAGEO_PA1206.pdf"
+			(at 52.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Value Metal Alloy Resistor"
+			(at 52.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 55.88 30.48 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Manufacturer" "GENERIC"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "R1206_0R01_1%_1W_100PPM"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "0R01"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Kind" "Standard"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component Type" "Standard"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" ""
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "2"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "None"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "1W"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" "±100ppm/°C"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ""
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Low Value Metal Alloy Resistor"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "R1206_0R01_1%_1W_100PPM"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Case" "1206"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PressFit" "No"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mounted" "Yes"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense Comment" ""
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sense" "No"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status Comment" ""
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Socket" "No"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "Yes"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ComponentHeight" ""
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Example" "YAGEO"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 Part Number" "PA1206FRF470R01L"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1 ComponentHeight" "0.65mm"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R1206_YAGEO_PA1206.pdf"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" "CERN DEM HF"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CreateDate" "2025-10-20 00:00:00 +0100"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LatestRevisionDate" "2025-10-20 00:00:00 +0100"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibSymbol" "Resistors:Resistor - 1%"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibFootprint" "Resistors SMD:RESC3216X65N"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Name" "Resistors"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Database Table Name" "Resistors SMD"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number Nocolon" "R1206_0R01_1%_1W_100PPM"
+			(at 52.07 30.48 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02339114-c3c6-46a3-b2e1-e57640d6dd85")
+		)
+		(pin "1"
+			(uuid "59d62b34-78da-4758-9b0c-52b64c4cc877")
+		)
+		(instances
+			(project ""
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -34509,6 +38548,71 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
 					(reference "C174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 33.02 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "773746f5-cf45-4ddd-b019-cc5af74a0446")
+		(property "Reference" "#PWR0239"
+			(at 29.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 38.1 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99d057a8-69af-443d-a445-e1ee903ba4f7")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -35700,6 +39804,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 22.86 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d432689-ab3e-414d-9bbf-60a91bf3f6d3")
+		(property "Reference" "#PWR0225"
+			(at 22.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c63e3c3-b936-42b3-b4a6-5c5d34de8366")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
+					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V0")
 		(at 158.75 67.31 0)
 		(unit 1)
@@ -35759,6 +39929,92 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
 					(reference "#PWR0183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAS316")
+		(at 41.91 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f0ae8d8-8d0c-4a95-b039-c964b3d0ea43")
+		(property "Reference" "D5"
+			(at 41.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAS316"
+			(at 41.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 41.91 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf"
+			(at 41.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V, 0.25A, High-speed Switching Diode, SOD-323"
+			(at 41.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 41.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 41.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01538114-f9db-48d0-a911-e8ab1b7da92a")
+		)
+		(pin "2"
+			(uuid "4663efbc-f593-4a20-8902-e64058b33568")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -41067,6 +45323,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 50.8 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdd58595-e6b6-4843-a2ff-c855784ca893")
+		(property "Reference" "#PWR0233"
+			(at 50.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7330903b-4bc0-44ce-a432-2854b3699822")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
+					(reference "#PWR0233")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 163.83 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -42179,6 +46500,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V0")
+		(at 50.8 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4b1d66d-216b-4ed4-8dbb-86a4553c41e7")
+		(property "Reference" "#PWR0223"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 50.8 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6835a5c-3e18-4951-b5a3-cb334702c73c")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
+					(reference "#PWR0223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 45.72 0)
 		(unit 1)
@@ -42245,6 +46631,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 31.75 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9df9e36-08b5-4226-a730-9e0020ed1f35")
+		(property "Reference" "#PWR0238"
+			(at 31.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 31.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11a46379-3bb5-4e40-93a0-a490b4b76d85")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
+					(reference "#PWR0238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 231.14 73.66 0)
 		(unit 1)
@@ -42305,6 +46757,71 @@
 			(project "Marble_Tiny"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
 					(reference "#PWR0300")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca939fd3-918c-4841-bbad-1f0a3a6088aa")
+		(property "Reference" "#PWR0235"
+			(at 31.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba0edb28-0fbc-40ca-9fdc-8893bd425eac")
+		)
+		(instances
+			(project "Obsidian"
+				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/1f98e56a-3346-4f12-a356-5cd64c4ccde0"
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)

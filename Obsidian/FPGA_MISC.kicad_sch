@@ -12882,6 +12882,12 @@
 		(uuid "07ab58ea-5caa-484c-8af1-a76eeecce341")
 	)
 	(junction
+		(at 207.01 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b7c6e6d-f41e-4231-a75e-0b0937db3bd8")
+	)
+	(junction
 		(at 129.54 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13201,7 +13207,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 99.06) (xy 195.58 99.06)
+			(xy 175.26 99.06) (xy 212.09 99.06)
 		)
 		(stroke
 			(width 0)
@@ -13441,6 +13447,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 93.98) (xy 212.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b04881-ba0d-43fd-afdb-c132aab24dfb")
+	)
+	(wire
+		(pts
 			(xy 121.92 119.38) (xy 129.54 119.38)
 		)
 		(stroke
@@ -13609,6 +13625,28 @@
 			)
 		)
 	)
+	(global_label "FPGA_DONE"
+		(shape output)
+		(at 212.09 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2590a0c2-e168-45b2-ad66-4efdfd73e6eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "JTAG_TDO"
 		(shape output)
 		(at 130.81 71.12 0)
@@ -13701,7 +13739,7 @@
 	)
 	(global_label "RST"
 		(shape input)
-		(at 195.58 99.06 0)
+		(at 212.09 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13711,7 +13749,7 @@
 		)
 		(uuid "b7a7d30e-e2e9-4609-9901-8a02c9544126")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.0123 99.06 0)
+			(at 218.5223 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
