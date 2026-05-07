@@ -14083,6 +14083,19 @@
 		)
 		(uuid "b1609bbb-ebff-49a3-9796-842e61d4e133")
 	)
+	(text "+------+-------------------------+-------------------------+----------------+-----------------------+--------------------------------------------------------------+\n| Ref  | Vin / Source            | Rail / Output           | Reg. capability| Estimated rail output | Main supplied loads                                          |\n+------+-------------------------+-------------------------+----------------+-----------------------+--------------------------------------------------------------+\n| U4   | +12V                    | VCCINT_1V  ~1.00V       | 3.0 A max      | 0.55 A / 0.55 W       | FPGA U1: VCCINT + VCCBRAM                                    |\n| U5   | +12V                    | +1V8       1.80V        | 3.0 A max      | 0.75 A / 1.35 W       | FPGA VCCAUX/VCCADC/VCCBATT + U19/U23 LDO inputs              |\n| U10  | +12V                    | +3V3       3.30V        | 3.0 A max      | 0.95 A / 3.14 W       | FPGA VCCO, 2xSFP, RTL8211F, FTDI VCCIO, flash, I2C, clocks   |\n| U11  | +12V                    | DDRVCC     1.35V        | 3.0 A max      | 0.35 A / 0.47 W       | DDR3L U2, FPGA Bank 34, U20 DDRVTT input                     |\n| U18  | +3V3                    | +2V5       2.50V        | 0.30 A max     | 0.020 A / 0.050 W     | Si5351 U3 VDDO                                               |\n| U19  | +1V8                    | MGT_1V    ~1.00V        | 1.0 A max      | 0.35 A / 0.35 W       | FPGA U1 MGTAVCC                                              |\n| U23  | +1V8                    | +1V2       1.20V        | 1.0 A max      | 0.30 A / 0.36 W       | FPGA U1 MGTAVTT                                              |\n| U20  | DDRVCC + +3V3 + DDRVREF | DDRVTT     0.675V       | 1.2 A max      | 0.420 A / 0.284 W     | DDR termination network                                      |\n+------+-------------------------+-------------------------+----------------+-----------------------+--------------------------------------------------------------+\n\nLDO losses : \n\nU19 loss = (1.8 V - 1.0 V) × 0.35 A = 0.28 W\nU23 loss = (1.8 V - 1.2 V) × 0.30 A = 0.18 W\n\nInput Power Estimation\n+------------------------------------------------------------+----------------------+\n| Estimated +12V input power                                  | ~6.5 W               |\n| Estimated +12V input current                                | ~0.53 A at 12 V      |\n+------------------------------------------------------------+----------------------+\n"
+		(exclude_from_sim no)
+		(at -260.35 43.434 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 2.032 2.032)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "c598554e-f2c1-4cf5-ad2c-e5374eeaff2f")
+	)
 	(junction
 		(at 139.7 22.86)
 		(diameter 0)
