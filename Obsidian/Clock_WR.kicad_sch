@@ -11983,6 +11983,12 @@
 		(uuid "b1af59ca-4776-4d73-849f-a2d444536cd0")
 	)
 	(junction
+		(at 160.02 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b250256a-eea9-4fc1-9e86-53412d339f36")
+	)
+	(junction
 		(at 71.12 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12716,6 +12722,16 @@
 			(type default)
 		)
 		(uuid "3604d105-15c5-4e23-a535-de857fd69c03")
+	)
+	(wire
+		(pts
+			(xy 160.02 109.22) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366d25e4-a885-4147-9288-942b03cf0512")
 	)
 	(wire
 		(pts
@@ -14169,7 +14185,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 109.22) (xy 166.37 109.22)
+			(xy 157.48 109.22) (xy 160.02 109.22)
 		)
 		(stroke
 			(width 0)
@@ -22336,7 +22352,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:+3V3_CLEAN")
-		(at 157.48 101.6 0)
+		(at 160.02 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22344,7 +22360,7 @@
 		(dnp no)
 		(uuid "10a15e90-7f41-415d-b7f0-422570360ecf")
 		(property "Reference" "#PWR0342"
-			(at 157.48 105.41 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22353,7 +22369,7 @@
 			)
 		)
 		(property "Value" "+3V3_CLEAN"
-			(at 150.368 97.79 0)
+			(at 152.908 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22362,7 +22378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 101.6 0)
+			(at 160.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22371,7 +22387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 101.6 0)
+			(at 160.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22380,7 +22396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 101.6 0)
+			(at 160.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69028,7 +69044,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:R0402_10K_1%_0.0625W_100PPM")
-		(at 157.48 109.22 90)
+		(at 160.02 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -69036,7 +69052,7 @@
 		(dnp no)
 		(uuid "9a9c03e5-59d8-4e55-a082-74af9941d12e")
 		(property "Reference" "R176"
-			(at 155.702 105.156 0)
+			(at 158.242 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69044,7 +69060,7 @@
 			)
 		)
 		(property "Value" "R0402_10K_1%_0.0625W_100PPM"
-			(at 162.433 109.22 0)
+			(at 164.973 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69054,7 +69070,7 @@
 			)
 		)
 		(property "Footprint" "Footprint:RESC1005X40N"
-			(at 164.338 109.22 0)
+			(at 166.878 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69064,7 +69080,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 166.243 109.22 0)
+			(at 168.783 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69074,7 +69090,7 @@
 			)
 		)
 		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69083,7 +69099,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 157.48 105.41 0)
+			(at 160.02 105.41 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -69091,7 +69107,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 159.258 105.156 0)
+			(at 161.798 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69099,7 +69115,7 @@
 			)
 		)
 		(property "Part Number" "R0402_10K_1%_0.0625W_100PPM"
-			(at 168.148 109.22 0)
+			(at 170.688 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69109,7 +69125,7 @@
 			)
 		)
 		(property "Library Ref" "Resistor - 1%"
-			(at 170.053 109.22 0)
+			(at 172.593 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69119,7 +69135,7 @@
 			)
 		)
 		(property "Library Path" "SchLib\\Resistors.SchLib"
-			(at 171.958 109.22 0)
+			(at 174.498 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69129,7 +69145,7 @@
 			)
 		)
 		(property "Comment" "10k"
-			(at 173.863 109.22 0)
+			(at 176.403 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69139,7 +69155,7 @@
 			)
 		)
 		(property "Component Kind" "Standard"
-			(at 175.768 109.22 0)
+			(at 178.308 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69149,7 +69165,7 @@
 			)
 		)
 		(property "Component Type" "Standard"
-			(at 177.673 109.22 0)
+			(at 180.213 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69159,7 +69175,7 @@
 			)
 		)
 		(property "PackageDescription" " "
-			(at 179.578 109.22 0)
+			(at 182.118 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69169,7 +69185,7 @@
 			)
 		)
 		(property "Pin Count" "2"
-			(at 181.483 109.22 0)
+			(at 184.023 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69179,7 +69195,7 @@
 			)
 		)
 		(property "Footprint Path" "PcbLib\\Resistors SMD.PcbLib"
-			(at 183.388 109.22 0)
+			(at 185.928 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69189,7 +69205,7 @@
 			)
 		)
 		(property "Footprint Ref" "RESC1005X40N"
-			(at 185.293 109.22 0)
+			(at 187.833 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69199,7 +69215,7 @@
 			)
 		)
 		(property "Status" "Not Recommended"
-			(at 187.198 109.22 0)
+			(at 189.738 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69209,7 +69225,7 @@
 			)
 		)
 		(property "Power" "0.0625W"
-			(at 189.103 109.22 0)
+			(at 191.643 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69219,7 +69235,7 @@
 			)
 		)
 		(property "TC" "±100ppm/°C"
-			(at 191.008 109.22 0)
+			(at 193.548 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69229,7 +69245,7 @@
 			)
 		)
 		(property "Voltage" " "
-			(at 192.913 109.22 0)
+			(at 195.453 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69239,7 +69255,7 @@
 			)
 		)
 		(property "Part Description" "General Purpose Thick Film Chip Resistor"
-			(at 194.818 109.22 0)
+			(at 197.358 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69249,7 +69265,7 @@
 			)
 		)
 		(property "Manufacturer" "GENERIC"
-			(at 196.723 109.22 0)
+			(at 199.263 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69259,7 +69275,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "R0402_10K_1%_0.0625W_100PPM"
-			(at 198.628 109.22 0)
+			(at 201.168 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69269,7 +69285,7 @@
 			)
 		)
 		(property "Case" "0402"
-			(at 200.533 109.22 0)
+			(at 203.073 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69279,7 +69295,7 @@
 			)
 		)
 		(property "PressFit" "No"
-			(at 202.438 109.22 0)
+			(at 204.978 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69289,7 +69305,7 @@
 			)
 		)
 		(property "Mounted" "Yes"
-			(at 204.343 109.22 0)
+			(at 206.883 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69299,7 +69315,7 @@
 			)
 		)
 		(property "Sense Comment" " "
-			(at 206.248 109.22 0)
+			(at 208.788 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69309,7 +69325,7 @@
 			)
 		)
 		(property "Sense" "No"
-			(at 208.153 109.22 0)
+			(at 210.693 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69319,7 +69335,7 @@
 			)
 		)
 		(property "Status Comment" " "
-			(at 210.058 109.22 0)
+			(at 212.598 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69329,7 +69345,7 @@
 			)
 		)
 		(property "Socket" "No"
-			(at 211.963 109.22 0)
+			(at 214.503 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69339,7 +69355,7 @@
 			)
 		)
 		(property "SMD" "Yes"
-			(at 213.868 109.22 0)
+			(at 216.408 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69349,7 +69365,7 @@
 			)
 		)
 		(property "ComponentHeight" " "
-			(at 215.773 109.22 0)
+			(at 218.313 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69359,7 +69375,7 @@
 			)
 		)
 		(property "Manufacturer1 Example" "YAGEO PHYCOMP"
-			(at 217.678 109.22 0)
+			(at 220.218 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69369,7 +69385,7 @@
 			)
 		)
 		(property "Manufacturer1 Part Number" "232270671003L"
-			(at 219.583 109.22 0)
+			(at 222.123 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69379,7 +69395,7 @@
 			)
 		)
 		(property "Manufacturer1 ComponentHeight" "0.4mm"
-			(at 221.488 109.22 0)
+			(at 224.028 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69389,7 +69405,7 @@
 			)
 		)
 		(property "HelpURL" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 223.393 109.22 0)
+			(at 225.933 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69399,7 +69415,7 @@
 			)
 		)
 		(property "Author" "CERN DEM JLC"
-			(at 225.298 109.22 0)
+			(at 227.838 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69409,7 +69425,7 @@
 			)
 		)
 		(property "CreateDate" "12/03/07 00:00:00"
-			(at 227.203 109.22 0)
+			(at 229.743 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69419,7 +69435,7 @@
 			)
 		)
 		(property "LatestRevisionDate" "10/17/12 00:00:00"
-			(at 229.108 109.22 0)
+			(at 231.648 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69429,7 +69445,7 @@
 			)
 		)
 		(property "Database Table Name" "Resistors"
-			(at 231.013 109.22 0)
+			(at 233.553 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69439,7 +69455,7 @@
 			)
 		)
 		(property "Library Name" "Resistors SMD"
-			(at 232.918 109.22 0)
+			(at 235.458 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69449,7 +69465,7 @@
 			)
 		)
 		(property "Footprint Library" "Resistors SMD"
-			(at 234.823 109.22 0)
+			(at 237.363 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69459,7 +69475,7 @@
 			)
 		)
 		(property "License" "CC-BY-SA 4.0"
-			(at 236.728 109.22 0)
+			(at 239.268 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69469,7 +69485,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69478,7 +69494,7 @@
 			)
 		)
 		(property "LCSC" "C60490"
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69487,7 +69503,7 @@
 			)
 		)
 		(property "ALTERNATE_EMS" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69496,7 +69512,7 @@
 			)
 		)
 		(property "AUTHOR" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69505,7 +69521,7 @@
 			)
 		)
 		(property "AUTOMOTIVE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69514,7 +69530,7 @@
 			)
 		)
 		(property "BMS_PART_NUMBER" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69523,7 +69539,7 @@
 			)
 		)
 		(property "CASE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69532,7 +69548,7 @@
 			)
 		)
 		(property "CATEGORY" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69541,7 +69557,7 @@
 			)
 		)
 		(property "COMPONENT KIND" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69550,7 +69566,7 @@
 			)
 		)
 		(property "COMPONENT TYPE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69559,7 +69575,7 @@
 			)
 		)
 		(property "COMPONENT_COUNTRY_OF_ORIGIN" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69568,7 +69584,7 @@
 			)
 		)
 		(property "CONN ORIENTATION" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69577,7 +69593,7 @@
 			)
 		)
 		(property "CONTACT MATERIAL" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69586,7 +69602,7 @@
 			)
 		)
 		(property "CONTINUOUS DRAIN CURRENT" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69595,7 +69611,7 @@
 			)
 		)
 		(property "CREATEDATE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69604,7 +69620,7 @@
 			)
 		)
 		(property "CURRENT RATING" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69613,7 +69629,7 @@
 			)
 		)
 		(property "DEPLETION MODE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69622,7 +69638,7 @@
 			)
 		)
 		(property "DEVICE CLASS L1" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69631,7 +69647,7 @@
 			)
 		)
 		(property "DEVICE CLASS L2" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69640,7 +69656,7 @@
 			)
 		)
 		(property "DEVICE CLASS L3" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69649,7 +69665,7 @@
 			)
 		)
 		(property "DIGIKEY DESCRIPTION" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69658,7 +69674,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE BREAKDOWN VOLTAGE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69667,7 +69683,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE RESISTANCE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69676,7 +69692,7 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69685,7 +69701,7 @@
 			)
 		)
 		(property "FOOTPRINT" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69694,7 +69710,7 @@
 			)
 		)
 		(property "FOOTPRINT URL" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69703,7 +69719,7 @@
 			)
 		)
 		(property "FULL_ALTERNATE_INTERNAL_PART_NUMBER" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69712,7 +69728,7 @@
 			)
 		)
 		(property "GATE CHARGE AT VGS" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69721,7 +69737,7 @@
 			)
 		)
 		(property "GATE TO SOURCE VOLTAGE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69730,7 +69746,7 @@
 			)
 		)
 		(property "ID" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69739,7 +69755,7 @@
 			)
 		)
 		(property "INPUT CAPACITACE AT VDS" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69748,7 +69764,7 @@
 			)
 		)
 		(property "INTERNAL_PART_NUMBER" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69757,7 +69773,7 @@
 			)
 		)
 		(property "IS FEMALE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69766,7 +69782,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69775,7 +69791,7 @@
 			)
 		)
 		(property "LEAD FREE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69784,7 +69800,7 @@
 			)
 		)
 		(property "MANUFACTURER PART NUMBER" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69793,7 +69809,7 @@
 			)
 		)
 		(property "MANUFACTURER1 COMPONENTHEIGHT" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69802,7 +69818,7 @@
 			)
 		)
 		(property "MANUFACTURER1 EXAMPLE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69811,7 +69827,7 @@
 			)
 		)
 		(property "MANUFACTURER1 PART NUMBER" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69820,7 +69836,7 @@
 			)
 		)
 		(property "MANUFACTURER_HQ_COO" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69829,7 +69845,7 @@
 			)
 		)
 		(property "MAX FORWARD DIODE VOLTAGE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69838,7 +69854,7 @@
 			)
 		)
 		(property "MAX JUNCTION TEMP" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69847,7 +69863,7 @@
 			)
 		)
 		(property "MOUNTED" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69856,7 +69872,7 @@
 			)
 		)
 		(property "NUMBER OF CHANNELS" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69865,7 +69881,7 @@
 			)
 		)
 		(property "NUMBER OF CONTACTS" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69874,7 +69890,7 @@
 			)
 		)
 		(property "NUMBER OF P CHANNELS" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69883,7 +69899,7 @@
 			)
 		)
 		(property "OCTOPART" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69892,7 +69908,7 @@
 			)
 		)
 		(property "ORDER_CODE_DIGIKEY" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69901,7 +69917,7 @@
 			)
 		)
 		(property "ORDER_CODE_FARNELL" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69910,7 +69926,7 @@
 			)
 		)
 		(property "ORDER_CODE_RS" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69919,7 +69935,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69928,7 +69944,7 @@
 			)
 		)
 		(property "PART NUMBER" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69937,7 +69953,7 @@
 			)
 		)
 		(property "PARTIAL_ALTERNATE_INTERNAL_PART_NUMBER" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69946,7 +69962,7 @@
 			)
 		)
 		(property "PART_PREFERENCE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69955,7 +69971,7 @@
 			)
 		)
 		(property "PART_TYPE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69964,7 +69980,7 @@
 			)
 		)
 		(property "PIN COUNT" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69973,7 +69989,7 @@
 			)
 		)
 		(property "POWER" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69982,7 +69998,7 @@
 			)
 		)
 		(property "POWER DISSIPATION" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69991,7 +70007,7 @@
 			)
 		)
 		(property "PRESSFIT" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70000,7 +70016,7 @@
 			)
 		)
 		(property "PULSE DRAIN CURRENT" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70009,7 +70025,7 @@
 			)
 		)
 		(property "REVERSE RECOVERY CHARGE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70018,7 +70034,7 @@
 			)
 		)
 		(property "REVERSE RECOVERY TIME" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70027,7 +70043,7 @@
 			)
 		)
 		(property "RTHJA MAX" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70036,7 +70052,7 @@
 			)
 		)
 		(property "SENSE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70045,7 +70061,7 @@
 			)
 		)
 		(property "SHOWFIELDS" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70054,7 +70070,7 @@
 			)
 		)
 		(property "SOCKET" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70063,7 +70079,7 @@
 			)
 		)
 		(property "STANDOFF HEIGHT" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70072,7 +70088,7 @@
 			)
 		)
 		(property "STATUS" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70081,7 +70097,7 @@
 			)
 		)
 		(property "TEMPERATURE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70090,7 +70106,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE HIGH" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70099,7 +70115,7 @@
 			)
 		)
 		(property "TEMPERATURE RANGE LOW" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70108,7 +70124,7 @@
 			)
 		)
 		(property "THRESHOLD VGS MAX" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70117,7 +70133,7 @@
 			)
 		)
 		(property "THRESHOLD VGS MIN" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70126,7 +70142,7 @@
 			)
 		)
 		(property "TOLERANCE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70135,7 +70151,7 @@
 			)
 		)
 		(property "TURN OFF DELAY TIME" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70144,7 +70160,7 @@
 			)
 		)
 		(property "TURN ON DELAY TIME" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70153,7 +70169,7 @@
 			)
 		)
 		(property "TYP FORWARD DIODE VOLTAGE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70162,7 +70178,7 @@
 			)
 		)
 		(property "USB STANDARD" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70171,7 +70187,7 @@
 			)
 		)
 		(property "VOLTAGE" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70180,7 +70196,7 @@
 			)
 		)
 		(property "VOLTAGE RATING" ""
-			(at 157.48 109.22 0)
+			(at 160.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
