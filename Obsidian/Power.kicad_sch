@@ -14083,19 +14083,6 @@
 		)
 		(uuid "b1609bbb-ebff-49a3-9796-842e61d4e133")
 	)
-	(text "+------+-------------------------+-------------------------+----------------+-----------------------+--------------------------------------------------------------+\n| Ref  | Vin / Source            | Rail / Output           | Reg. capability| Estimated rail output | Main supplied loads                                          |\n+------+-------------------------+-------------------------+----------------+-----------------------+--------------------------------------------------------------+\n| U4   | +12V                    | VCCINT_1V  ~1.00V       | 3.0 A max      | 0.55 A / 0.55 W       | FPGA U1: VCCINT + VCCBRAM                                    |\n| U5   | +12V                    | +1V8       1.80V        | 3.0 A max      | 0.75 A / 1.35 W       | FPGA VCCAUX/VCCADC/VCCBATT + U19/U23 LDO inputs              |\n| U10  | +12V                    | +3V3       3.30V        | 3.0 A max      | 0.95 A / 3.14 W       | FPGA VCCO, 2xSFP, RTL8211F, FTDI VCCIO, flash, I2C, clocks   |\n| U11  | +12V                    | DDRVCC     1.35V        | 3.0 A max      | 0.35 A / 0.47 W       | DDR3L U2, FPGA Bank 34, U20 DDRVTT input                     |\n| U18  | +3V3                    | +2V5       2.50V        | 0.30 A max     | 0.020 A / 0.050 W     | Si5351 U3 VDDO                                               |\n| U19  | +1V8                    | MGT_1V    ~1.00V        | 1.0 A max      | 0.35 A / 0.35 W       | FPGA U1 MGTAVCC                                              |\n| U23  | +1V8                    | +1V2       1.20V        | 1.0 A max      | 0.30 A / 0.36 W       | FPGA U1 MGTAVTT                                              |\n| U20  | DDRVCC + +3V3 + DDRVREF | DDRVTT     0.675V       | 1.2 A max      | 0.420 A / 0.284 W     | DDR termination network                                      |\n+------+-------------------------+-------------------------+----------------+-----------------------+--------------------------------------------------------------+\n\nLDO losses : \n\nU19 loss = (1.8 V - 1.0 V) × 0.35 A = 0.28 W\nU23 loss = (1.8 V - 1.2 V) × 0.30 A = 0.18 W\n\nInput Power Estimation\n+------------------------------------------------------------+----------------------+\n| Estimated +12V input power                                  | ~6.5 W               |\n| Estimated +12V input current                                | ~0.53 A at 12 V      |\n+------------------------------------------------------------+----------------------+\n"
-		(exclude_from_sim no)
-		(at -260.35 43.434 0)
-		(effects
-			(font
-				(face "Consolas")
-				(size 2.032 2.032)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "c598554e-f2c1-4cf5-ad2c-e5374eeaff2f")
-	)
 	(junction
 		(at 139.7 22.86)
 		(diameter 0)
@@ -16555,6 +16542,1163 @@
 			(type default)
 		)
 		(uuid "ff5fa09a-4c42-43fe-a731-72cd66888278")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 25.4 25.4)
+		(row_heights 3.81 5.08)
+		(cells
+			(table_cell "Estimated +12V input power "
+				(exclude_from_sim no)
+				(at -163.83 104.14 0)
+				(size 25.4 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "94a2bfda-b613-4aaa-81dd-2bb723d4390d")
+			)
+			(table_cell "~6.5 W   "
+				(exclude_from_sim no)
+				(at -138.43 104.14 0)
+				(size 25.4 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "90384d38-dd5e-46ce-ae23-6f21f0b50ae6")
+			)
+			(table_cell "Estimated +12V input current "
+				(exclude_from_sim no)
+				(at -163.83 107.95 0)
+				(size 25.4 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c0d2c15d-1901-4758-84b9-6ec04600a9a3")
+			)
+			(table_cell " ~0.53 A at 12 V  "
+				(exclude_from_sim no)
+				(at -138.43 107.95 0)
+				(size 25.4 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "092bfab7-8951-4bea-b7e1-df85faae310a")
+			)
+		)
+	)
+	(table
+		(column_count 6)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 20.32 20.32 20.32 20.32 20.32 49.53)
+		(row_heights 2.54 2.54 5.08 5.08 2.54 2.54 2.54 2.54 5.08)
+		(cells
+			(table_cell "Ref"
+				(exclude_from_sim no)
+				(at -163.83 57.15 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "5f8810c6-8b74-4c8a-a8b2-011b8ca49478")
+			)
+			(table_cell "Vin / Source "
+				(exclude_from_sim no)
+				(at -143.51 57.15 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "504707fa-c52c-4d2c-9dc1-c02bb20f7ca3")
+			)
+			(table_cell "Output "
+				(exclude_from_sim no)
+				(at -123.19 57.15 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ac25b475-f0b3-4039-be97-595ad69d7c16")
+			)
+			(table_cell " Reg. capability"
+				(exclude_from_sim no)
+				(at -102.87 57.15 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "23a57e6b-253d-4f5f-8134-5e9e197d4137")
+			)
+			(table_cell "Estimated rail output"
+				(exclude_from_sim no)
+				(at -82.55 57.15 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2ea47643-0087-43e9-a8ce-9a0f5bf8bc08")
+			)
+			(table_cell "Main supplied loads"
+				(exclude_from_sim no)
+				(at -62.23 57.15 0)
+				(size 49.53 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "991b4c74-9f48-4639-8364-bcdab054dfe4")
+			)
+			(table_cell "U4 "
+				(exclude_from_sim no)
+				(at -163.83 59.69 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c7d2b345-a4f3-41dc-b6b9-1a078df501b7")
+			)
+			(table_cell "+12V "
+				(exclude_from_sim no)
+				(at -143.51 59.69 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c647b66a-2163-475f-9a44-301bcac38f6d")
+			)
+			(table_cell "1.00V "
+				(exclude_from_sim no)
+				(at -123.19 59.69 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ffbbf939-e992-43aa-b77c-47d2e210796e")
+			)
+			(table_cell "3.0 A max"
+				(exclude_from_sim no)
+				(at -102.87 59.69 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ca4bfe56-474b-4bf8-9910-384e5678ce41")
+			)
+			(table_cell "0.55 A / 0.55 W"
+				(exclude_from_sim no)
+				(at -82.55 59.69 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8615219f-edc4-4fe7-9139-6373c78de335")
+			)
+			(table_cell "FPGA U1: VCCINT + VCCBRAM"
+				(exclude_from_sim no)
+				(at -62.23 59.69 0)
+				(size 49.53 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fc4820a5-a57c-4dd9-9d1b-4bd1af68b410")
+			)
+			(table_cell "U5 "
+				(exclude_from_sim no)
+				(at -163.83 62.23 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "be6dbaa9-5913-42e8-8d81-b3d8eeb2dab9")
+			)
+			(table_cell "+12V "
+				(exclude_from_sim no)
+				(at -143.51 62.23 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "01c63325-6c0b-4795-9d38-00c577d15c9e")
+			)
+			(table_cell "1.80V"
+				(exclude_from_sim no)
+				(at -123.19 62.23 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4d7b5a1e-0a65-4a63-98ef-de695cc7dbc4")
+			)
+			(table_cell "3.0 A max"
+				(exclude_from_sim no)
+				(at -102.87 62.23 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "13617475-90ec-4f6a-a503-c579b3764ad1")
+			)
+			(table_cell "0.75 A / 1.35 W "
+				(exclude_from_sim no)
+				(at -82.55 62.23 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7e442218-fa77-4895-b441-24d9ccc3721f")
+			)
+			(table_cell "FPGA VCCAUX/VCCADC/VCCBATT + U19/U23 LDO inputs"
+				(exclude_from_sim no)
+				(at -62.23 62.23 0)
+				(size 49.53 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f4aa56c4-8aaa-4b73-bf35-b161e12098aa")
+			)
+			(table_cell "U10  "
+				(exclude_from_sim no)
+				(at -163.83 67.31 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "cc833b33-ca0f-4c84-bf9d-af34acf219a5")
+			)
+			(table_cell "+12V "
+				(exclude_from_sim no)
+				(at -143.51 67.31 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "eef5960b-d6d4-421f-99db-2f3b3099178a")
+			)
+			(table_cell "3.30V "
+				(exclude_from_sim no)
+				(at -123.19 67.31 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "768aeb08-bddc-49a8-9042-e1a7dae83cd6")
+			)
+			(table_cell "3.0 A max "
+				(exclude_from_sim no)
+				(at -102.87 67.31 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8c299e28-ade2-4e11-b6cf-83d375576413")
+			)
+			(table_cell "0.95 A / 3.14 W  "
+				(exclude_from_sim no)
+				(at -82.55 67.31 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e7473953-06d0-467b-9467-0411ef37bd70")
+			)
+			(table_cell "FPGA VCCO, 2xSFP, RTL8211F, FTDI VCCIO, flash, I2C, clocks "
+				(exclude_from_sim no)
+				(at -62.23 67.31 0)
+				(size 49.53 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "cbf46417-e279-462a-a660-83bcc925424a")
+			)
+			(table_cell "U11 "
+				(exclude_from_sim no)
+				(at -163.83 72.39 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "cbe98307-4bcd-4a9a-bd83-6ce9b4fa8fa1")
+			)
+			(table_cell "+12V "
+				(exclude_from_sim no)
+				(at -143.51 72.39 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b2feefc0-e7e0-4078-9a17-8a8358296bdb")
+			)
+			(table_cell "1.35V "
+				(exclude_from_sim no)
+				(at -123.19 72.39 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "86384682-ab87-43b4-872b-e94216b5bdaf")
+			)
+			(table_cell "3.0 A max "
+				(exclude_from_sim no)
+				(at -102.87 72.39 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d32a647b-d021-4401-a37a-def1ddb54039")
+			)
+			(table_cell "0.35 A / 0.47 W "
+				(exclude_from_sim no)
+				(at -82.55 72.39 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "174027b2-7c93-4ad8-975b-999b90a92e37")
+			)
+			(table_cell "DDR3L U2, FPGA Bank 34, U20 DDRVTT input  "
+				(exclude_from_sim no)
+				(at -62.23 72.39 0)
+				(size 49.53 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e824ad68-12c0-4499-98b2-6f5af310a5e0")
+			)
+			(table_cell "U18 "
+				(exclude_from_sim no)
+				(at -163.83 74.93 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6dfb799e-961e-4c5c-a4ff-7abf68705792")
+			)
+			(table_cell "+3V3"
+				(exclude_from_sim no)
+				(at -143.51 74.93 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "aa312f0d-bb7a-4c5a-a72a-8d163aae75dc")
+			)
+			(table_cell "2.50V "
+				(exclude_from_sim no)
+				(at -123.19 74.93 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2e57840d-9d19-4e62-90ab-092d645e705a")
+			)
+			(table_cell "0.30 A max "
+				(exclude_from_sim no)
+				(at -102.87 74.93 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6f835bf6-2227-43eb-bfc1-57d449821a4b")
+			)
+			(table_cell "0.020 A / 0.050 W "
+				(exclude_from_sim no)
+				(at -82.55 74.93 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e47cd957-2481-4abb-8630-e6574b780b93")
+			)
+			(table_cell "Si5351 U3 VDDO "
+				(exclude_from_sim no)
+				(at -62.23 74.93 0)
+				(size 49.53 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "40419bab-f84b-48b0-867f-5b0391c328c9")
+			)
+			(table_cell "U19 "
+				(exclude_from_sim no)
+				(at -163.83 77.47 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "662efd71-0ed0-45d9-aef0-df2a6b347ec3")
+			)
+			(table_cell "+1V8"
+				(exclude_from_sim no)
+				(at -143.51 77.47 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d34e1238-764a-4300-9f94-c71dd0195cca")
+			)
+			(table_cell "1.00V "
+				(exclude_from_sim no)
+				(at -123.19 77.47 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c587d9bf-b555-4d87-99d2-767bd38d40b9")
+			)
+			(table_cell "1.0 A max "
+				(exclude_from_sim no)
+				(at -102.87 77.47 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "83a568fb-c01a-4c34-b9e9-1e6f4c0fae49")
+			)
+			(table_cell "0.35 A / 0.35 W "
+				(exclude_from_sim no)
+				(at -82.55 77.47 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b2db3e28-5015-4e8e-880c-b78d5131949b")
+			)
+			(table_cell "FPGA U1 MGTAVCC"
+				(exclude_from_sim no)
+				(at -62.23 77.47 0)
+				(size 49.53 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "63547970-ae6f-4bed-89ce-16ec6d13cb41")
+			)
+			(table_cell "U23"
+				(exclude_from_sim no)
+				(at -163.83 80.01 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "05c2a987-f125-4055-ba53-69f7223b8bf7")
+			)
+			(table_cell "+1V8"
+				(exclude_from_sim no)
+				(at -143.51 80.01 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ff5c0a80-b65b-49db-bd22-1cb4aa641660")
+			)
+			(table_cell "1.20V"
+				(exclude_from_sim no)
+				(at -123.19 80.01 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7474d030-6cc4-40e7-86aa-499b35600dc3")
+			)
+			(table_cell "1.0 A max"
+				(exclude_from_sim no)
+				(at -102.87 80.01 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ab6e91d8-ef3d-4a2d-b08f-f27bdda83c9d")
+			)
+			(table_cell "0.30 A / 0.36 W"
+				(exclude_from_sim no)
+				(at -82.55 80.01 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "71c83684-6522-48f1-940d-699b19d32d88")
+			)
+			(table_cell "FPGA U1 MGTAVTT "
+				(exclude_from_sim no)
+				(at -62.23 80.01 0)
+				(size 49.53 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1e968648-dae1-4ef1-a75f-588c7ddb06f7")
+			)
+			(table_cell "U20 "
+				(exclude_from_sim no)
+				(at -163.83 82.55 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2edb9893-ebda-407c-82bf-f33c08c13f1f")
+			)
+			(table_cell "DDRVCC + +3V3 + DDRVREF "
+				(exclude_from_sim no)
+				(at -143.51 82.55 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "849d94c5-d35b-4c5c-9ea2-65ef9b26a209")
+			)
+			(table_cell "0.675V  "
+				(exclude_from_sim no)
+				(at -123.19 82.55 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "46dcf786-0ba4-4f72-899b-7f88d6cb2627")
+			)
+			(table_cell "1.2 A max  "
+				(exclude_from_sim no)
+				(at -102.87 82.55 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "709e3f69-6dd8-4bb9-9150-07d70f23c31e")
+			)
+			(table_cell "0.420 A / 0.284 W "
+				(exclude_from_sim no)
+				(at -82.55 82.55 0)
+				(size 20.32 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ff3db4d4-2d21-4885-ac40-c013c0431255")
+			)
+			(table_cell "DDR termination network    "
+				(exclude_from_sim no)
+				(at -62.23 82.55 0)
+				(size 49.53 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b40086d7-70a1-4b2a-98f9-27f039f51c75")
+			)
+		)
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 24.13 33.02)
+		(row_heights 2.54 2.54 2.54)
+		(cells
+			(table_cell "LDO "
+				(exclude_from_sim no)
+				(at -163.83 91.44 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "99b72521-0d9f-4983-8b0b-e489eeaa290c")
+			)
+			(table_cell "Losses"
+				(exclude_from_sim no)
+				(at -139.7 91.44 0)
+				(size 33.02 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0cbed15e-813a-44be-9f87-c8993fe2fedd")
+			)
+			(table_cell "U19"
+				(exclude_from_sim no)
+				(at -163.83 93.98 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e28e2de6-6f4e-4221-bb72-004931863195")
+			)
+			(table_cell "(1.8 V - 1.0 V) x 0.35 A = 0.28 W\n"
+				(exclude_from_sim no)
+				(at -139.7 93.98 0)
+				(size 33.02 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "447c26d4-0a01-4074-b644-394628c9e3d4")
+			)
+			(table_cell "U23"
+				(exclude_from_sim no)
+				(at -163.83 96.52 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0efb11d0-63c7-4532-8587-9b9be4ded9ea")
+			)
+			(table_cell "(1.8 V - 1.2 V) x 0.30 A = 0.18 W"
+				(exclude_from_sim no)
+				(at -139.7 96.52 0)
+				(size 33.02 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0707659e-f2a0-4890-8870-834a9ec60763")
+			)
+		)
 	)
 	(label "Power_12V"
 		(at 31.75 45.72 0)
