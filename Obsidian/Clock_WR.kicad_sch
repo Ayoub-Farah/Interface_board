@@ -11509,10 +11509,11 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "AUX_CLK"
+		(members "REF_CLK0_P" "REF_CLK0_N" "CLK2")
+	)
 	(bus_alias "WR_CLK"
-		(members "WR_CLK0_P" "WR_CLK0_N" "CLK_25MHZ" "CLK20_VCXO" "REF_CLK0_P"
-			"REF_CLK0_N" "CLK2"
-		)
+		(members "WR_CLK0_P" "WR_CLK0_N" "CLK_25MHZ" "CLK20_VCXO")
 	)
 	(text "Y2 is an optional 25 MHz WR VCTCXO.\nWR_DAC_OUT1 tunes the VC pin. It output a CMOS\nclock compatible with U16 input XIN. "
 		(exclude_from_sim no)
@@ -12116,7 +12117,7 @@
 		(uuid "07bdd5d1-63dd-4b37-b188-22d1b06f268d")
 	)
 	(bus_entry
-		(at 270.51 114.3)
+		(at 270.51 114.2753)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -12134,7 +12135,7 @@
 		(uuid "1825b67f-d2c4-488f-a377-e3aead1026c1")
 	)
 	(bus_entry
-		(at 270.51 140.97)
+		(at 270.51 140.9453)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -12232,6 +12233,16 @@
 			(type default)
 		)
 		(uuid "0049270b-c889-46e2-a564-4e6a5c69aa35")
+	)
+	(wire
+		(pts
+			(xy 251.46 138.43) (xy 267.97 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0557fbb7-1890-47ab-b802-d09d6e3af03a")
 	)
 	(wire
 		(pts
@@ -12343,16 +12354,6 @@
 		)
 		(uuid "109e2c3c-b7b5-41a5-8474-426d669fecf5")
 	)
-	(bus
-		(pts
-			(xy 270.51 114.3) (xy 270.51 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12f3850d-db3c-4e75-80c5-9c462eab7243")
-	)
 	(wire
 		(pts
 			(xy 179.07 66.04) (xy 191.77 66.04)
@@ -12452,6 +12453,16 @@
 			(type dash)
 		)
 		(uuid "1baccab8-54ce-4237-aeca-3d5eed8a0867")
+	)
+	(bus
+		(pts
+			(xy 270.51 114.3) (xy 275.59 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d17f3f4-bbab-4f8f-b4f1-2d1d5aea4388")
 	)
 	(wire
 		(pts
@@ -12632,6 +12643,16 @@
 			(type default)
 		)
 		(uuid "2c3c54da-eeaf-4468-8325-986d923535a0")
+	)
+	(bus
+		(pts
+			(xy 275.59 139.7) (xy 270.51 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb60349-5830-44a2-9f3e-fb8ce0df0c49")
 	)
 	(wire
 		(pts
@@ -12995,6 +13016,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 138.4053) (xy 267.97 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4abc3b84-1662-4a50-8a9f-7cae6db0cdd0")
+	)
+	(wire
+		(pts
 			(xy 86.36 59.69) (xy 82.55 59.69)
 		)
 		(stroke
@@ -13063,6 +13094,16 @@
 		)
 		(uuid "4e84c9fc-4122-4083-b227-68fed1505006")
 	)
+	(bus
+		(pts
+			(xy 256.54 101.6) (xy 269.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecf3511-e4cc-4585-a6d8-af2aa17ea8e0")
+	)
 	(wire
 		(pts
 			(xy 243.84 27.94) (xy 243.84 30.48)
@@ -13105,7 +13146,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 138.43) (xy 267.97 138.43)
+			(xy 265.43 138.4053) (xy 265.43 138.43)
 		)
 		(stroke
 			(width 0)
@@ -13152,6 +13193,16 @@
 			(type default)
 		)
 		(uuid "59a8de9a-e71a-4572-a7ea-08b4d431b029")
+	)
+	(wire
+		(pts
+			(xy 265.43 138.43) (xy 267.97 138.4053)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb88113-c3b0-422d-99b6-487ee1df2f3e")
 	)
 	(wire
 		(pts
@@ -13325,7 +13376,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 111.76) (xy 267.97 111.76)
+			(xy 266.7 111.7353) (xy 267.97 111.7353)
 		)
 		(stroke
 			(width 0)
@@ -13545,6 +13596,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 138.4053) (xy 265.43 138.4053)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834f08e2-9469-4a41-980f-3fdb4efbe3ba")
+	)
+	(wire
+		(pts
 			(xy 214.63 111.76) (xy 236.22 111.76)
 		)
 		(stroke
@@ -13552,6 +13613,16 @@
 			(type default)
 		)
 		(uuid "85684157-b696-4b5b-81cc-8acac9444f26")
+	)
+	(wire
+		(pts
+			(xy 266.7 111.7353) (xy 266.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86b23554-9eaa-4afb-9ccc-1b7b96087eff")
 	)
 	(wire
 		(pts
@@ -13692,6 +13763,16 @@
 			(type default)
 		)
 		(uuid "8e84695b-1f9b-4b05-ae30-b96d9e57cab6")
+	)
+	(wire
+		(pts
+			(xy 266.7 111.76) (xy 243.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fce4b12-439c-471b-b447-3a45c10d62c3")
 	)
 	(wire
 		(pts
@@ -14095,6 +14176,16 @@
 	)
 	(bus
 		(pts
+			(xy 270.51 140.9453) (xy 270.51 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9752e1f-fa5a-46bc-9bce-c4aee2a19013")
+	)
+	(bus
+		(pts
 			(xy 165.1 158.75) (xy 173.99 158.75)
 		)
 		(stroke
@@ -14222,16 +14313,6 @@
 			(type default)
 		)
 		(uuid "c2a728f9-2c8b-4baa-aa72-f188fb474b7b")
-	)
-	(bus
-		(pts
-			(xy 270.51 140.97) (xy 270.51 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4821057-7c90-4289-811f-05664473ab80")
 	)
 	(wire
 		(pts
@@ -14382,6 +14463,16 @@
 			(type default)
 		)
 		(uuid "cff621f4-03d1-4c48-a3a9-338f9f6190b2")
+	)
+	(bus
+		(pts
+			(xy 270.51 139.7) (xy 270.51 140.9453)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ef9706-846a-4811-ac3c-f320d734ad59")
 	)
 	(wire
 		(pts
@@ -14919,6 +15010,16 @@
 		)
 		(uuid "645a24df-0b23-490c-bc5f-d401038db8d6")
 	)
+	(label "{AUX_CLK}"
+		(at 275.59 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6db903bf-9a03-4042-a310-b1168ac74dde")
+	)
 	(label "I2C_SCL"
 		(at 176.53 148.59 0)
 		(effects
@@ -15034,7 +15135,7 @@
 		(uuid "bc099d2c-03a6-43b3-83c7-125fada3f29c")
 	)
 	(label "{WR_CLK}"
-		(at 270.51 114.3247 0)
+		(at 275.59 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15056,7 +15157,7 @@
 		(uuid "cc42f54d-2dc2-492c-b0b2-658b5d99bdca")
 	)
 	(label "CLK20_VCXO"
-		(at 267.97 111.76 180)
+		(at 266.7 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15078,6 +15179,16 @@
 			(justify left bottom)
 		)
 		(uuid "d23652d0-3cf5-4118-b013-a12f42deb001")
+	)
+	(label "{AUX_CLK}"
+		(at 256.54 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d83c3704-b94b-47ef-99aa-5f969119a81d")
 	)
 	(label "{WR_CLK}"
 		(at 278.13 40.64 270)
@@ -15179,6 +15290,17 @@
 			(justify right)
 		)
 		(uuid "71595aee-372a-461c-8db0-ef418b57c280")
+	)
+	(hierarchical_label "{AUX_CLK}"
+		(shape bidirectional)
+		(at 269.24 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7eb5052f-8b5d-4d4f-88d3-425cc90662c2")
 	)
 	(hierarchical_label "{I2C}"
 		(shape bidirectional)
@@ -21652,7 +21774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_CLK"
+		(property "Value" "+3V_CLK"
 			(at 68.58 52.07 0)
 			(effects
 				(font
@@ -28017,7 +28139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_CLK"
+		(property "Value" "+3V_CLK"
 			(at 21.59 29.21 0)
 			(effects
 				(font

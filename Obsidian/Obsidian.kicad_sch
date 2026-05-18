@@ -931,16 +931,22 @@
 		(uuid "34206b5a-5720-476e-b46e-82061591c17b")
 	)
 	(junction
+		(at 77.47 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "525bbb38-365e-4d41-974f-efad133a883e")
+	)
+	(junction
+		(at 110.49 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f718b07-f4ee-4e30-b77f-e27cfa2e9fde")
+	)
+	(junction
 		(at 88.9 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90ae4a49-a0c8-44c8-aa8a-ed9253d6524d")
-	)
-	(junction
-		(at 80.01 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4d53275-91d0-4a03-92d2-c5183793c152")
 	)
 	(no_connect
 		(at 40.64 180.34)
@@ -990,6 +996,16 @@
 	)
 	(bus
 		(pts
+			(xy 119.38 104.14) (xy 110.49 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242154ce-1bb9-49da-ab1c-64049c87b984")
+	)
+	(bus
+		(pts
 			(xy 143.51 124.46) (xy 99.06 124.46)
 		)
 		(stroke
@@ -1000,7 +1016,7 @@
 	)
 	(bus
 		(pts
-			(xy 80.01 76.2) (xy 80.01 105.41)
+			(xy 77.47 76.2) (xy 77.47 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1010,7 +1026,7 @@
 	)
 	(bus
 		(pts
-			(xy 73.66 76.2) (xy 80.01 76.2)
+			(xy 73.66 76.2) (xy 77.47 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1037,6 +1053,16 @@
 			(type default)
 		)
 		(uuid "3bdce45b-b919-4d15-8b96-98be61637b54")
+	)
+	(bus
+		(pts
+			(xy 73.66 107.95) (xy 85.09 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4067809e-f64a-4e83-bcde-f97539a3d6df")
 	)
 	(bus
 		(pts
@@ -1090,6 +1116,16 @@
 	)
 	(bus
 		(pts
+			(xy 110.49 104.14) (xy 110.49 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58af40e4-f14a-4381-a30e-7febad7232b5")
+	)
+	(bus
+		(pts
 			(xy 93.98 147.32) (xy 73.66 147.32)
 		)
 		(stroke
@@ -1120,6 +1156,16 @@
 	)
 	(bus
 		(pts
+			(xy 110.49 83.82) (xy 119.38 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c57c74b-bf77-4409-a2cd-16b57e1eda6e")
+	)
+	(bus
+		(pts
 			(xy 114.3 34.29) (xy 114.3 60.96)
 		)
 		(stroke
@@ -1127,6 +1173,16 @@
 			(type default)
 		)
 		(uuid "6d9e18a1-f578-4bd0-a3f6-6a6abfbeabd8")
+	)
+	(bus
+		(pts
+			(xy 77.47 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e30e5ae-98dc-4c4c-9277-a3de9deaa614")
 	)
 	(bus
 		(pts
@@ -1147,16 +1203,6 @@
 			(type default)
 		)
 		(uuid "7b70b428-dc11-47fc-b83f-43881d8d727f")
-	)
-	(bus
-		(pts
-			(xy 80.01 76.2) (xy 114.3 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d933044-afb9-4667-a8fe-7a38e56725a7")
 	)
 	(bus
 		(pts
@@ -1210,7 +1256,7 @@
 	)
 	(bus
 		(pts
-			(xy 119.38 80.01) (xy 83.82 80.01)
+			(xy 119.38 80.01) (xy 81.28 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1260,7 +1306,7 @@
 	)
 	(bus
 		(pts
-			(xy 73.66 105.41) (xy 80.01 105.41)
+			(xy 73.66 100.33) (xy 77.47 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1300,7 +1346,7 @@
 	)
 	(bus
 		(pts
-			(xy 83.82 80.01) (xy 83.82 109.22)
+			(xy 81.28 80.01) (xy 81.28 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1390,6 +1436,26 @@
 	)
 	(bus
 		(pts
+			(xy 85.09 107.95) (xy 85.09 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb62ed0-6ad6-4460-be65-2d4e3b539801")
+	)
+	(bus
+		(pts
+			(xy 85.09 83.82) (xy 110.49 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5a1097-8a1a-4730-8ec3-df61245d1a5e")
+	)
+	(bus
+		(pts
 			(xy 93.98 91.44) (xy 93.98 147.32)
 		)
 		(stroke
@@ -1450,7 +1516,7 @@
 	)
 	(bus
 		(pts
-			(xy 83.82 109.22) (xy 73.66 109.22)
+			(xy 81.28 104.14) (xy 73.66 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2154,6 +2220,16 @@
 				(justify right)
 			)
 		)
+		(pin "{AUX_CLK}" bidirectional
+			(at 119.38 83.82 180)
+			(uuid "c7882379-cb0c-4a9f-9851-e5c48c380ecb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Obsidian"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b"
@@ -2410,6 +2486,16 @@
 				(justify left)
 			)
 		)
+		(pin "{AUX_CLK}" bidirectional
+			(at 119.38 104.14 180)
+			(uuid "71ea4a01-cd10-4490-b699-63dfc858e51b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Obsidian"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b"
@@ -2455,7 +2541,7 @@
 			)
 		)
 		(pin "{WR_CLK}" bidirectional
-			(at 73.66 105.41 0)
+			(at 73.66 100.33 0)
 			(uuid "b261b5f3-eab3-4841-9b3f-48a045df63f3")
 			(effects
 				(font
@@ -2465,7 +2551,7 @@
 			)
 		)
 		(pin "{WR_DAC}" bidirectional
-			(at 73.66 109.22 0)
+			(at 73.66 104.14 0)
 			(uuid "03d64152-02fb-4b06-b0e8-cf10002c6320")
 			(effects
 				(font
@@ -2492,6 +2578,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "{AUX_CLK}" bidirectional
+			(at 73.66 107.95 0)
+			(uuid "464cc326-72fd-4f43-bc49-724bd0938da8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

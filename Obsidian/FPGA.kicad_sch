@@ -15090,7 +15090,7 @@
 	)
 	(bus
 		(pts
-			(xy 41.91 265.43) (xy 58.42 265.43)
+			(xy 41.91 269.24) (xy 58.42 269.24)
 		)
 		(stroke
 			(width 0)
@@ -16118,6 +16118,16 @@
 		)
 		(uuid "aac40390-e7b6-41ab-917e-941e038e6a55")
 	)
+	(bus
+		(pts
+			(xy 41.91 257.81) (xy 58.42 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae7cd2b-b83a-415a-a840-611634d5c461")
+	)
 	(wire
 		(pts
 			(xy 350.52 171.45) (xy 369.57 171.45)
@@ -16760,7 +16770,7 @@
 	)
 	(bus
 		(pts
-			(xy 41.91 261.62) (xy 58.42 261.62)
+			(xy 41.91 265.43) (xy 58.42 265.43)
 		)
 		(stroke
 			(width 0)
@@ -16880,7 +16890,7 @@
 	)
 	(bus
 		(pts
-			(xy 41.91 257.81) (xy 58.42 257.81)
+			(xy 41.91 261.62) (xy 58.42 261.62)
 		)
 		(stroke
 			(width 0)
@@ -18107,7 +18117,7 @@
 		(uuid "626246d7-1325-4bb2-bb0e-0785e8d957d0")
 	)
 	(label "{SPIN}"
-		(at 41.91 265.43 0)
+		(at 41.91 269.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18175,6 +18185,16 @@
 			(justify left bottom)
 		)
 		(uuid "722ebf83-8435-4d60-898c-32671b5de465")
+	)
+	(label "{AUX_CLK}"
+		(at 41.91 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72d22bd5-a5f4-436c-a684-4076ce1e85a6")
 	)
 	(label "RGMII_TX_CLK"
 		(at 195.58 153.67 0)
@@ -18383,7 +18403,7 @@
 		(uuid "90285bbb-60d7-48b2-babf-01be44c30851")
 	)
 	(label "{I2C}"
-		(at 41.91 257.81 0)
+		(at 41.91 261.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18569,7 +18589,7 @@
 		(uuid "a4396554-13fa-4e03-bb46-b8b6ffd27b3a")
 	)
 	(label "{DDR}"
-		(at 41.91 261.62 0)
+		(at 41.91 265.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18998,7 +19018,7 @@
 		)
 		(uuid "ce1f7f5b-c855-4572-b73c-f9420773f606")
 	)
-	(label "{WR_CLK}"
+	(label "{AUX_CLK}"
 		(at 237.49 148.59 0)
 		(effects
 			(font
@@ -19450,9 +19470,20 @@
 			)
 		)
 	)
-	(hierarchical_label "{I2C}"
+	(hierarchical_label "{AUX_CLK}"
 		(shape bidirectional)
 		(at 58.42 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5265bcd6-9ab2-4522-ac56-b7d52d343f5d")
+	)
+	(hierarchical_label "{I2C}"
+		(shape bidirectional)
+		(at 58.42 261.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19474,7 +19505,7 @@
 	)
 	(hierarchical_label "{SPIN}"
 		(shape bidirectional)
-		(at 58.42 265.43 0)
+		(at 58.42 269.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19485,7 +19516,7 @@
 	)
 	(hierarchical_label "{DDR}"
 		(shape bidirectional)
-		(at 58.42 261.62 0)
+		(at 58.42 265.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
