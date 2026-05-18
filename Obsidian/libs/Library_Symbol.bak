@@ -18301,14 +18301,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint:Diodes_PowerDI3333-8"
-			(at 5.08 -1.905 0)
+		(property "Footprint" ""
+			(at 0 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -18539,15 +18537,6 @@
 			)
 		)
 		(property "DRAIN TO SOURCE VOLTAGE" ""
-			(at 0 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FOOTPRINT" ""
 			(at 0 0 90)
 			(effects
 				(font
@@ -19273,7 +19262,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 2.54 -5.08 90)
 				(length 2.54)
 				(name "S"
