@@ -12008,12 +12008,6 @@
 		(uuid "d42d5a35-6b83-4a8f-8e1d-e6c456c33f72")
 	)
 	(junction
-		(at 237.49 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd761cd2-72fa-4419-b4bb-c18165b32754")
-	)
-	(junction
 		(at 250.19 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12024,6 +12018,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6a45dc7-55c6-4d06-946d-85406afd315e")
+	)
+	(junction
+		(at 236.22 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9b7f077-a904-4247-aba8-f69e85e2b826")
 	)
 	(junction
 		(at 154.94 124.46)
@@ -12246,13 +12246,23 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 143.51) (xy 237.49 143.51)
+			(xy 229.87 143.51) (xy 236.22 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "062edeb4-34d5-43ab-94c1-2eef657c2c3d")
+	)
+	(wire
+		(pts
+			(xy 236.22 143.51) (xy 243.84 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06bef70f-21a0-4a9f-9450-1d1129fa6369")
 	)
 	(wire
 		(pts
@@ -13446,7 +13456,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 143.51) (xy 237.49 146.05)
+			(xy 236.22 143.51) (xy 236.22 146.05)
 		)
 		(stroke
 			(width 0)
@@ -13773,16 +13783,6 @@
 			(type default)
 		)
 		(uuid "8fce4b12-439c-471b-b447-3a45c10d62c3")
-	)
-	(wire
-		(pts
-			(xy 237.49 143.51) (xy 243.84 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90495026-396a-47d6-b744-22f1a2e0e8b8")
 	)
 	(wire
 		(pts
@@ -15637,7 +15637,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:GND")
-		(at 237.49 153.67 0)
+		(at 236.22 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15645,7 +15645,7 @@
 		(dnp no)
 		(uuid "057671af-a1de-416d-a2c4-d463b146c128")
 		(property "Reference" "#PWR0246"
-			(at 237.49 160.02 0)
+			(at 236.22 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15654,7 +15654,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.617 158.0642 0)
+			(at 236.347 158.0642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15662,7 +15662,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 153.67 0)
+			(at 236.22 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15671,7 +15671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 153.67 0)
+			(at 236.22 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15680,7 +15680,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 153.67 0)
+			(at 236.22 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19992,7 +19992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_CLK"
+		(property "Value" "+3V3_CLEAN"
 			(at 86.36 17.78 0)
 			(effects
 				(font
@@ -23329,7 +23329,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:R0402_240R_1%_0.0625W_100PPM")
-		(at 237.49 153.67 90)
+		(at 236.22 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23337,7 +23337,7 @@
 		(dnp no)
 		(uuid "9c31a05f-c99a-4677-ac52-ffaedf12e3e1")
 		(property "Reference" "R120"
-			(at 234.188 151.13 90)
+			(at 232.918 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23345,7 +23345,7 @@
 			)
 		)
 		(property "Value" "R0402_240R_1%_0.0625W_100PPM"
-			(at 242.443 153.67 0)
+			(at 241.173 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23355,7 +23355,7 @@
 			)
 		)
 		(property "Footprint" "Footprint:RESC1005X40N"
-			(at 244.348 153.67 0)
+			(at 243.078 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23365,7 +23365,7 @@
 			)
 		)
 		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
-			(at 246.253 153.67 0)
+			(at 244.983 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23375,7 +23375,7 @@
 			)
 		)
 		(property "Description" "General Purpose Thick Film Chip Resistor"
-			(at 237.49 153.67 0)
+			(at 236.22 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23384,7 +23384,7 @@
 			)
 		)
 		(property "Val" "240"
-			(at 234.696 149.098 90)
+			(at 233.426 149.098 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23392,7 +23392,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 237.49 153.67 90)
+			(at 236.22 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23401,7 +23401,7 @@
 			)
 		)
 		(property "LCSC" "C114755"
-			(at 237.49 153.67 90)
+			(at 236.22 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
