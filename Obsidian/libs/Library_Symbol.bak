@@ -1228,14 +1228,14 @@
 			(pin input line
 				(at -5.08 -2.54 0)
 				(length 5.08)
-				(name "DI"
+				(name "CS"
 					(effects
 						(font
 							(size 1.524 1.524)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.524 1.524)
@@ -1264,14 +1264,14 @@
 			(pin input line
 				(at -5.08 -7.62 0)
 				(length 5.08)
-				(name "CS"
+				(name "DI"
 					(effects
 						(font
 							(size 1.524 1.524)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.524 1.524)
