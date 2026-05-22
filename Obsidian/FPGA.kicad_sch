@@ -11873,6 +11873,17 @@
 	(bus_alias "WR_DAC"
 		(members "WR_DAC2_SYNC" "WR_DAC_SCLK" "WR_DAC_DIN" "WR_DAC1_SYNC")
 	)
+	(text "U28 Address format: 0b1010_A2_A1_A0.\nA2, A1 and A0 are tied to GND on this board."
+		(exclude_from_sim no)
+		(at 107.442 250.952 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "206f7f20-47e9-44d1-a380-27c857e935ae")
+	)
 	(junction
 		(at 314.96 62.23)
 		(diameter 0)
