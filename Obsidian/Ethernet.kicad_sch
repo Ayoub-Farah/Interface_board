@@ -15945,7 +15945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\XTAL_EPSON_TSX-3225.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/TSX_3225_25_0000MF09Z_AC.pdf"
 			(at 36.83 81.915 0)
 			(effects
 				(font

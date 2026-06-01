@@ -29523,7 +29523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ld39100.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2970914.pdf"
 			(at 231.394 81.788 0)
 			(effects
 				(font
@@ -30662,7 +30662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2970914.pdf"
 			(at 209.55 125.73 0)
 			(effects
 				(font
