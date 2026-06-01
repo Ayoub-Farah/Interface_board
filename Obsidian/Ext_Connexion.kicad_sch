@@ -4725,12 +4725,6 @@
 		(uuid "5ce60f5f-92e4-4b77-87af-d192b5b47e6b")
 	)
 	(junction
-		(at 99.06 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93af5deb-01db-4314-81e2-dd80e6341ce9")
-	)
-	(junction
 		(at 176.53 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5539,16 +5533,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 63.5) (xy 99.06 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dcf5f99-bba5-4b48-b633-d278af90f5ce")
-	)
-	(wire
-		(pts
 			(xy 58.42 140.97) (xy 22.86 140.97)
 		)
 		(stroke
@@ -5576,16 +5560,6 @@
 			(type default)
 		)
 		(uuid "41430693-6d73-4a76-9dd9-0a4eb4379748")
-	)
-	(wire
-		(pts
-			(xy 101.6 67.31) (xy 99.06 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "433bf685-f2bf-4e4d-9584-c98be60c3164")
 	)
 	(wire
 		(pts
@@ -5626,16 +5600,6 @@
 			(type default)
 		)
 		(uuid "4b5da0b6-1085-4da3-8524-c6e9b0642182")
-	)
-	(wire
-		(pts
-			(xy 99.06 67.31) (xy 99.06 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e061b88-e491-4c4c-8d14-1c0fa47a5066")
 	)
 	(wire
 		(pts
@@ -5979,7 +5943,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 71.12) (xy 99.06 71.12)
+			(xy 77.47 71.12) (xy 101.6 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5989,7 +5953,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 72.39) (xy 101.6 67.31)
+			(xy 101.6 72.39) (xy 101.6 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6196,16 +6160,6 @@
 			(type default)
 		)
 		(uuid "c7f17094-46e4-4212-9028-eba2042f8d97")
-	)
-	(wire
-		(pts
-			(xy 77.47 63.5) (xy 99.06 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb38e41c-da0e-4c6d-ad92-21ab8dd6cd9a")
 	)
 	(wire
 		(pts
@@ -7673,74 +7627,6 @@
 			(project "Obsidian"
 				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
 					(reference "R125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 77.47 63.5 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "450905eb-9d93-4845-a1f7-e507a1c394f7")
-		(property "Reference" "TP20"
-			(at 74.93 58.9279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 74.93 61.4679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Footprint:TestPoint_Pad_D2.0mm"
-			(at 72.39 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 77.47 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84998275-f8a8-481e-b1a8-ac30a774d56e")
-		)
-		(instances
-			(project "Obsidian"
-				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/37c76a7d-e360-409e-9f8e-819f870af943"
-					(reference "TP20")
 					(unit 1)
 				)
 			)
