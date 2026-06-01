@@ -13188,7 +13188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 156.083 66.04 0)
 			(effects
 				(font
@@ -13287,7 +13287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 148.463 66.04 0)
 			(effects
 				(font
@@ -13386,7 +13386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_MURATA_GRM21BR60J107ME15L.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C141660.pdf"
 			(at 164.973 82.55 0)
 			(effects
 				(font
@@ -13548,7 +13548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C1521749.pdf"
 			(at 213.36 107.95 0)
 			(effects
 				(font
@@ -14602,7 +14602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 201.803 39.37 0)
 			(effects
 				(font
@@ -14701,7 +14701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 156.083 39.37 0)
 			(effects
 				(font
@@ -14800,7 +14800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 220.853 132.08 0)
 			(effects
 				(font
@@ -14964,7 +14964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 163.703 53.34 0)
 			(effects
 				(font
@@ -15063,7 +15063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 171.323 53.34 0)
 			(effects
 				(font
@@ -15162,7 +15162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C190187.pdf"
 			(at 200.533 132.08 0)
 			(effects
 				(font
@@ -15326,7 +15326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 178.943 53.34 0)
 			(effects
 				(font
@@ -15425,7 +15425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 186.563 39.37 0)
 			(effects
 				(font
@@ -15524,7 +15524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C190187.pdf"
 			(at 233.553 87.63 0)
 			(effects
 				(font
@@ -15623,7 +15623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 178.943 66.04 0)
 			(effects
 				(font
@@ -15788,7 +15788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 171.323 39.37 0)
 			(effects
 				(font
@@ -15952,7 +15952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 72.263 33.02 0)
 			(effects
 				(font
@@ -16051,7 +16051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 148.463 53.34 0)
 			(effects
 				(font
@@ -16150,7 +16150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_MURATA_GRM21BR60J107ME15L.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C141660.pdf"
 			(at 148.463 82.55 0)
 			(effects
 				(font
@@ -16249,7 +16249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 67.183 74.93 0)
 			(effects
 				(font
@@ -16348,7 +16348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C190187.pdf"
 			(at 225.933 87.63 0)
 			(effects
 				(font
@@ -16447,7 +16447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 63.373 57.15 0)
 			(effects
 				(font
@@ -16546,7 +16546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 81.153 33.02 0)
 			(effects
 				(font
@@ -16645,7 +16645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_MURATA_GRM21BR60J107ME15L.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C141660.pdf"
 			(at 157.353 82.55 0)
 			(effects
 				(font
@@ -16809,7 +16809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C190187.pdf"
 			(at 256.413 87.63 0)
 			(effects
 				(font
@@ -16908,7 +16908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_MURATA_GRM21BR60J107ME15L.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C141660.pdf"
 			(at 26.543 33.02 0)
 			(effects
 				(font
@@ -17070,7 +17070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C1521749.pdf"
 			(at 101.6 102.87 0)
 			(effects
 				(font
@@ -18124,7 +18124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 64.643 33.02 0)
 			(effects
 				(font
@@ -18222,7 +18222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C413063.pdf"
 			(at 251.46 125.476 0)
 			(effects
 				(font
@@ -18330,7 +18330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 178.943 39.37 0)
 			(effects
 				(font
@@ -18429,7 +18429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 76.073 74.93 0)
 			(effects
 				(font
@@ -18528,7 +18528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 35.433 33.02 0)
 			(effects
 				(font
@@ -18692,7 +18692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_MURATA_GRM21BR60J107ME15L.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C141660.pdf"
 			(at 59.563 74.93 0)
 			(effects
 				(font
@@ -18791,7 +18791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0402_MURATA_BLM15H.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C88966.pdf"
 			(at 39.37 58.293 0)
 			(effects
 				(font
@@ -18954,7 +18954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C190187.pdf"
 			(at 185.293 132.08 0)
 			(effects
 				(font
@@ -19118,7 +19118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 186.563 53.34 0)
 			(effects
 				(font
@@ -19217,7 +19217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 57.023 33.02 0)
 			(effects
 				(font
@@ -19316,7 +19316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 213.233 132.08 0)
 			(effects
 				(font
@@ -19415,7 +19415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 194.183 39.37 0)
 			(effects
 				(font
@@ -19514,7 +19514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C190187.pdf"
 			(at 248.793 87.63 0)
 			(effects
 				(font
@@ -19613,7 +19613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 171.323 66.04 0)
 			(effects
 				(font
@@ -19843,7 +19843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 163.703 66.04 0)
 			(effects
 				(font
@@ -19942,7 +19942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C190187.pdf"
 			(at 192.913 132.08 0)
 			(effects
 				(font
@@ -20236,7 +20236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 156.083 53.34 0)
 			(effects
 				(font
@@ -20335,7 +20335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 148.463 39.37 0)
 			(effects
 				(font
@@ -20435,7 +20435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 200.787 87.63 0)
 			(effects
 				(font
@@ -20535,7 +20535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 193.167 87.63 0)
 			(effects
 				(font
@@ -20699,7 +20699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C190187.pdf"
 			(at 241.173 87.63 0)
 			(effects
 				(font
@@ -20863,7 +20863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 40.513 57.15 0)
 			(effects
 				(font
@@ -20962,7 +20962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 43.053 33.02 0)
 			(effects
 				(font
@@ -21126,7 +21126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 186.563 66.04 0)
 			(effects
 				(font
@@ -21225,7 +21225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 49.403 33.02 0)
 			(effects
 				(font
@@ -21324,7 +21324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C190187.pdf"
 			(at 206.883 132.08 0)
 			(effects
 				(font
@@ -21423,7 +21423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 163.703 39.37 0)
 			(effects
 				(font

@@ -13395,7 +13395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 120.523 52.07 0)
 			(effects
 				(font
@@ -13494,7 +13494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 135.763 52.07 0)
 			(effects
 				(font
@@ -13593,7 +13593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 72.263 184.15 0)
 			(effects
 				(font
@@ -13692,7 +13692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 101.473 167.64 0)
 			(effects
 				(font
@@ -13791,7 +13791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 107.823 52.07 0)
 			(effects
 				(font
@@ -13890,7 +13890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 97.663 52.07 0)
 			(effects
 				(font
@@ -14054,7 +14054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 95.123 52.07 0)
 			(effects
 				(font
@@ -14153,7 +14153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_TAIYO-YUDEN_STANDARD-CLASS2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C85926.pdf"
 			(at 110.363 167.64 0)
 			(effects
 				(font
@@ -14252,7 +14252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 110.363 52.07 0)
 			(effects
 				(font
@@ -14351,7 +14351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 91.313 184.15 0)
 			(effects
 				(font
@@ -14580,7 +14580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 53.213 167.64 0)
 			(effects
 				(font
@@ -14744,7 +14744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 84.963 167.64 0)
 			(effects
 				(font
@@ -14844,7 +14844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 117.983 167.64 0)
 			(effects
 				(font
@@ -14943,7 +14943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 72.263 167.64 0)
 			(effects
 				(font
@@ -15042,7 +15042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 82.423 52.07 0)
 			(effects
 				(font
@@ -15141,7 +15141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 78.613 167.64 0)
 			(effects
 				(font
@@ -15240,7 +15240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 143.383 40.64 0)
 			(effects
 				(font
@@ -15405,7 +15405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 133.223 52.07 0)
 			(effects
 				(font
@@ -15504,7 +15504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 105.283 52.07 0)
 			(effects
 				(font
@@ -15603,7 +15603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 46.863 167.64 0)
 			(effects
 				(font
@@ -15833,7 +15833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 115.443 40.64 0)
 			(effects
 				(font
@@ -15932,7 +15932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 128.143 52.07 0)
 			(effects
 				(font
@@ -16031,7 +16031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 140.843 52.07 0)
 			(effects
 				(font
@@ -16195,7 +16195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 100.203 40.64 0)
 			(effects
 				(font
@@ -16294,7 +16294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 148.463 142.24 0)
 			(effects
 				(font
@@ -16392,7 +16392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 130.683 52.07 0)
 			(effects
 				(font
@@ -16490,7 +16490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_PANASONIC_ERJ2RK.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2077034.pdf"
 			(at 105.41 117.983 0)
 			(effects
 				(font
@@ -16588,7 +16588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_TDK_C.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C76991.pdf"
 			(at 84.963 40.64 0)
 			(effects
 				(font
@@ -16686,7 +16686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C114755.pdf"
 			(at 185.42 129.413 0)
 			(effects
 				(font
@@ -16784,7 +16784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 53.213 184.15 0)
 			(effects
 				(font
@@ -16883,7 +16883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 125.603 52.07 0)
 			(effects
 				(font
@@ -16982,7 +16982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 92.583 52.07 0)
 			(effects
 				(font
@@ -17081,7 +17081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 90.043 52.07 0)
 			(effects
 				(font
@@ -17245,7 +17245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 46.863 184.15 0)
 			(effects
 				(font
@@ -17344,7 +17344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 84.963 184.15 0)
 			(effects
 				(font
@@ -17443,7 +17443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 59.563 184.15 0)
 			(effects
 				(font
@@ -17542,7 +17542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 102.743 52.07 0)
 			(effects
 				(font
@@ -17641,7 +17641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 59.563 167.64 0)
 			(effects
 				(font
@@ -17872,7 +17872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 86.487 133.35 0)
 			(effects
 				(font
@@ -17969,7 +17969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.alliancememory.com/wp-content/uploads/pdf/ddr3/4GB-AS4C256M16D3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2831669.pdf"
 			(at 163.83 26.67 0)
 			(effects
 				(font
@@ -18340,7 +18340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 87.503 52.07 0)
 			(effects
 				(font
@@ -18439,7 +18439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 91.313 167.64 0)
 			(effects
 				(font
@@ -18538,7 +18538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 65.913 167.64 0)
 			(effects
 				(font
@@ -18637,7 +18637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 117.983 52.07 0)
 			(effects
 				(font
@@ -18736,7 +18736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 65.913 184.15 0)
 			(effects
 				(font
@@ -18835,7 +18835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 112.903 52.07 0)
 			(effects
 				(font
@@ -18934,7 +18934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C565524.pdf"
 			(at 78.613 184.15 0)
 			(effects
 				(font
@@ -19033,7 +19033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 84.963 52.07 0)
 			(effects
 				(font
@@ -19132,7 +19132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 107.823 40.64 0)
 			(effects
 				(font
@@ -19231,7 +19231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 92.583 40.64 0)
 			(effects
 				(font
@@ -19460,7 +19460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C190187.pdf"
 			(at 104.013 184.15 0)
 			(effects
 				(font
@@ -19624,7 +19624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 115.443 52.07 0)
 			(effects
 				(font
@@ -19723,7 +19723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0201_X5R_AVX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C190187.pdf"
 			(at 111.633 184.15 0)
 			(effects
 				(font
@@ -19822,7 +19822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 135.763 40.64 0)
 			(effects
 				(font
@@ -19921,7 +19921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 143.383 52.07 0)
 			(effects
 				(font
@@ -20020,7 +20020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 138.303 52.07 0)
 			(effects
 				(font
@@ -20119,7 +20119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 128.143 40.64 0)
 			(effects
 				(font
@@ -20218,7 +20218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 123.063 52.07 0)
 			(effects
 				(font
@@ -20317,7 +20317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_VISHAY_CRCW e3.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25111.pdf"
 			(at 100.203 52.07 0)
 			(effects
 				(font

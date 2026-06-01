@@ -9298,7 +9298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 148.463 173.99 0)
 			(effects
 				(font
@@ -9461,7 +9461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\PCA9546A.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2649403.pdf"
 			(at 342.9 198.755 0)
 			(effects
 				(font
@@ -9596,7 +9596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 244.983 165.1 0)
 			(effects
 				(font
@@ -9887,7 +9887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 148.463 148.59 0)
 			(effects
 				(font
@@ -9986,7 +9986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 225.933 102.87 0)
 			(effects
 				(font
@@ -10085,7 +10085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 213.233 165.1 0)
 			(effects
 				(font
@@ -10184,7 +10184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 213.233 102.87 0)
 			(effects
 				(font
@@ -10283,7 +10283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 124.333 148.59 0)
 			(effects
 				(font
@@ -10382,7 +10382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 148.463 111.76 0)
 			(effects
 				(font
@@ -10546,7 +10546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 225.933 165.1 0)
 			(effects
 				(font
@@ -10843,7 +10843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 207.01 124.333 0)
 			(effects
 				(font
@@ -10942,7 +10942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\TYCO_1888247-1.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C305914.pdf"
 			(at 153.67 192.405 0)
 			(effects
 				(font
@@ -11086,7 +11086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 207.01 128.143 0)
 			(effects
 				(font
@@ -11185,7 +11185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 148.463 86.36 0)
 			(effects
 				(font
@@ -11282,7 +11282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C19267508.pdf"
 			(at 52.07 80.01 0)
 			(effects
 				(font
@@ -11440,7 +11440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 213.233 133.35 0)
 			(effects
 				(font
@@ -11539,7 +11539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 366.903 191.77 0)
 			(effects
 				(font
@@ -11639,7 +11639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_X5R_TDK_C.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C296720.pdf"
 			(at 137.033 173.99 0)
 			(effects
 				(font
@@ -11868,7 +11868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C140277.pdf"
 			(at 345.44 80.01 0)
 			(effects
 				(font
@@ -12027,7 +12027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_X5R_TDK_C.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C296720.pdf"
 			(at 137.033 148.59 0)
 			(effects
 				(font
@@ -12126,7 +12126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 124.333 86.36 0)
 			(effects
 				(font
@@ -12356,7 +12356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 213.233 193.04 0)
 			(effects
 				(font
@@ -12455,7 +12455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 219.583 102.87 0)
 			(effects
 				(font
@@ -12619,7 +12619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C60491.pdf"
 			(at 314.96 109.093 0)
 			(effects
 				(font
@@ -12782,7 +12782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 219.583 165.1 0)
 			(effects
 				(font
@@ -13008,7 +13008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C82314.pdf"
 			(at 121.92 78.74 0)
 			(effects
 				(font
@@ -13096,7 +13096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C60491.pdf"
 			(at 314.96 104.013 0)
 			(effects
 				(font
@@ -13589,7 +13589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 244.983 102.87 0)
 			(effects
 				(font
@@ -13688,7 +13688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 207.01 190.373 0)
 			(effects
 				(font
@@ -13788,7 +13788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_X5R_TDK_C.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C296720.pdf"
 			(at 137.033 111.76 0)
 			(effects
 				(font
@@ -13886,7 +13886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C60491.pdf"
 			(at 314.96 106.553 0)
 			(effects
 				(font
@@ -13980,7 +13980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C82314.pdf"
 			(at 121.92 104.14 0)
 			(effects
 				(font
@@ -14069,7 +14069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 207.01 186.563 0)
 			(effects
 				(font
@@ -14168,7 +14168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 362.077 167.64 0)
 			(effects
 				(font
@@ -14334,7 +14334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_X5R_TDK_C.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C296720.pdf"
 			(at 137.033 86.36 0)
 			(effects
 				(font
@@ -14433,7 +14433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 124.333 111.76 0)
 			(effects
 				(font
@@ -14532,7 +14532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 383.413 163.83 0)
 			(effects
 				(font
@@ -14631,7 +14631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 232.283 102.87 0)
 			(effects
 				(font
@@ -14791,7 +14791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C82314.pdf"
 			(at 121.92 166.37 0)
 			(effects
 				(font
@@ -14880,7 +14880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\TYCO_1888247-1.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C305914.pdf"
 			(at 153.67 130.175 0)
 			(effects
 				(font
@@ -15155,7 +15155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 124.333 173.99 0)
 			(effects
 				(font
@@ -15385,7 +15385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 364.363 138.43 0)
 			(effects
 				(font
@@ -15480,7 +15480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C82314.pdf"
 			(at 121.92 140.97 0)
 			(effects
 				(font
@@ -15634,7 +15634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 232.283 165.1 0)
 			(effects
 				(font

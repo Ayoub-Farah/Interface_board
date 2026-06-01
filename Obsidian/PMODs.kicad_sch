@@ -2152,7 +2152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C5333437.pdf"
 			(at 210.82 55.88 0)
 			(effects
 				(font
@@ -2268,7 +2268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C5333437.pdf"
 			(at 210.82 87.63 0)
 			(effects
 				(font
@@ -2776,7 +2776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C5333437.pdf"
 			(at 118.11 118.11 0)
 			(effects
 				(font
@@ -2892,7 +2892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C5333437.pdf"
 			(at 209.55 118.11 0)
 			(effects
 				(font

@@ -6950,7 +6950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_TYCO_CPF.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C1509615.pdf"
 			(at 247.65 74.803 0)
 			(effects
 				(font
@@ -7313,7 +7313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25081.pdf"
 			(at 247.65 84.963 0)
 			(effects
 				(font
@@ -7410,7 +7410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C82297.pdf"
 			(at 223.52 69.723 0)
 			(effects
 				(font
@@ -7572,7 +7572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C82297.pdf"
 			(at 223.52 32.893 0)
 			(effects
 				(font
@@ -7801,7 +7801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25081.pdf"
 			(at 247.65 32.893 0)
 			(effects
 				(font
@@ -7898,7 +7898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C82297.pdf"
 			(at 223.52 84.963 0)
 			(effects
 				(font
@@ -7995,7 +7995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C11702.pdf"
 			(at 228.727 76.2 0)
 			(effects
 				(font
@@ -8532,7 +8532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C11702.pdf"
 			(at 228.727 44.45 0)
 			(effects
 				(font
@@ -8694,7 +8694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25081.pdf"
 			(at 247.65 69.723 0)
 			(effects
 				(font
@@ -8856,7 +8856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_TYCO_CPF.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C1509615.pdf"
 			(at 247.65 90.043 0)
 			(effects
 				(font
@@ -9152,7 +9152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_TYCO_CPF.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C1509615.pdf"
 			(at 247.65 37.973 0)
 			(effects
 				(font
@@ -9382,7 +9382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C11702.pdf"
 			(at 228.727 24.13 0)
 			(effects
 				(font
@@ -9676,7 +9676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C82297.pdf"
 			(at 223.52 53.213 0)
 			(effects
 				(font
@@ -10172,7 +10172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25081.pdf"
 			(at 247.65 53.213 0)
 			(effects
 				(font
@@ -10595,7 +10595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_TYCO_CPF.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C1509615.pdf"
 			(at 247.65 58.293 0)
 			(effects
 				(font
@@ -10692,7 +10692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C11702.pdf"
 			(at 228.727 60.96 0)
 			(effects
 				(font
@@ -10787,7 +10787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2763968.pdf"
 			(at 66.04 148.59 0)
 			(effects
 				(font

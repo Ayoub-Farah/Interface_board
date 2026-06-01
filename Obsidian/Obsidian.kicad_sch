@@ -3359,7 +3359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C138033.pdf"
 			(at 115.316 179.07 0)
 			(effects
 				(font

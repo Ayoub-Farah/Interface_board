@@ -6608,7 +6608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C1521749.pdf"
 			(at 160.02 80.01 0)
 			(effects
 				(font

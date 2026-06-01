@@ -13543,7 +13543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 158.623 99.06 0)
 			(effects
 				(font
@@ -13924,7 +13924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 189.103 115.57 0)
 			(effects
 				(font
@@ -14090,7 +14090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 164.973 151.13 0)
 			(effects
 				(font
@@ -14189,7 +14189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 157.353 133.35 0)
 			(effects
 				(font
@@ -14288,7 +14288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 157.353 151.13 0)
 			(effects
 				(font
@@ -14387,7 +14387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_C0G_KEMET_(Commercial Grade).pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C70465.pdf"
 			(at 180.34 47.117 0)
 			(effects
 				(font
@@ -14552,7 +14552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 116.713 142.24 0)
 			(effects
 				(font
@@ -14717,7 +14717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C60490.pdf"
 			(at 102.997 63.5 0)
 			(effects
 				(font
@@ -14946,7 +14946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_C0G_KEMET_(Commercial Grade).pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C70465.pdf"
 			(at 180.34 59.817 0)
 			(effects
 				(font
@@ -15306,7 +15306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C60490.pdf"
 			(at 104.013 142.24 0)
 			(effects
 				(font
@@ -15471,7 +15471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0805_X5R_TDK_C.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C296720.pdf"
 			(at 128.143 142.24 0)
 			(effects
 				(font
@@ -15570,7 +15570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 164.973 133.35 0)
 			(effects
 				(font
@@ -15735,7 +15735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 161.29 19.177 0)
 			(effects
 				(font
@@ -15900,7 +15900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C60490.pdf"
 			(at 168.783 72.39 0)
 			(effects
 				(font
@@ -16454,7 +16454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C60490.pdf"
 			(at 175.133 72.39 0)
 			(effects
 				(font
@@ -16551,7 +16551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2906865.pdf"
 			(at 130.81 74.803 0)
 			(effects
 				(font
@@ -16712,7 +16712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C87122.pdf"
 			(at 58.42 151.638 0)
 			(effects
 				(font
@@ -16810,7 +16810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0402_MURATA_BLM15PX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C88970.pdf"
 			(at 160.02 116.713 0)
 			(effects
 				(font
@@ -16909,7 +16909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\XTAL_TXC_7A.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C112573.pdf"
 			(at 170.815 66.04 0)
 			(effects
 				(font
@@ -17073,7 +17073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 172.593 133.35 0)
 			(effects
 				(font
@@ -17236,7 +17236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25905.pdf"
 			(at 68.58 49.403 0)
 			(effects
 				(font
@@ -17399,7 +17399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 181.483 115.57 0)
 			(effects
 				(font
@@ -17498,7 +17498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 180.213 151.13 0)
 			(effects
 				(font
@@ -17597,7 +17597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 51.943 142.24 0)
 			(effects
 				(font
@@ -17695,7 +17695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\93C46B-ISN.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C1348804.pdf"
 			(at 143.51 98.425 0)
 			(effects
 				(font
@@ -17803,7 +17803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0402_MURATA_BLM15PX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C88970.pdf"
 			(at 31.75 143.383 0)
 			(effects
 				(font
@@ -17900,7 +17900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND0402_MURATA_BLM15PX.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C88970.pdf"
 			(at 160.02 102.743 0)
 			(effects
 				(font
@@ -18063,7 +18063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\IND_WURTH_WE-PMCI_74479276222C.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C5832344.pdf"
 			(at 81.28 142.875 0)
 			(effects
 				(font
@@ -18159,7 +18159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\FT2232HQ.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C193662.pdf"
 			(at 186.69 161.925 0)
 			(effects
 				(font
@@ -18435,7 +18435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C3020560.pdf"
 			(at 53.34 48.26 0)
 			(effects
 				(font
@@ -18568,7 +18568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 161.29 24.257 0)
 			(effects
 				(font
@@ -18667,7 +18667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\PRTR5V0U2X.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C5158049.pdf"
 			(at 108.585 69.85 0)
 			(effects
 				(font
@@ -18762,7 +18762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2909316.pdf"
 			(at 172.72 55.753 0)
 			(effects
 				(font
@@ -18992,7 +18992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2906865.pdf"
 			(at 85.344 143.51 0)
 			(effects
 				(font
@@ -19101,7 +19101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
 			(at 180.34 43.307 0)
 			(effects
 				(font
@@ -19265,7 +19265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_X5R_YAGEO_4VTO50V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C318563.pdf"
 			(at 181.483 101.6 0)
 			(effects
 				(font
@@ -19363,7 +19363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\R0402_Phycomp_RC0402.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C25905.pdf"
 			(at 68.58 46.863 0)
 			(effects
 				(font
@@ -19461,7 +19461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 172.593 151.13 0)
 			(effects
 				(font
@@ -19755,7 +19755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\CC0402_MURATA_GRM155R71H104KE14D.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C110251.pdf"
 			(at 189.103 101.6 0)
 			(effects
 				(font
