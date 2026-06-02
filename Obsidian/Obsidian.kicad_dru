@@ -63,3 +63,10 @@
 	(constraint track_width (min 0.12mm) (max 0.13mm) (opt 0.12mm) )
 	(condition "A.NetClass == 'SPI'")
 )
+
+# ====== Earth =====
+
+(rule "Earth clearance to all other nets"
+    (severity error)
+    (condition "A.NetName == 'Earth' && B.NetName != 'Earth'")
+    (constraint clearance (min 0.5mm)))

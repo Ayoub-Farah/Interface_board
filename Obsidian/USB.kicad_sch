@@ -12380,6 +12380,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 71.12) (xy 41.91 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bc2a84d-10bc-4c7d-a6d2-59a9d359fa25")
+	)
+	(wire
+		(pts
 			(xy 166.37 63.5) (xy 160.02 63.5)
 		)
 		(stroke
@@ -12607,6 +12617,16 @@
 			(type default)
 		)
 		(uuid "9ea80cd3-7cb9-4581-951c-cfa4b4923364")
+	)
+	(wire
+		(pts
+			(xy 30.48 74.93) (xy 41.91 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff45030-fc2d-4c7b-bc1b-cc5732715d8a")
 	)
 	(wire
 		(pts
@@ -12940,6 +12960,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 74.93) (xy 49.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d3c9d8-80af-4713-b203-89d41ce783f5")
+	)
+	(wire
+		(pts
 			(xy 95.25 142.24) (xy 85.09 142.24)
 		)
 		(stroke
@@ -13267,6 +13297,16 @@
 			(justify left bottom)
 		)
 		(uuid "f218d3a5-2d0d-4bd6-a4ae-10c1ddcd35a5")
+	)
+	(label "Shield_USB"
+		(at 30.48 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f763d721-57d5-4538-9271-ac5870024622")
 	)
 	(hierarchical_label "{USB_SERIAL}"
 		(shape bidirectional)
@@ -14449,72 +14489,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library_Symbol:GND")
-		(at 41.91 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "242cbb6c-25a5-418d-83e6-6f2bb1f9c542")
-		(property "Reference" "#PWR090"
-			(at 41.91 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce41f979-4ede-4f55-b9fa-cb9cc61f8051")
-		)
-		(instances
-			(project "Marble_Tiny"
-				(path "/c2a4f786-b14c-434a-acf7-b20fb2221b0b/62565c75-62b0-4544-832f-1275174835af"
-					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Library_Symbol:CC0402_100NF_50V_10%_X7R")
 		(at 106.68 142.24 90)
 		(unit 1)
@@ -15205,7 +15179,7 @@
 	)
 	(symbol
 		(lib_id "Library_Symbol:GND")
-		(at 49.53 71.12 0)
+		(at 49.53 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15214,7 +15188,7 @@
 		(fields_autoplaced yes)
 		(uuid "46e0ac93-41a7-4ac3-9bdb-b7d663638f35")
 		(property "Reference" "#PWR089"
-			(at 49.53 77.47 0)
+			(at 49.53 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15223,7 +15197,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 76.2 0)
+			(at 49.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15231,7 +15205,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 71.12 0)
+			(at 49.53 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15240,7 +15214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 71.12 0)
+			(at 49.53 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15249,7 +15223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 71.12 0)
+			(at 49.53 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

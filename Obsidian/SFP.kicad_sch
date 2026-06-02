@@ -10758,7 +10758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "Shield_SFP"
 			(at 67.31 165.1 0)
 			(effects
 				(font

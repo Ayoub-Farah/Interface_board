@@ -573,86 +573,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3.65 -3.65)
-		(end 3.65 -3.65)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "9c5c72d0-f5c1-4980-bd07-ade46f3a546d")
-	)
-	(fp_line
-		(start -3.65 3.65)
-		(end -3.65 -3.65)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "de68ccd0-9ed3-4b03-ae5f-55e140803958")
-	)
-	(fp_line
-		(start -3.65 3.65)
-		(end 3.65 3.65)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "974b9d38-1103-4913-9ead-e17d42e573de")
-	)
-	(fp_line
-		(start -2.625 -2.625)
-		(end 2.625 -2.625)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "9cbdb101-15e2-4b3b-885b-b00d9411037b")
-	)
-	(fp_line
-		(start -2.625 2.625)
-		(end -2.625 -2.625)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "8a179fc8-2544-4470-a86e-b9835727b9cb")
-	)
-	(fp_line
-		(start -2.625 2.625)
-		(end 2.625 2.625)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "fb7a5646-618a-4b54-bdfd-853e507e0ee1")
-	)
-	(fp_line
-		(start 2.625 2.625)
-		(end 2.625 -2.625)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "906fa2e5-7ba1-40c5-bdaa-5caf8c9dee9d")
-	)
-	(fp_line
-		(start 3.65 3.65)
-		(end 3.65 -3.65)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Cu")
-		(uuid "41e5dd59-05f7-4f07-a3a9-ec0d33e6f6bf")
-	)
-	(fp_line
 		(start -4.5 -4.3)
 		(end -4.3 -4.5)
 		(stroke
@@ -1297,6 +1217,39 @@
 		(size 4.45 4.45)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "42e45149-6b56-4fbe-895e-2ff7cc5c8fef")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "330275d4-8fe2-4b6e-8f8e-e734bcf0d12c")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 3.65 3.65) (xy -3.65 3.65) (xy -3.65 2.625) (xy -2.625 2.625) (xy 2.625 2.625) (xy 2.625 -2.625)
+				(xy -2.625 -2.625) (xy -2.625 2.625) (xy -3.65 2.625) (xy -3.65 -3.65) (xy 3.65 -3.65)
+			)
+		)
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/3D_folder/FT2232HQ-REEL.STEP"
