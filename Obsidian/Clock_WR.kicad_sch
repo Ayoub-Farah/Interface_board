@@ -19691,7 +19691,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "0"
+		(property "FT Rotation Offset" "270"
 			(at 196.85 22.86 0)
 			(effects
 				(font
@@ -20448,6 +20448,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -22334,7 +22335,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CC0603_10UF_6.3V_20%_Y5V"
+		(property "Value" "CC0805_10UF_6.3V_20%_Y5V"
 			(at 166.116 66.04 0)
 			(effects
 				(font
@@ -22344,7 +22345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 145.542 66.04 0)
 			(effects
 				(font
@@ -22401,7 +22402,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C527365"
+		(property "LCSC" "C88484"
 			(at 172.72 66.04 90)
 			(effects
 				(font
@@ -26511,7 +26512,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CC0603_10UF_6.3V_20%_Y5V"
+		(property "Value" "CC0805_10UF_6.3V_20%_Y5V"
 			(at 172.466 66.04 0)
 			(effects
 				(font
@@ -26521,7 +26522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 151.892 66.04 0)
 			(effects
 				(font
@@ -26578,7 +26579,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C527365"
+		(property "LCSC" "C88484"
 			(at 179.07 66.04 90)
 			(effects
 				(font
@@ -26656,6 +26657,15 @@
 			)
 		)
 		(property "LCSC" "C32090"
+			(at 86.36 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 86.36 16.51 0)
 			(effects
 				(font

@@ -19556,7 +19556,7 @@
 				(hide yes)
 			)
 		)
-		(property "FT Rotation Offset" "270"
+		(property "FT Rotation Offset" "0"
 			(at 227.33 81.28 0)
 			(effects
 				(font
@@ -21684,6 +21684,15 @@
 			)
 		)
 		(property "LCSC" "C5245379"
+			(at 48.26 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "-0.8255,0.0"
 			(at 48.26 20.32 90)
 			(effects
 				(font
