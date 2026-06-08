@@ -2016,7 +2016,7 @@
 	)
 	(text "I2C ADDRESS"
 		(exclude_from_sim no)
-		(at -99.314 12.446 0)
+		(at -95.25 40.894 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2037,7 +2037,7 @@
 	)
 	(text "The PCB stackup : JLC08201H-3313 "
 		(exclude_from_sim no)
-		(at -95.504 62.992 0)
+		(at -91.44 91.44 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2800,7 +2800,7 @@
 		(uuid "fc1373f4-c2c3-49ab-8fb1-092f798e73e3")
 	)
 	(image
-		(at -96.52 95.25)
+		(at -92.456 123.698)
 		(uuid "4f1567bd-9175-4fd8-8bb3-e6ee5f8f7642")
 		(data "iVBORw0KGgoAAAANSUhEUgAABUgAAAJ3CAYAAABGCbtUAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3XdUFFcbwOGfAbGgoChYsJGoKDYULBhUEFARUWM3dqOxRT9rjL1rYmKJUezGrrHGhhVFwQ72"
@@ -4552,7 +4552,7 @@
 		(cells
 			(table_cell "Reference"
 				(exclude_from_sim no)
-				(at -158.75 17.78 0)
+				(at -154.686 46.228 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4569,7 +4569,7 @@
 			)
 			(table_cell "Components"
 				(exclude_from_sim no)
-				(at -134.62 17.78 0)
+				(at -130.556 46.228 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4586,7 +4586,7 @@
 			)
 			(table_cell "Functions"
 				(exclude_from_sim no)
-				(at -110.49 17.78 0)
+				(at -106.426 46.228 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4603,7 +4603,7 @@
 			)
 			(table_cell "Sheet Kicad"
 				(exclude_from_sim no)
-				(at -86.36 17.78 0)
+				(at -82.296 46.228 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4620,7 +4620,7 @@
 			)
 			(table_cell "I2C address"
 				(exclude_from_sim no)
-				(at -62.23 17.78 0)
+				(at -58.166 46.228 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4637,7 +4637,7 @@
 			)
 			(table_cell "U17"
 				(exclude_from_sim no)
-				(at -158.75 20.32 0)
+				(at -154.686 48.768 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4654,7 +4654,7 @@
 			)
 			(table_cell "TCA9555RTWR"
 				(exclude_from_sim no)
-				(at -134.62 20.32 0)
+				(at -130.556 48.768 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4671,7 +4671,7 @@
 			)
 			(table_cell "GPIO expander I2C"
 				(exclude_from_sim no)
-				(at -110.49 20.32 0)
+				(at -106.426 48.768 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4688,7 +4688,7 @@
 			)
 			(table_cell "SFP"
 				(exclude_from_sim no)
-				(at -86.36 20.32 0)
+				(at -82.296 48.768 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4705,7 +4705,7 @@
 			)
 			(table_cell "0x20"
 				(exclude_from_sim no)
-				(at -62.23 20.32 0)
+				(at -58.166 48.768 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4722,7 +4722,7 @@
 			)
 			(table_cell "U26"
 				(exclude_from_sim no)
-				(at -158.75 22.86 0)
+				(at -154.686 51.308 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4739,7 +4739,7 @@
 			)
 			(table_cell "PCA9546ARGV"
 				(exclude_from_sim no)
-				(at -134.62 22.86 0)
+				(at -130.556 51.308 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4756,7 +4756,7 @@
 			)
 			(table_cell "I2C switch / mux"
 				(exclude_from_sim no)
-				(at -110.49 22.86 0)
+				(at -106.426 51.308 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4773,7 +4773,7 @@
 			)
 			(table_cell "SFP"
 				(exclude_from_sim no)
-				(at -86.36 22.86 0)
+				(at -82.296 51.308 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4790,7 +4790,7 @@
 			)
 			(table_cell "0x70"
 				(exclude_from_sim no)
-				(at -62.23 22.86 0)
+				(at -58.166 51.308 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4807,7 +4807,7 @@
 			)
 			(table_cell "U28"
 				(exclude_from_sim no)
-				(at -158.75 25.4 0)
+				(at -154.686 53.848 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4824,7 +4824,7 @@
 			)
 			(table_cell "24AA256UID-I/ST"
 				(exclude_from_sim no)
-				(at -134.62 25.4 0)
+				(at -130.556 53.848 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4841,7 +4841,7 @@
 			)
 			(table_cell "EEPROM / unique ID"
 				(exclude_from_sim no)
-				(at -110.49 25.4 0)
+				(at -106.426 53.848 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4858,7 +4858,7 @@
 			)
 			(table_cell "FPGA"
 				(exclude_from_sim no)
-				(at -86.36 25.4 0)
+				(at -82.296 53.848 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4875,7 +4875,7 @@
 			)
 			(table_cell "0x50"
 				(exclude_from_sim no)
-				(at -62.23 25.4 0)
+				(at -58.166 53.848 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4892,7 +4892,7 @@
 			)
 			(table_cell "U3"
 				(exclude_from_sim no)
-				(at -158.75 27.94 0)
+				(at -154.686 56.388 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4909,7 +4909,7 @@
 			)
 			(table_cell "Si5351A-B-GT"
 				(exclude_from_sim no)
-				(at -134.62 27.94 0)
+				(at -130.556 56.388 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4926,7 +4926,7 @@
 			)
 			(table_cell "Clock generator I2C"
 				(exclude_from_sim no)
-				(at -110.49 27.94 0)
+				(at -106.426 56.388 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4943,7 +4943,7 @@
 			)
 			(table_cell "Clock-WR"
 				(exclude_from_sim no)
-				(at -86.36 27.94 0)
+				(at -82.296 56.388 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4960,7 +4960,7 @@
 			)
 			(table_cell "0x60"
 				(exclude_from_sim no)
-				(at -62.23 27.94 0)
+				(at -58.166 56.388 0)
 				(size 24.13 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4977,7 +4977,7 @@
 			)
 			(table_cell "J12"
 				(exclude_from_sim no)
-				(at -158.75 30.48 0)
+				(at -154.686 58.928 0)
 				(size 24.13 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4994,7 +4994,7 @@
 			)
 			(table_cell "SFP0 module"
 				(exclude_from_sim no)
-				(at -134.62 30.48 0)
+				(at -130.556 58.928 0)
 				(size 24.13 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5011,7 +5011,7 @@
 			)
 			(table_cell "SFP EEPROM A0h - serial ID"
 				(exclude_from_sim no)
-				(at -110.49 30.48 0)
+				(at -106.426 58.928 0)
 				(size 24.13 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5028,7 +5028,7 @@
 			)
 			(table_cell "SFP"
 				(exclude_from_sim no)
-				(at -86.36 30.48 0)
+				(at -82.296 58.928 0)
 				(size 24.13 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5045,7 +5045,7 @@
 			)
 			(table_cell "0x50"
 				(exclude_from_sim no)
-				(at -62.23 30.48 0)
+				(at -58.166 58.928 0)
 				(size 24.13 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5062,7 +5062,7 @@
 			)
 			(table_cell "J12"
 				(exclude_from_sim no)
-				(at -158.75 35.56 0)
+				(at -154.686 64.008 0)
 				(size 24.13 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5079,7 +5079,7 @@
 			)
 			(table_cell "SFP0 module"
 				(exclude_from_sim no)
-				(at -134.62 35.56 0)
+				(at -130.556 64.008 0)
 				(size 24.13 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5096,7 +5096,7 @@
 			)
 			(table_cell "SFP EEPROM A2h - diagnostics/DDM"
 				(exclude_from_sim no)
-				(at -110.49 35.56 0)
+				(at -106.426 64.008 0)
 				(size 24.13 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5113,7 +5113,7 @@
 			)
 			(table_cell "SFP"
 				(exclude_from_sim no)
-				(at -86.36 35.56 0)
+				(at -82.296 64.008 0)
 				(size 24.13 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5130,7 +5130,7 @@
 			)
 			(table_cell "0x51"
 				(exclude_from_sim no)
-				(at -62.23 35.56 0)
+				(at -58.166 64.008 0)
 				(size 24.13 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5147,7 +5147,7 @@
 			)
 			(table_cell "J1"
 				(exclude_from_sim no)
-				(at -158.75 40.64 0)
+				(at -154.686 69.088 0)
 				(size 24.13 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5164,7 +5164,7 @@
 			)
 			(table_cell "SFP1 module"
 				(exclude_from_sim no)
-				(at -134.62 40.64 0)
+				(at -130.556 69.088 0)
 				(size 24.13 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5181,7 +5181,7 @@
 			)
 			(table_cell "SFP EEPROM A0h - serial ID"
 				(exclude_from_sim no)
-				(at -110.49 40.64 0)
+				(at -106.426 69.088 0)
 				(size 24.13 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5198,7 +5198,7 @@
 			)
 			(table_cell "SFP"
 				(exclude_from_sim no)
-				(at -86.36 40.64 0)
+				(at -82.296 69.088 0)
 				(size 24.13 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5215,7 +5215,7 @@
 			)
 			(table_cell "0x50"
 				(exclude_from_sim no)
-				(at -62.23 40.64 0)
+				(at -58.166 69.088 0)
 				(size 24.13 5.08)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5232,7 +5232,7 @@
 			)
 			(table_cell "J1"
 				(exclude_from_sim no)
-				(at -158.75 45.72 0)
+				(at -154.686 74.168 0)
 				(size 24.13 6.35)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5249,7 +5249,7 @@
 			)
 			(table_cell "SFP1 module"
 				(exclude_from_sim no)
-				(at -134.62 45.72 0)
+				(at -130.556 74.168 0)
 				(size 24.13 6.35)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5266,7 +5266,7 @@
 			)
 			(table_cell "SFP EEPROM A2h - diagnostics/DDM"
 				(exclude_from_sim no)
-				(at -110.49 45.72 0)
+				(at -106.426 74.168 0)
 				(size 24.13 6.35)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5283,7 +5283,7 @@
 			)
 			(table_cell "SFP"
 				(exclude_from_sim no)
-				(at -86.36 45.72 0)
+				(at -82.296 74.168 0)
 				(size 24.13 6.35)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -5300,7 +5300,7 @@
 			)
 			(table_cell "0x51"
 				(exclude_from_sim no)
-				(at -62.23 45.72 0)
+				(at -58.166 74.168 0)
 				(size 24.13 6.35)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
