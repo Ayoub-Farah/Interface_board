@@ -1183,6 +1183,12 @@
           "label": "Val",
           "name": "Val",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Position Offset",
+          "name": "FT Position Offset",
+          "show": false
         }
       ],
       "filter_string": "",
