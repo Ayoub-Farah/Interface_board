@@ -19520,7 +19520,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RT9045AGSP / AP2303"
+		(property "Value" "DIODES AP2303MPTR-G1"
 			(at 214.63 91.44 0)
 			(effects
 				(font
@@ -19538,7 +19538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C3249960.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C526364.pdf"
 			(at 227.33 81.28 0)
 			(effects
 				(font
@@ -19565,7 +19565,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3249960"
+		(property "LCSC" "C526364"
 			(at 227.33 81.28 0)
 			(effects
 				(font
@@ -28031,7 +28031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:SOT95P280X145-5N"
+		(property "Footprint" "Footprint:SOT95P280X145-5N"
 			(at 257.556 52.578 0)
 			(effects
 				(font
@@ -30466,7 +30466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:SOT95P280X145-5N"
+		(property "Footprint" "Footprint:SOT95P280X145-5N"
 			(at 238.506 32.258 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-26542799020304385
+26544598968865860
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60387,7 +60387,7 @@ CONN-SMD_YXT-BB10-40S-02
 
 0
 44
-44
+41
 Footprint
 CONN-TH_2604-1104
 
@@ -60423,6 +60423,13 @@ BGA 96 0.8 DDR3 DDR3L DDR4
 0
 96
 96
+Footprint
+Guard rails
+
+
+0
+22
+1
 Footprint
 INDC1005X55N
 Chip Inductor, 2-Leads, EIA 0402, Metric 1005, Body 1x0.5mm, 0402IPC Medium Density
@@ -60722,8 +60729,8 @@ TE_2180739-1
 
 
 0
-25
-25
+21
+21
 Footprint
 TE_2180739-1_1
 

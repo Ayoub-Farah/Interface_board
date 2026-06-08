@@ -17659,7 +17659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ICs And Semiconductors SMD:SOIC127P600X175-8N"
+		(property "Footprint" "Footprint:SOIC127P600X175-8N"
 			(at 143.51 96.52 0)
 			(effects
 				(font

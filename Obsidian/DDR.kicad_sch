@@ -17951,8 +17951,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MT41K512M16HA-125_E / MT41K512M16VRP-107 IT:P"
-			(at 149.098 146.05 0)
+		(property "Value" "MT41K256M16TW-107 IT:P"
+			(at 152.4 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17969,7 +17969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C2831669.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C367428.pdf"
 			(at 163.83 26.67 0)
 			(effects
 				(font
@@ -17996,7 +17996,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2831669"
+		(property "LCSC" "C367428"
 			(at 165.1 95.25 0)
 			(effects
 				(font
