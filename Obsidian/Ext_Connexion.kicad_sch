@@ -8044,7 +8044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C11702.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C144789.pdf"
 			(at 228.727 76.2 0)
 			(effects
 				(font
@@ -8080,7 +8080,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C144789"
 			(at 237.49 76.2 0)
 			(effects
 				(font
@@ -8646,7 +8646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C11702.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C144789.pdf"
 			(at 228.727 44.45 0)
 			(effects
 				(font
@@ -8682,7 +8682,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C144789"
 			(at 237.49 44.45 0)
 			(effects
 				(font
@@ -9496,7 +9496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C11702.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C144789.pdf"
 			(at 228.727 24.13 0)
 			(effects
 				(font
@@ -9532,7 +9532,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C144789"
 			(at 237.49 24.13 0)
 			(effects
 				(font
@@ -10806,7 +10806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C11702.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C144789.pdf"
 			(at 228.727 60.96 0)
 			(effects
 				(font
@@ -10842,7 +10842,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C144789"
 			(at 237.49 60.96 0)
 			(effects
 				(font

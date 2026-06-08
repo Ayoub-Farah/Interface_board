@@ -20490,7 +20490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2906869.pdf"
 			(at 280.543 236.22 0)
 			(effects
 				(font
@@ -20527,7 +20527,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C2906869"
 			(at 271.78 236.22 90)
 			(effects
 				(font
@@ -20916,7 +20916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C60490.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2077241.pdf"
 			(at 196.723 257.81 0)
 			(effects
 				(font
@@ -20952,7 +20952,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60490"
+		(property "LCSC" "C2077241"
 			(at 187.96 257.81 0)
 			(effects
 				(font
@@ -21276,7 +21276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C60490.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2077241.pdf"
 			(at 232.283 257.81 0)
 			(effects
 				(font
@@ -21312,7 +21312,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60490"
+		(property "LCSC" "C2077241"
 			(at 223.52 257.81 0)
 			(effects
 				(font
@@ -21374,7 +21374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2906869.pdf"
 			(at 304.673 236.22 0)
 			(effects
 				(font
@@ -21411,7 +21411,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C2906869"
 			(at 295.91 236.22 90)
 			(effects
 				(font
@@ -21473,7 +21473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2906869.pdf"
 			(at 297.053 236.22 0)
 			(effects
 				(font
@@ -21510,7 +21510,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C2906869"
 			(at 288.29 236.22 90)
 			(effects
 				(font
@@ -23477,7 +23477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C60490.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2077241.pdf"
 			(at 223.393 236.22 0)
 			(effects
 				(font
@@ -23513,7 +23513,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60490"
+		(property "LCSC" "C2077241"
 			(at 214.63 236.22 0)
 			(effects
 				(font
@@ -25307,7 +25307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2906869.pdf"
 			(at 289.433 236.22 0)
 			(effects
 				(font
@@ -25344,7 +25344,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C2906869"
 			(at 280.67 236.22 90)
 			(effects
 				(font
@@ -25919,7 +25919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C11702.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C144789.pdf"
 			(at 59.563 82.55 0)
 			(effects
 				(font
@@ -25955,7 +25955,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C144789"
 			(at 50.8 82.55 0)
 			(effects
 				(font
@@ -26642,7 +26642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C60490.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2077241.pdf"
 			(at 187.833 236.22 0)
 			(effects
 				(font
@@ -26678,7 +26678,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60490"
+		(property "LCSC" "C2077241"
 			(at 179.07 236.22 0)
 			(effects
 				(font

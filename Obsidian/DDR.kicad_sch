@@ -16294,7 +16294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C25900.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C2906869.pdf"
 			(at 148.463 142.24 0)
 			(effects
 				(font
@@ -16330,7 +16330,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C2906869"
 			(at 139.7 142.24 90)
 			(effects
 				(font
@@ -16470,7 +16470,7 @@
 				)
 			)
 		)
-		(property "Value" "R0402_80R6_1%_0.1W_100PPM"
+		(property "Value" "R0402_80R6_1%_0.0625W_100PPM"
 			(at 105.41 114.173 0)
 			(effects
 				(font
@@ -16490,7 +16490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/datasheet/C2077034.pdf"
+		(property "Datasheet" "${KIPRJMOD}/datasheet/C185392.pdf"
 			(at 105.41 117.983 0)
 			(effects
 				(font
@@ -16526,7 +16526,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2077034"
+		(property "LCSC" "C185392"
 			(at 105.41 109.22 0)
 			(effects
 				(font
