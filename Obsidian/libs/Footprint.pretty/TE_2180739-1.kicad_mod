@@ -5860,6 +5860,206 @@
 		(uuid "ea06305f-0a9a-4c4a-addf-489b483e85db")
 	)
 	(fp_line
+		(start -15.55 -7.35)
+		(end -15.55 35.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "97b3197b-de6c-4245-9499-dfce7c045900")
+	)
+	(fp_line
+		(start -15.55 35.4)
+		(end 15.55 35.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce536329-880a-44c9-9ceb-49496a9317e1")
+	)
+	(fp_line
+		(start -13.207257 -6.271708)
+		(end -10.332257 -6.271708)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3cf1576e-c9f9-462f-81e3-2e41d9c99523")
+	)
+	(fp_line
+		(start -13.207257 8.228292)
+		(end -13.207257 -6.271708)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4fd40c4-9092-4699-88dd-653ab19e4093")
+	)
+	(fp_line
+		(start -10.332257 -7.35)
+		(end -15.55 -7.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "47566e2e-5bc6-45b4-8002-1685ec2c4ed2")
+	)
+	(fp_line
+		(start -10.332257 -6.271708)
+		(end -10.332257 -7.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b614f84-6ef8-451e-8a98-64bde9b7867b")
+	)
+	(fp_line
+		(start -3.832257 -7.35)
+		(end -3.832257 -6.271708)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2bbd8363-3f78-4886-a303-f99f72539df9")
+	)
+	(fp_line
+		(start -3.832257 -6.271708)
+		(end -0.957257 -6.271708)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "27dde1ff-5d8e-4979-9d77-ff0b0349370d")
+	)
+	(fp_line
+		(start -0.957257 -6.271708)
+		(end -0.957257 8.228292)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ffa39eb8-d348-49a1-b654-ad5f5a4e0a70")
+	)
+	(fp_line
+		(start -0.957257 8.228292)
+		(end -13.207257 8.228292)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "019692a1-cbe0-40a8-a2d1-977f2848204c")
+	)
+	(fp_line
+		(start 1.042743 -6.271708)
+		(end 3.917743 -6.271708)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c3e2fca0-2b9b-46ea-b8c1-010878b071aa")
+	)
+	(fp_line
+		(start 1.042743 8.228292)
+		(end 1.042743 -6.271708)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a7aaf23-caa7-4bcc-b2d6-2fe6d4a0c593")
+	)
+	(fp_line
+		(start 3.917743 -7.35)
+		(end -3.832257 -7.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "79f565fe-0141-452d-b694-0d4dde6bd741")
+	)
+	(fp_line
+		(start 3.917743 -6.271708)
+		(end 3.917743 -7.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "799fe147-e081-43ce-a09c-99cd697a60de")
+	)
+	(fp_line
+		(start 10.417743 -7.35)
+		(end 10.417743 -6.271708)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "64f2689b-2759-4c5c-98e1-8d3f4fa9ccfb")
+	)
+	(fp_line
+		(start 10.417743 -6.271708)
+		(end 13.292743 -6.271708)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6777c831-9edb-4d62-9693-8895a8f04817")
+	)
+	(fp_line
+		(start 13.292743 -6.271708)
+		(end 13.292743 8.228292)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3ecfaa5-da1b-408a-a57e-7cd7e8d533bd")
+	)
+	(fp_line
+		(start 13.292743 8.228292)
+		(end 1.042743 8.228292)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "43dad185-3a4c-4317-9fb0-a7a2acff8a30")
+	)
+	(fp_line
+		(start 15.55 -7.35)
+		(end 10.417743 -7.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7c154fc-b369-457f-a46e-6b0e58c67e76")
+	)
+	(fp_line
+		(start 15.55 35.4)
+		(end 15.55 -7.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "21029c8c-fa65-4440-a61b-cc7d85808908")
+	)
+	(fp_line
 		(start -14.725 35.4)
 		(end -14.725 -6.775)
 		(stroke
@@ -6297,7 +6497,7 @@
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
-			(pads not_allowed)
+			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
 		)

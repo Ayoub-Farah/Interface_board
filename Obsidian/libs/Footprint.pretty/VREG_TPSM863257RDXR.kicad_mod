@@ -1262,7 +1262,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "B.Fab")
+		(layer "F.CrtYd")
 		(uuid "4f30fdba-5d60-4efe-ae19-e03e91f89ee6")
 	)
 	(fp_line
@@ -1272,7 +1272,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "B.Fab")
+		(layer "F.CrtYd")
 		(uuid "87eed384-2274-4c9c-9d1b-116b60826d54")
 	)
 	(fp_line
@@ -1282,7 +1282,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "B.Fab")
+		(layer "F.CrtYd")
 		(uuid "21449de1-9b0e-480a-b262-713e2f0fd7db")
 	)
 	(fp_line
@@ -1292,7 +1292,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "B.Fab")
+		(layer "F.CrtYd")
 		(uuid "b792556c-6caf-45dd-b182-84275076661f")
 	)
 	(fp_circle

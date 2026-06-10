@@ -4437,8 +4437,8 @@
 			)
 			(symbol "root_0_2180739-1_1_0"
 				(rectangle
-					(start 10.16 -12.7)
-					(end -10.16 -78.74)
+					(start -10.16 -12.7)
+					(end 10.16 -78.74)
 					(stroke
 						(width 0.0254)
 						(type solid)
@@ -4755,42 +4755,6 @@
 					)
 				)
 				(pin power_in line
-					(at 15.24 -58.42 180)
-					(length 5.08)
-					(name "CHASSIS_GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -60.96 180)
-					(length 5.08)
-					(name "CHASSIS_GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 15.24 -63.5 180)
 					(length 5.08)
 					(name "CHASSIS_GND2"
@@ -4801,42 +4765,6 @@
 						)
 					)
 					(number "SH20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -66.04 180)
-					(length 5.08)
-					(name "CHASSIS_GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -68.58 180)
-					(length 5.08)
-					(name "CHASSIS_GND2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6244,22 +6172,10 @@
 		(uuid "510f83f8-337b-4fb5-bf63-7d366e847bf8")
 	)
 	(junction
-		(at 67.31 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56b6424f-0573-49b2-ac56-4d6e9293a165")
-	)
-	(junction
 		(at 67.31 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5938861e-ad80-447b-80e9-9983c29d19a0")
-	)
-	(junction
-		(at 67.31 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64060f7f-70aa-4b41-b6e1-d8b1650966ff")
 	)
 	(junction
 		(at 67.31 113.03)
@@ -6382,12 +6298,6 @@
 		(uuid "9df8d0a1-5ce0-48f3-a045-648aa36c6c2a")
 	)
 	(junction
-		(at 67.31 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fbc12e1-883d-4390-81bb-cc2aff615ea7")
-	)
-	(junction
 		(at 223.52 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6428,12 +6338,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb9abe65-da87-41a7-af5d-0503ec72870c")
-	)
-	(junction
-		(at 67.31 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bca32611-42a6-48ed-bcae-6ed0b7b54cfa")
 	)
 	(junction
 		(at 67.31 133.35)
@@ -7042,16 +6946,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 146.05) (xy 67.31 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3334ce87-9cbd-49a2-b49d-7c5b71ee8c38")
-	)
-	(wire
-		(pts
 			(xy 245.11 88.9) (xy 186.69 88.9)
 		)
 		(stroke
@@ -7562,16 +7456,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 148.59) (xy 67.31 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7480dada-1221-44f2-b606-60c07d2eb6dd")
-	)
-	(wire
-		(pts
 			(xy 184.15 81.28) (xy 184.15 83.82)
 		)
 		(stroke
@@ -7589,16 +7473,6 @@
 			(type default)
 		)
 		(uuid "778e47e9-3a27-4b15-a8df-cdaa6f0447f4")
-	)
-	(wire
-		(pts
-			(xy 67.31 138.43) (xy 67.31 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77ada4ef-03b1-4439-8079-06057171305a")
 	)
 	(polyline
 		(pts
@@ -8102,16 +7976,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 140.97) (xy 67.31 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c129d552-18b1-49e4-b7fb-bc50bdffa636")
-	)
-	(wire
-		(pts
 			(xy 314.96 95.25) (xy 311.15 95.25)
 		)
 		(stroke
@@ -8362,7 +8226,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 143.51) (xy 67.31 146.05)
+			(xy 67.31 143.51) (xy 67.31 151.13)
 		)
 		(stroke
 			(width 0)
@@ -8612,7 +8476,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 135.89) (xy 67.31 138.43)
+			(xy 67.31 135.89) (xy 67.31 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11324,12 +11188,6 @@
 		(pin "SH20"
 			(uuid "e3db3be1-ad21-4be3-a609-d47baf64653f")
 		)
-		(pin "SH21"
-			(uuid "70a7cbd9-1df2-49d8-94ac-d474428b5b99")
-		)
-		(pin "SH18"
-			(uuid "07aa282a-5248-4b7c-8246-9a0cda945bce")
-		)
 		(pin "SH7"
 			(uuid "339117d2-0009-4556-8389-7d555a2d472f")
 		)
@@ -11338,9 +11196,6 @@
 		)
 		(pin "SH3"
 			(uuid "caed1846-ce97-4ed2-b98b-d78f8a1ac989")
-		)
-		(pin "SH19"
-			(uuid "6c3ce6f1-6434-43ed-bdca-71f02835f9d4")
 		)
 		(pin "SH17"
 			(uuid "fe088423-228f-4ae2-ad2c-5d38bbf1ef00")
@@ -11386,9 +11241,6 @@
 		)
 		(pin "SH23"
 			(uuid "6a53782d-0480-4eb1-8fd6-538bbe56560d")
-		)
-		(pin "SH22"
-			(uuid "956d5cdf-ea74-4dd2-9565-5bacc76c564a")
 		)
 		(pin "SH25"
 			(uuid "8761ce25-4444-4fa9-84ec-1119e48f25d6")

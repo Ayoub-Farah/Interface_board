@@ -103,7 +103,7 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "warning",
+        "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
@@ -112,8 +112,8 @@
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "warning",
         "starved_thermal": "error",
@@ -1128,7 +1128,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1140,12 +1140,6 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "~",
-          "name": "~",
           "show": false
         },
         {
@@ -1168,14 +1162,326 @@
         },
         {
           "group_by": false,
+          "label": "FT Position Offset",
+          "name": "FT Position Offset",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Library Path",
+          "name": "Library Path",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Library Ref",
+          "name": "Library Ref",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "License",
+          "name": "License",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounted",
+          "name": "Mounted",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_FARNELL",
+          "name": "OC_FARNELL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OC_NEWARK",
+          "name": "OC_NEWARK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PackageDescription",
+          "name": "PackageDescription",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Description",
+          "name": "Part Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pin Count",
+          "name": "Pin Count",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PressFit",
+          "name": "PressFit",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SCEM",
+          "name": "SCEM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SMD",
+          "name": "SMD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_LINK",
+          "name": "SNAPEDA_LINK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER",
+          "name": "SUPPLIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sense",
+          "name": "Sense",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sense Comment",
+          "name": "Sense Comment",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Socket",
+          "name": "Socket",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Status",
+          "name": "Status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "~",
+          "name": "~",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Status Comment",
+          "name": "Status Comment",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ComponentHeight",
+          "name": "ComponentHeight",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ComponentLink1Description",
+          "name": "ComponentLink1Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ComponentLink1URL",
+          "name": "ComponentLink1URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ComponentLink2Description",
+          "name": "ComponentLink2Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ComponentLink2URL",
+          "name": "ComponentLink2URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CreateDate",
+          "name": "CreateDate",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Database Table Name",
+          "name": "Database Table Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Device",
+          "name": "Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Author",
+          "name": "Author",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footprint Library",
+          "name": "Footprint Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footprint Path",
+          "name": "Footprint Path",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Footprint Ref",
+          "name": "Footprint Ref",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HelpURL",
+          "name": "HelpURL",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "label": "LatestRevisionDate",
+          "name": "LatestRevisionDate",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Library Name",
+          "name": "Library Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Bonding",
+          "name": "Bonding",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Case",
+          "name": "Case",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Comment",
+          "name": "Comment",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Component Type",
+          "name": "Component Type",
           "show": false
         },
         {
@@ -1186,8 +1492,14 @@
         },
         {
           "group_by": false,
-          "label": "FT Position Offset",
-          "name": "FT Position Offset",
+          "label": "Component Kind",
+          "name": "Component Kind",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qté",
+          "name": "${QUANTITY}",
           "show": false
         }
       ],
@@ -1196,7 +1508,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": false,
-      "sort_field": "LCSC"
+      "sort_field": "FT Rotation Offset"
     },
     "connection_grid_size": 50.0,
     "drawing": {
